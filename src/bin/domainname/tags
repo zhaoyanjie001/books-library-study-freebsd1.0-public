@@ -1,0 +1,2 @@
+Mdomainname	domainname.c	/^main(argc, argv)$/
+usage	domainname.c	/^usage ()$/

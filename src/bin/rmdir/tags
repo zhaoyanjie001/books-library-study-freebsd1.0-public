@@ -1,0 +1,3 @@
+Mrmdir	rmdir.c	/^main(argc, argv)$/
+rmdirp	rmdir.c	/^rmdirp (char *path)$/
+usage	rmdir.c	/^usage()$/

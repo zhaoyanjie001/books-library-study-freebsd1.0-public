@@ -1,0 +1,2 @@
+Mmount_pcfs	mount_pcfs.c	/^main (argc, argv)$/
+usage	mount_pcfs.c	/^usage ()$/

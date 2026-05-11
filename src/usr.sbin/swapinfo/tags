@@ -1,0 +1,4 @@
+Mswapinfo	swapinfo.c	/^main (argc, argv)$/
+devname	devname.c	/^devname(dev, type)$/
+getbsize	../../bin/df/getbsize.c	/^getbsize(prog, headerlenp, blocksizep)$/
+usage	swapinfo.c	/^usage()$/

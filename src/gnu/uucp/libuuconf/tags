@@ -1,0 +1,158 @@
+CLEAR	syssub.c	/^#define CLEAR(x) q->x = (char *) &_uuconf_unset$/
+CMDTABFN	tsinfo.c	/^#define CMDTABFN(z) \\$/
+DEFAULT	syssub.c	/^#define DEFAULT(x) \\$/
+INIT_CHAT	diasub.c	/^#define INIT_CHAT(q) \\$/
+P	time.c	/^static int itadd_span P((struct sglobal *qglobal, /
+SET	syssub.c	/^#define SET(x) if (q->x == (char *) &_uuconf_unset/
+SYSTEM_BOOLEANS	syssub.c	/^#define SYSTEM_BOOLEANS(OP) \\$/
+SYSTEM_INTEGERS	syssub.c	/^#define SYSTEM_INTEGERS(OP) \\$/
+SYSTEM_STRINGS	syssub.c	/^#define SYSTEM_STRINGS(OP) \\$/
+SYSTEM_STRING_ARRAYS	syssub.c	/^#define SYSTEM_STRING_ARRAYS(OP) \\$/
+SYSTEM_TIMESPANS	syssub.c	/^#define SYSTEM_TIMESPANS(OP) \\$/
+_uuconf_getline	ugtlin.c	/^_uuconf_getline (qglobal, pzline, pcline, e)$/
+_uuconf_iadd_proto_param	paramc.c	/^_uuconf_iadd_proto_param (qglobal, argc, argv, pqp/
+_uuconf_iadd_string	addstr.c	/^_uuconf_iadd_string (qglobal, zadd, fcopy, fcheck,/
+_uuconf_iboolean	bool.c	/^_uuconf_iboolean (qglobal, zval, pi)$/
+_uuconf_ichat_cmd	chatc.c	/^_uuconf_ichat_cmd (qglobal, argc, argv, qchat, pbl/
+_uuconf_idialer_cmd	tdialc.c	/^_uuconf_idialer_cmd (qglobal, argc, argv, qdialer)/
+_uuconf_ihalf_duplex	reliab.c	/^_uuconf_ihalf_duplex (pglobal, argc, argv, pvar, p/
+_uuconf_ihdb_system_internal	hsinfo.c	/^_uuconf_ihdb_system_internal (qglobal, zsystem, qs/
+_uuconf_ihread_permissions	rdperm.c	/^_uuconf_ihread_permissions (qglobal)$/
+_uuconf_iinit_global	iniglb.c	/^_uuconf_iinit_global (pqglobal)$/
+_uuconf_iint	int.c	/^_uuconf_iint (qglobal, zval, p, fint)$/
+_uuconf_iport_cmd	tportc.c	/^_uuconf_iport_cmd (qglobal, argc, argv, qport)$/
+_uuconf_iread_locations	rdlocs.c	/^_uuconf_iread_locations (qglobal)$/
+_uuconf_ireliable	reliab.c	/^_uuconf_ireliable (pglobal, argc, argv, pvar, pinf/
+_uuconf_iseven_bit	reliab.c	/^_uuconf_iseven_bit (pglobal,argc, argv, pvar, pinf/
+_uuconf_istrsplit	split.c	/^_uuconf_istrsplit (zline, bsep, ppzsplit, pcsplit)/
+_uuconf_isystem_basic_default	syssub.c	/^_uuconf_isystem_basic_default (qglobal, q)$/
+_uuconf_isystem_default	syssub.c	/^_uuconf_isystem_default (qglobal, qset, qdefault, /
+_uuconf_itaylor_system_internal	tsinfo.c	/^_uuconf_itaylor_system_internal (qglobal, zsystem,/
+_uuconf_itime_grade_cmp	tgcmp.c	/^_uuconf_itime_grade_cmp (i1, i2)$/
+_uuconf_itime_parse	time.c	/^_uuconf_itime_parse (qglobal, ztime, ival, cretry,/
+_uuconf_itimetable	iniglb.c	/^_uuconf_itimetable (pglobal, argc, argv, pvar, pin/
+_uuconf_iv2_system_internal	vsinfo.c	/^_uuconf_iv2_system_internal (qglobal, zsystem, qsy/
+_uuconf_pmalloc_block_merge	mrgblk.c	/^_uuconf_pmalloc_block_merge (p1, p2)$/
+_uuconf_uclear_dialer	diasub.c	/^_uuconf_uclear_dialer (qdialer)$/
+_uuconf_uclear_port	prtsub.c	/^_uuconf_uclear_port (qport)$/
+_uuconf_uclear_system	syssub.c	/^_uuconf_uclear_system (q)$/
+_uuconf_ucmdtab_base	base.c	/^_uuconf_ucmdtab_base (qoff, celes, pbase, qset)$/
+icchat	chatc.c	/^icchat (pglobal, argc, argv, pvar, pinfo)$/
+icchat_fail	chatc.c	/^icchat_fail (pglobal, argc, argv, pvar, pinfo)$/
+icsys	tcalou.c	/^icsys (pglobal, argc, argv, pvar, pinfo)$/
+icunknown	chatc.c	/^icunknown (pglobal, argc, argv, pvar, pinfo)$/
+idchat	tdialc.c	/^idchat (pglobal, argc, argv, pvar, pinfo)$/
+idcode	diacod.c	/^idcode (pglobal, argc, argv, pvar, pinfo)$/
+idcomplete	tdialc.c	/^idcomplete (pglobal, argc, argv, pvar, pinfo)$/
+idcunknown	tdialc.c	/^idcunknown (pglobal, argc, argv, pvar, pinfo)$/
+iddialer	tdial.c	/^iddialer (pglobal, argc, argv, pvar, pinfo)$/
+iddtr_toggle	tdialc.c	/^iddtr_toggle (pglobal, argc, argv, pvar, pinfo)$/
+idproto_param	tdialc.c	/^idproto_param (pglobal, argc, argv, pvar, pinfo)$/
+idunknown	tdial.c	/^idunknown (pglobal, argc, argv, pvar, pinfo)$/
+ihadd_logname_perm	hsinfo.c	/^ihadd_logname_perm (qglobal, qsys, qperm)$/
+ihadd_machine_perm	hsinfo.c	/^ihadd_machine_perm (qglobal, qsys, qperm)$/
+ihadd_norw	rdperm.c	/^ihadd_norw (qglobal, ppz, pzno)$/
+ihcolon	rdperm.c	/^ihcolon (pglobal, argc, argv, pvar, pinfo)$/
+ihsendfiles	rdperm.c	/^ihsendfiles (pglobal, argc, argv, pvar, pinfo)$/
+ihunknownperm	rdperm.c	/^ihunknownperm (pglobal, argc, argv, pvar, pinfo)$/
+iialias	tsinfo.c	/^iialias (pglobal, argc, argv, pvar, pinfo)$/
+iialternate	tsinfo.c	/^iialternate (pglobal, argc, argv, pvar, pinfo)$/
+iibaud_range	tsinfo.c	/^iibaud_range (pglobal, argc, argv, pvar, pinfo)$/
+iicalled_login	tsinfo.c	/^iicalled_login (pglobal, argc, argv, pvar, pinfo)$/
+iichat	tsinfo.c	/^iichat (pglobal, argc, argv, pvar, pinfo)$/
+iidefault_alternates	tsinfo.c	/^iidefault_alternates (pglobal, argc, argv, pvar, p/
+iiforward	tsinfo.c	/^iiforward (pglobal, argc, argv, pvar, pinfo)$/
+iiport	tsinfo.c	/^iiport (pglobal, argc, argv, pvar, pinfo)$/
+iiproto_param	tsinfo.c	/^iiproto_param (pglobal, argc, argv, pvar, pinfo)$/
+iirequest	tsinfo.c	/^iirequest (pglobal, argc, argv, pvar, pinfo)$/
+iisize	tsinfo.c	/^iisize (pglobal, argc, argv, pvar, pinfo)$/
+iisizecmp	tsinfo.c	/^iisizecmp (i1, i2)$/
+iisystem	tsinfo.c	/^iisystem (pglobal, argc, argv, pvar, pinfo)$/
+iitime	tsinfo.c	/^iitime (pglobal, argc, argv, pvar, pinfo)$/
+iitimegrade	tsinfo.c	/^iitimegrade (pglobal, argc, argv, pvar, pinfo)$/
+iitransfer	tsinfo.c	/^iitransfer (pglobal, argc, argv, pvar, pinfo)$/
+iiunknown	tsinfo.c	/^iiunknown (pglobal, argc, argv, pvar, pinfo)$/
+indialer	tdnams.c	/^indialer (pglobal, argc, argv, pvar, pinfo)$/
+ipbaud_range	tportc.c	/^ipbaud_range (pglobal, argc, argv, pvar, pinfo)$/
+ipcunknown	tportc.c	/^ipcunknown (pglobal, argc, argv, pvar, pinfo)$/
+ipdialer	tportc.c	/^ipdialer (pglobal, argc, argv, pvar, pinfo)$/
+iplogin	callin.c	/^iplogin (pglobal, argc, argv, pvar, pinfo)$/
+ipport	tport.c	/^ipport (pglobal, argc, argv, pvar, pinfo)$/
+ipproto_param	tportc.c	/^ipproto_param (pglobal, argc, argv, pvar, pinfo)$/
+ipunknown	tport.c	/^ipunknown (pglobal, argc, argv, pvar, pinfo)$/
+itadd	tinit.c	/^itadd (pglobal, argc, argv, pvar, pinfo)$/
+itadd_span	time.c	/^itadd_span (qglobal, istart, iend, ival, cretry, p/
+itcalled_login	rdlocs.c	/^itcalled_login (pglobal, argc, argv, pvar, pinfo)$/
+itmyname	rdlocs.c	/^itmyname (pglobal, argc, argv, pvar, pinfo)$/
+itnew	time.c	/^itnew (qglobal, pqset, qnext, istart, iend, ival, /
+itprogram	tinit.c	/^itprogram (pglobal, argc, argv, pvar, pinfo)$/
+itset_default	tinit.c	/^itset_default (qglobal, ppzvar, zfile)$/
+itsystem	rdlocs.c	/^itsystem (pglobal, argc, argv, pvar, pinfo)$/
+itunknown	tinit.c	/^itunknown (pglobal, argc, argv, pvar, pinfo)$/
+ivinlib	vinit.c	/^ivinlib (qglobal, z, c, pz)$/
+max	tportc.c	/^#define max(i1, i2) ((i1) > (i2) ? (i1) : (i2))$/
+uiset_call	tsinfo.c	/^uiset_call (qsys)$/
+uuconf_add_block	addblk.c	/^uuconf_add_block (pblock, padd)$/
+uuconf_callin	callin.c	/^uuconf_callin (pglobal, zlogin, zpassword)$/
+uuconf_callout	calout.c	/^uuconf_callout (pglobal, qsys, pzlog, pzpass)$/
+uuconf_cmd_args	cmdarg.c	/^uuconf_cmd_args (pglobal, cargs, pzargs, qtab, pin/
+uuconf_cmd_file	cmdfil.c	/^uuconf_cmd_file (pglobal, e, qtab, pinfo, pfiunkno/
+uuconf_cmd_line	cmdlin.c	/^uuconf_cmd_line (pglobal, zline, qtab, pinfo, pfiu/
+uuconf_debugfile	debfil.c	/^uuconf_debugfile (pglobal, pzdebug)$/
+uuconf_debuglevel	deblev.c	/^uuconf_debuglevel (pglobal, pzdebug)$/
+uuconf_dialcode	diacod.c	/^uuconf_dialcode (pglobal, zdial, pznum)$/
+uuconf_dialer_free	fredia.c	/^uuconf_dialer_free (pglobal, qdialer)$/
+uuconf_dialer_info	dial.c	/^uuconf_dialer_info (pglobal, zdialer, qdialer)$/
+uuconf_dialer_names	dnams.c	/^uuconf_dialer_names (pglobal, ppzdialers)$/
+uuconf_error_errno	errno.c	/^uuconf_error_errno (pglobal)$/
+uuconf_error_filename	filnam.c	/^uuconf_error_filename (pglobal)$/
+uuconf_error_lineno	lineno.c	/^uuconf_error_lineno (pglobal)$/
+uuconf_error_string	errstr.c	/^uuconf_error_string (pglobal, ierr, zbuf, cbuf)$/
+uuconf_find_port	port.c	/^uuconf_find_port (pglobal, zname, ibaud, ihighbaud/
+uuconf_free	free.c	/^uuconf_free (pblock, pbuf)$/
+uuconf_free_block	freblk.c	/^uuconf_free_block (pblock)$/
+uuconf_grade_cmp	grdcmp.c	/^uuconf_grade_cmp (barg1, barg2)$/
+uuconf_hdb_dialer_info	hdial.c	/^uuconf_hdb_dialer_info (pglobal, zname, qdialer)$/
+uuconf_hdb_dialer_names	hdnams.c	/^uuconf_hdb_dialer_names (pglobal, ppzdialers)$/
+uuconf_hdb_find_port	hport.c	/^uuconf_hdb_find_port (pglobal, zname, ibaud, ihigh/
+uuconf_hdb_init	hinit.c	/^uuconf_hdb_init (ppglobal, zprogram)$/
+uuconf_hdb_login_localname	hlocnm.c	/^uuconf_hdb_login_localname (pglobal, zlogin, pznam/
+uuconf_hdb_remote_unknown	hrmunk.c	/^uuconf_hdb_remote_unknown (pglobal, pzname)$/
+uuconf_hdb_system_info	hsys.c	/^uuconf_hdb_system_info (pglobal, zsystem, qsys)$/
+uuconf_hdb_system_names	hsnams.c	/^uuconf_hdb_system_names (pglobal, ppzsystems, fali/
+uuconf_hdb_system_unknown	hunk.c	/^uuconf_hdb_system_unknown (pglobal, qsys)$/
+uuconf_init	init.c	/^uuconf_init (ppglobal, zprogram, zname)$/
+uuconf_init_thread	thread.c	/^uuconf_init_thread (ppglobal)$/
+uuconf_localname	locnm.c	/^uuconf_localname (pglobal, pzname)$/
+uuconf_lockdir	lckdir.c	/^uuconf_lockdir (pglobal, pzlock)$/
+uuconf_logfile	logfil.c	/^uuconf_logfile (pglobal, pzlog)$/
+uuconf_login_localname	llocnm.c	/^uuconf_login_localname (pglobal, zlogin, pzname)$/
+uuconf_malloc	alloc.c	/^uuconf_malloc (pblock, c)$/
+uuconf_malloc_block	allblk.c	/^uuconf_malloc_block ()$/
+uuconf_maxuuxqts	maxuxq.c	/^uuconf_maxuuxqts (pglobal, pcmax)$/
+uuconf_port_free	freprt.c	/^uuconf_port_free (pglobal, qport)$/
+uuconf_pubdir	pubdir.c	/^uuconf_pubdir (pglobal, pzpub)$/
+uuconf_remote_unknown	remunk.c	/^uuconf_remote_unknown (pglobal, pzname)$/
+uuconf_spooldir	spool.c	/^uuconf_spooldir (pglobal, pzspool)$/
+uuconf_statsfile	stafil.c	/^uuconf_statsfile (pglobal, pzstats)$/
+uuconf_system_free	fresys.c	/^uuconf_system_free (pglobal, qsys)$/
+uuconf_system_info	sinfo.c	/^uuconf_system_info (pglobal, zsystem, qsys)$/
+uuconf_system_local	local.c	/^uuconf_system_local (pglobal, qsys)$/
+uuconf_system_names	snams.c	/^uuconf_system_names (pglobal, ppzsystems, falias)$/
+uuconf_system_unknown	unk.c	/^uuconf_system_unknown (pglobal, qsys)$/
+uuconf_taylor_callout	tcalou.c	/^uuconf_taylor_callout (pglobal, qsys, pzlog, pzpas/
+uuconf_taylor_dialer_info	tdial.c	/^uuconf_taylor_dialer_info (pglobal, zname, qdialer/
+uuconf_taylor_dialer_names	tdnams.c	/^uuconf_taylor_dialer_names (pglobal, ppzdialers)$/
+uuconf_taylor_find_port	tport.c	/^uuconf_taylor_find_port (pglobal, zname, ibaud, ih/
+uuconf_taylor_init	tinit.c	/^uuconf_taylor_init (ppglobal, zprogram, zname)$/
+uuconf_taylor_login_localname	tlocnm.c	/^uuconf_taylor_login_localname (pglobal, zlogin, pz/
+uuconf_taylor_system_info	tsys.c	/^uuconf_taylor_system_info (pglobal, zsystem, qsys)/
+uuconf_taylor_system_names	tsnams.c	/^uuconf_taylor_system_names (pglobal, ppzsystems, f/
+uuconf_taylor_system_unknown	tsinfo.c	/^uuconf_taylor_system_unknown (pglobal, qsys)$/
+uuconf_taylor_validate	tval.c	/^uuconf_taylor_validate (pglobal, qsys, zlogin)$/
+uuconf_v2_find_port	vport.c	/^uuconf_v2_find_port (pglobal, zname, ibaud, ihighb/
+uuconf_v2_init	vinit.c	/^uuconf_v2_init (ppglobal)$/
+uuconf_v2_system_info	vsys.c	/^uuconf_v2_system_info (pglobal, zsystem, qsys)$/
+uuconf_v2_system_names	vsnams.c	/^uuconf_v2_system_names (pglobal, ppzsystems, falia/
+uuconf_validate	val.c	/^uuconf_validate (pglobal, qsys, zlogin)$/
+zeprint_num	errstr.c	/^zeprint_num (ab, c, i)$/

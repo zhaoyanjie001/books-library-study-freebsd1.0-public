@@ -1,0 +1,265 @@
+CGETLENGTH	protj.c	/^#define CGETLENGTH(b1, b2) (((b1) - 32) * 64 + ((b/
+CHDRCON_GETBYTES	proti.c	/^#define CHDRCON_GETBYTES(i1, i2) ((((i1) & 0x0f) </
+CONTROL_TT	protg.c	/^#define CONTROL_TT(b) ((int)(((b) >> 6) & 03))$/
+CONTROL_XXX	protg.c	/^#define CONTROL_XXX(b) ((int)(((b) >> 3) & 07))$/
+CONTROL_YYY	protg.c	/^#define CONTROL_YYY(b) ((int)((b) & 07))$/
+CPACKLEN	protg.c	/^#define CPACKLEN(z) ((size_t) (1 << ((z)[IFRAME_K]/
+CSEQDIFF	protg.c	/^#define CSEQDIFF(i1, i2) (((i1) + 8 - (i2)) & 07)$/
+FHDRCON_GETCALLER	proti.c	/^#define FHDRCON_GETCALLER(i1, i2) (((i1) & (1 << 4/
+ICKSUM_GET	proti.c	/^#define ICKSUM_GET(z) \\$/
+IHDRCHECK_VAL	proti.c	/^#define IHDRCHECK_VAL(zhdr) \\$/
+IHDRCON_SET1	proti.c	/^#define IHDRCON_SET1(ttype, fcaller, cbytes) \\$/
+IHDRCON_SET2	proti.c	/^#define IHDRCON_SET2(ttype, fcaller, cbytes) ((cby/
+IHDRWIN_GETCHAN	proti.c	/^#define IHDRWIN_GETCHAN(ival) ((ival) & 0x07)$/
+IHDRWIN_GETSEQ	proti.c	/^#define IHDRWIN_GETSEQ(ival) (((ival) >> 3) & 0x1f/
+IHDRWIN_SET	proti.c	/^#define IHDRWIN_SET(iseq, ichan) (((iseq) << 3) | /
+INEXTSEQ	protg.c	/^#define INEXTSEQ(i) ((i + 1) & 07)$/
+ISETLENGTH_FIRST	protj.c	/^#define ISETLENGTH_FIRST(i) ((i) \/ 64 + 32)$/
+ISETLENGTH_SECOND	protj.c	/^#define ISETLENGTH_SECOND(i) ((i) % 64 + 32)$/
+Muucico	uucico.c	/^main (argc, argv)$/
+P	../common_sources/chat.c	/^static boolean fcphone P((struct sconnection *qcon/
+READCHAR	protz.c	/^#define READCHAR(qdaemon, b, i) \\$/
+ROTATE	protg.c	/^#define ROTATE(i) \\$/
+THDRCON_GETTYPE	proti.c	/^#define THDRCON_GETTYPE(i1, i2) (((i1) >> 5) & 0x0/
+UCKSUM_SET	proti.c	/^#define UCKSUM_SET(z, i) \\$/
+UPDC32	protz.c	/^#define UPDC32(b, crc) \\$/
+ZZHEADER_NAME	protz.c	/^#define ZZHEADER_NAME(itype) \\$/
+boolean	proti.c	/^static boolean (*pfIsend) P((struct sconnection *q/
+breceive_char	../common_sources/prot.c	/^breceive_char (qconn, ctimeout, freport)$/
+cmax_size_ever	time.c	/^cmax_size_ever (qtimesize)$/
+czbuild_data_packet	protz.c	/^czbuild_data_packet(zresult, zdata, cdata, frameen/
+czbuild_header	protz.c	/^czbuild_header(zresult, ipkttype, ihdrtype, hdrval/
+faccept_call	uucico.c	/^faccept_call (puuconf, zlogin, qconn, pzsystem)$/
+fbiggstart	protg.c	/^fbiggstart (qdaemon, pzlog)$/
+fcall	uucico.c	/^fcall (puuconf, qorigsys, qport, fifwork, fforce, /
+fcdo_dial	../common_sources/conn.c	/^fcdo_dial (qconn, puuconf, qdial, zphone, ftransla/
+fcecho_send	../common_sources/chat.c	/^fcecho_send (qconn, zwrite, cwrite, fstrip)$/
+fcecho_send_nostrip	../common_sources/chat.c	/^fcecho_send_nostrip (qconn, zwrite, cwrite)$/
+fcecho_send_strip	../common_sources/chat.c	/^fcecho_send_strip (qconn, zwrite, cwrite)$/
+fcheck_queue	trans.c	/^fcheck_queue (qdaemon)$/
+fconn_break	../common_sources/conn.c	/^fconn_break (qconn)$/
+fconn_call	uucico.c	/^fconn_call (qdaemon, qport, qstat, cretry, pfcalle/
+fconn_carrier	../common_sources/conn.c	/^fconn_carrier (qconn, fcarrier)$/
+fconn_close	../common_sources/conn.c	/^fconn_close (qconn, puuconf, qdialer, fsuccess)$/
+fconn_dial	../common_sources/conn.c	/^fconn_dial (qconn, puuconf, qsys, zphone, qdialer,/
+fconn_init	../common_sources/conn.c	/^fconn_init (qport, qconn)$/
+fconn_io	../common_sources/conn.c	/^fconn_io (qconn, zwrite, pcwrite, zread, pcread)$/
+fconn_lock	../common_sources/conn.c	/^fconn_lock (qconn, fin)$/
+fconn_open	../common_sources/conn.c	/^fconn_open (qconn, ibaud, ihighbaud, fwait)$/
+fconn_read	../common_sources/conn.c	/^fconn_read (qconn, zbuf, pclen, cmin, ctimeout, fr/
+fconn_reset	../common_sources/conn.c	/^fconn_reset (qconn)$/
+fconn_run_chat	../common_sources/conn.c	/^fconn_run_chat (qconn, pzprog)$/
+fconn_set	../common_sources/conn.c	/^fconn_set (qconn, tparity, tstrip, txonxoff)$/
+fconn_unlock	../common_sources/conn.c	/^fconn_unlock (qconn)$/
+fconn_write	../common_sources/conn.c	/^fconn_write (qconn, zbuf, clen)$/
+fcopy_file	../common_sources/copy.c	/^fcopy_file (zfrom, zto, fpublic, fmkdirs)$/
+fcopy_open_file	../common_sources/copy.c	/^fcopy_open_file (efrom, zto, fpublic, fmkdirs)$/
+fcphone	../common_sources/chat.c	/^fcphone (qconn, puuconf, qdial, zphone, pfwrite, f/
+fcprogram	../common_sources/chat.c	/^fcprogram (qconn, puuconf, pzprogram, qsys, qdial,/
+fcsend	../common_sources/chat.c	/^fcsend (qconn, puuconf, z, qsys, qdial, zphone, ft/
+fcsend_debug	../common_sources/chat.c	/^fcsend_debug (fquote, clen, zbuf)$/
+fctranslate	../common_sources/chat.c	/^fctranslate (puuconf, zphone, pzprefix, pzsuffix)$/
+fdo_call	uucico.c	/^fdo_call (qdaemon, qstat, qdialer, pfcalled, pterr/
+fefile	prote.c	/^fefile (qdaemon, qtrans, fstart, fsend, cbytes, pf/
+feprocess_data	prote.c	/^feprocess_data (qdaemon, pfexit, pcneed)$/
+fesendcmd	prote.c	/^fesendcmd (qdaemon, z, ilocal, iremote)$/
+fesenddata	prote.c	/^fesenddata (qdaemon, zdata, cdata, ilocal, iremote/
+feshutdown	prote.c	/^feshutdown (qdaemon)$/
+festart	prote.c	/^festart (qdaemon, pzlog)$/
+fewait	prote.c	/^fewait (qdaemon)$/
+ffawait_ack	protf.c	/^ffawait_ack (qtrans, qdaemon, zdata, cdata)$/
+ffawait_cksum	protf.c	/^ffawait_cksum (qtrans, qdaemon, zdata, cdata)$/
+fffile	protf.c	/^fffile (qdaemon, qtrans, fstart, fsend, cbytes, pf/
+ffprocess_data	protf.c	/^ffprocess_data (qdaemon, pfexit, pcneed)$/
+ffsend_ack	protf.c	/^ffsend_ack (qtrans, qdaemon)$/
+ffsendcmd	protf.c	/^ffsendcmd (qdaemon, z, ilocal, iremote)$/
+ffsenddata	protf.c	/^ffsenddata (qdaemon, zdata, cdata, ilocal, iremote/
+ffshutdown	protf.c	/^ffshutdown (qdaemon)$/
+ffstart	protf.c	/^ffstart (qdaemon, pzlog)$/
+ffwait	protf.c	/^ffwait (qdaemon)$/
+fgcheck_errors	protg.c	/^fgcheck_errors (qdaemon)$/
+fgexchange_init	protg.c	/^fgexchange_init (qdaemon, ictl, ival, piset)$/
+fggot_ack	protg.c	/^fggot_ack (qdaemon, iack)$/
+fginit_sendbuffers	protg.c	/^fginit_sendbuffers (fallocate)$/
+fgot_data	trans.c	/^fgot_data (qdaemon, zfirst, cfirst, zsecond, cseco/
+fgprocess_data	protg.c	/^fgprocess_data (qdaemon, fdoacks, freturncontrol, /
+fgsend_acks	protg.c	/^fgsend_acks (qdaemon)$/
+fgsend_control	protg.c	/^fgsend_control (qdaemon, ixxx, iyyy)$/
+fgsendcmd	protg.c	/^fgsendcmd (qdaemon, z, ilocal, iremote)$/
+fgsenddata	protg.c	/^fgsenddata (qdaemon, zdata, cdata, ilocal, iremote/
+fgshutdown	protg.c	/^fgshutdown (qdaemon)$/
+fgstart	protg.c	/^fgstart (qdaemon, pzlog)$/
+fgwait	protg.c	/^fgwait (qdaemon)$/
+fgwait_for_packet	protg.c	/^fgwait_for_packet (qdaemon, freturncontrol, ctimeo/
+ficheck_errors	proti.c	/^ficheck_errors (qdaemon)$/
+fijstart	proti.c	/^fijstart (qdaemon, pzlog, imaxpacksize, pfsend, pf/
+fin_directory_list	../common_sources/util.c	/^fin_directory_list (zfile, pzdirs, zpubdir, fcheck/
+finak	proti.c	/^finak (qdaemon, iseq)$/
+fiprocess_data	proti.c	/^fiprocess_data (qdaemon, pfexit, pffound, pcneed)$/
+fiprocess_packet	proti.c	/^fiprocess_packet (qdaemon, zhdr, zfirst, cfirst, z/
+firesend	proti.c	/^firesend (qdaemon)$/
+fisendcmd	proti.c	/^fisendcmd (qdaemon, z, ilocal, iremote)$/
+fisenddata	proti.c	/^fisenddata (qdaemon, zdata, cdata, ilocal, iremote/
+fishutdown	proti.c	/^fishutdown (qdaemon)$/
+fistart	proti.c	/^fistart (qdaemon, pzlog)$/
+fiwait	proti.c	/^fiwait (qdaemon)$/
+fiwait_for_packet	proti.c	/^fiwait_for_packet (qdaemon, ctimeout, cretries, fo/
+fiwindow_wait	proti.c	/^fiwindow_wait (qdaemon)$/
+fjprocess_data	protj.c	/^fjprocess_data (pcneed)$/
+fjreceive_data	protj.c	/^fjreceive_data (qconn, cineed, pcrec, ctimeout, fr/
+fjsend_data	protj.c	/^fjsend_data (qconn, zsend, csend, fdoread)$/
+fjshutdown	protj.c	/^fjshutdown (qdaemon)$/
+fjstart	protj.c	/^fjstart (qdaemon, pzlog)$/
+flocal_poll_file	trans.c	/^flocal_poll_file (qtrans, qdaemon)$/
+flocal_rec_await_reply	rec.c	/^flocal_rec_await_reply (qtrans, qdaemon, zdata, cd/
+flocal_rec_fail	rec.c	/^flocal_rec_fail (qtrans, qcmd, qsys, zwhy)$/
+flocal_rec_file_init	rec.c	/^flocal_rec_file_init (qdaemon, qcmd)$/
+flocal_rec_send_request	rec.c	/^flocal_rec_send_request (qtrans, qdaemon)$/
+flocal_send_await_reply	send.c	/^flocal_send_await_reply (qtrans, qdaemon, zdata, c/
+flocal_send_cancelled	send.c	/^flocal_send_cancelled (qtrans, qdaemon)$/
+flocal_send_fail	send.c	/^flocal_send_fail (qtrans, qcmd, qsys, zwhy)$/
+flocal_send_file_init	send.c	/^flocal_send_file_init (qdaemon, qcmd)$/
+flocal_send_open_file	send.c	/^flocal_send_open_file (qtrans, qdaemon)$/
+flocal_send_request	send.c	/^flocal_send_request (qtrans, qdaemon)$/
+flocal_xcmd_await_reply	xcmd.c	/^flocal_xcmd_await_reply (qtrans, qdaemon, zdata, c/
+flocal_xcmd_init	xcmd.c	/^flocal_xcmd_init (qdaemon, qcmd)$/
+flocal_xcmd_request	xcmd.c	/^flocal_xcmd_request (qtrans, qdaemon)$/
+flogin_prompt	uucico.c	/^flogin_prompt (puuconf, qconn)$/
+floop	trans.c	/^floop (qdaemon)$/
+fmail_transfer	../common_sources/prot.c	/^fmail_transfer (fsuccess, zuser, zmail, zwhy, zfro/
+fmodem_dial	../common_sources/conn.c	/^fmodem_dial (qconn, puuconf, qsys, zphone, qdialer/
+fqueue	trans.c	/^fqueue (qdaemon, pfany)$/
+fqueue_local	trans.c	/^fqueue_local (qdaemon, qtrans)$/
+fqueue_receive	trans.c	/^fqueue_receive (qdaemon, qtrans)$/
+fqueue_remote	trans.c	/^fqueue_remote (qdaemon, qtrans)$/
+fqueue_send	trans.c	/^fqueue_send (qdaemon, qtrans)$/
+frec_check_free	rec.c	/^frec_check_free (qtrans, cfree_space)$/
+frec_discard_temp	rec.c	/^frec_discard_temp (qdaemon, qtrans)$/
+frec_file_end	rec.c	/^frec_file_end (qtrans, qdaemon, zdata, cdata)$/
+frec_file_send_confirm	rec.c	/^frec_file_send_confirm (qtrans, qdaemon)$/
+freceive_data	../common_sources/prot.c	/^freceive_data (qconn, cneed, pcrec, ctimeout, frep/
+fremote_discard	rec.c	/^fremote_discard (qtrans, qdaemon, zdata, cdata)$/
+fremote_hangup_reply	trans.c	/^fremote_hangup_reply (qtrans, qdaemon)$/
+fremote_rec_fail	send.c	/^fremote_rec_fail (qdaemon, twhy, iremote)$/
+fremote_rec_fail_send	send.c	/^fremote_rec_fail_send (qtrans, qdaemon)$/
+fremote_rec_file_init	send.c	/^fremote_rec_file_init (qdaemon, qcmd, iremote)$/
+fremote_rec_reply	send.c	/^fremote_rec_reply (qtrans, qdaemon)$/
+fremote_send_fail	rec.c	/^fremote_send_fail (qdaemon, qcmd, twhy, iremote)$/
+fremote_send_fail_send	rec.c	/^fremote_send_fail_send (qtrans, qdaemon)$/
+fremote_send_file_init	rec.c	/^fremote_send_file_init (qdaemon, qcmd, iremote)$/
+fremote_send_reply	rec.c	/^fremote_send_reply (qtrans, qdaemon)$/
+fremote_xcmd_init	xcmd.c	/^fremote_xcmd_init (qdaemon, qcmd, iremote)$/
+fremote_xcmd_reply	xcmd.c	/^fremote_xcmd_reply (qtrans, qdaemon)$/
+fsend_await_confirm	send.c	/^fsend_await_confirm (qtrans, qdaemon, zdata, cdata/
+fsend_data	../common_sources/prot.c	/^fsend_data (qconn, zsend, csend, fdoread)$/
+fsend_exec_file	send.c	/^fsend_exec_file (qtrans, qdaemon)$/
+fsend_exec_file_init	send.c	/^fsend_exec_file_init (qtrans, qdaemon)$/
+fsend_file_end	send.c	/^fsend_file_end (qtrans, qdaemon)$/
+fsend_uucp_cmd	uucico.c	/^fsend_uucp_cmd (qconn, z)$/
+fsysdep_tcp_init	../common_sources/tcp.c	/^fsysdep_tcp_init (qconn)$/
+fsysdep_tli_init	../common_sources/tli.c	/^fsysdep_tli_init (qconn)$/
+ftadd_cmd	trans.c	/^ftadd_cmd (qdaemon, z, clen, iremote, flast)$/
+ftcharge	trans.c	/^ftcharge (qdaemon, qtrans, fsend, fforce)$/
+ftcp_close	../common_sources/tcp.c	/^ftcp_close (qconn, puuconf, qdialer, fsuccess)$/
+ftcp_dial	../common_sources/tcp.c	/^ftcp_dial (qconn, puuconf, qsys, zphone, qdialer, /
+ftcp_open	../common_sources/tcp.c	/^ftcp_open (qconn, ibaud, fwait)$/
+ftcp_reset	../common_sources/tcp.c	/^ftcp_reset (qconn)$/
+ftfile	prott.c	/^ftfile (qdaemon, qtrans, fstart, fsend, cbytes, pf/
+ftimespan_match	time.c	/^ftimespan_match (qspan, pival, pcretry)$/
+ftli_close	../common_sources/tli.c	/^ftli_close (qconn, puuconf, qdialer, fsuccess)$/
+ftli_dial	../common_sources/tli.c	/^ftli_dial (qconn, puuconf, qsys, zphone, qdialer, /
+ftli_open	../common_sources/tli.c	/^ftli_open (qconn, ibaud, fwait)$/
+ftli_push	../common_sources/tli.c	/^ftli_push (qconn)$/
+ftli_reset	../common_sources/tli.c	/^ftli_reset (qconn)$/
+ftprocess_data	prott.c	/^ftprocess_data (qdaemon, pfexit, pcneed)$/
+ftsendcmd	prott.c	/^ftsendcmd (qdaemon, z, ilocal, iremote)$/
+ftsenddata	prott.c	/^ftsenddata (qdaemon, zdata, cdata, ilocal, iremote/
+ftshutdown	prott.c	/^ftshutdown (qdaemon)$/
+ftstart	prott.c	/^ftstart (qdaemon, pzlog)$/
+ftwait	prott.c	/^ftwait (qdaemon)$/
+funknown_system	../common_sources/util.c	/^funknown_system (puuconf, zsystem, qsys)$/
+fzfile	protz.c	/^fzfile(qdaemon, qtrans, fstart, fsend, cbytes, pfh/
+fzfinish_rx	protz.c	/^fzfinish_rx(qdaemon)$/
+fzfinish_tx	protz.c	/^fzfinish_tx(qdaemon, plredo)$/
+fzprocess	protz.c	/^fzprocess(qdaemon)$/
+fzreceive_ready	protz.c	/^fzreceive_ready()$/
+fzsend_data	protz.c	/^fzsend_data(qdaemon, zdata, cdata, fendofmessage)$/
+fzsend_data_packet	protz.c	/^fzsend_data_packet(qdaemon, zdata, cdata, frameend/
+fzsend_hdr	protz.c	/^fzsend_hdr(qdaemon, ipkttype, ihdrtype, hdrval, fc/
+fzsendcmd	protz.c	/^fzsendcmd(qdaemon, z, ilocal, iremote)$/
+fzsenddata	protz.c	/^fzsenddata(qdaemon, zdata, cdata, ilocal, iremote,/
+fzshutdown	protz.c	/^fzshutdown(qdaemon)$/
+fzshutdown_proto	protz.c	/^fzshutdown_proto(qdaemon)$/
+fzstart	protz.c	/^fzstart(qdaemon, pzlog)$/
+fzstart_proto	protz.c	/^fzstart_proto(qdaemon)$/
+fzstart_rx	protz.c	/^fzstart_rx()$/
+fzstart_tx	protz.c	/^fzstart_tx()$/
+fzwait	protz.c	/^fzwait(qdaemon)$/
+getinsync	protz.c	/^getinsync(qdaemon, flag)$/
+hvzencode_data_hdr	protz.c	/^hvzencode_data_hdr(cbytes)$/
+icexpect	../common_sources/chat.c	/^icexpect (qconn, cstrings, azstrings, aclens, ctim/
+iconn_baud	../common_sources/conn.c	/^iconn_baud (qconn)$/
+igchecksum	protg.c	/^igchecksum (z, c)$/
+igchecksum2	protg.c	/^igchecksum2 (zfirst, cfirst, zsecond, csecond)$/
+itcp_port_number	../common_sources/tcp.c	/^itcp_port_number (zname)$/
+iuport_lock	uucico.c	/^iuport_lock (qport, pinfo)$/
+izexchange_init	protz.c	/^izexchange_init(qdaemon, send_type, send_val, recv/
+izrecv_hdr	protz.c	/^izrecv_hdr(qdaemon, hdr)$/
+lzupdate_rxpos	protz.c	/^lzupdate_rxpos(rx_hdr, rxpos, lrxpos, txpos)$/
+min	protz.c	/^#define min(a, b)	((a) < (b) ? (a) : (b))$/
+noxrd7	protz.c	/^noxrd7(qdaemon)$/
+qtchan	trans.c	/^qtchan (ic)$/
+qtransalc	trans.c	/^qtransalc (qcmd)$/
+rclhdr	protz.c	/^rclhdr(hdr)$/
+realreadchar	protz.c	/^realreadchar(qdaemon, timeout)$/
+stohdr	protz.c	/^stohdr(val, hdr)$/
+uabort	uucico.c	/^uabort ()$/
+uapply_proto_params	uucico.c	/^uapply_proto_params (puuconf, bproto, qcmds, pas)$/
+uclear_queue	trans.c	/^uclear_queue (qdaemon)$/
+uconn_free	../common_sources/conn.c	/^uconn_free (qconn)$/
+ucsend_debug_end	../common_sources/chat.c	/^ucsend_debug_end (fquote, ferr)$/
+ufailed	trans.c	/^ufailed (qdaemon)$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+updcrc	protz.c	/^#define updcrc(cp, crc) (crctab[((crc >> 8) & 255)/
+urrec_free	rec.c	/^urrec_free (qtrans)$/
+usadd_exec_line	send.c	/^usadd_exec_line (pz, pcalc, pclen, bcmd, z1, z2)$/
+usent_receive_ack	trans.c	/^usent_receive_ack (qdaemon, qtrans)$/
+usfree_send	send.c	/^usfree_send (qtrans)$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+utchanalc	trans.c	/^utchanalc (qdaemon, qtrans)$/
+utchanfree	trans.c	/^utchanfree (qt)$/
+utcp_free	../common_sources/tcp.c	/^utcp_free (qconn)$/
+utdequeue	trans.c	/^utdequeue (q)$/
+utli_free	../common_sources/tli.c	/^utli_free (qconn)$/
+utqueue	trans.c	/^utqueue (pq, q, fhead)$/
+utransfree	trans.c	/^utransfree (q)$/
+uusage	uucico.c	/^uusage ()$/
+uwindow_acked	trans.c	/^uwindow_acked (qdaemon, fallacked)$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zdecode_data_hdr	protz.c	/^zdecode_data_hdr(hdrval, pcbytes)$/
+zdlread	protz.c	/^zdlread(qdaemon)$/
+zegetspace	prote.c	/^zegetspace (qdaemon, pclen)$/
+zfgetspace	protf.c	/^zfgetspace (qdaemon, pclen)$/
+zgadjust_ack	protg.c	/^zgadjust_ack (iseq)$/
+zget_typed_line	uucico.c	/^zget_typed_line (qconn)$/
+zget_uucp_cmd	uucico.c	/^zget_uucp_cmd (qconn, frequired)$/
+zgethex	protz.c	/^zgethex(qdaemon)$/
+zggetspace	protg.c	/^zggetspace (qdaemon, pclen)$/
+zigetspace	proti.c	/^zigetspace (qdaemon, pclen)$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/
+zputchar	protz.c	/^zputchar(p, ch)$/
+zputhex	protz.c	/^zputhex(p, ch)$/
+zrbhdr32	protz.c	/^zrbhdr32(qdaemon, hdr)$/
+zrdat32	protz.c	/^zrdat32(qdaemon, buf, length, iprxcount)$/
+zrhhdr	protz.c	/^zrhhdr(qdaemon, hdr)$/
+ztgetspace	prott.c	/^ztgetspace (qdaemon, pclen)$/
+ztlierror	../common_sources/tli.c	/^ztlierror ()$/
+zzgetspace	protz.c	/^zzgetspace(qdaemon, pclen)$/

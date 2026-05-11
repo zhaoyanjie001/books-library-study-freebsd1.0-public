@@ -1,0 +1,5 @@
+Mrwalld	rwalld.c	/^main(argc, argv)$/
+killkids	rwalld.c	/^void killkids()$/
+possess	rwalld.c	/^void possess()$/
+wallproc_wall_1	rwalld.c	/^void *wallproc_wall_1(s)$/
+wallprog_1	rwalld.c	/^wallprog_1(rqstp, transp)$/

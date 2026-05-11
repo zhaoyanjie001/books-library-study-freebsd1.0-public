@@ -1,0 +1,80 @@
+BUFFER	cbc.c	/^#define	BUFFER(x)	(x)$/
+CHAR	cbc.c	/^#define	CHAR(x,i)	(x[i])$/
+DES_KEY	cbc.c	/^#define	DES_KEY(buf) \\$/
+DES_XFORM	cbc.c	/^#define	DES_XFORM(buf) \\$/
+GETLINE3	ed.c	/^#define GETLINE3(num) \\$/
+MEMCPY	cbc.c	/^#define	MEMCPY(dest,src,len)	memcpy((dest),(src),(/
+MEMZERO	cbc.c	/^#define	MEMZERO(dest,len)	memset((dest), 0, (len))/
+Med	ed.c	/^main(argc, argv)$/
+READ	cbc.c	/^#define	READ(buf, n, fp)	fread(buf, sizeof(char), /
+UBUFFER	cbc.c	/^#define	UBUFFER(x)	(x)$/
+UCHAR	cbc.c	/^#define	UCHAR(x,i)	(x[i])$/
+USWAP	ed.c	/^#define USWAP(x,y) { \\$/
+VRFYCMD	ed.c	/^#define VRFYCMD() { \\$/
+WRITE	cbc.c	/^#define WRITE(buf, n, fp)	fwrite(buf, sizeof(char)/
+append	ed.c	/^append(n, glob)$/
+catsub	ed.c	/^catsub(boln, rm, off)$/
+cbcdec	cbc.c	/^cbcdec(msgbuf, fp)$/
+cbcenc	cbc.c	/^cbcenc(msgbuf, n, fp)$/
+ccl	re.c	/^ccl(s)$/
+ckfn	ed.c	/^ckfn(s)$/
+ckglob	ed.c	/^ckglob()$/
+ckrange	ed.c	/^ckrange(def1, def2)$/
+clrmark	ed.c	/^clrmark(lp)$/
+cvtkey	cbc.c	/^cvtkey(obuf, ibuf)$/
+desflush	cbc.c	/^desflush(fp)$/
+desgetc	cbc.c	/^desgetc(fp)$/
+desinit	cbc.c	/^desinit()$/
+desputc	cbc.c	/^desputc(c, fp)$/
+docmd	ed.c	/^docmd(glob)$/
+doglob	ed.c	/^doglob(gflag)$/
+dohup	ed.c	/^dohup(signo)$/
+dointr	ed.c	/^dointr(signo)$/
+doprint	ed.c	/^doprint(from, to, gflag)$/
+doread	ed.c	/^doread(n, fn)$/
+dowinch	ed.c	/^dowinch(signo)$/
+dowrite	ed.c	/^dowrite(n, m, fn, mode)$/
+err	cbc.c	/^err(s)$/
+esctos	ed.c	/^esctos(s)$/
+getaddr	buf.c	/^getaddr(lp)$/
+getcmdv	ed.c	/^getcmdv(sizep, nonl)$/
+getfn	ed.c	/^getfn()$/
+getkey	cbc.c	/^getkey()$/
+getlhs	re.c	/^getlhs(delim)$/
+getline	ed.c	/^getline()$/
+getlist	ed.c	/^getlist()$/
+getlp	buf.c	/^getlp(n)$/
+getmark	ed.c	/^getmark(n)$/
+getnum	ed.c	/^getnum(first)$/
+getone	ed.c	/^getone()$/
+getrhs	ed.c	/^getrhs(glob)$/
+getshcmd	ed.c	/^getshcmd()$/
+gettxt	buf.c	/^gettxt(lp)$/
+init_buf	buf.c	/^init_buf()$/
+join	ed.c	/^join(from, to)$/
+lndelete	ed.c	/^lndelete(from, to)$/
+lpdup	ed.c	/^lpdup(lp)$/
+lpqueue	buf.c	/^lpqueue(lp)$/
+makekey	cbc.c	/^makekey(buf)$/
+makesub	ed.c	/^makesub(glob)$/
+move	ed.c	/^move(num, glob)$/
+oddesc	ed.c	/^oddesc(s, t)$/
+onhup	ed.c	/^onhup(signo)$/
+onintr	ed.c	/^onintr(signo)$/
+optpat	re.c	/^optpat()$/
+patscan	ed.c	/^patscan(pat, dir)$/
+putmark	ed.c	/^putmark(n, lp)$/
+putstr	ed.c	/^putstr(s, l, n, gflag)$/
+puttxt	buf.c	/^puttxt(cs)$/
+quit	buf.c	/^quit(n)$/
+regsub	ed.c	/^regsub(pat, lp, gflag)$/
+sbclose	buf.c	/^sbclose()$/
+sbopen	buf.c	/^sbopen()$/
+sgetline	ed.c	/^sgetline(fp)$/
+subst	ed.c	/^subst(pat, gflag)$/
+tobinhex	cbc.c	/^tobinhex(c, radix)$/
+transfer	ed.c	/^transfer(num)$/
+translit	buf.c	/^translit(s, len, from, to)$/
+undo	ed.c	/^undo(glob)$/
+upush	ed.c	/^upush(type, from, to)$/
+ureset	ed.c	/^ureset()$/

@@ -1,0 +1,3 @@
+badoption	merge.c	/^badoption(a)$/
+exiterr	merge.c	/^exiterr()$/
+mainProg	merge.c	/^mainProg(mergeId, "merge", "$Id: merge.c,v 1.1.1.1/

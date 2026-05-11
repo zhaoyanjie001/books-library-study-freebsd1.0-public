@@ -1,0 +1,26 @@
+DOSCYL	fdisk.c	/^#define DOSCYL(c)	(c & 0xff)$/
+DOSSECT	fdisk.c	/^#define DOSSECT(s,c) ((s & 0x3f) | ((c >> 2) & 0xc/
+Decimal	fdisk.c	/^#define Decimal(str, ans, tmp) if (decimal(str, &t/
+Hex	fdisk.c	/^#define Hex(str, ans, tmp) if (hex(str, &tmp, ans)/
+Mfdisk	fdisk.c	/^main(argc, argv)$/
+RoundCyl	fdisk.c	/^#define RoundCyl(x) ((((x) + cylsecs - 1) \/ cylse/
+String	fdisk.c	/^#define String(str, ans, len) {char *z = ans; char/
+change_active	fdisk.c	/^change_active(which)$/
+change_part	fdisk.c	/^change_part(i)$/
+decimal	fdisk.c	/^decimal(str, num, deflt)$/
+dos	fdisk.c	/^dos(sec, c, s, h)$/
+get_params	fdisk.c	/^get_params(verbose)$/
+get_params_to_use	fdisk.c	/^get_params_to_use()$/
+get_type	fdisk.c	/^char *get_type(type)$/
+hex	fdisk.c	/^hex(str, num, deflt)$/
+init_sector0	fdisk.c	/^init_sector0(start)$/
+ok	fdisk.c	/^ok(str)$/
+open_disk	fdisk.c	/^open_disk(u_flag)$/
+print_params	fdisk.c	/^print_params()$/
+print_part	fdisk.c	/^print_part(i)$/
+print_s0	fdisk.c	/^print_s0(which)$/
+read_disk	fdisk.c	/^read_disk(sector, buf)$/
+read_s0	fdisk.c	/^read_s0()$/
+string	fdisk.c	/^string(str, ans)$/
+write_disk	fdisk.c	/^write_disk(sector, buf)$/
+write_s0	fdisk.c	/^write_s0()$/

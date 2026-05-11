@@ -1,0 +1,16 @@
+Ambiguous	genget.c	/^Ambiguous(s)$/
+LOWER	genget.c	/^#define	LOWER(x) (isupper(x) ? tolower(x) : (x))$/
+auth_encrypt_connect	misc.c	/^auth_encrypt_connect(cnt)$/
+auth_encrypt_init	misc.c	/^auth_encrypt_init(local, remote, name, server)$/
+auth_encrypt_user	misc.c	/^auth_encrypt_user(name)$/
+decode	../../libexec/getty/gettytab.c	/^decode(str, area)$/
+genget	genget.c	/^genget(name, table, stlen)$/
+getent	getent.c	/^getent(cp, name)$/
+getflag	../../libexec/getty/gettytab.c	/^getflag(id)$/
+getnum	../../libexec/getty/gettytab.c	/^getnum(id)$/
+getstr	getent.c	/^getstr(cp, cpp)$/
+isprefix	genget.c	/^isprefix(s1, s2)$/
+namatch	../../libexec/getty/gettytab.c	/^namatch(np)$/
+nchktc	../../libexec/getty/gettytab.c	/^nchktc()$/
+printd	misc.c	/^printd(data, cnt)$/
+skip	../../libexec/getty/gettytab.c	/^skip(bp)$/

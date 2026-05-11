@@ -1,0 +1,3 @@
+FILE_OFFSET	dbsym.c	/^#define FILE_OFFSET(vadr) (((vadr) - text_adr) - N/
+Mdbsym	dbsym.c	/^main (argc, argv)$/
+usage	dbsym.c	/^usage ()$/

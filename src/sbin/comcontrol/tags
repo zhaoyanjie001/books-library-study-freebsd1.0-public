@@ -1,0 +1,2 @@
+Mcomcontrol	comcontrol.c	/^int main(int argc, char *argv[])$/
+usage	comcontrol.c	/^void usage(char *progname)$/

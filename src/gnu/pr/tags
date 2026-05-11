@@ -1,0 +1,49 @@
+Mgetopt	getopt.c	/^main (argc, argv)$/
+Mgetopt1	getopt1.c	/^main (argc, argv)$/
+Mpr	pr.c	/^main (argc, argv)$/
+VA_START	error.c	/^#define VA_START(args, lastarg) va_start(args, las/
+_getopt_internal	getopt.c	/^_getopt_internal (argc, argv, optstring, longopts,/
+balance	pr.c	/^balance (total_stored)$/
+char_to_clump	pr.c	/^char_to_clump (c)$/
+cleanup	pr.c	/^cleanup ()$/
+close_file	pr.c	/^close_file (p)$/
+cols_ready_to_print	pr.c	/^cols_ready_to_print ()$/
+error	error.c	/^error (status, errnum, message, va_alist)$/
+exchange	getopt.c	/^exchange (argv)$/
+getopt	getopt.c	/^getopt (argc, argv, optstring)$/
+getopt_long	getopt1.c	/^getopt_long (argc, argv, options, long_options, op/
+getopt_long_only	getopt1.c	/^getopt_long_only (argc, argv, options, long_option/
+getoptarg	pr.c	/^getoptarg (arg, switch_char, character, number)$/
+hold_file	pr.c	/^hold_file (p)$/
+init_fps	pr.c	/^init_fps (number_of_files, av)$/
+init_funcs	pr.c	/^init_funcs ()$/
+init_header	pr.c	/^init_header (filename, desc)$/
+init_page	pr.c	/^init_page ()$/
+init_parameters	pr.c	/^init_parameters (number_of_files)$/
+init_store_cols	pr.c	/^init_store_cols ()$/
+my_bcopy	getopt.c	/^#define	my_bcopy(src, dst, n)	memcpy ((dst), (src)/
+my_index	getopt.c	/^my_index (str, chr)$/
+number	pr.c	/^number (p)$/
+open_file	pr.c	/^open_file (name, p)$/
+pad_across_to	pr.c	/^pad_across_to (position)$/
+pad_down	pr.c	/^pad_down (lines)$/
+pos_after_tab	pr.c	/^#define pos_after_tab(c_, h_) h_ - h_ % c_ + c_$/
+print_char	pr.c	/^print_char (c)$/
+print_clump	pr.c	/^print_clump (p, n, clump)$/
+print_files	pr.c	/^print_files (number_of_files, av)$/
+print_header	pr.c	/^print_header ()$/
+print_page	pr.c	/^print_page ()$/
+print_separators	pr.c	/^print_separators ()$/
+print_stored	pr.c	/^print_stored (p)$/
+print_white_space	pr.c	/^print_white_space ()$/
+private_strerror	error.c	/^private_strerror (errnum)$/
+read_line	pr.c	/^read_line (p)$/
+read_rest_of_line	pr.c	/^read_rest_of_line (p)$/
+reset_status	pr.c	/^reset_status ()$/
+skip_to_page	pr.c	/^skip_to_page (page)$/
+store_char	pr.c	/^store_char (c)$/
+store_columns	pr.c	/^store_columns ()$/
+tab_width	pr.c	/^#define tab_width(c_, h_) - h_ % c_ + c_$/
+usage	pr.c	/^usage ()$/
+xmalloc	xmalloc.c	/^xmalloc (n)$/
+xrealloc	xmalloc.c	/^xrealloc (p, n)$/

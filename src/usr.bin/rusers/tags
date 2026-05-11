@@ -1,0 +1,7 @@
+Mrusers	rusers.c	/^main(int argc, char *argv[])$/
+allhosts	rusers.c	/^allhosts()$/
+onehost	rusers.c	/^onehost(char *host)$/
+remember_host	rusers.c	/^void remember_host(struct in_addr addr)$/
+rusers_reply	rusers.c	/^rusers_reply(char *replyp, struct sockaddr_in *rad/
+search_host	rusers.c	/^int search_host(struct in_addr addr)$/
+usage	rusers.c	/^usage()$/

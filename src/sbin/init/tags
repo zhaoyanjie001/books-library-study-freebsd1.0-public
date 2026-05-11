@@ -1,0 +1,11 @@
+Minit	init.c	/^main(argc, argv)$/
+fatal	init.c	/^fatal(s)$/
+getty	init.c	/^getty(tt)$/
+isspace	init.c	/^#define isspace(c) ((c) == ' ' || (c) == '\\t')$/
+newstring	init.c	/^newstring(s)$/
+salrm	init.c	/^salrm(sig)$/
+shup	init.c	/^shup(sig)$/
+sterm	init.c	/^sterm(sig)$/
+ststp	init.c	/^ststp(sig)$/
+warn	init.c	/^warn(s)$/
+writes	init.c	/^writes(n, s)$/

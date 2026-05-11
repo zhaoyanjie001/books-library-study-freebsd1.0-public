@@ -1,0 +1,28 @@
+Muuxqt	uuxqt.c	/^main (argc, argv)$/
+fcopy_file	../common_sources/copy.c	/^fcopy_file (zfrom, zto, fpublic, fmkdirs)$/
+fcopy_open_file	../common_sources/copy.c	/^fcopy_open_file (efrom, zto, fpublic, fmkdirs)$/
+fin_directory_list	../common_sources/util.c	/^fin_directory_list (zfile, pzdirs, zpubdir, fcheck/
+fqforward	uuxqt.c	/^fqforward (zfile, pzallowed, zlog, zmail)$/
+funknown_system	../common_sources/util.c	/^funknown_system (puuconf, zsystem, qsys)$/
+iqcmd	uuxqt.c	/^iqcmd (puuconf, argc, argv, pvar, pinfo)$/
+iqfile	uuxqt.c	/^iqfile (puuconf, argc, argv, pvar, pinfo)$/
+iqout	uuxqt.c	/^iqout (puuconf, argc, argv, pvar, pinfo)$/
+iqrequestor	uuxqt.c	/^iqrequestor (puuconf, argc, argv, pvar, pinfo)$/
+iqset	uuxqt.c	/^iqset (puuconf, argc, argv, pvar, pinfo)$/
+iquser	uuxqt.c	/^iquser (puuconf, argc, argv, pvar, pinfo)$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+uqabort	uuxqt.c	/^uqabort ()$/
+uqcleanup	uuxqt.c	/^uqcleanup (zfile, iflags)$/
+uqdo_xqt_file	uuxqt.c	/^uqdo_xqt_file (puuconf, zfile, zbase, qsys, zlocal/
+uqusage	uuxqt.c	/^uqusage ()$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/

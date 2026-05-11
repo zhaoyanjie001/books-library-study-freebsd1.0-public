@@ -1,0 +1,7 @@
+Mrup	rup.c	/^main(int argc, char *argv[])$/
+allhosts	rup.c	/^allhosts()$/
+onehost	rup.c	/^onehost(char *host)$/
+remember_host	rup.c	/^void remember_host(struct in_addr addr)$/
+rstat_reply	rup.c	/^rstat_reply(char *replyp, struct sockaddr_in *radd/
+search_host	rup.c	/^int search_host(struct in_addr addr)$/
+usage	rup.c	/^usage()$/

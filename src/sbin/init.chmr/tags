@@ -1,0 +1,44 @@
+Debug	utils.c	/^Debug(int level, const char *format, ...)$/
+Minit	init.c	/^main(argc, argv)$/
+UNSLEEP	init.c	/^#define UNSLEEP(a)$/
+allocate_callout	init.c	/^allocate_callout(void)$/
+argv_changed	ttytab.c	/^argv_changed(string, argv)$/
+callout	init.c	/^callout(when, type, arg)$/
+checkconf	cf_table.c	/^checkconf(void)$/
+clear_callout	init.c	/^clear_callout(void)$/
+closelog	fake_syslog.c	/^closelog(void)$/
+conf_env	cf_table.c	/^conf_env(configfile, lineno, argc, argv, what)$/
+conf_include	cf_table.c	/^conf_include(configfile, lineno, argc, argv, what)/
+conf_waittimes	cf_table.c	/^conf_waittimes(configfile, lineno, argc, argv, wha/
+configure	configure.c	/^configure(filename)$/
+do_callout	init.c	/^do_callout(void)$/
+do_getty	ttytab.c	/^do_getty(tt, status)$/
+ent_to_tab	ttytab.c	/^ent_to_tab(ent, tt, tab, flags)$/
+evaluate_line	configure.c	/^evaluate_line(cfgfile, lineno, argc, argv, wmatch)/
+free_tty	ttytab.c	/^free_tty(tab, tt)$/
+getconf	cf_table.c	/^getconf(void)$/
+iputenv	utils.c	/^iputenv(var, val)$/
+itoa	fake_syslog.c	/^itoa(i)$/
+multi2single	init.c	/^multi2single(void)$/
+multiuser	init.c	/^multiuser(void)$/
+newstring	utils.c	/^newstring(string)$/
+openlog	fake_syslog.c	/^openlog(ident, logopt, facility)$/
+parseline	configure.c	/^parseline(configfile, linenumber, argc, argv)$/
+setconf	cf_table.c	/^setconf(void)$/
+sig_alrm	init.c	/^sig_alrm(sig)$/
+sig_hup	init.c	/^sig_hup(sig)$/
+sig_int	init.c	/^sig_int(sig)$/
+sig_term	init.c	/^sig_term(sig)$/
+sig_tstp	init.c	/^sig_tstp(sig)$/
+sig_ttin	init.c	/^sig_ttin(sig)$/
+sig_usr1	init.c	/^sig_usr1(sig)$/
+sig_usr2	init.c	/^sig_usr2(sig)$/
+signalsforchile	init.c	/^signalsforchile(void)$/
+single2multi	init.c	/^single2multi(void)$/
+singleuser	init.c	/^singleuser(void)$/
+str2u	utils.c	/^str2u(str)$/
+strCcmp	utils.c	/^strCcmp(s1, s2)			\/* strncasecmp(s1, s2, strlen(s/
+string_to_argv	ttytab.c	/^string_to_argv(string, rargc, errtext)$/
+syslog	fake_syslog.c	/^syslog(int pri, const char *fmt, ...)$/
+vsyslog	fake_syslog.c	/^vsyslog(int pri, const char *fmt, va_list ap)$/
+waitforboot	init.c	/^waitforboot(void)$/

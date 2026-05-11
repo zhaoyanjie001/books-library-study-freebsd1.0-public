@@ -1,0 +1,30 @@
+ARG	chat.c	/^#define	ARG(c,v)	(c?(--c,*v++):(char*)0)$/
+Mchat	chat.c	/^main(argc, argv)$/
+OPTARG	chat.c	/^#define	OPTARG(c,v)	(_O&2?**v||(++v,--c)?(_O=1,--c/
+OPTION	chat.c	/^#define	OPTION(c,v)	(_O&2&&**v?*(*v)++:!c||_O&4?0:/
+OPTONLYARG	chat.c	/^#define	OPTONLYARG(c,v)	(_O&2&&**v?(_O=1,--c,*v++)/
+character	chat.c	/^char *character(c)$/
+chat_expect	chat.c	/^chat_expect(s)$/
+chat_send	chat.c	/^chat_send(s)$/
+clean	chat.c	/^char *clean(s, sending)$/
+copyof	chat.c	/^#define	copyof(s)	((s) ? strcpy(malloc(strlen(s) +/
+delay	chat.c	/^delay()$/
+fatal	chat.c	/^fatal(format, arg1, arg2, arg3, arg4)$/
+get_char	chat.c	/^int get_char()$/
+get_string	chat.c	/^int get_string(string)$/
+init	chat.c	/^init()$/
+lock	chat.c	/^lock()$/
+logf	chat.c	/^logf(fmt, va_alist)$/
+put_char	chat.c	/^int put_char(c)$/
+put_string	chat.c	/^int put_string(s)$/
+set_tty_parameters	chat.c	/^set_tty_parameters()$/
+sigalrm	chat.c	/^  sigalrm()$/
+sighup	chat.c	/^  sighup()$/
+sigint	chat.c	/^  sigint()$/
+sigterm	chat.c	/^  sigterm()$/
+sysfatal	chat.c	/^sysfatal(format, arg1, arg2, arg3, arg4)$/
+terminate	chat.c	/^terminate(status)$/
+unalarm	chat.c	/^unalarm()$/
+unlock	chat.c	/^unlock()$/
+usage	chat.c	/^usage()$/
+warn	chat.c	/^warn(format, arg1, arg2, arg3, arg4)$/

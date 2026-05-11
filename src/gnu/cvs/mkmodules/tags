@@ -1,0 +1,8 @@
+Lock_Cleanup	mkmodules.c	/^Lock_Cleanup ()$/
+Mmkmodules	mkmodules.c	/^main (argc, argv)$/
+checkout_file	mkmodules.c	/^checkout_file (file, temp)$/
+make_tempfile	mkmodules.c	/^make_tempfile (temp)$/
+mkmodules_usage	mkmodules.c	/^mkmodules_usage ()$/
+rename_dbmfile	mkmodules.c	/^rename_dbmfile (temp)$/
+rename_rcsfile	mkmodules.c	/^rename_rcsfile (temp, real)$/
+write_dbmfile	mkmodules.c	/^write_dbmfile (temp)$/

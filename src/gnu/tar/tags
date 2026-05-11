@@ -1,0 +1,296 @@
+AT_STRINGS_BEG	regex.c	/^#define AT_STRINGS_BEG(d) ((d) == (size1 ? string1/
+AT_STRINGS_END	regex.c	/^#define AT_STRINGS_END(d) ((d) == end2)	$/
+AT_WORD_BOUNDARY	regex.c	/^#define AT_WORD_BOUNDARY(d)						\\$/
+BUF_PUSH	regex.c	/^#define BUF_PUSH(c)							\\$/
+BUF_PUSH_2	regex.c	/^#define BUF_PUSH_2(c1, c2)						\\$/
+BUF_PUSH_3	regex.c	/^#define BUF_PUSH_3(c1, c2, c3)						\\$/
+Convert	getdate.y	/^Convert(Month, Day, Year, Hours, Minutes, Seconds,/
+DEBUG_POP	regex.c	/^#define DEBUG_POP(item_addr) *(item_addr) = POP_FA/
+DEBUG_PRINT1	regex.c	/^#define DEBUG_PRINT1(x) if (debug) printf (x)$/
+DEBUG_PRINT2	regex.c	/^#define DEBUG_PRINT2(x1, x2) if (debug) printf (x1/
+DEBUG_PRINT3	regex.c	/^#define DEBUG_PRINT3(x1, x2, x3) if (debug) printf/
+DEBUG_PRINT4	regex.c	/^#define DEBUG_PRINT4(x1, x2, x3, x4) if (debug) pr/
+DEBUG_PRINT_COMPILED_PATTERN	regex.c	/^#define DEBUG_PRINT_COMPILED_PATTERN(p, s, e) 				/
+DEBUG_PRINT_DOUBLE_STRING	regex.c	/^#define DEBUG_PRINT_DOUBLE_STRING(w, s1, sz1, s2, /
+DEBUG_PUSH	regex.c	/^#define DEBUG_PUSH(item)$/
+DEBUG_STATEMENT	regex.c	/^#define DEBUG_STATEMENT(e) e$/
+DOUBLE_FAIL_STACK	regex.c	/^#define DOUBLE_FAIL_STACK(fail_stack)					\\$/
+DSTcorrect	getdate.y	/^DSTcorrect(Start, Future)$/
+EVER_MATCHED_SOMETHING	regex.c	/^#define EVER_MATCHED_SOMETHING(R)  ((R).bits.ever_/
+EXTEND_BUFFER	regex.c	/^#define EXTEND_BUFFER()							\\$/
+EXTRACT_NUMBER	regex.c	/^#define EXTRACT_NUMBER(destination, source)				\\$/
+EXTRACT_NUMBER_AND_INCR	regex.c	/^#define EXTRACT_NUMBER_AND_INCR(destination, sourc/
+FAIL_STACK_EMPTY	regex.c	/^#define FAIL_STACK_EMPTY()     (fail_stack.avail =/
+FAIL_STACK_FULL	regex.c	/^#define FAIL_STACK_FULL()      (fail_stack.avail =/
+FAIL_STACK_PTR_EMPTY	regex.c	/^#define FAIL_STACK_PTR_EMPTY() (fail_stack_ptr->av/
+FAIL_STACK_TOP	regex.c	/^#define FAIL_STACK_TOP()       (fail_stack.stack[f/
+FIRST_STRING_P	regex.c	/^#define FIRST_STRING_P(ptr) 					\\$/
+FREE_VAR	regex.c	/^#define FREE_VAR(var) if (var) free (var); var = N/
+FREE_VARIABLES	regex.c	/^#define FREE_VARIABLES()						\\$/
+GET_BUFFER_SPACE	regex.c	/^#define GET_BUFFER_SPACE(n)						\\$/
+GET_UNSIGNED_NUMBER	regex.c	/^#define GET_UNSIGNED_NUMBER(num) 					\\$/
+INIT_FAIL_STACK	regex.c	/^#define INIT_FAIL_STACK()						\\$/
+INSERT_JUMP	regex.c	/^#define INSERT_JUMP(op, loc, to) \\$/
+INSERT_JUMP2	regex.c	/^#define INSERT_JUMP2(op, loc, to, arg) \\$/
+ISALNUM	regex.c	/^#define ISALNUM(c) (isascii (c) && isalnum (c))$/
+ISALPHA	regex.c	/^#define ISALPHA(c) (isascii (c) && isalpha (c))$/
+ISBLANK	regex.c	/^#define ISBLANK(c) (isascii (c) && isblank (c))$/
+ISCNTRL	regex.c	/^#define ISCNTRL(c) (isascii (c) && iscntrl (c))$/
+ISDIGIT	regex.c	/^#define ISDIGIT(c) (isascii (c) && isdigit (c))$/
+ISGRAPH	regex.c	/^#define ISGRAPH(c) (isascii (c) && isgraph (c))$/
+ISLOWER	regex.c	/^#define ISLOWER(c) (isascii (c) && islower (c))$/
+ISPRINT	regex.c	/^#define ISPRINT(c) (isascii (c) && isprint (c))$/
+ISPUNCT	regex.c	/^#define ISPUNCT(c) (isascii (c) && ispunct (c))$/
+ISSPACE	regex.c	/^#define ISSPACE(c) (isascii (c) && isspace (c))$/
+ISUPPER	regex.c	/^#define ISUPPER(c) (isascii (c) && isupper (c))$/
+ISXDIGIT	regex.c	/^#define ISXDIGIT(c) (isascii (c) && isxdigit (c))$/
+IS_ACTIVE	regex.c	/^#define IS_ACTIVE(R)  ((R).bits.is_active)$/
+IS_CHAR_CLASS	regex.c	/^#define IS_CHAR_CLASS(string)						\\$/
+LookupWord	getdate.y	/^LookupWord(buff)$/
+MATCHED_SOMETHING	regex.c	/^#define MATCHED_SOMETHING(R)  ((R).bits.matched_so/
+MAX	regex.c	/^#define MAX(a, b) ((a) > (b) ? (a) : (b))$/
+MIN	regex.c	/^#define MIN(a, b) ((a) < (b) ? (a) : (b))$/
+Mgetdate	getdate.y	/^main(ac, av)$/
+Mgetopt	getopt.c	/^main (argc, argv)$/
+Mgetopt1	getopt1.c	/^main (argc, argv)$/
+Mtar	tar.c	/^main (argc, argv)$/
+NEXTOF	port.c	/^#define NEXTOF(ptr)	(* ((char **)(((char *)(ptr))+/
+PATFETCH	regex.c	/^#define PATFETCH(c)							\\$/
+PATFETCH_RAW	regex.c	/^#define PATFETCH_RAW(c)							\\$/
+POINTER_TO_OFFSET	regex.c	/^#define POINTER_TO_OFFSET(ptr)						\\$/
+POP_FAILURE_ITEM	regex.c	/^#define POP_FAILURE_ITEM() fail_stack.stack[--fail/
+POP_FAILURE_POINT	regex.c	/^#define POP_FAILURE_POINT(str, pat, low_reg, high_/
+PREFETCH	regex.c	/^#define PREFETCH()							\\$/
+PUSH_FAILURE_ITEM	regex.c	/^#define PUSH_FAILURE_ITEM(item)						\\$/
+PUSH_FAILURE_POINT	regex.c	/^#define PUSH_FAILURE_POINT(pattern_place, string_p/
+PUSH_PATTERN_OP	regex.c	/^#define PUSH_PATTERN_OP(pattern_op, fail_stack)			/
+READ	rtapelib.c	/^#define READ(fildes) (from_rmt[fildes][0])$/
+REGEX_REALLOCATE	regex.c	/^#define REGEX_REALLOCATE(source, osize, nsize) rea/
+REGEX_TALLOC	regex.c	/^#define REGEX_TALLOC(n, t) ((t *) REGEX_ALLOCATE (/
+REG_MATCH_NULL_STRING_P	regex.c	/^#define REG_MATCH_NULL_STRING_P(R)  ((R).bits.matc/
+REG_UNSET	regex.c	/^#define REG_UNSET(e) ((e) == REG_UNSET_VALUE)$/
+RETALLOC	regex.c	/^#define RETALLOC(addr, n, t) ((addr) = (t *) reall/
+RelativeDate	getdate.y	/^RelativeDate(Start, DayOrdinal, DayNumber)$/
+RelativeMonth	getdate.y	/^RelativeMonth(Start, RelMonth)$/
+SET_LIST_BIT	regex.c	/^#define SET_LIST_BIT(c)                           /
+SET_REGS_MATCHED	regex.c	/^#define SET_REGS_MATCHED()						\\$/
+SIGN_EXTEND_CHAR	regex.c	/^#define SIGN_EXTEND_CHAR(c) ((signed char) (c))$/
+STORE_JUMP	regex.c	/^#define STORE_JUMP(op, loc, to) \\$/
+STORE_JUMP2	regex.c	/^#define STORE_JUMP2(op, loc, to, arg) \\$/
+STORE_NUMBER	regex.c	/^#define STORE_NUMBER(destination, number)				\\$/
+STORE_NUMBER_AND_INCR	regex.c	/^#define STORE_NUMBER_AND_INCR(destination, number)/
+STREQ	regex.c	/^#define STREQ(s1, s2) ((strcmp (s1, s2) == 0))$/
+SYNTAX	regex.c	/^#define SYNTAX(c) re_syntax_table[c]$/
+TALLOC	regex.c	/^#define TALLOC(n, t) ((t *) malloc ((n) * sizeof (/
+TRANSLATE	regex.c	/^#define TRANSLATE(d) (translate ? translate[(unsig/
+ToSeconds	getdate.y	/^ToSeconds(Hours, Minutes, Seconds, Meridian)$/
+WORDCHAR_P	regex.c	/^#define WORDCHAR_P(d)							\\$/
+WRITE	rtapelib.c	/^#define WRITE(fildes) (to_rmt[fildes][1])$/
+__rmt_close	rtapelib.c	/^__rmt_close (fildes)$/
+__rmt_ioctl	rtapelib.c	/^__rmt_ioctl (fildes, op, arg)$/
+__rmt_lseek	rtapelib.c	/^__rmt_lseek (fildes, offset, whence)$/
+__rmt_open	rtapelib.c	/^__rmt_open (path, oflag, mode, bias)$/
+__rmt_read	rtapelib.c	/^__rmt_read (fildes, buf, nbyte)$/
+__rmt_write	rtapelib.c	/^__rmt_write (fildes, buf, nbyte)$/
+_getopt_internal	getopt.c	/^_getopt_internal (argc, argv, optstring, longopts,/
+_rmt_rexec	rtapelib.c	/^_rmt_rexec (host, user)$/
+_rmt_shutdown	rtapelib.c	/^_rmt_shutdown (fildes)$/
+add_buffer	port.c	/^add_buffer (bb, p, n)$/
+add_dir	gnu.c	/^add_dir (name, dev, ino, text)$/
+add_dir_name	gnu.c	/^add_dir_name (p, device)$/
+add_exclude	tar.c	/^add_exclude (name)$/
+add_exclude_file	tar.c	/^add_exclude_file (file)$/
+add_mangle	mangle.c	/^add_mangle (name, buffer)$/
+add_symlink_mangle	mangle.c	/^add_symlink_mangle (symlink, linkto, buffer)$/
+addname	tar.c	/^addname (name)$/
+alt_match_null_string_p	regex.c	/^alt_match_null_string_p (p, end, reg_info)$/
+anno	buffer.c	/^anno (stream, prefix, savedp)$/
+append_file	update.c	/^append_file (p)$/
+assert	regex.c	/^#define assert(e)$/
+at_begline_loc_p	regex.c	/^at_begline_loc_p (pattern, p, syntax)$/
+at_endline_loc_p	regex.c	/^at_endline_loc_p (p, pend, syntax)$/
+backspace_output	buffer.c	/^backspace_output ()$/
+bcmp	port.c	/^bcmp (s1, s2, n)$/
+bcmp_translate	regex.c	/^bcmp_translate (s1, s2, len, translate)$/
+bcopy	regex.c	/^#define bcopy(s, d, n)	memcpy ((d), (s), (n))$/
+blank_name_list	tar.c	/^blank_name_list ()$/
+bprint	update.c	/^bprint (fp, buf, num)$/
+bzero	port.c	/^bzero (s1, n)$/
+check_exclude	tar.c	/^check_exclude (name)$/
+child_open	buffer.c	/^child_open ()$/
+chown	port.c	/^chown (path, uid, gid)$/
+ck_close	port.c	/^ck_close (fd)$/
+ck_malloc	port.c	/^ck_malloc (size)$/
+ck_pipe	port.c	/^ck_pipe (pipes)$/
+ck_realloc	port.c	/^ck_realloc (ptr, size)$/
+clear_buffer	create.c	/^clear_buffer (buf)$/
+close_archive	buffer.c	/^close_archive ()$/
+closeout_volume_number	buffer.c	/^closeout_volume_number ()$/
+collect_and_sort_names	gnu.c	/^collect_and_sort_names ()$/
+command	rtapelib.c	/^command (fildes, buf)$/
+common_op_match_null_string_p	regex.c	/^common_op_match_null_string_p (p, end, reg_info)$/
+compare_chunk	diffarch.c	/^compare_chunk (bytes, buffer)$/
+compare_dir	diffarch.c	/^compare_dir (bytes, buffer)$/
+compile_range	regex.c	/^compile_range (p_ptr, pend, translate, syntax, b)$/
+confirm	tar.c	/^confirm (action, file)$/
+create_archive	create.c	/^create_archive ()$/
+date	getdate.y	/^date	: tUNUMBER '\/' tUNUMBER {$/
+day	getdate.y	/^day	: tDAY {$/
+deal_with_sparse	create.c	/^deal_with_sparse (name, header, nulls_at_end)$/
+decode_header	list.c	/^decode_header (header, st, stdp, wantug)$/
+demode	list.c	/^demode (mode, string)$/
+describe	tar.c	/^describe ()$/
+diff_archive	diffarch.c	/^diff_archive ()$/
+diff_init	diffarch.c	/^diff_init ()$/
+diff_sparse_files	diffarch.c	/^diff_sparse_files (filesize)$/
+dirent_cmp	gnu.c	/^dirent_cmp (p1, p2)$/
+do_stat	diffarch.c	/^do_stat (statp)$/
+dump_file	create.c	/^dump_file (p, curdev, toplevel)$/
+dupto	buffer.c	/^dupto (from, to, msg)$/
+endofrecs	buffer.c	/^endofrecs ()$/
+exchange	getopt.c	/^exchange (argv)$/
+execlp	port.c	/^execlp (filename, arg0)$/
+extr_init	extract.c	/^extr_init ()$/
+extract_archive	extract.c	/^extract_archive ()$/
+extract_mangle	mangle.c	/^extract_mangle (head)$/
+extract_number	regex.c	/^extract_number (dest, source)$/
+extract_number_and_incr	regex.c	/^extract_number_and_incr (destination, source)$/
+extract_sparse_file	extract.c	/^extract_sparse_file (fd, sizeleft, totalsize, name/
+fill_in_sparse_array	diffarch.c	/^fill_in_sparse_array ()$/
+find_mangled	mangle.c	/^find_mangled (name)$/
+find_new_file_size	create.c	/^find_new_file_size (filesize, highest_index)$/
+findgid	names.c	/^findgid (gname)$/
+findgname	names.c	/^findgname (gname, gid)$/
+findrec	buffer.c	/^findrec ()$/
+finduid	names.c	/^finduid (uname)$/
+finduname	names.c	/^finduname (uname, uid)$/
+finish_header	create.c	/^finish_header (header)$/
+finish_sparse_file	create.c	/^finish_sparse_file (fd, sizeleft, fullsize, name)$/
+fl_read	buffer.c	/^fl_read ()$/
+fl_write	buffer.c	/^fl_write ()$/
+flush_archive	buffer.c	/^flush_archive ()$/
+flush_buffer	port.c	/^flush_buffer (bb)$/
+fnmatch	fnmatch.c	/^fnmatch (pattern, string, flags)$/
+from_oct	list.c	/^from_oct (digs, where)$/
+ftruncate	port.c	/^ftruncate (fd, length)$/
+get_buffer	port.c	/^get_buffer (bb)$/
+get_date	getdate.y	/^get_date(p, now)$/
+get_dir	gnu.c	/^get_dir (name)$/
+get_dir_contents	gnu.c	/^get_dir_contents (p, device)$/
+geteuid	port.c	/^geteuid ()$/
+getoldopt	getoldopt.c	/^getoldopt (argc, argv, optstring, long_options, op/
+getopt	getopt.c	/^getopt (argc, argv, optstring)$/
+getopt_long	getopt1.c	/^getopt_long (argc, argv, options, long_options, op/
+getopt_long_only	getopt1.c	/^getopt_long_only (argc, argv, options, long_option/
+gnu_restore	gnu.c	/^gnu_restore (skipcrud)$/
+group_in_compile_stack	regex.c	/^group_in_compile_stack (compile_stack, regnum)$/
+group_match_null_string_p	regex.c	/^group_match_null_string_p (p, end, reg_info)$/
+init_buffer	port.c	/^init_buffer ()$/
+init_sparsearray	create.c	/^init_sparsearray ()$/
+init_syntax_once	regex.c	/^init_syntax_once ()$/
+init_volume_number	buffer.c	/^init_volume_number ()$/
+insert_op1	regex.c	/^insert_op1 (op, loc, arg, end)$/
+insert_op2	regex.c	/^insert_op2 (op, loc, arg1, arg2, end)$/
+is_dot_or_dotdot	gnu.c	/^is_dot_or_dotdot (p)$/
+is_regex	tar.c	/^is_regex (str)$/
+isascii	regex.c	/^#define isascii(c) 1$/
+isfile	buffer.c	/^isfile (p)$/
+isodigit	list.c	/^#define	isodigit(c)	( ((c) >= '0') && ((c) <= '7')/
+item	getdate.y	/^item	: time {$/
+junk_archive	update.c	/^junk_archive ()$/
+link	port.c	/^link (path1, path2)$/
+list_archive	list.c	/^list_archive ()$/
+make_dirs	extract.c	/^make_dirs (pathname)$/
+merge_sort	port.c	/^merge_sort (list, n, off, cmp)$/
+mkdir	port.c	/^mkdir (dpath, dmode)$/
+mknod	port.c	/^mknod (path, mode, dev)$/
+move_arch	update.c	/^move_arch (n)$/
+msg	port.c	/^msg (char *str,...)$/
+msg_perror	port.c	/^msg_perror (char *str,...)$/
+my_bcopy	getopt.c	/^#define	my_bcopy(src, dst, n)	memcpy ((dst), (src)/
+my_index	getopt.c	/^my_index (string, chr)$/
+name_add	tar.c	/^name_add (name)$/
+name_close	tar.c	/^name_close ()$/
+name_cmp	gnu.c	/^name_cmp (n1, n2)$/
+name_expand	tar.c	/^name_expand ()$/
+name_from_list	tar.c	/^name_from_list ()$/
+name_gather	tar.c	/^name_gather ()$/
+name_init	tar.c	/^name_init (argc, argv)$/
+name_match	tar.c	/^name_match (p)$/
+name_next	tar.c	/^name_next (change_dirs)$/
+name_scan	tar.c	/^name_scan (p)$/
+names_notfound	tar.c	/^names_notfound ()$/
+new_name	tar.c	/^new_name (path, name)$/
+new_volume	buffer.c	/^new_volume (type)$/
+no_op	buffer.c	/^no_op (size, data)$/
+number	getdate.y	/^number	: tUNUMBER {$/
+o_merid	getdate.y	/^o_merid	: \/* NULL *\/ {$/
+open3	port.c	/^open3 (path, flags, mode)$/
+open_archive	buffer.c	/^open_archive (reading)$/
+options	tar.c	/^options (argc, argv)$/
+panic	port.c	/^panic (s)$/
+pr_mkdir	list.c	/^pr_mkdir (pathname, length, mode)$/
+print_compiled_pattern	regex.c	/^print_compiled_pattern (bufp)$/
+print_double_string	regex.c	/^print_double_string (where, string1, size1, string/
+print_fastmap	regex.c	/^print_fastmap (fastmap)$/
+print_header	list.c	/^print_header ()$/
+print_partial_compiled_pattern	regex.c	/^print_partial_compiled_pattern (start, end)$/
+quote_copy_string	port.c	/^quote_copy_string (string)$/
+re_comp	regex.c	/^re_comp (s)$/
+re_compile_fastmap	regex.c	/^re_compile_fastmap (bufp)$/
+re_compile_pattern	regex.c	/^re_compile_pattern (pattern, length, bufp)$/
+re_exec	regex.c	/^re_exec (s)$/
+re_match	regex.c	/^re_match (bufp, string, size, pos, regs)$/
+re_match_2	regex.c	/^re_match_2 (bufp, string1, size1, string2, size2, /
+re_search	regex.c	/^re_search (bufp, string, size, startpos, range, re/
+re_search_2	regex.c	/^re_search_2 (bufp, string1, size1, string2, size2,/
+re_set_registers	regex.c	/^re_set_registers (bufp, regs, num_regs, starts, en/
+re_set_syntax	regex.c	/^re_set_syntax (syntax)$/
+read_and	list.c	/^read_and (do_something)$/
+read_dir_file	gnu.c	/^read_dir_file ()$/
+read_header	list.c	/^read_header ()$/
+read_name_from_file	tar.c	/^read_name_from_file (buffer, pbuffer_size, stream)/
+readerror	buffer.c	/^readerror ()$/
+recursively_delete	gnu.c	/^recursively_delete (path)$/
+regcomp	regex.c	/^regcomp (preg, pattern, cflags)$/
+regerror	regex.c	/^regerror (errcode, preg, errbuf, errbuf_size)$/
+regex_compile	regex.c	/^regex_compile (pattern, size, syntax, bufp)$/
+regexec	regex.c	/^regexec (preg, string, nmatch, pmatch, eflags)$/
+regfree	regex.c	/^regfree (preg)$/
+rel	getdate.y	/^rel	: relunit tAGO {$/
+relunit	getdate.y	/^relunit	: tUNUMBER tMINUTE_UNIT {$/
+rename	port.c	/^rename (from, to)$/
+reset_eof	buffer.c	/^reset_eof ()$/
+restore_saved_dir_info	extract.c	/^restore_saved_dir_info ()$/
+rmdir	port.c	/^rmdir (dpath)$/
+saverec	buffer.c	/^saverec (pointer)$/
+sigh	diffarch.c	/^sigh (what)$/
+skip_extended_headers	list.c	/^skip_extended_headers ()$/
+skip_file	list.c	/^skip_file (size)$/
+start_header	create.c	/^start_header (name, st)$/
+status	rtapelib.c	/^status (fildes)$/
+store_op1	regex.c	/^store_op1 (op, loc, arg)$/
+store_op2	regex.c	/^store_op2 (op, loc, arg1, arg2)$/
+strstr	port.c	/^strstr (s, wanted)$/
+time	getdate.y	/^time	: tUNUMBER tMERIDIAN {$/
+to_oct	create.c	/^to_oct (value, digs, where)$/
+un_quote_string	port.c	/^un_quote_string (string)$/
+update_archive	update.c	/^update_archive ()$/
+userec	buffer.c	/^userec (rec)$/
+utime	port.c	/^utime (char *filename, struct utimbuf *utb)$/
+valloc	port.c	/^valloc (size)$/
+verify_volume	diffarch.c	/^verify_volume ()$/
+wantbytes	buffer.c	/^wantbytes (size, func)$/
+where_is_data	create.c	/^where_is_data (from, to, buffer)$/
+write_block	update.c	/^write_block (f)$/
+write_dir_file	gnu.c	/^write_dir_file ()$/
+write_eot	create.c	/^write_eot ()$/
+write_long	create.c	/^write_long (p, type)$/
+write_mangled	mangle.c	/^write_mangled ()$/
+writeerror	buffer.c	/^writeerror (err)$/
+xmalloc	port.c	/^xmalloc (size)$/
+yyerror	getdate.y	/^yyerror(s)$/
+yylex	getdate.y	/^yylex()$/
+yyparse	getdate.y	/^%%$/
+zero_record	create.c	/^zero_record (buffer)$/
+zone	getdate.y	/^zone	: tZONE {$/

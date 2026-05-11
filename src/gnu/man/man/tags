@@ -1,0 +1,38 @@
+D_NAMLEN	glob.c	/^#define D_NAMLEN(d) strlen((d)->d_name)$/
+Mglob	glob.c	/^main (argc, argv)$/
+Mman	man.c	/^main (argc, argv)$/
+Mmanpath	manpath.c	/^main(argc, argv)$/
+REAL_DIR_ENTRY	glob.c	/^#define REAL_DIR_ENTRY(dp) 1$/
+add_dir_to_list	manpath.c	/^add_dir_to_list (lp, dir, perrs)$/
+add_dir_to_mpath_list	man.c	/^add_dir_to_mpath_list (mp, p)$/
+add_directive	man.c	/^add_directive (first, d, file, buf)$/
+bcopy	glob.c	/^#define bcopy(s, d, n) memcpy ((d), (s), (n))$/
+convert_name	man.c	/^convert_name (name, to_cat)$/
+def_path	manpath.c	/^def_path (perrs)$/
+display_cat_file	man.c	/^display_cat_file (file)$/
+do_apropos	man.c	/^do_apropos (name)$/
+do_whatis	man.c	/^do_whatis (name)$/
+format_and_display	man.c	/^format_and_display (path, man_file, cat_file)$/
+get_dirlist	manpath.c	/^get_dirlist ()$/
+get_expander	man.c	/^get_expander (file)$/
+get_manpath	manpath.c	/^get_manpath (perrs, path)$/
+get_section_list	man.c	/^get_section_list ()$/
+glob_dir_to_array	glob.c	/^glob_dir_to_array (dir, array)$/
+glob_filename	glob.c	/^glob_filename (pathname)$/
+glob_for_file	man.c	/^glob_for_file (path, section, name, cat)$/
+glob_match	glob.c	/^glob_match (pattern, text, dot_special)$/
+glob_match_after_star	glob.c	/^glob_match_after_star (pattern, text)$/
+glob_pattern_p	glob.c	/^glob_pattern_p (pattern)$/
+glob_vector	glob.c	/^glob_vector (pat, dir)$/
+has_subdirs	manpath.c	/^has_subdirs (p)$/
+is_section	man.c	/^is_section (name)$/
+make_cat_file	man.c	/^make_cat_file (path, man_file, cat_file)$/
+make_name	man.c	/^make_name (path, section, name, cat)$/
+make_roff_command	man.c	/^make_roff_command (file)$/
+man	man.c	/^man (name)$/
+man_getopt	man.c	/^man_getopt (argc, argv)$/
+manpath	manpath.c	/^manpath (perrs)$/
+parse_roff_directive	man.c	/^parse_roff_directive (cp, file, buf)$/
+try_section	man.c	/^try_section (path, section, name, glob)$/
+ultimate_source	man.c	/^ultimate_source (name, path)$/
+usage	man.c	/^usage ()$/

@@ -1,0 +1,2 @@
+Melvisrecover	elvisrecover.c	/^main(argc, argv)$/
+recover	elvisrecover.c	/^void recover(basename, outname)$/

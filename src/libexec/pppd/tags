@@ -1,0 +1,188 @@
+ACKCIADDR	ipcp.c	/^#define ACKCIADDR(opt, neg, val) \\$/
+ACKCIADDRS	ipcp.c	/^#define ACKCIADDRS(opt, neg, val1, val2) \\$/
+ACKCICHAP	lcp.c	/^#define ACKCICHAP(opt, neg, val, digest, callback)/
+ACKCILONG	lcp.c	/^#define ACKCILONG(opt, neg, val) \\$/
+ACKCISHORT	lcp.c	/^#define ACKCISHORT(opt, neg, val) \\$/
+ACKCIVOID	lcp.c	/^#define ACKCIVOID(opt, neg) \\$/
+ADDCIADDR	ipcp.c	/^#define ADDCIADDR(opt, neg, val) \\$/
+ADDCIADDRS	ipcp.c	/^#define ADDCIADDRS(opt, neg, val1, val2) \\$/
+ADDCICHAP	lcp.c	/^#define ADDCICHAP(opt, neg, val, digest, callback)/
+ADDCILONG	lcp.c	/^#define ADDCILONG(opt, neg, val) \\$/
+ADDCISHORT	lcp.c	/^#define ADDCISHORT(opt, neg, val) \\$/
+ADDCIVOID	lcp.c	/^#define ADDCIVOID(opt, neg) \\$/
+ChapAuthPeer	chap.c	/^  ChapAuthPeer(unit)$/
+ChapAuthWithPeer	chap.c	/^  ChapAuthWithPeer(unit)$/
+ChapGenChallenge	chap.c	/^  ChapGenChallenge(chal_len, str)$/
+ChapInit	chap.c	/^  ChapInit(unit)$/
+ChapInput	chap.c	/^  ChapInput(unit, inpacket, packet_len)$/
+ChapLowerDown	chap.c	/^  ChapLowerDown(unit)$/
+ChapLowerUp	chap.c	/^  ChapLowerUp(unit)$/
+ChapProtocolReject	chap.c	/^  ChapProtocolReject(unit)$/
+ChapReceiveChallenge	chap.c	/^  ChapReceiveChallenge(cstate, inp, id, len)$/
+ChapReceiveFailure	chap.c	/^  ChapReceiveFailure(cstate, inp, id, len)$/
+ChapReceiveResponse	chap.c	/^  ChapReceiveResponse(cstate, inp, id, len)$/
+ChapReceiveSuccess	chap.c	/^  ChapReceiveSuccess(cstate, inp, id, len)$/
+ChapSendChallenge	chap.c	/^  ChapSendChallenge(cstate)$/
+ChapSendResponse	chap.c	/^  ChapSendResponse(cstate, id, md, md_len)$/
+ChapSendStatus	chap.c	/^  ChapSendStatus(cstate, code, id, msg, msglen)$/
+ChapTimeout	chap.c	/^  ChapTimeout(arg)$/
+F	md5.c	/^#define F(x, y, z) (((x) & (y)) | ((~x) & (z)))$/
+FF	md5.c	/^#define FF(a, b, c, d, x, s, ac) \\$/
+G	md5.c	/^#define G(x, y, z) (((x) & (z)) | ((y) & (~z)))$/
+GG	md5.c	/^#define GG(a, b, c, d, x, s, ac) \\$/
+GetMask	main.c	/^  GetMask(addr)$/
+H	md5.c	/^#define H(x, y, z) ((x) ^ (y) ^ (z))$/
+HH	md5.c	/^#define HH(a, b, c, d, x, s, ac) \\$/
+I	md5.c	/^#define I(x, y, z) ((y) ^ ((x) | (~z)))$/
+II	md5.c	/^#define II(a, b, c, d, x, s, ac) \\$/
+LENCIADDR	ipcp.c	/^#define LENCIADDR(neg)  (neg ? 6 : 0)$/
+LENCIADDRS	ipcp.c	/^#define LENCIADDRS(neg)  (neg ? 10 : 0)$/
+LENCICHAP	lcp.c	/^#define LENCICHAP(neg) (neg ? 6 : 0)$/
+LENCILONG	lcp.c	/^#define LENCILONG(neg)  (neg ? 6 : 0)$/
+LENCISHORT	lcp.c	/^#define LENCISHORT(neg)  (neg ? 4 : 0)$/
+LENCIVOID	lcp.c	/^#define LENCIVOID(neg) (neg ? 2 : 0)$/
+LOG_UPTO	main.c	/^#define LOG_UPTO(x) (x)$/
+MD5Final	md5.c	/^void MD5Final (mdContext)$/
+MD5Init	md5.c	/^void MD5Init (mdContext)$/
+MD5Update	md5.c	/^void MD5Update (mdContext, inBuf, inLen)$/
+Mmain	main.c	/^main(argc, argv)$/
+NAKCIADDR	ipcp.c	/^#define NAKCIADDR(opt, neg, code) \\$/
+NAKCIADDRS	ipcp.c	/^#define NAKCIADDRS(opt, neg, code) \\$/
+NAKCICHAP	lcp.c	/^#define NAKCICHAP(opt, neg, digest, callback, code/
+NAKCILONG	lcp.c	/^#define NAKCILONG(opt, neg, code) \\$/
+NAKCISHORT	lcp.c	/^#define NAKCISHORT(opt, neg, code) \\$/
+NAKCIVOID	lcp.c	/^#define NAKCIVOID(opt, neg, code) \\$/
+REJCIADDR	ipcp.c	/^#define REJCIADDR(opt, neg, val) \\$/
+REJCIADDRS	ipcp.c	/^#define REJCIADDRS(opt, neg, val1, val2) \\$/
+REJCICHAP	lcp.c	/^#define REJCICHAP(opt, neg, val, digest, callback)/
+REJCILONG	lcp.c	/^#define REJCILONG(opt, neg, val) \\$/
+REJCISHORT	lcp.c	/^#define REJCISHORT(opt, neg, val) \\$/
+REJCIVOID	lcp.c	/^#define REJCIVOID(opt, neg) \\$/
+ROTATE_LEFT	md5.c	/^#define ROTATE_LEFT(x, n) (((x) << (n)) | ((x) >> /
+Transform	md5.c	/^static void Transform (buf, in)$/
+adjtimeout	main.c	/^void adjtimeout()$/
+alrm	main.c	/^  alrm(sig, code, scp, addr)$/
+cleanup	main.c	/^  cleanup(status, arg)$/
+demuxprotrej	main.c	/^  demuxprotrej(unit, protocol)$/
+drand48	chap.c	/^double drand48()$/
+dumpbuffer	main.c	/^dumpbuffer(buffer, size, level)$/
+fsm_activeopen	fsm.c	/^  fsm_activeopen(f)$/
+fsm_close	fsm.c	/^  fsm_close(f)$/
+fsm_init	fsm.c	/^  fsm_init(f)$/
+fsm_input	fsm.c	/^  fsm_input(f, inpacket, l)$/
+fsm_lowerdown	fsm.c	/^  fsm_lowerdown(f)$/
+fsm_lowerup	fsm.c	/^  fsm_lowerup(f)$/
+fsm_passiveopen	fsm.c	/^  fsm_passiveopen(f)$/
+fsm_protreject	fsm.c	/^  fsm_protreject(f)$/
+fsm_rcoderej	fsm.c	/^  fsm_rcoderej(f, inp, len)$/
+fsm_rconfack	fsm.c	/^  fsm_rconfack(f, inp, id, len)$/
+fsm_rconfnak	fsm.c	/^  fsm_rconfnak(f, inp, id, len)$/
+fsm_rconfrej	fsm.c	/^  fsm_rconfrej(f, inp, id, len)$/
+fsm_rprotrej	fsm.c	/^  fsm_rprotrej(f, inp, len)$/
+fsm_rtermack	fsm.c	/^  fsm_rtermack(f)$/
+fsm_rtermreq	fsm.c	/^  fsm_rtermreq(f, id)$/
+fsm_sconfreq	fsm.c	/^  fsm_sconfreq(f)$/
+fsm_sdata	fsm.c	/^  fsm_sdata(f, code, id, data, datalen)$/
+fsm_timeout	fsm.c	/^  fsm_timeout(arg)$/
+get_secret	main.c	/^  get_secret(name, secret, secret_len)$/
+getuseropt	main.c	/^int getuseropt(user)$/
+getuserpasswd	main.c	/^  getuserpasswd()$/
+hup	main.c	/^  hup(sig, code, scp, addr)$/
+incdebug	main.c	/^  incdebug(sig, code, scp, addr)$/
+intr	main.c	/^  intr(sig, code, scp, addr)$/
+io	main.c	/^  io(sig, code, scp, addr)$/
+ip_ntoa	ipcp.c	/^ip_ntoa(ipaddr)$/
+ipcp_ackci	ipcp.c	/^  ipcp_ackci(f, p, len)$/
+ipcp_activeopen	ipcp.c	/^  ipcp_activeopen(unit)$/
+ipcp_addci	ipcp.c	/^  ipcp_addci(f, ucp)$/
+ipcp_cilen	ipcp.c	/^  ipcp_cilen(f)$/
+ipcp_close	ipcp.c	/^  ipcp_close(unit)$/
+ipcp_down	ipcp.c	/^  ipcp_down(f)$/
+ipcp_init	ipcp.c	/^  ipcp_init(unit)$/
+ipcp_input	ipcp.c	/^  ipcp_input(unit, p, len)$/
+ipcp_lowerdown	ipcp.c	/^  ipcp_lowerdown(unit)$/
+ipcp_lowerup	ipcp.c	/^  ipcp_lowerup(unit)$/
+ipcp_nakci	ipcp.c	/^  ipcp_nakci(f, p, len)$/
+ipcp_passiveopen	ipcp.c	/^void ipcp_passiveopen(unit)$/
+ipcp_protrej	ipcp.c	/^  ipcp_protrej(unit)$/
+ipcp_rejci	ipcp.c	/^  ipcp_rejci(f, p, len)$/
+ipcp_reqci	ipcp.c	/^  ipcp_reqci(f, inp, len)$/
+ipcp_resetci	ipcp.c	/^  ipcp_resetci(f)$/
+ipcp_up	ipcp.c	/^  ipcp_up(f)$/
+ipcp_vj_setmode	ipcp.c	/^  ipcp_vj_setmode(mode)$/
+lcp_ackci	lcp.c	/^  lcp_ackci(f, p, len)$/
+lcp_activeopen	lcp.c	/^  lcp_activeopen(unit)$/
+lcp_addci	lcp.c	/^  lcp_addci(f, ucp)$/
+lcp_cilen	lcp.c	/^  lcp_cilen(f)$/
+lcp_close	lcp.c	/^  lcp_close(unit)$/
+lcp_closed	lcp.c	/^  lcp_closed(f)$/
+lcp_down	lcp.c	/^  lcp_down(f)$/
+lcp_init	lcp.c	/^  lcp_init(unit)$/
+lcp_input	lcp.c	/^  lcp_input(unit, p, len)$/
+lcp_lowerdown	lcp.c	/^  lcp_lowerdown(unit)$/
+lcp_lowerup	lcp.c	/^  lcp_lowerup(unit)$/
+lcp_nakci	lcp.c	/^  lcp_nakci(f, p, len)$/
+lcp_passiveopen	lcp.c	/^  lcp_passiveopen(unit)$/
+lcp_protrej	lcp.c	/^  lcp_protrej(unit)$/
+lcp_rejci	lcp.c	/^  lcp_rejci(f, p, len)$/
+lcp_reqci	lcp.c	/^  lcp_reqci(f, inp, len)$/
+lcp_resetci	lcp.c	/^  lcp_resetci(f)$/
+lcp_sprotrej	lcp.c	/^  lcp_sprotrej(unit, p, len)$/
+lcp_up	lcp.c	/^  lcp_up(f)$/
+logf	main.c	/^logf(level, fmt, va_alist)$/
+login	main.c	/^  login(user, userlen, passwd, passwdlen, msg, msg/
+logout	main.c	/^void logout()$/
+logwtmp	logwtmp.c	/^logwtmp(line, name, host)$/
+magic	magic.c	/^u_long magic()$/
+magic_init	magic.c	/^void magic_init()$/
+noaccomp	main.c	/^  noaccomp(argcp, argvp)$/
+noasyncmap	main.c	/^  noasyncmap(argcp, argvp)$/
+nochap	main.c	/^  nochap(argcp, argvp)$/
+nodebug	main.c	/^  nodebug(sig, code, scp, addr)$/
+noipaddr	main.c	/^  noipaddr(argcp, argvp)$/
+nomagicnumber	main.c	/^  nomagicnumber(argcp, argvp)$/
+nomru	main.c	/^  nomru(argcp, argvp)$/
+noopt	main.c	/^  noopt(argcp, argvp)$/
+nopcomp	main.c	/^  nopcomp(argcp, argvp)$/
+noupap	main.c	/^  noupap(argcp, argvp)$/
+output	main.c	/^  output(unit, p, len)$/
+proto_name	main.c	/^proto_name(proto)$/
+quit	main.c	/^  quit()$/
+reqchap	main.c	/^  reqchap(argcp, argvp)$/
+requpap	main.c	/^  requpap(argcp, argvp)$/
+set_up_connection	main.c	/^int set_up_connection(program, in, out)$/
+set_up_tty	main.c	/^set_up_tty(fd, flow)$/
+setasyncmap	main.c	/^  setasyncmap(argcp, argvp) $/
+setconnector	main.c	/^  setconnector(argcp, argvp)$/
+setcrtscts	main.c	/^  setcrtscts(argcp, argvp)$/
+setdebug	main.c	/^  setdebug(argcp, argvp)$/
+setdevname	main.c	/^int setdevname(argcp, argvp)$/
+setdomain	main.c	/^  setdomain(argcp, argvp)$/
+setdtr	main.c	/^setdtr(fd, on)$/
+setipaddr	main.c	/^int setipaddr(argcp, argvp)$/
+setlogmask	main.c	/^#define setlogmask(x) (x)$/
+setmru	main.c	/^  setmru(argcp, argvp)$/
+setnetmask	main.c	/^  setnetmask(argcp, argvp)$/
+setnodetach	main.c	/^  setnodetach(argcp, argvp)$/
+setnovj	main.c	/^  setnovj(argcp, argvp)$/
+setpassive	main.c	/^  setpassive(argcp, argvp)$/
+setspeed	main.c	/^  setspeed(argcp, argvp)$/
+setvjmode	main.c	/^  setvjmode(argcp, argvp)$/
+srand48	chap.c	/^void srand48(seedval)$/
+str_restore	main.c	/^  str_restore()$/
+term	main.c	/^  term(sig, code, scp, addr)$/
+timeout	main.c	/^void timeout(func, arg, time)$/
+untimeout	main.c	/^void untimeout(func, arg)$/
+upap_authpeer	upap.c	/^  upap_authpeer(unit)$/
+upap_authwithpeer	upap.c	/^  upap_authwithpeer(unit)$/
+upap_init	upap.c	/^  upap_init(unit)$/
+upap_input	upap.c	/^  upap_input(unit, inpacket, l)$/
+upap_lowerdown	upap.c	/^  upap_lowerdown(unit)$/
+upap_lowerup	upap.c	/^  upap_lowerup(unit)$/
+upap_protrej	upap.c	/^  upap_protrej(unit)$/
+upap_rauth	upap.c	/^  upap_rauth(u, inp, id, len)$/
+upap_rauthack	upap.c	/^  upap_rauthack(u, inp, id, len)$/
+upap_rauthnak	upap.c	/^  upap_rauthnak(u, inp, id, len)$/
+upap_sauth	upap.c	/^  upap_sauth(u)$/
+upap_sresp	upap.c	/^  upap_sresp(u, code, id, msg, msglen)$/
+upap_timeout	upap.c	/^  upap_timeout(arg)$/

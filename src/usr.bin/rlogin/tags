@@ -1,0 +1,21 @@
+Mrlogin	rlogin.c	/^main(argc, argv)$/
+catch_child	rlogin.c	/^catch_child()$/
+copytochild	rlogin.c	/^copytochild()$/
+doit	rlogin.c	/^doit(omask)$/
+done	rlogin.c	/^done(status)$/
+echo	rlogin.c	/^echo(c)$/
+get_window_size	rlogin.c	/^#define	get_window_size(fd, wp)	ioctl(fd, TIOCGWIN/
+getescape	rlogin.c	/^getescape(p)$/
+lostpeer	rlogin.c	/^lostpeer()$/
+mode	rlogin.c	/^mode(f)$/
+msg	rlogin.c	/^msg(str)$/
+oob	rlogin.c	/^oob()$/
+reader	rlogin.c	/^reader(omask)$/
+sendwindow	rlogin.c	/^sendwindow()$/
+setsignal	rlogin.c	/^setsignal(sig, act)$/
+sigwinch	rlogin.c	/^sigwinch()$/
+stop	rlogin.c	/^stop(cmdc)$/
+usage	rlogin.c	/^usage()$/
+warning	rlogin.c	/^warning(va_alist)$/
+writer	rlogin.c	/^writer()$/
+writeroob	rlogin.c	/^writeroob()$/

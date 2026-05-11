@@ -1,0 +1,208 @@
+GNU_xref_begin	c-lang.c	/^GNU_xref_begin ()$/
+GNU_xref_end	c-lang.c	/^GNU_xref_end ()$/
+ISDIGIT	c-typeck.c	/^#define ISDIGIT(c)	((c) >= '0' && (c) <= '9')$/
+ISN_ZERO	c-iterate.c	/^#define ISN_ZERO(X) (X).first=(X).last=0$/
+PUSH_SPELLING	c-typeck.c	/^#define PUSH_SPELLING(KIND, VALUE, MEMBER)				\\$/
+RESTORE_SPELLING_DEPTH	c-typeck.c	/^#define RESTORE_SPELLING_DEPTH(depth) (spelling = /
+SAVE_SPELLING_DEPTH	c-typeck.c	/^#define SAVE_SPELLING_DEPTH(code)		\\$/
+SPELLING_DEPTH	c-typeck.c	/^#define SPELLING_DEPTH() (spelling - spelling_base/
+UNSET_RESERVED_WORD	c-lex.c	/^#define UNSET_RESERVED_WORD(STRING) \\$/
+YYBACKUP	c-parse.c	/^#define YYBACKUP(token, value) \\$/
+YYPRINT	c-parse.c	/^#define YYPRINT(FILE,YYCHAR,YYLVAL) yyprint(FILE,Y/
+YYRECOVERING	c-parse.c	/^#define YYRECOVERING()  (!!yyerrstatus)$/
+YYTRANSLATE	c-parse.c	/^#define YYTRANSLATE(x) ((unsigned)(x) <= 317 ? yyt/
+__yy_bcopy	c-parse.c	/^#define __yy_bcopy(FROM,TO,COUNT)	__builtin_memcpy/
+add_ixpansion	c-iterate.c	/^add_ixpansion (idecl, pro_start, pro_end, epi_star/
+affix_data_type	c-aux-info.c	/^affix_data_type (type_or_decl)$/
+build_array_ref	c-typeck.c	/^build_array_ref (array, index)$/
+build_binary_op	c-typeck.c	/^build_binary_op (code, orig_op0, orig_op1, convert/
+build_c_cast	c-typeck.c	/^build_c_cast (type, expr)$/
+build_component_ref	c-typeck.c	/^build_component_ref (datum, component)$/
+build_compound_expr	c-typeck.c	/^build_compound_expr (list)$/
+build_conditional_expr	c-typeck.c	/^build_conditional_expr (ifexp, op1, op2)$/
+build_enumerator	c-decl.c	/^build_enumerator (name, value)$/
+build_function_call	c-typeck.c	/^build_function_call (function, params)$/
+build_indirect_ref	c-typeck.c	/^build_indirect_ref (ptr, errorstring)$/
+build_modify_expr	c-typeck.c	/^build_modify_expr (lhs, modifycode, rhs)$/
+build_objc_string	c-lang.c	/^build_objc_string (len, str)$/
+build_unary_op	c-typeck.c	/^build_unary_op (code, xarg, noconvert)$/
+builtin_function	c-decl.c	/^builtin_function (name, type, function_code, libra/
+c_alignof	c-typeck.c	/^c_alignof (type)$/
+c_alignof_expr	c-typeck.c	/^c_alignof_expr (expr)$/
+c_decode_option	c-decl.c	/^c_decode_option (p)$/
+c_expand_asm_operands	c-typeck.c	/^c_expand_asm_operands (string, outputs, inputs, cl/
+c_expand_return	c-typeck.c	/^c_expand_return (retval)$/
+c_expand_start_case	c-typeck.c	/^c_expand_start_case (exp)$/
+c_mark_varargs	c-decl.c	/^c_mark_varargs ()$/
+c_size_in_bytes	c-typeck.c	/^c_size_in_bytes (type)$/
+c_sizeof	c-typeck.c	/^c_sizeof (type)$/
+c_sizeof_nowarn	c-typeck.c	/^c_sizeof_nowarn (type)$/
+check_format	c-typeck.c	/^check_format (info, params)$/
+check_newline	c-lex.c	/^check_newline ()$/
+clear_parm_order	c-decl.c	/^clear_parm_order ()$/
+collect_iterators	c-iterate.c	/^collect_iterators (exp, list)$/
+combine_parm_decls	c-decl.c	/^combine_parm_decls (specparms, parmlist, void_at_e/
+common_type	c-typeck.c	/^common_type (t1, t2)$/
+comp_target_types	c-typeck.c	/^comp_target_types (ttl, ttr)$/
+complete_array_type	c-decl.c	/^complete_array_type (type, initial_value, do_defau/
+comptypes	c-typeck.c	/^comptypes (type1, type2)$/
+concat	c-aux-info.c	/^concat (s1, s2)$/
+concat3	c-aux-info.c	/^concat3 (s1, s2, s3)$/
+convert	c-convert.c	/^convert (type, expr)$/
+convert_arguments	c-typeck.c	/^convert_arguments (typelist, values, name, fundecl/
+convert_for_assignment	c-typeck.c	/^convert_for_assignment (type, rhs, errtype, fundec/
+convert_sequence	c-typeck.c	/^convert_sequence (conversions, arg)$/
+decl_constant_value	c-typeck.c	/^decl_constant_value (decl)$/
+declare_parm_level	c-decl.c	/^declare_parm_level (definition_flag)$/
+default_conversion	c-typeck.c	/^default_conversion (exp)$/
+define_label	c-decl.c	/^define_label (filename, line, name)$/
+delete_block	c-decl.c	/^delete_block (block)$/
+delete_ixpansion	c-iterate.c	/^delete_ixpansion (idecl)$/
+deserves_ellipsis	c-aux-info.c	/^deserves_ellipsis (fntype)$/
+digest_init	c-typeck.c	/^digest_init (type, init, tail, require_constant, c/
+duplicate_decls	c-decl.c	/^duplicate_decls (newdecl, olddecl)$/
+error_init	c-typeck.c	/^error_init (format, local, ofwhat)$/
+expand_stmt_with_iterators_1	c-iterate.c	/^expand_stmt_with_iterators_1 (stmt, iter_list)$/
+extend_token_buffer	c-lex.c	/^extend_token_buffer (p)$/
+field_decl_cmp	c-decl.c	/^field_decl_cmp (x, y)$/
+finish_decl	c-decl.c	/^finish_decl (decl, init, asmspec_tree)$/
+finish_enum	c-decl.c	/^finish_enum (enumtype, values)$/
+finish_function	c-decl.c	/^finish_function (nested)$/
+finish_incomplete_decl	c-decl.c	/^finish_incomplete_decl (decl)$/
+finish_struct	c-decl.c	/^finish_struct (t, fieldlist)$/
+forget_protocol_qualifiers	c-lex.c	/^forget_protocol_qualifiers ()$/
+function_types_compatible_p	c-typeck.c	/^function_types_compatible_p (f1, f2)$/
+gen_aux_info_record	c-aux-info.c	/^gen_aux_info_record (fndecl, is_definition, is_imp/
+gen_decl	c-aux-info.c	/^gen_decl (decl, is_func_definition, style)$/
+gen_formal_list_for_func_def	c-aux-info.c	/^gen_formal_list_for_func_def (fndecl, style)$/
+gen_formal_list_for_type	c-aux-info.c	/^gen_formal_list_for_type (fntype, style)$/
+gen_type	c-aux-info.c	/^gen_type (ret_val, t, style)$/
+get_parm_info	c-decl.c	/^get_parm_info (void_at_end)$/
+get_spelling	c-typeck.c	/^get_spelling (errtype)$/
+getdecls	c-decl.c	/^getdecls ()$/
+gettags	c-decl.c	/^gettags ()$/
+global_bindings_p	c-decl.c	/^global_bindings_p ()$/
+grokdeclarator	c-decl.c	/^grokdeclarator (declarator, declspecs, decl_contex/
+grokfield	c-decl.c	/^grokfield (filename, line, declarator, declspecs, /
+grokparms	c-decl.c	/^grokparms (parms_info, funcdef_flag)$/
+groktypename	c-decl.c	/^groktypename (typename)$/
+groktypename_in_parm_context	c-decl.c	/^groktypename_in_parm_context (typename)$/
+handle_pragma_token	c-pragma.c	/^handle_pragma_token (string, token)$/
+handle_sysv_pragma	c-lex.c	/^handle_sysv_pragma (input, c)$/
+hash	c-lex.c	/^hash (str, len)$/
+implicitly_declare	c-decl.c	/^implicitly_declare (functionid)$/
+in_parm_level_p	c-decl.c	/^in_parm_level_p ()$/
+incomplete_type_error	c-typeck.c	/^incomplete_type_error (value, type)$/
+init_decl_processing	c-decl.c	/^init_decl_processing ()$/
+init_format_info_table	c-typeck.c	/^init_format_info_table ()$/
+init_iterators	c-iterate.c	/^init_iterators ()$/
+init_lex	c-lex.c	/^init_lex ()$/
+initializer_constant_valid_p	c-typeck.c	/^initializer_constant_valid_p (value, endtype)$/
+insert_block	c-decl.c	/^insert_block (block)$/
+internal_build_compound_expr	c-typeck.c	/^internal_build_compound_expr (list, first_p)$/
+is_class_name	c-lang.c	/^is_class_name (arg)$/
+is_reserved_word	c-lex.c	/^is_reserved_word (str, len)$/
+isalnum	c-lex.c	/^#define isalnum(char) ((char >= 'a' && char <= 'z'/
+isdigit	c-lex.c	/^#define isdigit(char) (char >= '0' && char <= '9')/
+isn_append	c-iterate.c	/^isn_append (x, y)$/
+istack_sublevel_to_current	c-iterate.c	/^istack_sublevel_to_current ()$/
+iterator_expand	c-iterate.c	/^iterator_expand (stmt)$/
+iterator_for_loop_end	c-iterate.c	/^iterator_for_loop_end (idecl)$/
+iterator_for_loop_start	c-iterate.c	/^iterator_for_loop_start (idecl)$/
+iterator_loop_epilogue	c-iterate.c	/^iterator_loop_epilogue (idecl, start_note, end_not/
+iterator_loop_prologue	c-iterate.c	/^iterator_loop_prologue (idecl, start_note, end_not/
+keep_next_level	c-decl.c	/^keep_next_level ()$/
+kept_level_p	c-decl.c	/^kept_level_p ()$/
+lang_decode_option	c-lang.c	/^lang_decode_option (p)$/
+lang_finish	c-lang.c	/^lang_finish ()$/
+lang_identify	c-lang.c	/^lang_identify ()$/
+lang_init	c-lang.c	/^lang_init ()$/
+layout_array_type	c-decl.c	/^layout_array_type (t)$/
+lookup_interface	c-lang.c	/^lookup_interface (arg)$/
+lookup_label	c-decl.c	/^lookup_label (id)$/
+lookup_name	c-decl.c	/^lookup_name (name)$/
+lookup_name_current_level	c-decl.c	/^lookup_name_current_level (name)$/
+lookup_tag	c-decl.c	/^lookup_tag (code, name, binding_level, thislevel_o/
+lookup_tag_reverse	c-decl.c	/^lookup_tag_reverse (type)$/
+lvalue_or_else	c-typeck.c	/^lvalue_or_else (ref, string)$/
+lvalue_p	c-typeck.c	/^lvalue_p (ref)$/
+make_binding_level	c-decl.c	/^make_binding_level ()$/
+make_pointer_declarator	c-lex.c	/^make_pointer_declarator (type_quals, target)$/
+mark_addressable	c-typeck.c	/^mark_addressable (exp)$/
+maybe_build_cleanup	c-decl.c	/^maybe_build_cleanup (decl)$/
+maybe_building_objc_message_expr	c-lang.c	/^maybe_building_objc_message_expr ()$/
+maybe_objc_check_decl	c-lang.c	/^maybe_objc_check_decl (decl)$/
+maybe_objc_comptypes	c-lang.c	/^maybe_objc_comptypes (lhs, rhs, reflexive)$/
+maybe_objc_method_name	c-lang.c	/^maybe_objc_method_name (decl)$/
+parmlist_tags_warning	c-decl.c	/^parmlist_tags_warning ()$/
+parser_build_binary_op	c-typeck.c	/^parser_build_binary_op (code, arg1, arg2)$/
+pedantic_lvalue_warning	c-typeck.c	/^pedantic_lvalue_warning (code)$/
+pedwarn_init	c-typeck.c	/^pedwarn_init (format, local, ofwhat)$/
+pending_xref_error	c-decl.c	/^pending_xref_error ()$/
+pil	c-iterate.c	/^pil (head)$/
+pis	c-iterate.c	/^pis ()$/
+pixl	c-iterate.c	/^pixl (head)$/
+pointer_diff	c-typeck.c	/^pointer_diff (op0, op1)$/
+pointer_int_sum	c-typeck.c	/^pointer_int_sum (resultcode, ptrop, intop)$/
+pop_c_function_context	c-decl.c	/^pop_c_function_context ()$/
+pop_iterator_stack	c-iterate.c	/^pop_iterator_stack ()$/
+pop_label_level	c-decl.c	/^pop_label_level ()$/
+poplevel	c-decl.c	/^poplevel (keep, reverse, functionbody)$/
+position_after_white_space	c-lex.c	/^position_after_white_space ()$/
+prdecl	c-iterate.c	/^prdecl (d)$/
+print_lang_decl	c-decl.c	/^print_lang_decl ()$/
+print_lang_identifier	c-decl.c	/^print_lang_identifier (file, node, indent)$/
+print_lang_statistics	c-lang.c	/^print_lang_statistics ()$/
+print_lang_type	c-decl.c	/^print_lang_type ()$/
+print_spelling	c-typeck.c	/^print_spelling (buffer)$/
+process_init_constructor	c-typeck.c	/^process_init_constructor (type, init, elts, consta/
+push_array_bounds	c-typeck.c	/^push_array_bounds (bounds)$/
+push_c_function_context	c-decl.c	/^push_c_function_context ()$/
+push_iterator_stack	c-iterate.c	/^push_iterator_stack ()$/
+push_label_level	c-decl.c	/^push_label_level ()$/
+push_member_name	c-typeck.c	/^push_member_name (string)$/
+push_parm_decl	c-decl.c	/^push_parm_decl (parm)$/
+push_string	c-typeck.c	/^push_string (string)$/
+pushdecl	c-decl.c	/^pushdecl (x)$/
+pushdecl_top_level	c-decl.c	/^pushdecl_top_level (x)$/
+pushlevel	c-decl.c	/^pushlevel (tag_transparent)$/
+pushtag	c-decl.c	/^pushtag (name, type)$/
+qualify_type	c-typeck.c	/^qualify_type (type, like)$/
+readescape	c-lex.c	/^readescape (ignore_ptr)$/
+readonly_warning	c-typeck.c	/^readonly_warning (arg, string)$/
+recognize_objc_keyword	c-lang.c	/^recognize_objc_keyword ()$/
+record_format_info	c-typeck.c	/^record_format_info (function_ident, is_scan, forma/
+redeclaration_error_message	c-decl.c	/^redeclaration_error_message (newdecl, olddecl)$/
+reinit_parse_for_function	c-lex.c	/^reinit_parse_for_function ()$/
+remember_protocol_qualifiers	c-lex.c	/^remember_protocol_qualifiers ()$/
+require_complete_type	c-typeck.c	/^require_complete_type (value)$/
+ridpointers	c-lex.c	/^tree ridpointers[(int) RID_MAX];$/
+self_promoting_args_p	c-typeck.c	/^self_promoting_args_p (parms)$/
+self_promoting_type_p	c-typeck.c	/^self_promoting_type_p (type)$/
+set_block	c-decl.c	/^set_block (block)$/
+set_yydebug	c-lex.c	/^set_yydebug (value)$/
+shadow_label	c-decl.c	/^shadow_label (name)$/
+shadow_tag	c-decl.c	/^shadow_tag (declspecs)$/
+shadow_tag_warned	c-decl.c	/^shadow_tag_warned (declspecs, warned)$/
+signed_or_unsigned_type	c-typeck.c	/^signed_or_unsigned_type (unsignedp, type)$/
+signed_type	c-typeck.c	/^signed_type (type)$/
+skip_white_space	c-lex.c	/^skip_white_space (c)$/
+spelling_length	c-typeck.c	/^spelling_length ()$/
+start_decl	c-decl.c	/^start_decl (declarator, declspecs, initialized)$/
+start_enum	c-decl.c	/^start_enum (name)$/
+start_function	c-decl.c	/^start_function (declspecs, declarator, nested)$/
+start_struct	c-decl.c	/^start_struct (code, name)$/
+store_init_value	c-typeck.c	/^store_init_value (decl, init)$/
+store_parm_decls	c-decl.c	/^store_parm_decls ()$/
+storedecls	c-decl.c	/^storedecls (decls)$/
+storetags	c-decl.c	/^storetags (tags)$/
+top_level_ixpansion_p	c-iterate.c	/^top_level_ixpansion_p ()$/
+type_lists_compatible_p	c-typeck.c	/^type_lists_compatible_p (args1, args2)$/
+unary_complex_lvalue	c-typeck.c	/^unary_complex_lvalue (code, arg)$/
+unsigned_type	c-typeck.c	/^unsigned_type (type)$/
+warn_for_assignment	c-typeck.c	/^warn_for_assignment (msg, opname, function, argnum/
+xref_tag	c-decl.c	/^xref_tag (code, name)$/
+yyerror	c-lex.c	/^yyerror (string)$/
+yylex	c-lex.c	/^yylex ()$/
+yyparse	c-parse.c	/^yyparse()$/
+yyprint	c-lex.c	/^yyprint (file, yychar, yylval)$/

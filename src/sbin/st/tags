@@ -1,0 +1,5 @@
+Mst	st.c	/^main(argc, argv)$/
+equal	st.c	/^#define	equal(s1,s2)	(strcmp(s1, s2) == 0)$/
+printreg	st.c	/^printreg(s, v, bits)$/
+status	st.c	/^status(bp)$/
+usage	st.c	/^void usage() {$/

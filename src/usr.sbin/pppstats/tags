@@ -1,0 +1,2 @@
+Mpppstats	pppstats.c	/^main(argc, argv)$/
+V	pppstats.c	/^#define V(offset) ((line % 20)? sc->offset - osc->/

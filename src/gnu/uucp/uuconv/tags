@@ -1,0 +1,29 @@
+CHANGED	uuconv.c	/^#define CHANGED(x) (qlast == NULL || qlast->x != q/
+Muuconv	uuconv.c	/^main (argc, argv)$/
+fvperm_array_cmp	uuconv.c	/^fvperm_array_cmp (pz1, pz2)$/
+fvperm_string_cmp	uuconv.c	/^fvperm_string_cmp (z1, z2)$/
+ivwrite_hdb_port	uuconv.c	/^ivwrite_hdb_port (qport, pinfo)$/
+ivwrite_taylor_port	uuconv.c	/^ivwrite_taylor_port (qport, pinfo)$/
+ivwrite_v2_port	uuconv.c	/^ivwrite_v2_port (qport, pinfo)$/
+uvadd_perm	uuconv.c	/^uvadd_perm (qadd)$/
+uvusage	uuconv.c	/^uvusage ()$/
+uvuuconf_error	uuconv.c	/^uvuuconf_error (puuconf, iret)$/
+uvwrite_boolean	uuconv.c	/^uvwrite_boolean (e, fval, zcmd)$/
+uvwrite_chat	uuconv.c	/^uvwrite_chat (e, q, qlast, zprefix, fforce)$/
+uvwrite_chat_script	uuconv.c	/^uvwrite_chat_script (e, pzarg)$/
+uvwrite_hdb_dialer	uuconv.c	/^uvwrite_hdb_dialer (e, qdialer)$/
+uvwrite_hdb_system	uuconv.c	/^uvwrite_hdb_system (e, qsys)$/
+uvwrite_perm_array	uuconv.c	/^uvwrite_perm_array (e, pzarg, zcmd, pccol)$/
+uvwrite_perm_boolean	uuconv.c	/^uvwrite_perm_boolean (e, f, zcmd, pccol, fsendfile/
+uvwrite_perm_rw_array	uuconv.c	/^uvwrite_perm_rw_array (e, pzarg, zcmd, pccol)$/
+uvwrite_perm_string	uuconv.c	/^uvwrite_perm_string (e, z, zcmd, pccol)$/
+uvwrite_perms	uuconv.c	/^uvwrite_perms ()$/
+uvwrite_proto_params	uuconv.c	/^uvwrite_proto_params (e, qparams, zprefix)$/
+uvwrite_size	uuconv.c	/^uvwrite_size (e, qtime, zcmd)$/
+uvwrite_string	uuconv.c	/^uvwrite_string (e, zarg, zcmd)$/
+uvwrite_string_array	uuconv.c	/^uvwrite_string_array (e, pz, zcmd)$/
+uvwrite_taylor_dialer	uuconv.c	/^uvwrite_taylor_dialer (e, qdialer, zprefix)$/
+uvwrite_taylor_port	uuconv.c	/^uvwrite_taylor_port (e, qport, zprefix)$/
+uvwrite_taylor_system	uuconv.c	/^uvwrite_taylor_system (e, q)$/
+uvwrite_time	uuconv.c	/^uvwrite_time (e, qtime)$/
+uvwrite_v2_system	uuconv.c	/^uvwrite_v2_system (e, q)$/

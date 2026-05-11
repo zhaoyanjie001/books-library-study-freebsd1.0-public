@@ -1,0 +1,15 @@
+Mrstatd	rstatd.c	/^main(argc, argv)$/
+cleanup	rstatd.c	/^cleanup()$/
+havedisk	rstat_proc.c	/^havedisk()$/
+kvm_nlist	rstat_proc.c	/^kvm_nlist(nl)$/
+kvm_read	rstat_proc.c	/^kvm_read(off, addr, size)$/
+rstat_service	rstat_proc.c	/^rstat_service(rqstp, transp)$/
+rstatproc_havedisk_1	rstat_proc.c	/^rstatproc_havedisk_1()$/
+rstatproc_havedisk_2	rstat_proc.c	/^rstatproc_havedisk_2()$/
+rstatproc_havedisk_3	rstat_proc.c	/^rstatproc_havedisk_3()$/
+rstatproc_stats_1	rstat_proc.c	/^rstatproc_stats_1()$/
+rstatproc_stats_2	rstat_proc.c	/^rstatproc_stats_2()$/
+rstatproc_stats_3	rstat_proc.c	/^rstatproc_stats_3()$/
+setup	rstat_proc.c	/^setup()$/
+stat_init	rstat_proc.c	/^stat_init()$/
+updatestat	rstat_proc.c	/^updatestat()$/

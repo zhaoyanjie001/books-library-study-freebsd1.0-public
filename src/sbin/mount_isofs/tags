@@ -1,0 +1,2 @@
+Mmount_isofs	mount_isofs.c	/^main (argc, argv)$/
+usage	mount_isofs.c	/^usage ()$/

@@ -1,0 +1,8 @@
+Mmanpath	manpath.c	/^main(argc, argv)$/
+add_dir_to_list	manpath.c	/^add_dir_to_list (lp, dir, perrs)$/
+def_path	manpath.c	/^def_path (perrs)$/
+get_dirlist	manpath.c	/^get_dirlist ()$/
+get_manpath	manpath.c	/^get_manpath (perrs, path)$/
+has_subdirs	manpath.c	/^has_subdirs (p)$/
+manpath	manpath.c	/^manpath (perrs)$/
+usage	manpath.c	/^usage ()$/

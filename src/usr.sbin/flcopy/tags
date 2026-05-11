@@ -1,0 +1,6 @@
+Mflcopy	flcopy.c	/^main(argc, argv)$/
+lread	flcopy.c	/^lread(startad, count, obuff)$/
+lwrite	flcopy.c	/^lwrite(startad, count, obuff)$/
+rt_init	flcopy.c	/^rt_init()$/
+trans	flcopy.c	/^trans(logical)$/
+usage	flcopy.c	/^usage()$/

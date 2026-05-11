@@ -1,0 +1,2 @@
+Mrwall	rwall.c	/^main(argc, argv)$/
+makemsg	rwall.c	/^makemsg(fname)$/

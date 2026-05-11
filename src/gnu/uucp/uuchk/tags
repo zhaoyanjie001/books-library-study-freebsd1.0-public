@@ -1,0 +1,11 @@
+Muuchk	uuchk.c	/^main (argc, argv)$/
+ikshow_port	uuchk.c	/^ikshow_port (qport, pinfo)$/
+qcompress_span	uuchk.c	/^qcompress_span (qlist)$/
+ukshow	uuchk.c	/^ukshow (qsys, puuconf)$/
+ukshow_chat	uuchk.c	/^ukshow_chat (qchat, zhdr)$/
+ukshow_dialer	uuchk.c	/^ukshow_dialer (q)$/
+ukshow_proto_params	uuchk.c	/^ukshow_proto_params (pas, cindent)$/
+ukshow_size	uuchk.c	/^ukshow_size (qspan, fcall, flocal)$/
+ukshow_time	uuchk.c	/^ukshow_time (q)$/
+ukusage	uuchk.c	/^ukusage ()$/
+ukuuconf_error	uuchk.c	/^ukuuconf_error (puuconf, iret)$/

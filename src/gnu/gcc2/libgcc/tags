@@ -1,0 +1,74 @@
+__adddf3	_adddf3.c	/^__adddf3 (a, b)$/
+__addsf3	_addsf3.c	/^__addsf3 (a, b)$/
+__ashldi3	_ashldi3.c	/^__ashldi3 (u, b)$/
+__ashlsi3	_ashlsi3.c	/^__ashlsi3 (a, b)$/
+__ashrdi3	_ashrdi3.c	/^__ashrdi3 (u, b)$/
+__ashrsi3	_ashrsi3.c	/^__ashrsi3 (a, b)$/
+__bb_avoid_warning	_bb.c	/^__bb_avoid_warning ()$/
+__builtin_delete	_op_delete.c	/^__builtin_delete (void *ptr)$/
+__builtin_new	_op_new.c	/^__builtin_new (size_t sz)$/
+__builtin_saveregs	_varargs.c	/^__builtin_saveregs ()$/
+__clear_cache	_clear_cache.c	/^__clear_cache (beg, end)$/
+__cmpdi2	_cmpdi2.c	/^__cmpdi2 (a, b)$/
+__divdf3	_divdf3.c	/^__divdf3 (a, b)$/
+__divdi3	_divdi3.c	/^__divdi3 (u, v)$/
+__divsf3	_divsf3.c	/^__divsf3 (a, b)$/
+__divsi3	_divsi3.c	/^__divsi3 (a, b)$/
+__do_global_ctors	__main.c	/^__do_global_ctors ()$/
+__do_global_dtors	__main.c	/^__do_global_dtors ()$/
+__eprintf	_eprintf.c	/^__eprintf (string, expression, line, filename)$/
+__eqdf2	_eqdf2.c	/^__eqdf2 (a, b)$/
+__eqsf2	_eqsf2.c	/^__eqsf2 (a, b)$/
+__extendsfdf2	_extendsfdf2.c	/^__extendsfdf2 (a)$/
+__ffsdi2	_ffsdi2.c	/^__ffsdi2 (u)$/
+__fixdfdi	_fixdfdi.c	/^__fixdfdi (a)$/
+__fixdfsi	_fixdfsi.c	/^__fixdfsi (a)$/
+__fixsfdi	_fixsfdi.c	/^__fixsfdi (SFtype a)$/
+__fixsfsi	_fixsfsi.c	/^__fixsfsi (a)$/
+__fixunsdfdi	_fixunsdfdi.c	/^__fixunsdfdi (a)$/
+__fixunsdfsi	_fixunsdfsi.c	/^__fixunsdfsi (a)$/
+__fixunssfdi	_fixunssfdi.c	/^__fixunssfdi (SFtype original_a)$/
+__fixunssfsi	_fixunssfsi.c	/^__fixunssfsi (SFtype a)$/
+__floatdidf	_floatdidf.c	/^__floatdidf (u)$/
+__floatdisf	_floatdisf.c	/^__floatdisf (u)$/
+__floatsidf	_floatsidf.c	/^__floatsidf (a)$/
+__floatsisf	_floatsisf.c	/^__floatsisf (a)$/
+__gcc_bcmp	__gcc_bcmp.c	/^__gcc_bcmp (s1, s2, size)$/
+__gedf2	_gedf2.c	/^__gedf2 (a, b)$/
+__gesf2	_gesf2.c	/^__gesf2 (a, b)$/
+__gtdf2	_gtdf2.c	/^__gtdf2 (a, b)$/
+__gtsf2	_gtsf2.c	/^__gtsf2 (a, b)$/
+__ledf2	_ledf2.c	/^__ledf2 (a, b)$/
+__lesf2	_lesf2.c	/^__lesf2 (a, b)$/
+__lshldi3	_lshldi3.c	/^__lshldi3 (u, b)$/
+__lshlsi3	_lshlsi3.c	/^__lshlsi3 (a, b)$/
+__lshrdi3	_lshrdi3.c	/^__lshrdi3 (u, b)$/
+__lshrsi3	_lshrsi3.c	/^__lshrsi3 (a, b)$/
+__ltdf2	_ltdf2.c	/^__ltdf2 (a, b)$/
+__ltsf2	_ltsf2.c	/^__ltsf2 (a, b)$/
+__main	__main.c	/^__main ()$/
+__moddi3	_moddi3.c	/^__moddi3 (u, v)$/
+__modsi3	_modsi3.c	/^__modsi3 (a, b)$/
+__muldf3	_muldf3.c	/^__muldf3 (a, b)$/
+__muldi3	_muldi3.c	/^__muldi3 (u, v)$/
+__mulsf3	_mulsf3.c	/^__mulsf3 (a, b)$/
+__mulsi3	_mulsi3.c	/^__mulsi3 (a, b)$/
+__nedf2	_nedf2.c	/^__nedf2 (a, b)$/
+__negdf2	_negdf2.c	/^__negdf2 (a)$/
+__negdi2	_divdi3.c	/^__negdi2 (u)$/
+__negsf2	_negsf2.c	/^__negsf2 (a)$/
+__nesf2	_nesf2.c	/^__nesf2 (a, b)$/
+__set_new_handler	_new_handler.c	/^__set_new_handler (handler)$/
+__sputc	_eprintf.c	/^static __inline__ int __sputc(int _c, FILE *_p) {$/
+__subdf3	_subdf3.c	/^__subdf3 (a, b)$/
+__subsf3	_subsf3.c	/^__subsf3 (a, b)$/
+__truncdfsf2	_truncdfsf2.c	/^__truncdfsf2 (a)$/
+__ucmpdi2	_ucmpdi2.c	/^__ucmpdi2 (a, b)$/
+__udiv_w_sdiv	_udiv_w_sdiv.c	/^__udiv_w_sdiv (rp, a1, a0, d)$/
+__udivdi3	_udivdi3.c	/^__udivdi3 (n, d)$/
+__udivmoddi4	_udivmoddi4.c	/^__udivmoddi4 (n, d, rp)$/
+__udivsi3	_udivsi3.c	/^__udivsi3 (a, b)$/
+__umoddi3	_umoddi3.c	/^__umoddi3 (u, v)$/
+__umodsi3	_umodsi3.c	/^__umodsi3 (a, b)$/
+default_new_handler	_new_handler.c	/^default_new_handler ()$/
+set_new_handler	_new_handler.c	/^set_new_handler (handler)$/

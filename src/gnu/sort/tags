@@ -1,0 +1,37 @@
+Msort	sort.c	/^main (argc, argv)$/
+UCHAR	sort.c	/^#define UCHAR(c) ((unsigned char) (c))$/
+VA_START	error.c	/^#define VA_START(args, lastarg) va_start(args, las/
+badfieldspec	sort.c	/^badfieldspec (s)$/
+begfield	sort.c	/^begfield (line, key)$/
+check	sort.c	/^check (files, nfiles)$/
+checkfp	sort.c	/^checkfp (fp)$/
+cleanup	sort.c	/^cleanup ()$/
+compare	sort.c	/^compare (a, b)$/
+error	error.c	/^error (status, errnum, message, va_alist)$/
+fillbuf	sort.c	/^fillbuf (buf, fp)$/
+findlines	sort.c	/^findlines (buf, lines)$/
+fraccompare	sort.c	/^fraccompare (a, b)$/
+getmonth	sort.c	/^getmonth (s, len)$/
+initbuf	sort.c	/^initbuf (buf, alloc)$/
+initlines	sort.c	/^initlines (lines, alloc, limit)$/
+inittables	sort.c	/^inittables ()$/
+insertkey	sort.c	/^insertkey (key)$/
+keycompare	sort.c	/^keycompare (a, b)$/
+limfield	sort.c	/^limfield (line, key)$/
+merge	sort.c	/^merge (files, nfiles, ofp)$/
+mergefps	sort.c	/^mergefps (fps, nfps, ofp)$/
+min	sort.c	/^#define min(a, b) ((a) < (b) ? (a) : (b))$/
+numcompare	sort.c	/^numcompare (a, b)$/
+private_strerror	error.c	/^private_strerror (errnum)$/
+set_ordering	sort.c	/^set_ordering (s, key, blanktype)$/
+sighandler	sort.c	/^sighandler (sig)$/
+sort	sort.c	/^sort (files, nfiles, ofp)$/
+sortlines	sort.c	/^sortlines (lines, nlines, temp)$/
+tempname	sort.c	/^tempname ()$/
+usage	sort.c	/^usage ()$/
+xfclose	sort.c	/^xfclose (fp)$/
+xfopen	sort.c	/^xfopen (file, how)$/
+xfwrite	sort.c	/^xfwrite (buf, size, nelem, fp)$/
+xmalloc	sort.c	/^xmalloc (n)$/
+xrealloc	sort.c	/^xrealloc (p, n)$/
+zaptemp	sort.c	/^zaptemp (name)$/

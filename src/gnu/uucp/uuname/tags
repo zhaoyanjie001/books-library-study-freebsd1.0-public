@@ -1,0 +1,15 @@
+Muuname	uuname.c	/^main (argc, argv)$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+unusage	uuname.c	/^unusage ()$/
+unuuconf_error	uuname.c	/^unuuconf_error (puuconf, iret)$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/

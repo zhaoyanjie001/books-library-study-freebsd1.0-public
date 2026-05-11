@@ -1,0 +1,7 @@
+Mref	ref.c	/^void main(argc, argv)$/
+cktagdir	ref.c	/^char *cktagdir(tag, dir)$/
+countcolons	ref.c	/^int countcolons(str)$/
+find	ref.c	/^int find(tag)$/
+getline	ref.c	/^int getline(buf, limit, fp)$/
+lookup	ref.c	/^int lookup(dir, entry)$/
+usage	ref.c	/^void usage()$/

@@ -1,0 +1,25 @@
+Muucp	uucp.c	/^main (argc, argv)$/
+fcopy_file	../common_sources/copy.c	/^fcopy_file (zfrom, zto, fpublic, fmkdirs)$/
+fcopy_open_file	../common_sources/copy.c	/^fcopy_open_file (efrom, zto, fpublic, fmkdirs)$/
+fin_directory_list	../common_sources/util.c	/^fin_directory_list (zfile, pzdirs, zpubdir, fcheck/
+funknown_system	../common_sources/util.c	/^funknown_system (puuconf, zsystem, qsys)$/
+ucabort	uucp.c	/^ucabort ()$/
+ucadd_cmd	uucp.c	/^ucadd_cmd (qsys, qcmd, zlog)$/
+uccopy	uucp.c	/^uccopy (zfile, zdest)$/
+ucdirfile	uucp.c	/^ucdirfile (zfull, zrelative, pinfo)$/
+ucrecord_file	uucp.c	/^ucrecord_file (zfile)$/
+ucspool_cmds	uucp.c	/^ucspool_cmds (fjobid)$/
+ucusage	uucp.c	/^ucusage ()$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zcone_system	uucp.c	/^zcone_system (pfany)$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/

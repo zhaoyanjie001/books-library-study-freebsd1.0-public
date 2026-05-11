@@ -1,0 +1,363 @@
+DEFTREECODE	objc-act.c	/^#define DEFTREECODE(SYM, NAME, TYPE, LENGTH) TYPE,/
+HASHFUNCTION	objc-act.c	/^#define HASHFUNCTION(key)	((HOST_WIDE_INT) key & 0/
+ISDIGIT	../cc1/c-typeck.c	/^#define ISDIGIT(c)	((c) >= '0' && (c) <= '9')$/
+ISN_ZERO	../cc1/c-iterate.c	/^#define ISN_ZERO(X) (X).first=(X).last=0$/
+IS_ID	objc-act.c	/^#define IS_ID(TYPE) \\$/
+IS_PROTOCOL_QUALIFIED_ID	objc-act.c	/^#define IS_PROTOCOL_QUALIFIED_ID(TYPE) \\$/
+IS_SUPER	objc-act.c	/^#define IS_SUPER(TYPE) \\$/
+OBJC_GEN_METHOD_LABEL	objc-act.c	/^#define OBJC_GEN_METHOD_LABEL(BUF, IS_INST, CLASS_/
+PUSH_SPELLING	../cc1/c-typeck.c	/^#define PUSH_SPELLING(KIND, VALUE, MEMBER)				\\$/
+RAW_TYPESPEC	objc-act.c	/^#define RAW_TYPESPEC(meth) (TREE_VALUE (TREE_PURPO/
+RESTORE_SPELLING_DEPTH	../cc1/c-typeck.c	/^#define RESTORE_SPELLING_DEPTH(depth) (spelling = /
+SAVE_SPELLING_DEPTH	../cc1/c-typeck.c	/^#define SAVE_SPELLING_DEPTH(code)		\\$/
+SPELLING_DEPTH	../cc1/c-typeck.c	/^#define SPELLING_DEPTH() (spelling - spelling_base/
+TREE_STATIC_TEMPLATE	objc-act.c	/^#define TREE_STATIC_TEMPLATE(record_type) (TREE_PU/
+TYPED_OBJECT	objc-act.c	/^#define TYPED_OBJECT(type) \\$/
+UNSET_RESERVED_WORD	../cc1/c-lex.c	/^#define UNSET_RESERVED_WORD(STRING) \\$/
+USERTYPE	objc-act.c	/^#define USERTYPE(t)	(TREE_CODE (t) == RECORD_TYPE /
+YYBACKUP	objc-parse.c	/^#define YYBACKUP(token, value) \\$/
+YYPRINT	objc-parse.c	/^#define YYPRINT(FILE,YYCHAR,YYLVAL) yyprint(FILE,Y/
+YYRECOVERING	objc-parse.c	/^#define YYRECOVERING()  (!!yyerrstatus)$/
+YYTRANSLATE	objc-parse.c	/^#define YYTRANSLATE(x) ((unsigned)(x) <= 317 ? yyt/
+__yy_bcopy	objc-parse.c	/^#define __yy_bcopy(FROM,TO,COUNT)	__builtin_memcpy/
+add_category	objc-act.c	/^add_category (class, category)$/
+add_class	objc-act.c	/^add_class (class)$/
+add_class_method	objc-act.c	/^add_class_method (class, method)$/
+add_class_reference	objc-act.c	/^add_class_reference (ident)$/
+add_instance_method	objc-act.c	/^add_instance_method (class, method)$/
+add_instance_variable	objc-act.c	/^add_instance_variable (class, public, declarator, /
+add_ixpansion	../cc1/c-iterate.c	/^add_ixpansion (idecl, pro_start, pro_end, epi_star/
+add_objc_decls	objc-act.c	/^add_objc_decls ()$/
+add_objc_string	objc-act.c	/^add_objc_string (ident, section)$/
+add_protocol	objc-act.c	/^add_protocol (protocol)$/
+adjust_type_for_id_default	objc-act.c	/^adjust_type_for_id_default (type)$/
+adorn_decl	objc-act.c	/^adorn_decl (decl, str)$/
+affix_data_type	../cc1/c-aux-info.c	/^affix_data_type (type_or_decl)$/
+build_array_ref	../cc1/c-typeck.c	/^build_array_ref (array, index)$/
+build_binary_op	../cc1/c-typeck.c	/^build_binary_op (code, orig_op0, orig_op1, convert/
+build_c_cast	../cc1/c-typeck.c	/^build_c_cast (type, expr)$/
+build_category_initializer	objc-act.c	/^build_category_initializer (cat_name, class_name,$/
+build_category_template	objc-act.c	/^build_category_template ()$/
+build_class_reference_decl	objc-act.c	/^build_class_reference_decl (name)$/
+build_class_template	objc-act.c	/^build_class_template ()$/
+build_component_ref	../cc1/c-typeck.c	/^build_component_ref (datum, component)$/
+build_compound_expr	../cc1/c-typeck.c	/^build_compound_expr (list)$/
+build_conditional_expr	../cc1/c-typeck.c	/^build_conditional_expr (ifexp, op1, op2)$/
+build_descriptor_table_initializer	objc-act.c	/^build_descriptor_table_initializer (entries, size)/
+build_dispatch_table_initializer	objc-act.c	/^build_dispatch_table_initializer (entries, size)$/
+build_encode_expr	objc-act.c	/^build_encode_expr (type)$/
+build_enumerator	../cc1/c-decl.c	/^build_enumerator (name, value)$/
+build_function_call	../cc1/c-typeck.c	/^build_function_call (function, params)$/
+build_indirect_ref	../cc1/c-typeck.c	/^build_indirect_ref (ptr, errorstring)$/
+build_ivar_chain	objc-act.c	/^build_ivar_chain (interface, copy)$/
+build_ivar_list_initializer	objc-act.c	/^build_ivar_list_initializer (field_decl, size)$/
+build_ivar_list_template	objc-act.c	/^build_ivar_list_template (list_type, size)$/
+build_ivar_reference	objc-act.c	/^build_ivar_reference (id)$/
+build_ivar_template	objc-act.c	/^build_ivar_template ()$/
+build_keyword_decl	objc-act.c	/^build_keyword_decl (key_name, arg_type, arg_name)$/
+build_keyword_selector	objc-act.c	/^build_keyword_selector (selector)$/
+build_message_expr	objc-act.c	/^build_message_expr (mess)$/
+build_method_decl	objc-act.c	/^build_method_decl (code, ret_type, selector, add_a/
+build_method_list_template	objc-act.c	/^build_method_list_template (list_type, size)$/
+build_method_prototype_list_template	objc-act.c	/^build_method_prototype_list_template (list_type, s/
+build_method_prototype_template	objc-act.c	/^build_method_prototype_template ()$/
+build_method_template	objc-act.c	/^build_method_template ()$/
+build_modify_expr	../cc1/c-typeck.c	/^build_modify_expr (lhs, modifycode, rhs)$/
+build_module_descriptor	objc-act.c	/^build_module_descriptor ()$/
+build_msg_pool_reference	objc-act.c	/^build_msg_pool_reference (offset)$/
+build_objc_method_call	objc-act.c	/^build_objc_method_call (super_flag, method_prototy/
+build_objc_string	objc-act.c	/^build_objc_string (len, str)$/
+build_objc_string_decl	objc-act.c	/^build_objc_string_decl (name, section)$/
+build_objc_string_object	objc-act.c	/^build_objc_string_object (strings)$/
+build_objc_symtab_template	objc-act.c	/^build_objc_symtab_template ()$/
+build_private_template	objc-act.c	/^build_private_template (class)$/
+build_protocol_expr	objc-act.c	/^build_protocol_expr (protoname)$/
+build_protocol_initializer	objc-act.c	/^build_protocol_initializer (protocol_name, protoco/
+build_protocol_reference	objc-act.c	/^build_protocol_reference (p)$/
+build_protocol_template	objc-act.c	/^build_protocol_template ()$/
+build_selector	objc-act.c	/^build_selector (ident)$/
+build_selector_expr	objc-act.c	/^build_selector_expr (selnamelist)$/
+build_selector_reference	objc-act.c	/^build_selector_reference (ident)$/
+build_selector_reference_decl	objc-act.c	/^build_selector_reference_decl (name)$/
+build_selector_translation_table	objc-act.c	/^build_selector_translation_table ()$/
+build_shared_structure_initializer	objc-act.c	/^build_shared_structure_initializer (isa, super, na/
+build_super_template	objc-act.c	/^build_super_template ()$/
+build_tmp_function_decl	objc-act.c	/^build_tmp_function_decl ()$/
+build_unary_op	../cc1/c-typeck.c	/^build_unary_op (code, xarg, noconvert)$/
+builtin_function	../cc1/c-decl.c	/^builtin_function (name, type, function_code, libra/
+c_alignof	../cc1/c-typeck.c	/^c_alignof (type)$/
+c_alignof_expr	../cc1/c-typeck.c	/^c_alignof_expr (expr)$/
+c_decode_option	../cc1/c-decl.c	/^c_decode_option (p)$/
+c_expand_asm_operands	../cc1/c-typeck.c	/^c_expand_asm_operands (string, outputs, inputs, cl/
+c_expand_return	../cc1/c-typeck.c	/^c_expand_return (retval)$/
+c_expand_start_case	../cc1/c-typeck.c	/^c_expand_start_case (exp)$/
+c_mark_varargs	../cc1/c-decl.c	/^c_mark_varargs ()$/
+c_size_in_bytes	../cc1/c-typeck.c	/^c_size_in_bytes (type)$/
+c_sizeof	../cc1/c-typeck.c	/^c_sizeof (type)$/
+c_sizeof_nowarn	../cc1/c-typeck.c	/^c_sizeof_nowarn (type)$/
+check_duplicates	objc-act.c	/^check_duplicates (hsh)$/
+check_format	../cc1/c-typeck.c	/^check_format (info, params)$/
+check_ivars	objc-act.c	/^check_ivars (inter, imp)$/
+check_methods	objc-act.c	/^check_methods (chain, list, mtype)$/
+check_methods_accessible	objc-act.c	/^check_methods_accessible (chain, context, mtype)$/
+check_newline	../cc1/c-lex.c	/^check_newline ()$/
+check_protocols	objc-act.c	/^check_protocols (proto_list, type, name)$/
+clear_parm_order	../cc1/c-decl.c	/^clear_parm_order ()$/
+collect_iterators	../cc1/c-iterate.c	/^collect_iterators (exp, list)$/
+combine_parm_decls	../cc1/c-decl.c	/^combine_parm_decls (specparms, parmlist, void_at_e/
+common_type	../cc1/c-typeck.c	/^common_type (t1, t2)$/
+comp_method_with_proto	objc-act.c	/^comp_method_with_proto (method, proto)$/
+comp_proto_with_proto	objc-act.c	/^comp_proto_with_proto (proto1, proto2)$/
+comp_target_types	../cc1/c-typeck.c	/^comp_target_types (ttl, ttr)$/
+complete_array_type	../cc1/c-decl.c	/^complete_array_type (type, initial_value, do_defau/
+comptypes	../cc1/c-typeck.c	/^comptypes (type1, type2)$/
+concat	../cc1/c-aux-info.c	/^concat (s1, s2)$/
+concat3	../cc1/c-aux-info.c	/^concat3 (s1, s2, s3)$/
+conforms_to_protocol	objc-act.c	/^conforms_to_protocol (class, protocol)$/
+continue_class	objc-act.c	/^continue_class (class)$/
+continue_method_def	objc-act.c	/^continue_method_def ()$/
+convert	../cc1/c-convert.c	/^convert (type, expr)$/
+convert_arguments	../cc1/c-typeck.c	/^convert_arguments (typelist, values, name, fundecl/
+convert_for_assignment	../cc1/c-typeck.c	/^convert_for_assignment (type, rhs, errtype, fundec/
+convert_sequence	../cc1/c-typeck.c	/^convert_sequence (conversions, arg)$/
+create_builtin_decl	objc-act.c	/^create_builtin_decl (code, type, name)$/
+decl_constant_value	../cc1/c-typeck.c	/^decl_constant_value (decl)$/
+declare_parm_level	../cc1/c-decl.c	/^declare_parm_level (definition_flag)$/
+default_conversion	../cc1/c-typeck.c	/^default_conversion (exp)$/
+define_decl	objc-act.c	/^define_decl (declarator, declspecs)$/
+define_label	../cc1/c-decl.c	/^define_label (filename, line, name)$/
+delete_block	../cc1/c-decl.c	/^delete_block (block)$/
+delete_ixpansion	../cc1/c-iterate.c	/^delete_ixpansion (idecl)$/
+deserves_ellipsis	../cc1/c-aux-info.c	/^deserves_ellipsis (fntype)$/
+digest_init	../cc1/c-typeck.c	/^digest_init (type, init, tail, require_constant, c/
+dump_interface	objc-act.c	/^dump_interface (fp, chain)$/
+duplicate_decls	../cc1/c-decl.c	/^duplicate_decls (newdecl, olddecl)$/
+encode_aggregate	objc-act.c	/^encode_aggregate (type, curtype, format)$/
+encode_array	objc-act.c	/^encode_array (type, curtype, format)$/
+encode_bitfield	objc-act.c	/^encode_bitfield (width, format)$/
+encode_field_decl	objc-act.c	/^encode_field_decl (field_decl, curtype, format)$/
+encode_method_def	objc-act.c	/^encode_method_def (func_decl)$/
+encode_method_prototype	objc-act.c	/^encode_method_prototype (method_decl, func_decl)$/
+encode_pointer	objc-act.c	/^encode_pointer (type, curtype, format)$/
+encode_type	objc-act.c	/^encode_type (type, curtype, format)$/
+encode_type_qualifiers	objc-act.c	/^encode_type_qualifiers (declspecs)$/
+error_init	../cc1/c-typeck.c	/^error_init (format, local, ofwhat)$/
+error_with_ivar	objc-act.c	/^error_with_ivar (message, decl, rawdecl)$/
+expand_stmt_with_iterators_1	../cc1/c-iterate.c	/^expand_stmt_with_iterators_1 (stmt, iter_list)$/
+expr_last	objc-act.c	/^expr_last (complex_expr)$/
+extend_token_buffer	../cc1/c-lex.c	/^extend_token_buffer (p)$/
+field_decl_cmp	../cc1/c-decl.c	/^field_decl_cmp (x, y)$/
+finish_class	objc-act.c	/^finish_class (class)$/
+finish_decl	../cc1/c-decl.c	/^finish_decl (decl, init, asmspec_tree)$/
+finish_enum	../cc1/c-decl.c	/^finish_enum (enumtype, values)$/
+finish_function	../cc1/c-decl.c	/^finish_function (nested)$/
+finish_incomplete_decl	../cc1/c-decl.c	/^finish_incomplete_decl (decl)$/
+finish_method_def	objc-act.c	/^finish_method_def ()$/
+finish_objc	objc-act.c	/^finish_objc ()$/
+finish_protocol	objc-act.c	/^finish_protocol (protocol)$/
+finish_struct	../cc1/c-decl.c	/^finish_struct (t, fieldlist)$/
+forget_protocol_qualifiers	../cc1/c-lex.c	/^forget_protocol_qualifiers ()$/
+forward_declare_categories	objc-act.c	/^forward_declare_categories ()$/
+forwarding_offset	objc-act.c	/^forwarding_offset (parm)$/
+function_types_compatible_p	../cc1/c-typeck.c	/^function_types_compatible_p (f1, f2)$/
+gen_aux_info_record	../cc1/c-aux-info.c	/^gen_aux_info_record (fndecl, is_definition, is_imp/
+gen_decl	../cc1/c-aux-info.c	/^gen_decl (decl, is_func_definition, style)$/
+gen_declaration	objc-act.c	/^gen_declaration (atype_or_adecl, buf)$/
+gen_declarator	objc-act.c	/^gen_declarator (decl, buf, name)$/
+gen_declspecs	objc-act.c	/^gen_declspecs (declspecs, buf, raw)$/
+gen_formal_list_for_func_def	../cc1/c-aux-info.c	/^gen_formal_list_for_func_def (fndecl, style)$/
+gen_formal_list_for_type	../cc1/c-aux-info.c	/^gen_formal_list_for_type (fntype, style)$/
+gen_method_decl	objc-act.c	/^gen_method_decl (method, buf)$/
+gen_type	../cc1/c-aux-info.c	/^gen_type (ret_val, t, style)$/
+generate_category	objc-act.c	/^generate_category (cat)$/
+generate_classref_translation_entry	objc-act.c	/^generate_classref_translation_entry (chain)$/
+generate_descriptor_table	objc-act.c	/^generate_descriptor_table (type, name, size, list,/
+generate_dispatch_table	objc-act.c	/^generate_dispatch_table (type, name, size, list)$/
+generate_dispatch_tables	objc-act.c	/^generate_dispatch_tables ()$/
+generate_forward_declaration_to_string_table	objc-act.c	/^generate_forward_declaration_to_string_table ()$/
+generate_ivar_lists	objc-act.c	/^generate_ivar_lists ()$/
+generate_ivars_list	objc-act.c	/^generate_ivars_list (type, name, size, list)$/
+generate_method_descriptors	objc-act.c	/^generate_method_descriptors (protocol)	\/* generat/
+generate_objc_symtab_decl	objc-act.c	/^generate_objc_symtab_decl ()$/
+generate_protocol_list	objc-act.c	/^generate_protocol_list (i_or_p)$/
+generate_protocol_references	objc-act.c	/^generate_protocol_references (plist)$/
+generate_protocols	objc-act.c	/^generate_protocols ()$/
+generate_shared_structures	objc-act.c	/^generate_shared_structures ()$/
+generate_strings	objc-act.c	/^generate_strings ()$/
+get_arg_type_list	objc-act.c	/^get_arg_type_list (meth, context, superflag)$/
+get_class_ivars	objc-act.c	/^get_class_ivars (interface)$/
+get_class_reference	objc-act.c	/^get_class_reference (ident)$/
+get_object_reference	objc-act.c	/^get_object_reference (protocols)$/
+get_parm_info	../cc1/c-decl.c	/^get_parm_info (void_at_end)$/
+get_spelling	../cc1/c-typeck.c	/^get_spelling (errtype)$/
+get_static_reference	objc-act.c	/^get_static_reference (interface, protocols)$/
+get_super_receiver	objc-act.c	/^get_super_receiver ()$/
+getdecls	../cc1/c-decl.c	/^getdecls ()$/
+gettags	../cc1/c-decl.c	/^gettags ()$/
+global_bindings_p	../cc1/c-decl.c	/^global_bindings_p ()$/
+grokdeclarator	../cc1/c-decl.c	/^grokdeclarator (declarator, declspecs, decl_contex/
+grokfield	../cc1/c-decl.c	/^grokfield (filename, line, declarator, declspecs, /
+grokparms	../cc1/c-decl.c	/^grokparms (parms_info, funcdef_flag)$/
+groktypename	../cc1/c-decl.c	/^groktypename (typename)$/
+groktypename_in_parm_context	../cc1/c-decl.c	/^groktypename_in_parm_context (typename)$/
+hack_method_prototype	objc-act.c	/^hack_method_prototype (nst_methods, tmp_decl)$/
+handle_class_ref	objc-act.c	/^handle_class_ref (chain)$/
+handle_impent	objc-act.c	/^handle_impent (impent)$/
+handle_pragma_token	../cc1/c-pragma.c	/^handle_pragma_token (string, token)$/
+handle_sysv_pragma	../cc1/c-lex.c	/^handle_sysv_pragma (input, c)$/
+hash	../cc1/c-lex.c	/^hash (str, len)$/
+hash_add_attr	objc-act.c	/^hash_add_attr (entry, value)$/
+hash_enter	objc-act.c	/^hash_enter (hashlist, method)$/
+hash_init	objc-act.c	/^hash_init ()$/
+hash_lookup	objc-act.c	/^hash_lookup (hashlist, sel_name)$/
+implicitly_declare	../cc1/c-decl.c	/^implicitly_declare (functionid)$/
+in_parm_level_p	../cc1/c-decl.c	/^in_parm_level_p ()$/
+incomplete_type_error	../cc1/c-typeck.c	/^incomplete_type_error (value, type)$/
+init_decl_processing	../cc1/c-decl.c	/^init_decl_processing ()$/
+init_def_list	objc-act.c	/^init_def_list ()$/
+init_format_info_table	../cc1/c-typeck.c	/^init_format_info_table ()$/
+init_iterators	../cc1/c-iterate.c	/^init_iterators ()$/
+init_lex	../cc1/c-lex.c	/^init_lex ()$/
+init_module_descriptor	objc-act.c	/^init_module_descriptor ()$/
+init_objc	objc-act.c	/^init_objc ()$/
+init_objc_symtab	objc-act.c	/^init_objc_symtab ()$/
+init_selector	objc-act.c	/^init_selector (offset)$/
+initializer_constant_valid_p	../cc1/c-typeck.c	/^initializer_constant_valid_p (value, endtype)$/
+insert_block	../cc1/c-decl.c	/^insert_block (block)$/
+internal_build_compound_expr	../cc1/c-typeck.c	/^internal_build_compound_expr (list, first_p)$/
+is_class_name	objc-act.c	/^is_class_name (ident)$/
+is_complex_decl	objc-act.c	/^is_complex_decl (type)$/
+is_ivar	objc-act.c	/^is_ivar (decl_chain, ident)$/
+is_objc_type_qualifier	objc-act.c	/^is_objc_type_qualifier (node)$/
+is_private	objc-act.c	/^is_private (decl)$/
+is_public	objc-act.c	/^is_public (expr, identifier)$/
+is_reserved_word	../cc1/c-lex.c	/^is_reserved_word (str, len)$/
+isalnum	../cc1/c-lex.c	/^#define isalnum(char) ((char >= 'a' && char <= 'z'/
+isdigit	../cc1/c-lex.c	/^#define isdigit(char) (char >= '0' && char <= '9')/
+isn_append	../cc1/c-iterate.c	/^isn_append (x, y)$/
+istack_sublevel_to_current	../cc1/c-iterate.c	/^istack_sublevel_to_current ()$/
+iterator_expand	../cc1/c-iterate.c	/^iterator_expand (stmt)$/
+iterator_for_loop_end	../cc1/c-iterate.c	/^iterator_for_loop_end (idecl)$/
+iterator_for_loop_start	../cc1/c-iterate.c	/^iterator_for_loop_start (idecl)$/
+iterator_loop_epilogue	../cc1/c-iterate.c	/^iterator_loop_epilogue (idecl, start_note, end_not/
+iterator_loop_prologue	../cc1/c-iterate.c	/^iterator_loop_prologue (idecl, start_note, end_not/
+keep_next_level	../cc1/c-decl.c	/^keep_next_level ()$/
+kept_level_p	../cc1/c-decl.c	/^kept_level_p ()$/
+lang_decode_option	objc-act.c	/^lang_decode_option (p)$/
+lang_finish	objc-act.c	/^lang_finish ()$/
+lang_identify	objc-act.c	/^lang_identify ()$/
+lang_init	objc-act.c	/^lang_init ()$/
+lang_report_error_function	objc-act.c	/^lang_report_error_function (decl)$/
+layout_array_type	../cc1/c-decl.c	/^layout_array_type (t)$/
+lookup_and_install_protocols	objc-act.c	/^lookup_and_install_protocols (protocols)$/
+lookup_class_method_static	objc-act.c	/^lookup_class_method_static (interface, ident)$/
+lookup_instance_method_static	objc-act.c	/^lookup_instance_method_static (interface, ident)$/
+lookup_interface	objc-act.c	/^lookup_interface (ident)$/
+lookup_label	../cc1/c-decl.c	/^lookup_label (id)$/
+lookup_method	objc-act.c	/^lookup_method (mchain, method)$/
+lookup_method_in_protocol_list	objc-act.c	/^lookup_method_in_protocol_list (rproto_list, sel_n/
+lookup_name	../cc1/c-decl.c	/^lookup_name (name)$/
+lookup_name_current_level	../cc1/c-decl.c	/^lookup_name_current_level (name)$/
+lookup_protocol	objc-act.c	/^lookup_protocol (ident)$/
+lookup_protocol_in_reflist	objc-act.c	/^lookup_protocol_in_reflist (rproto_list, lproto)$/
+lookup_tag	../cc1/c-decl.c	/^lookup_tag (code, name, binding_level, thislevel_o/
+lookup_tag_reverse	../cc1/c-decl.c	/^lookup_tag_reverse (type)$/
+lvalue_or_else	../cc1/c-typeck.c	/^lvalue_or_else (ref, string)$/
+lvalue_p	../cc1/c-typeck.c	/^lvalue_p (ref)$/
+make_binding_level	../cc1/c-decl.c	/^make_binding_level ()$/
+make_pointer_declarator	../cc1/c-lex.c	/^make_pointer_declarator (type_quals, target)$/
+mark_addressable	../cc1/c-typeck.c	/^mark_addressable (exp)$/
+maybe_build_cleanup	../cc1/c-decl.c	/^maybe_build_cleanup (decl)$/
+maybe_building_objc_message_expr	objc-act.c	/^maybe_building_objc_message_expr ()$/
+maybe_objc_check_decl	objc-act.c	/^maybe_objc_check_decl (decl)$/
+maybe_objc_comptypes	objc-act.c	/^maybe_objc_comptypes (lhs, rhs, reflexive)$/
+maybe_objc_method_name	objc-act.c	/^maybe_objc_method_name (decl)$/
+my_build_string	objc-act.c	/^my_build_string (len, str)$/
+objc_check_decl	objc-act.c	/^objc_check_decl (decl)$/
+objc_comptypes	objc-act.c	/^objc_comptypes (lhs, rhs, reflexive)$/
+objc_copy_list	objc-act.c	/^objc_copy_list (list, head)$/
+objc_debug	objc-act.c	/^objc_debug (fp)$/
+objc_declare_alias	objc-act.c	/^objc_declare_alias (alias_ident, class_ident)$/
+objc_declare_class	objc-act.c	/^objc_declare_class (ident_list)$/
+objc_fatal	objc-act.c	/^objc_fatal ()$/
+objc_finish	objc-act.c	/^objc_finish ()$/
+parmlist_tags_warning	../cc1/c-decl.c	/^parmlist_tags_warning ()$/
+parser_build_binary_op	../cc1/c-typeck.c	/^parser_build_binary_op (code, arg1, arg2)$/
+pedantic_lvalue_warning	../cc1/c-typeck.c	/^pedantic_lvalue_warning (code)$/
+pedwarn_init	../cc1/c-typeck.c	/^pedwarn_init (format, local, ofwhat)$/
+pending_xref_error	../cc1/c-decl.c	/^pending_xref_error ()$/
+pil	../cc1/c-iterate.c	/^pil (head)$/
+pis	../cc1/c-iterate.c	/^pis ()$/
+pixl	../cc1/c-iterate.c	/^pixl (head)$/
+pointer_diff	../cc1/c-typeck.c	/^pointer_diff (op0, op1)$/
+pointer_int_sum	../cc1/c-typeck.c	/^pointer_int_sum (resultcode, ptrop, intop)$/
+pop_c_function_context	../cc1/c-decl.c	/^pop_c_function_context ()$/
+pop_iterator_stack	../cc1/c-iterate.c	/^pop_iterator_stack ()$/
+pop_label_level	../cc1/c-decl.c	/^pop_label_level ()$/
+poplevel	../cc1/c-decl.c	/^poplevel (keep, reverse, functionbody)$/
+position_after_white_space	../cc1/c-lex.c	/^position_after_white_space ()$/
+prdecl	../cc1/c-iterate.c	/^prdecl (d)$/
+print_lang_decl	../cc1/c-decl.c	/^print_lang_decl ()$/
+print_lang_identifier	../cc1/c-decl.c	/^print_lang_identifier (file, node, indent)$/
+print_lang_statistics	objc-act.c	/^print_lang_statistics ()$/
+print_lang_type	../cc1/c-decl.c	/^print_lang_type ()$/
+print_spelling	../cc1/c-typeck.c	/^print_spelling (buffer)$/
+process_init_constructor	../cc1/c-typeck.c	/^process_init_constructor (type, init, elts, consta/
+push_array_bounds	../cc1/c-typeck.c	/^push_array_bounds (bounds)$/
+push_c_function_context	../cc1/c-decl.c	/^push_c_function_context ()$/
+push_iterator_stack	../cc1/c-iterate.c	/^push_iterator_stack ()$/
+push_label_level	../cc1/c-decl.c	/^push_label_level ()$/
+push_member_name	../cc1/c-typeck.c	/^push_member_name (string)$/
+push_parm_decl	../cc1/c-decl.c	/^push_parm_decl (parm)$/
+push_string	../cc1/c-typeck.c	/^push_string (string)$/
+pushdecl	../cc1/c-decl.c	/^pushdecl (x)$/
+pushdecl_top_level	../cc1/c-decl.c	/^pushdecl_top_level (x)$/
+pushlevel	../cc1/c-decl.c	/^pushlevel (tag_transparent)$/
+pushtag	../cc1/c-decl.c	/^pushtag (name, type)$/
+qualify_type	../cc1/c-typeck.c	/^qualify_type (type, like)$/
+readescape	../cc1/c-lex.c	/^readescape (ignore_ptr)$/
+readonly_warning	../cc1/c-typeck.c	/^readonly_warning (arg, string)$/
+really_start_method	objc-act.c	/^really_start_method (method, parmlist)$/
+receiver_is_class_object	objc-act.c	/^receiver_is_class_object (receiver)$/
+record_format_info	../cc1/c-typeck.c	/^record_format_info (function_ident, is_scan, forma/
+redeclaration_error_message	../cc1/c-decl.c	/^redeclaration_error_message (newdecl, olddecl)$/
+reinit_parse_for_function	../cc1/c-lex.c	/^reinit_parse_for_function ()$/
+remember_protocol_qualifiers	../cc1/c-lex.c	/^remember_protocol_qualifiers ()$/
+require_complete_type	../cc1/c-typeck.c	/^require_complete_type (value)$/
+ridpointers	../cc1/c-lex.c	/^tree ridpointers[(int) RID_MAX];$/
+self_promoting_args_p	../cc1/c-typeck.c	/^self_promoting_args_p (parms)$/
+self_promoting_type_p	../cc1/c-typeck.c	/^self_promoting_type_p (type)$/
+set_block	../cc1/c-decl.c	/^set_block (block)$/
+set_yydebug	../cc1/c-lex.c	/^set_yydebug (value)$/
+shadow_label	../cc1/c-decl.c	/^shadow_label (name)$/
+shadow_tag	../cc1/c-decl.c	/^shadow_tag (declspecs)$/
+shadow_tag_warned	../cc1/c-decl.c	/^shadow_tag_warned (declspecs, warned)$/
+signed_or_unsigned_type	../cc1/c-typeck.c	/^signed_or_unsigned_type (unsignedp, type)$/
+signed_type	../cc1/c-typeck.c	/^signed_type (type)$/
+skip_white_space	../cc1/c-lex.c	/^skip_white_space (c)$/
+spelling_length	../cc1/c-typeck.c	/^spelling_length ()$/
+start_class	objc-act.c	/^start_class (code, class_name, super_name, protoco/
+start_decl	../cc1/c-decl.c	/^start_decl (declarator, declspecs, initialized)$/
+start_enum	../cc1/c-decl.c	/^start_enum (name)$/
+start_function	../cc1/c-decl.c	/^start_function (declspecs, declarator, nested)$/
+start_method_def	objc-act.c	/^start_method_def (method)$/
+start_protocol	objc-act.c	/^start_protocol (code, name, list)$/
+start_struct	../cc1/c-decl.c	/^start_struct (code, name)$/
+store_init_value	../cc1/c-typeck.c	/^store_init_value (decl, init)$/
+store_parm_decls	../cc1/c-decl.c	/^store_parm_decls ()$/
+storedecls	../cc1/c-decl.c	/^storedecls (decls)$/
+storetags	../cc1/c-decl.c	/^storetags (tags)$/
+synth_forward_declarations	objc-act.c	/^synth_forward_declarations ()$/
+synth_id_with_class_suffix	objc-act.c	/^synth_id_with_class_suffix (preamble, ctxt)$/
+synth_module_prologue	objc-act.c	/^synth_module_prologue ()$/
+top_level_ixpansion_p	../cc1/c-iterate.c	/^top_level_ixpansion_p ()$/
+type_lists_compatible_p	../cc1/c-typeck.c	/^type_lists_compatible_p (args1, args2)$/
+unary_complex_lvalue	../cc1/c-typeck.c	/^unary_complex_lvalue (code, arg)$/
+unsigned_type	../cc1/c-typeck.c	/^unsigned_type (type)$/
+warn_for_assignment	../cc1/c-typeck.c	/^warn_for_assignment (msg, opname, function, argnum/
+warn_with_method	objc-act.c	/^warn_with_method (message, mtype, method)$/
+xref_tag	../cc1/c-decl.c	/^xref_tag (code, name)$/
+yyerror	../cc1/c-lex.c	/^yyerror (string)$/
+yylex	../cc1/c-lex.c	/^yylex ()$/
+yyparse	objc-parse.c	/^yyparse()$/
+yyprint	../cc1/c-lex.c	/^yyprint (file, yychar, yylval)$/

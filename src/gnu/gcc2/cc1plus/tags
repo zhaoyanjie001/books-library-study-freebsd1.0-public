@@ -1,0 +1,704 @@
+ALLOCATE_TYPEVEC	cp-method.c	/^#define ALLOCATE_TYPEVEC(PARMTYPES) \\$/
+BASE_DERIVED_HARSHNESS	cp-call.c	/^#define BASE_DERIVED_HARSHNESS(ARG) ((ARG) & 16)$/
+BINFO_DERIVES_FROM	cp-search.c	/^#define BINFO_DERIVES_FROM(C1, C2)	\\$/
+BINFO_DERIVES_FROM_STAR	cp-search.c	/^#define BINFO_DERIVES_FROM_STAR(C)	\\$/
+CEIL	cp-tree.c	/^#define CEIL(x,y) (((x) + (y) - 1) \/ (y))$/
+CONST_HARSHNESS	cp-call.c	/^#define CONST_HARSHNESS(ARG) ((ARG) & 2048)$/
+CONTRAVARIANT_HARSHNESS	cp-call.c	/^#define CONTRAVARIANT_HARSHNESS(ARG) ((ARG) & 8)$/
+CWriteLanguageDecl	cp-edsel.c	/^CWriteLanguageDecl (conn, decl, object_type)$/
+CWriteLanguageElem	cp-edsel.c	/^CWriteLanguageElem (conn, p, name)$/
+CWriteLanguageType	cp-edsel.c	/^CWriteLanguageType (conn, type, object_type)$/
+CWriteTopLevel	cp-edsel.c	/^CWriteTopLevel (conn, m)$/
+CWriteUseObject	cp-edsel.c	/^CWriteUseObject (conn, type, object_type, use)$/
+DEALLOCATE_TYPEVEC	cp-method.c	/^#define DEALLOCATE_TYPEVEC(PARMTYPES) \\$/
+DECIDE	cp-pt.c	/^#define DECIDE(N) if(1){decision=(N); goto decided/
+ELLIPSIS_HARSHNESS	cp-call.c	/^#define ELLIPSIS_HARSHNESS(ARG) ((ARG) & 2)$/
+EVIL_HARSHNESS	cp-call.c	/^#define EVIL_HARSHNESS(ARG) ((ARG) & 1)$/
+FILE_NAME_ABSOLUTE_P	cp-xref.c	/^#define FILE_NAME_ABSOLUTE_P(NAME) (NAME[0] == '\//
+FILE_NAME_NONDIRECTORY	cp-lex.c	/^#define FILE_NAME_NONDIRECTORY(X)		\\$/
+GNU_xref_assign	cp-xref.c	/^GNU_xref_assign(name)$/
+GNU_xref_begin	cp-xref.c	/^GNU_xref_begin (file)$/
+GNU_xref_call	cp-xref.c	/^GNU_xref_call (fndecl, name)$/
+GNU_xref_decl	cp-xref.c	/^GNU_xref_decl (fndecl,decl)$/
+GNU_xref_end	cp-xref.c	/^GNU_xref_end (ect)$/
+GNU_xref_end_scope	cp-xref.c	/^GNU_xref_end_scope (id,inid,prm,keep,trns)$/
+GNU_xref_file	cp-xref.c	/^GNU_xref_file (name)$/
+GNU_xref_function	cp-xref.c	/^GNU_xref_function (fndecl, args)$/
+GNU_xref_hier	cp-xref.c	/^GNU_xref_hier(cls, base, pub, virt, frnd)$/
+GNU_xref_member	cp-xref.c	/^GNU_xref_member(cls, fld)$/
+GNU_xref_ref	cp-xref.c	/^GNU_xref_ref (fndecl,name)$/
+GNU_xref_start_scope	cp-xref.c	/^GNU_xref_start_scope (id)$/
+INT_FROM_BD_HARSHNESS	cp-call.c	/^#define INT_FROM_BD_HARSHNESS(ARG) ((ARG) >> 5)$/
+INT_FROM_EASY_HARSHNESS	cp-call.c	/^#define INT_FROM_EASY_HARSHNESS(ARG) ((ARG) >> 5)$/
+INT_TO_BD_HARSHNESS	cp-call.c	/^#define INT_TO_BD_HARSHNESS(ARG) (((ARG) << 5) | 1/
+INT_TO_EASY_HARSHNESS	cp-call.c	/^#define INT_TO_EASY_HARSHNESS(ARG) ((ARG) << 5)$/
+MEMOIZED_CHAIN	cp-search.c	/^#define MEMOIZED_CHAIN(ENTRY) (((ME)ENTRY)->chain)/
+MEMOIZED_FIELDS	cp-search.c	/^#define MEMOIZED_FIELDS(ENTRY,INDEX) (((ME)ENTRY)-/
+MEMOIZED_FNFIELDS	cp-search.c	/^#define MEMOIZED_FNFIELDS(ENTRY,INDEX) (((ME)ENTRY/
+MEMOIZED_HASH_FN	cp-search.c	/^#define MEMOIZED_HASH_FN(NODE) (((long)(NODE)>>4)&/
+MEMOIZED_UID	cp-search.c	/^#define MEMOIZED_UID(ENTRY) (((ME)ENTRY)->uid)$/
+MI_VMATRIX	cp-search.c	/^#define MI_VMATRIX(ROW,COL) ((mi_vmatrix + (ROW)*m/
+ONLY_EASY_HARSHNESS	cp-call.c	/^#define ONLY_EASY_HARSHNESS(ARG) (((ARG) & 31) == /
+PALLOC	cp-xref.c	/^#define PALLOC(typ) ((typ *) calloc(1,sizeof(typ))/
+SALLOC	cp-xref.c	/^#define SALLOC(str) \\$/
+SFREE	cp-xref.c	/^#define SFREE(str) (str != NULL && (free(str),0))$/
+STREQL	cp-xref.c	/^#define STREQL(s1,s2) (strcmp((s1),(s2)) == 0)$/
+STRGEQ	cp-xref.c	/^#define STRGEQ(s1,s2) (strcmp((s1),(s2)) >= 0)$/
+STRGTR	cp-xref.c	/^#define STRGTR(s1,s2) (strcmp((s1),(s2)) > 0)$/
+STRLEQ	cp-xref.c	/^#define STRLEQ(s1,s2) (strcmp((s1),(s2)) <= 0)$/
+STRLSS	cp-xref.c	/^#define STRLSS(s1,s2) (strcmp((s1),(s2)) < 0)$/
+STRNEQ	cp-xref.c	/^#define STRNEQ(s1,s2) (strcmp((s1),(s2)) != 0)$/
+TIMEVAR	cp-decl2.c	/^#define TIMEVAR(VAR, BODY)    \\$/
+TYPE_DERIVES_FROM	cp-search.c	/^#define TYPE_DERIVES_FROM(C1, C2)	\\$/
+TYPE_HASH	cp-tree.c	/^#define TYPE_HASH(TYPE) ((HOST_WIDE_INT) (TYPE) & /
+USER_HARSHNESS	cp-call.c	/^#define USER_HARSHNESS(ARG) ((ARG) & 4)$/
+WATCH_VALUES	cp-search.c	/^#define WATCH_VALUES(rval, via_private) (rval == -/
+YYBACKUP	cp-parse.c	/^#define YYBACKUP(token, value) \\$/
+YYPRINT	cp-parse.c	/^#define YYPRINT(FILE,YYCHAR,YYLVAL) yyprint(FILE,Y/
+YYRECOVERING	cp-parse.c	/^#define YYRECOVERING()  (!!yyerrstatus)$/
+YYTRANSLATE	cp-parse.c	/^#define YYTRANSLATE(x) ((unsigned)(x) <= 340 ? yyt/
+__yy_bcopy	cp-parse.c	/^#define __yy_bcopy(FROM,TO,COUNT)	__builtin_memcpy/
+abstract_virtuals_error	cp-type2.c	/^abstract_virtuals_error (decl, type)$/
+add_block_current_level	cp-decl.c	/^add_block_current_level (block)$/
+add_friend	cp-init.c	/^add_friend (type, decl)$/
+add_friends	cp-init.c	/^add_friends (type, name, friend_type)$/
+add_method	cp-class.c	/^add_method (type, fields, method)$/
+add_mi_virtuals	cp-search.c	/^add_mi_virtuals (row, virtuals)$/
+add_pending_template	cp-pt.c	/^add_pending_template (pt)$/
+add_token	cp-spew.c	/^add_token (t)$/
+add_virtual_function	cp-class.c	/^add_virtual_function (pending_virtuals, has_virtua/
+adjust_type_value	cp-decl.c	/^adjust_type_value (id)$/
+alter_visibility	cp-class.c	/^alter_visibility (t, fdecl, visibility)$/
+ansi_exception_object_lookup	cp-except.c	/^ansi_exception_object_lookup (type)$/
+ansi_expand_start_catch	cp-except.c	/^ansi_expand_start_catch (raise_type)$/
+arbitrate_lookup	cp-spew.c	/^arbitrate_lookup (name, exp_decl, type_decl)$/
+array_type_nelts_top	cp-tree.c	/^array_type_nelts_top (type)$/
+array_type_nelts_total	cp-tree.c	/^array_type_nelts_total (type)$/
+auto_function	cp-decl.c	/^#define auto_function(NAME, TYPE, CODE) \\$/
+bad_specifiers	cp-decl2.c	/^bad_specifiers (object, virtualp, quals, friendp, /
+begin_template_parm_list	cp-pt.c	/^begin_template_parm_list ()$/
+bfs_marked_new_vtablep	cp-search.c	/^static int bfs_marked_new_vtablep (binfo, i) tree /
+bfs_marked_vtable_pathp	cp-search.c	/^static int bfs_marked_vtable_pathp (binfo, i) tree/
+bfs_markedp	cp-search.c	/^static int bfs_markedp (binfo, i) tree binfo; int /
+bfs_unmark_finished_struct	cp-search.c	/^bfs_unmark_finished_struct (binfo, i)$/
+bfs_unmarked_new_vtablep	cp-search.c	/^static int bfs_unmarked_new_vtablep (binfo, i) tre/
+bfs_unmarked_vtable_pathp	cp-search.c	/^static int bfs_unmarked_vtable_pathp (binfo, i) tr/
+bfs_unmarkedp	cp-search.c	/^static int bfs_unmarkedp (binfo, i) tree binfo; in/
+binding_levels_sane	cp-decl.c	/^binding_levels_sane ()$/
+binfo_or_else	cp-type2.c	/^binfo_or_else (parent_or_type, type)$/
+binfo_value	cp-tree.c	/^binfo_value (elem, type)$/
+breadth_first_search	cp-search.c	/^breadth_first_search (binfo, testfn, qfn)$/
+break_out_calls	cp-tree.c	/^break_out_calls (exp)$/
+break_out_cleanups	cp-tree.c	/^break_out_cleanups (exp)$/
+build_array_ref	cp-typeck.c	/^build_array_ref (array, index)$/
+build_binary_op	cp-typeck.c	/^build_binary_op (code, arg1, arg2, convert_p)$/
+build_binary_op_nodefault	cp-typeck.c	/^build_binary_op_nodefault (code, op0, op1, error_c/
+build_builtin_call	cp-init.c	/^build_builtin_call (type, node, arglist)$/
+build_c_cast	cp-typeck.c	/^build_c_cast (type, expr)$/
+build_class_init_list	cp-class.c	/^build_class_init_list (type)$/
+build_classof	cp-gc.c	/^build_classof (exp)$/
+build_component_addr	cp-typeck.c	/^build_component_addr (arg, argtype, msg)$/
+build_component_ref	cp-typeck.c	/^build_component_ref (datum, component, basetype_pa/
+build_component_ref_1	cp-typeck.c	/^build_component_ref_1 (datum, field, protect)$/
+build_component_type_expr	cp-method.c	/^build_component_type_expr (of, component, basetype/
+build_compound_expr	cp-typeck.c	/^build_compound_expr (list)$/
+build_conditional_expr	cp-typeck.c	/^build_conditional_expr (ifexp, op1, op2)$/
+build_cplus_array_type	cp-tree.c	/^build_cplus_array_type (elt_type, index_type)$/
+build_cplus_method_type	cp-tree.c	/^build_cplus_method_type (basetype, rettype, argtyp/
+build_cplus_new	cp-tree.c	/^build_cplus_new (type, init, with_cleanup_p)$/
+build_cplus_staticfn_type	cp-tree.c	/^build_cplus_staticfn_type (basetype, rettype, argt/
+build_decl_overload	cp-method.c	/^build_decl_overload (dname, parms, for_method)$/
+build_default_binary_type_conversion	cp-cvt.c	/^build_default_binary_type_conversion (code, arg1, /
+build_default_constructor	cp-decl.c	/^build_default_constructor (fndecl)$/
+build_default_unary_type_conversion	cp-cvt.c	/^build_default_unary_type_conversion (code, arg)$/
+build_delete	cp-init.c	/^build_delete (type, addr, auto_delete, flags, use_/
+build_enumerator	cp-decl.c	/^build_enumerator (name, value)$/
+build_exception_variant	cp-tree.c	/^build_exception_variant (ctype, type, raises)$/
+build_field_call	cp-call.c	/^build_field_call (basetype_path, instance_ptr, nam/
+build_function_call	cp-typeck.c	/^build_function_call (function, params)$/
+build_function_call_maybe	cp-typeck.c	/^build_function_call_maybe (function, params)$/
+build_function_call_real	cp-typeck.c	/^build_function_call_real (function, params, requir/
+build_functional_cast	cp-type2.c	/^build_functional_cast (exp, parms)$/
+build_generic_desc	cp-gc.c	/^build_generic_desc (decl, elems)$/
+build_headof	cp-gc.c	/^build_headof (exp)$/
+build_i_desc	cp-gc.c	/^build_i_desc (decl)$/
+build_indirect_ref	cp-typeck.c	/^build_indirect_ref (ptr, errorstring)$/
+build_lang_decl	cp-lex.c	/^build_lang_decl (code, name, type)$/
+build_lang_field_decl	cp-lex.c	/^build_lang_field_decl (code, name, type)$/
+build_m_component_ref	cp-type2.c	/^build_m_component_ref (datum, component)$/
+build_m_desc	cp-gc.c	/^build_m_desc (decl)$/
+build_member_call	cp-init.c	/^build_member_call (cname, name, parmlist)$/
+build_method_call	cp-call.c	/^build_method_call (instance, name, parms, basetype/
+build_mi_matrix	cp-search.c	/^build_mi_matrix (type)$/
+build_mi_virtuals	cp-search.c	/^build_mi_virtuals (rows, cols)$/
+build_modify_expr	cp-typeck.c	/^build_modify_expr (lhs, modifycode, rhs)$/
+build_modify_expr_1	cp-typeck.c	/^build_modify_expr_1 (lhs, modifycode, rhs, basetyp/
+build_new	cp-init.c	/^build_new (placement, decl, init, use_global_new)$/
+build_offset_ref	cp-init.c	/^build_offset_ref (cname, name)$/
+build_opfncall	cp-method.c	/^build_opfncall (code, flags, xarg1, xarg2, arg3)$/
+build_overload_call	cp-call.c	/^build_overload_call (fnname, parms, complain, fina/
+build_overload_call_maybe	cp-call.c	/^build_overload_call_maybe (fnname, parms, complain/
+build_overload_call_real	cp-call.c	/^build_overload_call_real (fnname, parms, complain,/
+build_overload_identifier	cp-method.c	/^build_overload_identifier (name)$/
+build_overload_name	cp-method.c	/^build_overload_name (parmtypes, begin, end)$/
+build_overload_nested_name	cp-method.c	/^build_overload_nested_name (context)$/
+build_overload_value	cp-method.c	/^build_overload_value (type, value)$/
+build_push_scope	cp-decl2.c	/^build_push_scope (cname, name)$/
+build_scoped_method_call	cp-call.c	/^build_scoped_method_call (exp, scopes, name, parms/
+build_scoped_ref	cp-type2.c	/^build_scoped_ref (datum, types)$/
+build_static_gc_entry	cp-gc.c	/^build_static_gc_entry (decl, type)$/
+build_t_desc	cp-gc.c	/^build_t_desc (type, definition)$/
+build_t_desc_overload	cp-method.c	/^build_t_desc_overload (type)$/
+build_type_conversion	cp-cvt.c	/^build_type_conversion (code, xtype, expr, for_sure/
+build_type_conversion_1	cp-cvt.c	/^build_type_conversion_1 (xtype, basetype, expr, ty/
+build_type_pathname	cp-search.c	/^build_type_pathname (format, parent, type)$/
+build_typename_overload	cp-method.c	/^build_typename_overload (type)$/
+build_unary_op	cp-typeck.c	/^build_unary_op (code, xarg, noconvert)$/
+build_up_reference	cp-cvt.c	/^build_up_reference (type, arg, flags, checkconst)$/
+build_vbase_delete	cp-init.c	/^build_vbase_delete (type, decl)$/
+build_vbase_path	cp-class.c	/^build_vbase_path (code, type, expr, path, alias_th/
+build_vbase_pointer	cp-class.c	/^build_vbase_pointer (exp, type)$/
+build_vbase_vtables_init	cp-search.c	/^build_vbase_vtables_init (main_binfo, binfo, true_/
+build_vec_delete	cp-init.c	/^build_vec_delete (base, maxindex, elt_size, dtor_d/
+build_vfield_ref	cp-call.c	/^build_vfield_ref (datum, type)$/
+build_vfn_ref	cp-class.c	/^build_vfn_ref (ptr_to_instptr, instance, index)$/
+build_virtual_init	cp-init.c	/^build_virtual_init (main_binfo, binfo, decl)$/
+build_vtable	cp-class.c	/^build_vtable (binfo, type)$/
+build_vtable_entry	cp-class.c	/^build_vtable_entry (delta, pfn)$/
+build_x_array_ref	cp-typeck.c	/^build_x_array_ref (array, index)$/
+build_x_arrow	cp-type2.c	/^build_x_arrow (datum)$/
+build_x_binary_op	cp-typeck.c	/^build_x_binary_op (code, arg1, arg2)$/
+build_x_compound_expr	cp-typeck.c	/^build_x_compound_expr (list)$/
+build_x_conditional_expr	cp-typeck.c	/^build_x_conditional_expr (ifexp, op1, op2)$/
+build_x_delete	cp-init.c	/^build_x_delete (type, addr, use_global_delete, vir/
+build_x_function_call	cp-typeck.c	/^build_x_function_call (function, params, decl)$/
+build_x_indirect_ref	cp-typeck.c	/^build_x_indirect_ref (ptr, errorstring)$/
+build_x_unary_op	cp-typeck.c	/^build_x_unary_op (code, xarg)$/
+builtin_function	cp-decl.c	/^#define builtin_function(NAME, TYPE, CODE, LIBNAME/
+c_alignof	cp-typeck.c	/^c_alignof (type)$/
+c_expand_asm_operands	cp-typeck.c	/^c_expand_asm_operands (string, outputs, inputs, cl/
+c_expand_return	cp-typeck.c	/^c_expand_return (retval)$/
+c_expand_start_case	cp-typeck.c	/^c_expand_start_case (exp)$/
+c_sizeof	cp-typeck.c	/^c_sizeof (type)$/
+c_sizeof_nowarn	cp-typeck.c	/^c_sizeof_nowarn (type)$/
+cadillac_finish_anon_union	cp-edsel.c	/^cadillac_finish_anon_union (decl)$/
+cadillac_finish_decl	cp-edsel.c	/^cadillac_finish_decl (decl)$/
+cadillac_finish_enum	cp-edsel.c	/^cadillac_finish_enum (type)$/
+cadillac_finish_exception	cp-edsel.c	/^cadillac_finish_exception (type)$/
+cadillac_finish_function	cp-edsel.c	/^cadillac_finish_function (fndecl)$/
+cadillac_finish_stmt	cp-edsel.c	/^cadillac_finish_stmt ()$/
+cadillac_finish_struct	cp-edsel.c	/^cadillac_finish_struct (type)$/
+cadillac_note_filepos	cp-edsel.c	/^cadillac_note_filepos ()$/
+cadillac_note_source	cp-edsel.c	/^cadillac_note_source ()$/
+cadillac_pop_class	cp-edsel.c	/^cadillac_pop_class ()$/
+cadillac_pop_lang	cp-edsel.c	/^cadillac_pop_lang ()$/
+cadillac_pop_source	cp-edsel.c	/^cadillac_pop_source ()$/
+cadillac_printf	cp-edsel.c	/^cadillac_printf (msg, name)$/
+cadillac_process_request	cp-edsel.c	/^cadillac_process_request (cp, req)$/
+cadillac_process_requests	cp-edsel.c	/^cadillac_process_requests (conn)$/
+cadillac_push_class	cp-edsel.c	/^cadillac_push_class (type)$/
+cadillac_push_lang	cp-edsel.c	/^cadillac_push_lang (name)$/
+cadillac_push_source	cp-edsel.c	/^cadillac_push_source ()$/
+cadillac_start	cp-edsel.c	/^cadillac_start ()$/
+cadillac_start_decl	cp-edsel.c	/^cadillac_start_decl (decl)$/
+cadillac_start_enum	cp-edsel.c	/^cadillac_start_enum (type)$/
+cadillac_start_function	cp-edsel.c	/^cadillac_start_function (fndecl)$/
+cadillac_start_struct	cp-edsel.c	/^cadillac_start_struct (type)$/
+cadillac_switch_source	cp-edsel.c	/^cadillac_switch_source (startflag)$/
+call_to_unhandled_exception	cp-except.c	/^call_to_unhandled_exception ()$/
+cat	cp-pt.c	/^#define cat(s)	strncpy(bufp, s, buf+buflen-bufp-1)/
+ccat	cp-pt.c	/^#define ccat(c) *bufp++=(c); check$/
+check_base_init	cp-init.c	/^check_base_init (t)$/
+check_classfn	cp-decl2.c	/^check_classfn (ctype, cname, function)$/
+check_for_missing_semicolon	cp-lex.c	/^check_for_missing_semicolon (type)$/
+check_newline	cp-lex.c	/^check_newline ()$/
+clear_anon_parm_name	cp-method.c	/^clear_anon_parm_name ()$/
+clear_anon_tags	cp-decl.c	/^clear_anon_tags ()$/
+clear_search_slots	cp-search.c	/^clear_search_slots (type)$/
+clear_temp_name	cp-decl2.c	/^clear_temp_name ()$/
+coerce_delete_type	cp-decl2.c	/^coerce_delete_type (type)$/
+coerce_new_type	cp-decl2.c	/^coerce_new_type (type)$/
+coerce_template_parms	cp-pt.c	/^coerce_template_parms (parms, arglist, in_decl)$/
+common_base_type	cp-typeck.c	/^common_base_type (tt1, tt2)$/
+common_type	cp-typeck.c	/^common_type (t1, t2)$/
+commonparms	cp-typeck.c	/^commonparms (p1, p2)$/
+comp_array_types	cp-typeck.c	/^comp_array_types (cmp, t1, t2, strict)$/
+comp_target_parms	cp-typeck.c	/^comp_target_parms (parms1, parms2, strict)$/
+comp_target_types	cp-typeck.c	/^comp_target_types (ttl, ttr, nptrs)$/
+compexcepttypes	cp-typeck.c	/^compexcepttypes (t1, t2, strict)$/
+compiler_error	cp-lex.c	/^compiler_error (s, v, v2)$/
+compiler_error_with_decl	cp-lex.c	/^compiler_error_with_decl (decl, s)$/
+complete_array_type	cp-decl.c	/^complete_array_type (type, initial_value, do_defau/
+compparms	cp-typeck.c	/^compparms (parms1, parms2, strict)$/
+comptypes	cp-typeck.c	/^comptypes (type1, type2, strict)$/
+compute_conversion_costs	cp-call.c	/^compute_conversion_costs (function, tta_in, cp, ar/
+compute_visibility	cp-search.c	/^compute_visibility (basetype_path, field)$/
+cons_up_default_function	cp-lex.c	/^cons_up_default_function (type, name, kind)$/
+constructor_name	cp-decl2.c	/^constructor_name (thing)$/
+consume_token	cp-spew.c	/^consume_token()$/
+convert	cp-cvt.c	/^convert (type, expr)$/
+convert_arguments	cp-typeck.c	/^convert_arguments (return_loc, typelist, values, f/
+convert_for_assignment	cp-typeck.c	/^convert_for_assignment (type, rhs, errtype, fndecl/
+convert_for_initialization	cp-typeck.c	/^convert_for_initialization (exp, type, rhs, flags,/
+convert_force	cp-cvt.c	/^convert_force (type, expr)$/
+convert_from_reference	cp-cvt.c	/^convert_from_reference (val)$/
+convert_harshness	cp-call.c	/^convert_harshness (type, parmtype, parm)$/
+convert_pointer_to	cp-cvt.c	/^convert_pointer_to (binfo, expr)$/
+convert_pointer_to_single_level	cp-search.c	/^convert_pointer_to_single_level (to_type, expr)$/
+convert_pointer_to_vbase	cp-cvt.c	/^convert_pointer_to_vbase (binfo, expr)$/
+convert_sequence	cp-typeck.c	/^convert_sequence (conversions, arg)$/
+convert_to_aggr	cp-cvt.c	/^convert_to_aggr (type, expr, msgp, protect)$/
+convert_to_pointer_force	cp-cvt.c	/^convert_to_pointer_force (type, expr)$/
+convert_to_reference	cp-cvt.c	/^convert_to_reference (decl, reftype, expr, fndecl,/
+copy_binfo	cp-tree.c	/^copy_binfo (list)$/
+copy_decl_lang_specific	cp-lex.c	/^copy_decl_lang_specific (decl)$/
+copy_lang_decl	cp-lex.c	/^copy_lang_decl (node)$/
+copy_to_permanent	cp-tree.c	/^copy_to_permanent (t)$/
+cp_convert_to_pointer	cp-cvt.c	/^cp_convert_to_pointer (type, expr)$/
+cplus_decl_attributes	cp-decl2.c	/^void cplus_decl_attributes (decl, attributes)$/
+cplus_exception_name	cp-method.c	/^cplus_exception_name (type)$/
+cplus_expand_end_catch	cp-except.c	/^cplus_expand_end_catch (for_reraise)$/
+cplus_expand_end_except	cp-except.c	/^cplus_expand_end_except (dfault)$/
+cplus_expand_end_try	cp-except.c	/^cplus_expand_end_try (keep)$/
+cplus_expand_expr	cp-expr.c	/^cplus_expand_expr (exp, target, tmode, modifier)$/
+cplus_expand_expr_stmt	cp-decl.c	/^cplus_expand_expr_stmt (exp)$/
+cplus_expand_raise	cp-except.c	/^cplus_expand_raise (raise_id, parms, exp, for_rera/
+cplus_expand_reraise	cp-except.c	/^cplus_expand_reraise (exceptions)$/
+cplus_expand_start_catch	cp-except.c	/^cplus_expand_start_catch (raise_id)$/
+cplus_expand_start_except	cp-except.c	/^cplus_expand_start_except (name, decl)$/
+cplus_expand_start_try	cp-except.c	/^cplus_expand_start_try (implicit)$/
+cplus_expand_throw	cp-except.c	/^cplus_expand_throw (exp)$/
+deactivate_exception_cleanups	cp-decl.c	/^deactivate_exception_cleanups ()$/
+debug_binfo	cp-tree.c	/^debug_binfo (elem)$/
+debug_yychar	cp-spew.c	/^debug_yychar (yy)$/
+decl_as_string	cp-method.c	/^decl_as_string (decl)$/
+decl_constant_value	cp-init.c	/^decl_constant_value (decl)$/
+decl_in_memory_p	cp-expr.c	/^decl_in_memory_p (decl)$/
+decl_list_length	cp-tree.c	/^decl_list_length (t)$/
+declare_implicit_exception	cp-decl.c	/^declare_implicit_exception ()$/
+declare_overloaded	cp-method.c	/^declare_overloaded (name)$/
+declare_parm_level	cp-decl.c	/^declare_parm_level ()$/
+declare_pseudo_global_level	cp-decl.c	/^declare_pseudo_global_level ()$/
+declare_uninstantiated_type_level	cp-decl.c	/^declare_uninstantiated_type_level ()$/
+declname	cp-xref.c	/^declname(dcl)$/
+decls_match	cp-decl.c	/^decls_match (newdecl, olddecl)$/
+default_conversion	cp-typeck.c	/^default_conversion (exp)$/
+define_case_label	cp-decl.c	/^define_case_label (decl)$/
+define_function	cp-decl.c	/^define_function (name, type, function_code, pfn, l/
+define_label	cp-decl.c	/^define_label (filename, line, name)$/
+delete_block	cp-decl.c	/^delete_block (block)$/
+delete_duplicate_fields	cp-class.c	/^delete_duplicate_fields (fields)$/
+delete_duplicate_fields_1	cp-class.c	/^delete_duplicate_fields_1 (field, field_ptr, field/
+dfs_clear_search_slot	cp-search.c	/^dfs_clear_search_slot (binfo) tree binfo;$/
+dfs_clear_vbase_slots	cp-search.c	/^dfs_clear_vbase_slots (binfo)$/
+dfs_compress_decls	cp-search.c	/^dfs_compress_decls (binfo)$/
+dfs_debug_mark	cp-search.c	/^dfs_debug_mark (binfo)$/
+dfs_debug_unmarkedp	cp-search.c	/^static int dfs_debug_unmarkedp (binfo) tree binfo;/
+dfs_find_vbases	cp-search.c	/^dfs_find_vbases (binfo)$/
+dfs_get_vbase_types	cp-search.c	/^dfs_get_vbase_types (binfo)$/
+dfs_init_vbase_pointers	cp-search.c	/^dfs_init_vbase_pointers (binfo)$/
+dfs_mark	cp-search.c	/^dfs_mark (binfo) tree binfo;$/
+dfs_mark_new_vtable	cp-search.c	/^dfs_mark_new_vtable (binfo) tree binfo;$/
+dfs_mark_vtable_path	cp-search.c	/^dfs_mark_vtable_path (binfo) tree binfo;$/
+dfs_number	cp-search.c	/^dfs_number (binfo)$/
+dfs_popdecls	cp-search.c	/^dfs_popdecls (binfo)$/
+dfs_pushdecls	cp-search.c	/^dfs_pushdecls (binfo)$/
+dfs_record_inheritance	cp-search.c	/^dfs_record_inheritance (binfo)$/
+dfs_search_slot_nonempty_p	cp-search.c	/^static int dfs_search_slot_nonempty_p (binfo) tree/
+dfs_unmark	cp-search.c	/^dfs_unmark (binfo) tree binfo;$/
+dfs_unmark_new_vtable	cp-search.c	/^dfs_unmark_new_vtable (binfo) tree binfo;$/
+dfs_unmark_vtable_path	cp-search.c	/^dfs_unmark_vtable_path (binfo) tree binfo;$/
+dfs_unnumber	cp-search.c	/^dfs_unnumber (binfo)$/
+dfs_walk	cp-search.c	/^dfs_walk (binfo, fn, qfn)$/
+digest_init	cp-type2.c	/^digest_init (type, init, tail)$/
+do	cp-lex.c	/^#define do(X) \\$/
+do_aggr	cp-spew.c	/^do_aggr ()$/
+do_friend	cp-init.c	/^do_friend (ctype, declarator, decl, parmdecls, fla/
+do_identifier	cp-lex.c	/^do_identifier (token)$/
+do_inline_function_hair	cp-method.c	/^do_inline_function_hair (type, friend_list)$/
+do_member_init	cp-init.c	/^do_member_init (s_id, name, init)$/
+do_pending_expansions	cp-pt.c	/^do_pending_expansions ()$/
+do_pending_templates	cp-pt.c	/^do_pending_templates ()$/
+dont_see_typename	cp-lex.c	/^dont_see_typename ()$/
+dump_aggr_type	cp-method.c	/^dump_aggr_type (t)$/
+dump_binary_op	cp-method.c	/^dump_binary_op (opstring, t, len)$/
+dump_decl	cp-method.c	/^dump_decl (t)$/
+dump_init	cp-method.c	/^dump_init (t)$/
+dump_init_list	cp-method.c	/^dump_init_list (l)$/
+dump_readonly_or_volatile	cp-method.c	/^dump_readonly_or_volatile (t)$/
+dump_time_statistics	cp-lex.c	/^dump_time_statistics ()$/
+dump_type	cp-method.c	/^dump_type (t, p)$/
+dump_type_prefix	cp-method.c	/^dump_type_prefix (t, p)$/
+dump_type_suffix	cp-method.c	/^dump_type_suffix (t, p)$/
+dump_unary_op	cp-method.c	/^dump_unary_op (opstring, t, len)$/
+duplicate_decls	cp-decl.c	/^duplicate_decls (newdecl, olddecl)$/
+duplicate_tag_error	cp-class.c	/^duplicate_tag_error (t)$/
+embrace_waiting_friends	cp-init.c	/^embrace_waiting_friends (type)$/
+emit_base_init	cp-init.c	/^emit_base_init (t, immediately)$/
+empty_parms	cp-parse.c	/^empty_parms ()$/
+end_exception_decls	cp-except.c	/^end_exception_decls ()$/
+end_template_decl	cp-pt.c	/^end_template_decl (d1, d2, is_class)$/
+end_template_instantiation	cp-pt.c	/^end_template_instantiation (t1, t3)$/
+end_template_parm_list	cp-pt.c	/^end_template_parm_list (parms)$/
+enum_name_string	cp-type2.c	/^enum_name_string (value, type)$/
+error_not_base_type	cp-type2.c	/^error_not_base_type (basetype, type)$/
+error_with_aggr_type	cp-type2.c	/^error_with_aggr_type (type, msg, arg)$/
+exception_object_name	cp-except.c	/^exception_object_name (prefix, id)$/
+exit_cadillac	cp-edsel.c	/^exit_cadillac ()$/
+expand_aggr_init	cp-init.c	/^expand_aggr_init (exp, init, alias_this)$/
+expand_aggr_init_1	cp-init.c	/^expand_aggr_init_1 (binfo, true_exp, exp, init, al/
+expand_aggr_vbase_init	cp-init.c	/^expand_aggr_vbase_init (binfo, exp, addr, init_lis/
+expand_aggr_vbase_init_1	cp-init.c	/^expand_aggr_vbase_init_1 (binfo, exp, addr, init_l/
+expand_default_init	cp-init.c	/^expand_default_init (binfo, true_exp, exp, type, i/
+expand_gc_prologue_and_epilogue	cp-gc.c	/^expand_gc_prologue_and_epilogue ()$/
+expand_member_init	cp-init.c	/^expand_member_init (exp, name, init)$/
+expand_recursive_init	cp-init.c	/^expand_recursive_init (binfo, true_exp, exp, init,/
+expand_recursive_init_1	cp-init.c	/^expand_recursive_init_1 (binfo, true_exp, addr, in/
+expand_static_init	cp-decl.c	/^expand_static_init (decl, init)$/
+expand_vec_init	cp-init.c	/^expand_vec_init (decl, base, maxindex, init, from_/
+extend_token_buffer	cp-lex.c	/^extend_token_buffer (p)$/
+fctname	cp-xref.c	/^fctname(fndecl)$/
+filename	cp-xref.c	/^filename(xf)$/
+find_file	cp-xref.c	/^find_file(name)$/
+find_scoped_type	cp-call.c	/^find_scoped_type (type, inner_name, inner_types)$/
+finish_anon_union	cp-decl2.c	/^finish_anon_union (anon_union_decl)$/
+finish_base_struct	cp-class.c	/^finish_base_struct (t, b, binfos)$/
+finish_builtin_type	cp-decl2.c	/^finish_builtin_type (type, name, fields, len, alig/
+finish_decl	cp-decl.c	/^finish_decl (decl, init, asmspec_tree, need_pop)$/
+finish_enum	cp-decl.c	/^finish_enum (enumtype, values)$/
+finish_exception	cp-except.c	/^finish_exception (e, list_of_fieldlists)$/
+finish_exception_decl	cp-except.c	/^finish_exception_decl (cname, decl)$/
+finish_file	cp-decl2.c	/^finish_file ()$/
+finish_function	cp-decl.c	/^finish_function (lineno, call_poplevel)$/
+finish_method	cp-decl.c	/^finish_method (decl)$/
+finish_stmt	cp-decl.c	/^finish_stmt ()$/
+finish_struct	cp-class.c	/^finish_struct (t, list_of_fieldlists, warn_anon)$/
+finish_struct_bits	cp-class.c	/^finish_struct_bits (t, max_has_virtual)$/
+finish_struct_methods	cp-class.c	/^finish_struct_methods (t, fn_fields, nonprivate_me/
+finish_table	cp-decl2.c	/^finish_table (name, type, init, publicp)$/
+finish_vtable_typedecl	cp-decl2.c	/^finish_vtable_typedecl (prev, vars)$/
+finish_vtable_vardecl	cp-decl2.c	/^finish_vtable_vardecl (prev, vars)$/
+fixname	cp-xref.c	/^fixname(nam, buf)$/
+fixup_result_decl	cp-expr.c	/^fixup_result_decl (decl, result)$/
+flush_repeats	cp-method.c	/^flush_repeats (type)$/
+fnaddr_from_vtable_entry	cp-tree.c	/^fnaddr_from_vtable_entry (entry)$/
+fndecl_as_string	cp-method.c	/^fndecl_as_string (cname, fndecl, print_ret_type_p)/
+free_mi_matrix	cp-search.c	/^free_mi_matrix ()$/
+frob_identifier	cp-spew.c	/^frob_identifier ()$/
+function_arg_chain	cp-tree.c	/^function_arg_chain (t)$/
+gen_assign	cp-xref.c	/^gen_assign(xf, name)$/
+get_abstract_virtuals	cp-search.c	/^get_abstract_virtuals (type)$/
+get_base_distance	cp-search.c	/^get_base_distance (parent, binfo, protect, path_pt/
+get_base_distance_recursive	cp-search.c	/^get_base_distance_recursive (binfo, depth, is_priv/
+get_base_ref	cp-typeck.c	/^get_base_ref (type, base_index, expr)$/
+get_baselinks	cp-search.c	/^get_baselinks (type_as_binfo_list, type, name)$/
+get_binfo	cp-search.c	/^get_binfo (parent, binfo, protect)$/
+get_binfo2	cp-search.c	/^get_binfo2 (parent, binfo)$/
+get_binfo2_recursive	cp-search.c	/^get_binfo2_recursive (binfo, parent, type)$/
+get_binfo_recursive	cp-search.c	/^get_binfo_recursive (binfo, is_private, parent, rv/
+get_current_declspecs	cp-parse.c	/^get_current_declspecs ()$/
+get_decl_list	cp-tree.c	/^get_decl_list (value)$/
+get_first_matching_virtual	cp-search.c	/^get_first_matching_virtual (binfo, fndecl, dtorp)$/
+get_last_nonwhite_on_line	cp-lex.c	/^get_last_nonwhite_on_line ()$/
+get_member_function	cp-init.c	/^get_member_function (exp_addr_ptr, exp, member)$/
+get_temp_name	cp-decl2.c	/^get_temp_name (type, staticp)$/
+get_temp_regvar	cp-decl2.c	/^get_temp_regvar (type, init)$/
+get_vbase_types	cp-search.c	/^get_vbase_types (type)$/
+get_vfield_name	cp-class.c	/^get_vfield_name (type)$/
+get_vfield_offset	cp-class.c	/^get_vfield_offset (binfo)$/
+get_virtual_destructor	cp-search.c	/^static tree get_virtual_destructor (binfo, i)$/
+get_virtuals_named_this	cp-search.c	/^get_virtuals_named_this (binfo)$/
+get_vtable_entry	cp-class.c	/^get_vtable_entry (virtuals, base_fndecl)$/
+get_vtable_name	cp-class.c	/^get_vtable_name (type)$/
+getdecls	cp-decl.c	/^getdecls ()$/
+gettags	cp-decl.c	/^gettags ()$/
+global_bindings_p	cp-decl.c	/^global_bindings_p ()$/
+globalize_nested_type	cp-decl.c	/^globalize_nested_type (type)$/
+grok_ctor_properties	cp-decl.c	/^grok_ctor_properties (ctype, decl)$/
+grok_enum_decls	cp-decl.c	/^grok_enum_decls (type, decl)$/
+grok_function_init	cp-decl2.c	/^grok_function_init (decl, init)$/
+grok_method_quals	cp-decl2.c	/^grok_method_quals (ctype, function, quals)$/
+grok_op_properties	cp-decl.c	/^grok_op_properties (decl, virtualp)$/
+grok_reference_init	cp-decl.c	/^grok_reference_init (decl, type, init, cleanupp)$/
+grokbitfield	cp-decl2.c	/^grokbitfield (declarator, declspecs, width)$/
+grokclassfn	cp-decl2.c	/^grokclassfn (ctype, cname, function, flags, quals)/
+grokdeclarator	cp-decl.c	/^grokdeclarator (declarator, declspecs, decl_contex/
+grokfield	cp-decl2.c	/^grokfield (declarator, declspecs, raises, init, as/
+grokfndecl	cp-decl.c	/^grokfndecl (ctype, type, declarator, virtualp, fla/
+grokoptypename	cp-decl2.c	/^grokoptypename (decl, call_required)$/
+grokparms	cp-decl.c	/^grokparms (first_parm, funcdef_flag)$/
+groktypefield	cp-decl2.c	/^groktypefield (declspecs, parmlist)$/
+groktypename	cp-decl.c	/^groktypename (typename)$/
+grokvardecl	cp-decl.c	/^grokvardecl (type, declarator, specbits, initializ/
+hack_identifier	cp-method.c	/^hack_identifier (value, name, yychar)$/
+hack_incomplete_structures	cp-decl.c	/^hack_incomplete_structures (type)$/
+hack_more_ids	cp-spew.c	/^hack_more_ids (n)$/
+hack_ptype	cp-spew.c	/^hack_ptype()$/
+hack_scope	cp-spew.c	/^hack_scope ()$/
+hash_chainon	cp-tree.c	/^hash_chainon (list1, list2)$/
+hash_tree_chain	cp-tree.c	/^hash_tree_chain (value, chain)$/
+hash_tree_cons	cp-tree.c	/^hash_tree_cons (via_public, via_virtual, via_prote/
+have_exceptions_p	cp-decl.c	/^have_exceptions_p ()$/
+hides	cp-search.c	/^hides (hider_binfo, hidee_binfo)$/
+icat	cp-method.c	/^icat (i)$/
+id_cmp	cp-tree.c	/^id_cmp (p1, p2)$/
+ideal_candidate	cp-call.c	/^ideal_candidate (basetype, candidates, n_candidate/
+identifier_type	cp-lex.c	/^identifier_type (decl)$/
+identifier_typedecl_value	cp-lex.c	/^identifier_typedecl_value (node)$/
+if	cp-lex.c	/^	  if (c == '\\"')$/
+implicitly_declare	cp-decl.c	/^implicitly_declare (functionid)$/
+import_export_vtable	cp-class.c	/^import_export_vtable (decl, type)$/
+incomplete_type_error	cp-type2.c	/^incomplete_type_error (value, type)$/
+init_cadillac	cp-edsel.c	/^init_cadillac ()$/
+init_class_processing	cp-class.c	/^init_class_processing ()$/
+init_cplus_expand	cp-expr.c	/^init_cplus_expand ()$/
+init_decl_processing	cp-decl.c	/^init_decl_processing ()$/
+init_exception_processing	cp-except.c	/^init_exception_processing ()$/
+init_exception_processing_1	cp-except.c	/^init_exception_processing_1 ()$/
+init_gc_processing	cp-gc.c	/^init_gc_processing ()$/
+init_init_processing	cp-init.c	/^void init_init_processing ()$/
+init_method	cp-method.c	/^init_method ()$/
+init_search_processing	cp-search.c	/^init_search_processing ()$/
+init_spew	cp-spew.c	/^init_spew ()$/
+init_vbase_pointers	cp-search.c	/^init_vbase_pointers (type, decl_ptr)$/
+init_vfields	cp-init.c	/^init_vfields (t, parent, recurse)$/
+initializer_constant_valid_p	cp-type2.c	/^initializer_constant_valid_p (value)$/
+insert_block	cp-decl.c	/^insert_block (block)$/
+instantiate_class_template	cp-pt.c	/^instantiate_class_template (classname, setup_parse/
+instantiate_member_templates	cp-pt.c	/^instantiate_member_templates (arg)$/
+instantiate_template	cp-pt.c	/^instantiate_template (tmpl, targ_ptr)$/
+instantiate_type	cp-class.c	/^instantiate_type (lhstype, rhs, complain)$/
+is_aggr_type_2	cp-tree.c	/^is_aggr_type_2 (t1, t2)$/
+is_aggr_typedef	cp-init.c	/^is_aggr_typedef (name, or_else)$/
+is_friend	cp-init.c	/^is_friend (type, decl)$/
+is_overloaded	cp-method.c	/^is_overloaded (name)$/
+is_subobject_of_p	cp-search.c	/^is_subobject_of_p (parent, binfo)$/
+isalnum	cp-lex.c	/^#define isalnum(char) (char >= 'a' ? char <= 'z' :/
+isdigit	cp-lex.c	/^#define isdigit(char) (char >= '0' && char <= '9')/
+keep_next_level	cp-decl.c	/^keep_next_level ()$/
+kept_level_p	cp-decl.c	/^kept_level_p ()$/
+lang_decode_option	cp-decl2.c	/^lang_decode_option (p)$/
+lang_expand_end_bindings	cp-gc.c	/^lang_expand_end_bindings (first, last)$/
+lang_printable_name	cp-tree.c	/^lang_printable_name (decl)$/
+language_lvalue_valid	cp-typeck.c	/^language_lvalue_valid (exp)$/
+layout_basetypes	cp-tree.c	/^layout_basetypes (rec, binfos)$/
+layout_vbasetypes	cp-tree.c	/^layout_vbasetypes (rec, max)$/
+list_eq	cp-pt.c	/^list_eq (t1, t2)$/
+list_hash	cp-tree.c	/^list_hash (list)$/
+list_hash_add	cp-tree.c	/^list_hash_add (hashcode, list)$/
+list_hash_canon	cp-tree.c	/^list_hash_canon (hashcode, list)$/
+list_hash_lookup	cp-tree.c	/^list_hash_lookup (hashcode, list)$/
+list_hash_lookup_or_cons	cp-tree.c	/^list_hash_lookup_or_cons (value)$/
+lookup_exception_cname	cp-except.c	/^lookup_exception_cname (ctype, cname, raise_id)$/
+lookup_exception_object	cp-except.c	/^lookup_exception_object (cname, name, complain)$/
+lookup_exception_tname	cp-except.c	/^lookup_exception_tname (oname)$/
+lookup_exception_type	cp-except.c	/^lookup_exception_type (ctype, cname, raise_id)$/
+lookup_field	cp-search.c	/^lookup_field (xbasetype, name, protect, want_type)/
+lookup_field_1	cp-search.c	/^lookup_field_1 (type, name)$/
+lookup_fnfields	cp-search.c	/^lookup_fnfields (basetype_path, name, complain)$/
+lookup_fnfields_1	cp-search.c	/^lookup_fnfields_1 (type, name)$/
+lookup_fnfields_here	cp-search.c	/^lookup_fnfields_here (type, name)$/
+lookup_label	cp-decl.c	/^lookup_label (id)$/
+lookup_name	cp-decl.c	/^lookup_name (name, prefer_type)$/
+lookup_name_current_level	cp-decl.c	/^lookup_name_current_level (name)$/
+lookup_nested_field	cp-search.c	/^lookup_nested_field (name, complain)$/
+lookup_nested_type	cp-decl.c	/^lookup_nested_type (type, context)$/
+lookup_tag	cp-decl.c	/^lookup_tag (form, name, binding_level, thislevel_o/
+lookup_tag_reverse	cp-decl.c	/^lookup_tag_reverse (type, name)$/
+lookup_template_class	cp-pt.c	/^lookup_template_class (d1, arglist, in_decl)$/
+lvalue_or_else	cp-tree.c	/^lvalue_or_else (ref, string)$/
+lvalue_p	cp-tree.c	/^lvalue_p (ref)$/
+make_anon_name	cp-decl.c	/^make_anon_name ()$/
+make_anon_parm_name	cp-method.c	/^make_anon_parm_name ()$/
+make_binfo	cp-tree.c	/^make_binfo (offset, type, vtable, virtuals, chain)/
+make_deep_copy	cp-tree.c	/^make_deep_copy (t)$/
+make_friend_class	cp-init.c	/^make_friend_class (type, friend_type)$/
+make_lang_type	cp-lex.c	/^make_lang_type (code)$/
+make_memoized_table_entry	cp-search.c	/^make_memoized_table_entry (type, name, function_p)/
+make_temporary_for_reference	cp-decl.c	/^make_temporary_for_reference (decl, ctor_call, ini/
+make_type_decl	cp-decl.c	/^make_type_decl (name, type)$/
+mangle_class_name_for_template	cp-pt.c	/^mangle_class_name_for_template (name, parms, argli/
+mark_addressable	cp-typeck.c	/^mark_addressable (exp)$/
+mark_inline_for_output	cp-decl2.c	/^mark_inline_for_output (decl)$/
+marked_new_vtablep	cp-search.c	/^static int marked_new_vtablep (binfo) tree binfo;$/
+marked_vtable_pathp	cp-search.c	/^static int marked_vtable_pathp (binfo) tree binfo;/
+markedp	cp-search.c	/^static int markedp (binfo) tree binfo;$/
+may_be_remote	cp-call.c	/^may_be_remote (parent)$/
+maybe_adjust_addr_for_delete	cp-init.c	/^maybe_adjust_addr_for_delete (addr)$/
+maybe_build_cleanup	cp-decl.c	/^maybe_build_cleanup (decl)$/
+maybe_fixup_vptrs	cp-class.c	/^maybe_fixup_vptrs (for_type, binfo, base_init_list/
+maybe_globalize_type	cp-decl.c	/^maybe_globalize_type (type)$/
+member_function_or_else	cp-decl.c	/^member_function_or_else (ctype, cur_type, string)$/
+member_init_ok_or_else	cp-init.c	/^member_init_ok_or_else (field, type, member_name)$/
+message_2_types	cp-tree.c	/^message_2_types (pfn, s, type1, type2)$/
+modify_vtable_entries	cp-class.c	/^modify_vtable_entries (t, fndecl, base_fndecl, pfn/
+modify_vtable_entry	cp-class.c	/^modify_vtable_entry (old_entry_in_list, new_entry,/
+my_build_string	cp-search.c	/^my_build_string (str)$/
+my_friendly_abort	cp-type2.c	/^my_friendly_abort (i)$/
+my_friendly_assert	cp-type2.c	/^my_friendly_assert (cond, where)$/
+my_new_memoized_entry	cp-search.c	/^my_new_memoized_entry (chain)$/
+my_tree_cons	cp-search.c	/^my_tree_cons (purpose, value, chain)$/
+next_baselink	cp-search.c	/^next_baselink (baselink)$/
+note_debug_info_needed	cp-search.c	/^note_debug_info_needed (type)$/
+note_got_semicolon	cp-lex.c	/^note_got_semicolon (type)$/
+note_list_got_semicolon	cp-lex.c	/^note_list_got_semicolon (declspecs)$/
+nth_token	cp-spew.c	/^nth_token (n)$/
+num_tokens	cp-spew.c	/^num_tokens ()$/
+numberedp	cp-search.c	/^static int numberedp (binfo) tree binfo;$/
+open_xref_file	cp-xref.c	/^open_xref_file(file)$/
+output_builtin_tdesc_entries	cp-decl.c	/^output_builtin_tdesc_entries ()$/
+overload_template_name	cp-pt.c	/^overload_template_name (id, classlevel)$/
+overloaded_globals_p	cp-decl.c	/^overloaded_globals_p (list)$/
+parmlist_is_exprlist	cp-decl.c	/^parmlist_is_exprlist (exprs)$/
+parmlist_is_random	cp-decl.c	/^parmlist_is_random (parms)$/
+pedantic_lvalue_warning	cp-typeck.c	/^pedantic_lvalue_warning (code)$/
+pointer_diff	cp-typeck.c	/^pointer_diff (op0, op1)$/
+pointer_int_sum	cp-typeck.c	/^pointer_int_sum (resultcode, ptrop, intop)$/
+pop_binding_level	cp-decl.c	/^pop_binding_level ()$/
+pop_class_decls	cp-search.c	/^pop_class_decls (type)$/
+pop_context_level	cp-edsel.c	/^pop_context_level (stack)$/
+pop_decl_level	cp-decl.c	/^pop_decl_level (stack)$/
+pop_from_top_level	cp-decl.c	/^pop_from_top_level ()$/
+pop_implicit_try_blocks	cp-decl.c	/^pop_implicit_try_blocks (decl)$/
+pop_lang_context	cp-class.c	/^pop_lang_context ()$/
+pop_memoized_context	cp-search.c	/^pop_memoized_context (use_old)$/
+pop_stack_level	cp-search.c	/^pop_stack_level (stack)$/
+pop_template_decls	cp-pt.c	/^pop_template_decls (parmlist, arglist, class_level/
+pop_type_level	cp-search.c	/^pop_type_level (stack)$/
+popclass	cp-class.c	/^popclass (modify)$/
+poplevel	cp-decl.c	/^poplevel (keep, reverse, functionbody)$/
+poplevel_class	cp-decl.c	/^poplevel_class ()$/
+prepare_fresh_vtable	cp-class.c	/^prepare_fresh_vtable (binfo, base_binfo, for_type)/
+print_binding_level	cp-decl.c	/^print_binding_level (lvl)$/
+print_binding_stack	cp-decl.c	/^print_binding_stack ()$/
+print_class_statistics	cp-class.c	/^print_class_statistics ()$/
+print_lang_decl	cp-ptree.c	/^print_lang_decl (file, node, indent)$/
+print_lang_identifier	cp-ptree.c	/^print_lang_identifier (file, node, indent)$/
+print_lang_statistics	cp-tree.c	/^print_lang_statistics ()$/
+print_lang_type	cp-ptree.c	/^print_lang_type (file, node, indent)$/
+print_other_binding_stack	cp-decl.c	/^print_other_binding_stack (stack)$/
+print_search_statistics	cp-search.c	/^print_search_statistics ()$/
+probe_obstack	cp-spew.c	/^probe_obstack (h, obj, nlevels)$/
+process_init_constructor	cp-type2.c	/^process_init_constructor (type, init, elts)$/
+process_template_parm	cp-pt.c	/^process_template_parm (list, next)$/
+promotes_to_aggr_type	cp-tree.c	/^promotes_to_aggr_type (t, code)$/
+propagate_binfo_offsets	cp-tree.c	/^propagate_binfo_offsets (binfo, offset)$/
+protect_value_from_gc	cp-gc.c	/^protect_value_from_gc (to, from)$/
+pseudo_global_level_p	cp-decl.c	/^pseudo_global_level_p ()$/
+push_binding_level	cp-decl.c	/^push_binding_level (newlevel, tag_transparent, kee/
+push_class_decls	cp-search.c	/^push_class_decls (type)$/
+push_context_level	cp-edsel.c	/^push_context_level (stack, obstack)$/
+push_decl_level	cp-decl.c	/^push_decl_level (stack, obstack)$/
+push_exception_cleanup	cp-decl.c	/^push_exception_cleanup (addr)$/
+push_lang_context	cp-class.c	/^push_lang_context (name)$/
+push_memoized_context	cp-search.c	/^push_memoized_context (type, use_old)$/
+push_overloaded_decl	cp-decl.c	/^push_overloaded_decl (decl, forgettable)$/
+push_overloaded_decl_1	cp-decl.c	/^push_overloaded_decl_1 (x)$/
+push_overloaded_decl_top_level	cp-decl.c	/^push_overloaded_decl_top_level (x, forget)$/
+push_search_level	cp-search.c	/^push_search_level (stack, obstack)$/
+push_stack_level	cp-search.c	/^push_stack_level (obstack, tp, size)$/
+push_template_decls	cp-pt.c	/^push_template_decls (parmlist, arglist, class_leve/
+push_to_top_level	cp-decl.c	/^push_to_top_level ()$/
+push_type_level	cp-search.c	/^push_type_level (stack, obstack)$/
+pushclass	cp-class.c	/^pushclass (type, modify)$/
+pushdecl	cp-decl.c	/^pushdecl (x)$/
+pushdecl_class_level	cp-decl.c	/^pushdecl_class_level (x)$/
+pushdecl_top_level	cp-decl.c	/^pushdecl_top_level (x)$/
+pushlevel	cp-decl.c	/^pushlevel (tag_transparent)$/
+pushlevel_class	cp-decl.c	/^pushlevel_class ()$/
+pushlevel_temporary	cp-decl.c	/^pushlevel_temporary (tag_transparent)$/
+pushtag	cp-decl.c	/^pushtag (name, type)$/
+qualify_type	cp-typeck.c	/^qualify_type (type, like)$/
+rank_for_overload	cp-call.c	/^rank_for_overload (x, y)$/
+rank_mi_virtuals	cp-search.c	/^rank_mi_virtuals (v1, v2)$/
+readable_p	cp-edsel.c	/^readable_p (fd)$/
+readescape	cp-lex.c	/^readescape (ignore_ptr)$/
+readonly_error	cp-type2.c	/^readonly_error (arg, string, soft)$/
+real_yylex	cp-lex.c	/^real_yylex ()$/
+record_builtin_type	cp-decl.c	/^record_builtin_type (rid_index, name, type)$/
+record_format_info	cp-typeck.c	/^record_format_info (function_ident, is_scan, forma/
+recursive_bounded_basetype_p	cp-search.c	/^recursive_bounded_basetype_p (parent, binfo, rval,/
+redeclaration_error_message	cp-decl.c	/^redeclaration_error_message (newdecl, olddecl)$/
+reinit_parse_for_template	cp-pt.c	/^reinit_parse_for_template (yychar, d1, d2)$/
+reinit_search_statistics	cp-search.c	/^reinit_search_statistics ()$/
+related_vslot	cp-class.c	/^related_vslot (base_fndecl, vfields, type)$/
+report_ambiguous_mi_virtuals	cp-search.c	/^report_ambiguous_mi_virtuals (rows, type)$/
+report_case_error	cp-type2.c	/^report_case_error (code, type, new_value, old_valu/
+report_type_mismatch	cp-method.c	/^report_type_mismatch (cp, parmtypes, name_kind, er/
+require_complete_type	cp-typeck.c	/^require_complete_type (value)$/
+require_complete_types_for_parms	cp-decl.c	/^require_complete_types_for_parms (parms)$/
+require_instantiated_type	cp-typeck.c	/^require_instantiated_type (type, exp, errval)$/
+resolve_offset_ref	cp-init.c	/^resolve_offset_ref (exp)$/
+resolve_scope_to_name	cp-call.c	/^resolve_scope_to_name (outer_type, inner_types)$/
+resolves_to_fixed_type_p	cp-class.c	/^resolves_to_fixed_type_p (instance, nonnull)$/
+reverse_path	cp-tree.c	/^reverse_path (path)$/
+revert_static_member_fn	cp-decl.c	/^revert_static_member_fn (fn, decl, argtypes)$/
+ridpointers	cp-lex.c	/^tree ridpointers[(int) RID_MAX];$/
+root_lang_context_p	cp-class.c	/^root_lang_context_p ()$/
+scan_tokens	cp-spew.c	/^scan_tokens (n)$/
+see_typename	cp-lex.c	/^see_typename ()$/
+self_promoting_args_p	cp-typeck.c	/^self_promoting_args_p (parms)$/
+set_block	cp-decl.c	/^set_block (block)$/
+set_current_level_tags_transparency	cp-decl.c	/^set_current_level_tags_transparency (tags_transpar/
+set_fnaddr_from_vtable_entry	cp-tree.c	/^set_fnaddr_from_vtable_entry (entry, value)$/
+set_identifier_local_value	cp-decl.c	/^set_identifier_local_value (id, type)$/
+set_identifier_type_value	cp-decl.c	/^set_identifier_type_value (id, type)$/
+set_nested_typename	cp-decl.c	/^set_nested_typename (decl, classname, name, type)$/
+setup_exception_throw_decl	cp-except.c	/^setup_exception_throw_decl ()$/
+setup_vtbl_ptr	cp-decl2.c	/^setup_vtbl_ptr ()$/
+shadow_label	cp-decl.c	/^shadow_label (name)$/
+shadow_tag	cp-decl.c	/^shadow_tag (declspecs)$/
+shift_tokens	cp-spew.c	/^shift_tokens (n)$/
+signed_or_unsigned_type	cp-typeck.c	/^signed_or_unsigned_type (unsignedp, type)$/
+signed_type	cp-typeck.c	/^signed_type (type)$/
+sigsegv	cp-decl.c	/^sigsegv (sig)$/
+simplify_type	cp-xref.c	/^simplify_type(typ)$/
+skip_white_space	cp-lex.c	/^skip_white_space (c)$/
+start_decl	cp-decl.c	/^start_decl (declarator, declspecs, initialized, ra/
+start_enum	cp-decl.c	/^start_enum (name)$/
+start_function	cp-decl.c	/^start_function (declspecs, declarator, raises, pre/
+start_method	cp-decl.c	/^start_method (declspecs, declarator, raises)$/
+store_init_value	cp-type2.c	/^store_init_value (decl, init)$/
+store_parm_decls	cp-decl.c	/^store_parm_decls ()$/
+store_return_init	cp-decl.c	/^store_return_init (return_id, init)$/
+storedecls	cp-decl.c	/^storedecls (decls)$/
+storetags	cp-decl.c	/^storetags (tags)$/
+substitute_nice_name	cp-decl2.c	/^substitute_nice_name (decl)$/
+target_type	cp-typeck.c	/^target_type (type)$/
+temp_name_p	cp-decl2.c	/^temp_name_p (decl)$/
+tree_has_any_destructor_p	cp-search.c	/^int tree_has_any_destructor_p (binfo, i)$/
+tree_needs_constructor_p	cp-search.c	/^int tree_needs_constructor_p (binfo, i)$/
+tsubst	cp-pt.c	/^tsubst (t, args, nargs, in_decl)$/
+type_as_string	cp-method.c	/^type_as_string (typ)$/
+type_needs_gc_entry	cp-gc.c	/^type_needs_gc_entry (type)$/
+type_unification	cp-pt.c	/^type_unification (tparms, targs, parms, args, nsub/
+type_unknown_p	cp-typeck.c	/^type_unknown_p (exp)$/
+typecode_p	cp-class.c	/^typecode_p (type, code)$/
+typedecl_for_tag	cp-decl.c	/^typedecl_for_tag (tag)$/
+unary_complex_lvalue	cp-typeck.c	/^unary_complex_lvalue (code, arg)$/
+undo_template_name_overload	cp-pt.c	/^undo_template_name_overload (id, classlevel)$/
+unify	cp-pt.c	/^unify (tparms, targs, ntparms, parm, arg, nsubsts)/
+uninstantiated_type_level_p	cp-decl.c	/^uninstantiated_type_level_p ()$/
+unmark_finished_struct	cp-search.c	/^unmark_finished_struct (type)$/
+unmarked_new_vtablep	cp-search.c	/^static int unmarked_new_vtablep (binfo) tree binfo/
+unmarked_vtable_pathp	cp-search.c	/^static int unmarked_vtable_pathp (binfo) tree binf/
+unmarkedp	cp-search.c	/^static int unmarkedp (binfo) tree binfo;$/
+unnumberedp	cp-search.c	/^static int unnumberedp (binfo) tree binfo;$/
+unsigned_type	cp-typeck.c	/^unsigned_type (type)$/
+unuse_fields	cp-class.c	/^unuse_fields (type)$/
+uses_template_parms	cp-pt.c	/^uses_template_parms (t)$/
+value_safe_from_gc	cp-gc.c	/^value_safe_from_gc (to, from)$/
+virtual_member	cp-tree.c	/^virtual_member (elem, list)$/
+virtual_offset	cp-tree.c	/^virtual_offset (elem, list, initial_offset)$/
+walk_vtables	cp-decl2.c	/^walk_vtables (typedecl_fn, vardecl_fn)$/
+warn_for_assignment	cp-typeck.c	/^warn_for_assignment (anon_msg, arg_msg, opname, fn/
+while	cp-lex.c	/^	  while (c > ' ')	\/* ASCII dependent! *\/$/
+write_vtable_entries	cp-decl2.c	/^write_vtable_entries (decl)$/
+xcat	cp-pt.c	/^#define xcat(n)	sprintf(ibuf,"%ux",n); cat(ibuf)$/
+xref_defn_tag	cp-decl.c	/^xref_defn_tag (code_type_node, name, binfo)$/
+xref_friend	cp-init.c	/^xref_friend (type, decl, ctype)$/
+xref_friends	cp-init.c	/^xref_friends (type, name, ctype)$/
+xref_tag	cp-decl.c	/^xref_tag (code_type_node, name, binfo)$/
+yyerror	cp-lex.c	/^yyerror (string)$/
+yylex	cp-spew.c	/^yylex()$/
+yyparse	cp-parse.c	/^yyparse()$/

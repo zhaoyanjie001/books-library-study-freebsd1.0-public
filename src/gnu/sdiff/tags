@@ -1,0 +1,42 @@
+Mgetopt	../diff/getopt.c	/^main (argc, argv)$/
+Mgetopt1	../diff/getopt1.c	/^main (argc, argv)$/
+Msdiff	../diff/sdiff.c	/^main (argc, argv)$/
+_getopt_internal	../diff/getopt.c	/^_getopt_internal (argc, argv, optstring, longopts,/
+catchsig	../diff/sdiff.c	/^catchsig (s)$/
+ck_fclose	../diff/sdiff.c	/^ck_fclose (f)$/
+ck_fdopen	../diff/sdiff.c	/^ck_fdopen (fd, type)$/
+ck_fflush	../diff/sdiff.c	/^ck_fflush (f)$/
+ck_fopen	../diff/sdiff.c	/^ck_fopen (fname, type)$/
+ck_fread	../diff/sdiff.c	/^ck_fread (buf, size, f)$/
+ck_fwrite	../diff/sdiff.c	/^ck_fwrite (buf, size, f)$/
+cleanup	../diff/sdiff.c	/^cleanup ()$/
+diffarg	../diff/sdiff.c	/^diffarg (a)$/
+diraccess	../diff/sdiff.c	/^diraccess (dir)$/
+edit	../diff/sdiff.c	/^edit (left, lenl, right, lenr, outfile)$/
+exchange	../diff/getopt.c	/^exchange (argv)$/
+execdiff	../diff/sdiff.c	/^execdiff (differences_only, option, file1, file2)$/
+exists	../diff/sdiff.c	/^exists (file)$/
+exiterr	../diff/sdiff.c	/^exiterr ()$/
+expand_name	../diff/sdiff.c	/^expand_name (name, isdir, other_name)$/
+fatal	../diff/sdiff.c	/^fatal (msg)$/
+flush_line	../diff/sdiff.c	/^flush_line ()$/
+getopt	../diff/getopt.c	/^getopt (argc, argv, optstring)$/
+getopt_long	../diff/getopt1.c	/^getopt_long (argc, argv, options, long_options, op/
+getopt_long_only	../diff/getopt1.c	/^getopt_long_only (argc, argv, options, long_option/
+give_help	../diff/sdiff.c	/^give_help ()$/
+interact	../diff/sdiff.c	/^interact (diff, left, right, outfile)$/
+lf_copy	../diff/sdiff.c	/^lf_copy (lf, lines, outfile)$/
+lf_init	../diff/sdiff.c	/^lf_init (lf, infile)$/
+lf_refill	../diff/sdiff.c	/^lf_refill (lf)$/
+lf_skip	../diff/sdiff.c	/^lf_skip (lf, lines)$/
+lf_snarf	../diff/sdiff.c	/^lf_snarf (lf, buffer, bufsize)$/
+memchr	../diff/sdiff.c	/^memchr (s, c, n)$/
+my_bcopy	../diff/getopt.c	/^#define	my_bcopy(src, dst, n)	memcpy ((dst), (src)/
+my_index	../diff/getopt.c	/^my_index (str, chr)$/
+perror_fatal	../diff/sdiff.c	/^perror_fatal (msg)$/
+private_tempnam	../diff/sdiff.c	/^private_tempnam (dir, pfx, dir_search, lenptr)$/
+skip_white	../diff/sdiff.c	/^skip_white ()$/
+trapsigs	../diff/sdiff.c	/^trapsigs ()$/
+usage	../diff/sdiff.c	/^usage ()$/
+waitpid	../diff/sdiff.c	/^waitpid (pid, stat_loc, options)$/
+xmalloc	../diff/sdiff.c	/^xmalloc (size)$/

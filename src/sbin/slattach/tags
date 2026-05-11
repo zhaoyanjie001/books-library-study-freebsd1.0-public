@@ -1,0 +1,7 @@
+Mslattach	slattach.c	/^int main(int argc, char **argv)$/
+attach_line	slattach.c	/^void attach_line()$/
+exit_handler	slattach.c	/^void exit_handler(int ret)$/
+setup_line	slattach.c	/^void setup_line()$/
+sighup_handler	slattach.c	/^void sighup_handler()$/
+sigint_handler	slattach.c	/^void sigint_handler()$/
+sigterm_handler	slattach.c	/^void sigterm_handler()$/

@@ -1,0 +1,14 @@
+Msyscons	syscons.c	/^main(argc, argv)$/
+displayit	syscons.c	/^displayit(void)$/
+is_syscons	syscons.c	/^is_syscons(fd)$/
+keymap	syscons.c	/^keymap(opt)$/
+keyrate	syscons.c	/^keyrate(opt)$/
+linemode	syscons.c	/^linemode(opt)$/
+loadfont	syscons.c	/^loadfont(sizec, fname)$/
+mapscr	syscons.c	/^mapscr(opt)$/
+mkfullname	syscons.c	/^mkfullname(s1, s2, s3)$/
+nextarg	syscons.c	/^nextarg(ac, av, indp, oc)$/
+screensaver	syscons.c	/^screensaver(opt)$/
+setfkey	syscons.c	/^setfkey(knumc, str)$/
+switchto	syscons.c	/^switchto(opt)$/
+usage	syscons.c	/^usage(void)$/

@@ -1,0 +1,2 @@
+Melvispreserve	elvispreserve.c	/^void main(argc, argv)$/
+preserve	elvispreserve.c	/^void preserve(tname, when)$/

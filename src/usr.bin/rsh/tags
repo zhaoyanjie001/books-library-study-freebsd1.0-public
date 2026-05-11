@@ -1,0 +1,6 @@
+Mrsh	rsh.c	/^main(argc, argv)$/
+copyargs	rsh.c	/^copyargs(argv)$/
+sendsig	rsh.c	/^sendsig(signo)$/
+talk	rsh.c	/^talk(nflag, omask, pid, rem)$/
+usage	rsh.c	/^usage()$/
+warning	rsh.c	/^warning(va_alist)$/

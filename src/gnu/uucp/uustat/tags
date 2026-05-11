@@ -1,0 +1,34 @@
+Muustat	uustat.c	/^main (argc, argv)$/
+csunits_show	uustat.c	/^csunits_show (idiff)$/
+fcopy_file	../common_sources/copy.c	/^fcopy_file (zfrom, zto, fpublic, fmkdirs)$/
+fcopy_open_file	../common_sources/copy.c	/^fcopy_open_file (efrom, zto, fpublic, fmkdirs)$/
+fin_directory_list	../common_sources/util.c	/^fin_directory_list (zfile, pzdirs, zpubdir, fcheck/
+fsexecutions	uustat.c	/^fsexecutions (puuconf, icmd, csystems, pazsystems,/
+fsmachines	uustat.c	/^fsmachines ()$/
+fsnotify	uustat.c	/^fsnotify (puuconf, icmd, zcomment, cstdin, fkilled/
+fsquery	uustat.c	/^fsquery (puuconf)$/
+fsquery_show	uustat.c	/^fsquery_show (qsys, cwork, ifirstwork, qxqt, inow,/
+fsquery_system	uustat.c	/^fsquery_system (qsys, pq, inow, zlocalname)$/
+fsworkfile_show	uustat.c	/^fsworkfile_show (puuconf, icmd, qsys, qcmd, itime,/
+fsworkfiles	uustat.c	/^fsworkfiles (puuconf, icmd, csystems, pazsystems, /
+fsworkfiles_system	uustat.c	/^fsworkfiles_system (puuconf, icmd, qsys, cusers, p/
+fsxqt_file_read	uustat.c	/^fsxqt_file_read (puuconf, zfile)$/
+funknown_system	../common_sources/util.c	/^funknown_system (puuconf, zsystem, qsys)$/
+isxqt_cmd	uustat.c	/^isxqt_cmd (puuconf, argc, argv, pvar, pinfo)$/
+isxqt_file	uustat.c	/^isxqt_file (puuconf, argc, argv, pvar, pinfo)$/
+isxqt_user	uustat.c	/^isxqt_user (puuconf, argc, argv, pvar, pinfo)$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+ususage	uustat.c	/^ususage ()$/
+usworkfile_header	uustat.c	/^usworkfile_header (qsys, qcmd, zjobid, itime, ffir/
+usxqt_file_free	uustat.c	/^usxqt_file_free ()$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/

@@ -1,0 +1,13 @@
+Mrusersd	rusersd.c	/^main(argc, argv)$/
+XqueryIdle	rusers_proc.c	/^XqueryIdle(char *display)$/
+abortOpen	rusers_proc.c	/^abortOpen ()$/
+cleanup	rusersd.c	/^cleanup()$/
+do_names_1	rusers_proc.c	/^do_names_1(int all)$/
+do_names_2	rusers_proc.c	/^do_names_2(int all)$/
+getidle	rusers_proc.c	/^getidle(char *tty, char *display)$/
+rusers_num	rusers_proc.c	/^rusers_num()$/
+rusers_service	rusers_proc.c	/^rusers_service(rqstp, transp)$/
+rusersproc_allnames_1	rusers_proc.c	/^rusersproc_allnames_1()$/
+rusersproc_allnames_2	rusers_proc.c	/^rusersproc_allnames_2()$/
+rusersproc_names_1	rusers_proc.c	/^rusersproc_names_1()$/
+rusersproc_names_2	rusers_proc.c	/^rusersproc_names_2()$/

@@ -1,0 +1,19 @@
+do_system_command	util.c	/^do_system_command (command)$/
+downcase	util.c	/^downcase (s)$/
+gripe_alloc	gripes.c	/^gripe_alloc (bytes, object)$/
+gripe_converting_name	gripes.c	/^gripe_converting_name (name, to_cat)$/
+gripe_getting_mp_config	gripes.c	/^gripe_getting_mp_config (file)$/
+gripe_incompatible	gripes.c	/^gripe_incompatible (s)$/
+gripe_invalid_section	gripes.c	/^gripe_invalid_section (section)$/
+gripe_manpath	gripes.c	/^gripe_manpath ()$/
+gripe_no_name	gripes.c	/^gripe_no_name (section)$/
+gripe_not_found	gripes.c	/^gripe_not_found (name, section)$/
+gripe_reading_man_file	gripes.c	/^gripe_reading_man_file (name)$/
+gripe_reading_mp_config	gripes.c	/^gripe_reading_mp_config (file)$/
+gripe_roff_command_from_command_line	gripes.c	/^gripe_roff_command_from_command_line ()$/
+gripe_roff_command_from_env	gripes.c	/^gripe_roff_command_from_env ()$/
+gripe_roff_command_from_file	gripes.c	/^gripe_roff_command_from_file (file)$/
+gripe_system_command	gripes.c	/^gripe_system_command (status)$/
+is_directory	util.c	/^is_directory (path)$/
+is_newer	util.c	/^is_newer (fa, fb)$/
+mkprogname	util.c	/^mkprogname (s)$/

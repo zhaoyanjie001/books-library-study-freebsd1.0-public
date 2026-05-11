@@ -1,0 +1,83 @@
+Mcu	cu.c	/^main (argc, argv)$/
+P	../common_sources/chat.c	/^static boolean fcphone P((struct sconnection *qcon/
+breceive_char	../common_sources/prot.c	/^breceive_char (qconn, ctimeout, freport)$/
+fcdo_dial	../common_sources/conn.c	/^fcdo_dial (qconn, puuconf, qdial, zphone, ftransla/
+fcecho_send	../common_sources/chat.c	/^fcecho_send (qconn, zwrite, cwrite, fstrip)$/
+fcecho_send_nostrip	../common_sources/chat.c	/^fcecho_send_nostrip (qconn, zwrite, cwrite)$/
+fcecho_send_strip	../common_sources/chat.c	/^fcecho_send_strip (qconn, zwrite, cwrite)$/
+fconn_break	../common_sources/conn.c	/^fconn_break (qconn)$/
+fconn_carrier	../common_sources/conn.c	/^fconn_carrier (qconn, fcarrier)$/
+fconn_close	../common_sources/conn.c	/^fconn_close (qconn, puuconf, qdialer, fsuccess)$/
+fconn_dial	../common_sources/conn.c	/^fconn_dial (qconn, puuconf, qsys, zphone, qdialer,/
+fconn_init	../common_sources/conn.c	/^fconn_init (qport, qconn)$/
+fconn_io	../common_sources/conn.c	/^fconn_io (qconn, zwrite, pcwrite, zread, pcread)$/
+fconn_lock	../common_sources/conn.c	/^fconn_lock (qconn, fin)$/
+fconn_open	../common_sources/conn.c	/^fconn_open (qconn, ibaud, ihighbaud, fwait)$/
+fconn_read	../common_sources/conn.c	/^fconn_read (qconn, zbuf, pclen, cmin, ctimeout, fr/
+fconn_reset	../common_sources/conn.c	/^fconn_reset (qconn)$/
+fconn_run_chat	../common_sources/conn.c	/^fconn_run_chat (qconn, pzprog)$/
+fconn_set	../common_sources/conn.c	/^fconn_set (qconn, tparity, tstrip, txonxoff)$/
+fconn_unlock	../common_sources/conn.c	/^fconn_unlock (qconn)$/
+fconn_write	../common_sources/conn.c	/^fconn_write (qconn, zbuf, clen)$/
+fcopy_file	../common_sources/copy.c	/^fcopy_file (zfrom, zto, fpublic, fmkdirs)$/
+fcopy_open_file	../common_sources/copy.c	/^fcopy_open_file (efrom, zto, fpublic, fmkdirs)$/
+fcphone	../common_sources/chat.c	/^fcphone (qconn, puuconf, qdial, zphone, pfwrite, f/
+fcprogram	../common_sources/chat.c	/^fcprogram (qconn, puuconf, pzprogram, qsys, qdial,/
+fcsend	../common_sources/chat.c	/^fcsend (qconn, puuconf, z, qsys, qdial, zphone, ft/
+fcsend_debug	../common_sources/chat.c	/^fcsend_debug (fquote, clen, zbuf)$/
+fctranslate	../common_sources/chat.c	/^fctranslate (puuconf, zphone, pzprefix, pzsuffix)$/
+fcudo_cmd	cu.c	/^fcudo_cmd (puuconf, qconn, bcmd)$/
+fcudo_subcmd	cu.c	/^fcudo_subcmd (puuconf, qconn, zline)$/
+fcusend_buf	cu.c	/^fcusend_buf (qconn, zbufarg, cbufarg)$/
+fcuset_var	cu.c	/^fcuset_var (puuconf, zline)$/
+fmail_transfer	../common_sources/prot.c	/^fmail_transfer (fsuccess, zuser, zmail, zwhy, zfro/
+fmodem_dial	../common_sources/conn.c	/^fmodem_dial (qconn, puuconf, qsys, zphone, qdialer/
+freceive_data	../common_sources/prot.c	/^freceive_data (qconn, cneed, pcrec, ctimeout, frep/
+fsend_data	../common_sources/prot.c	/^fsend_data (qconn, zsend, csend, fdoread)$/
+fsysdep_tcp_init	../common_sources/tcp.c	/^fsysdep_tcp_init (qconn)$/
+fsysdep_tli_init	../common_sources/tli.c	/^fsysdep_tli_init (qconn)$/
+ftcp_close	../common_sources/tcp.c	/^ftcp_close (qconn, puuconf, qdialer, fsuccess)$/
+ftcp_dial	../common_sources/tcp.c	/^ftcp_dial (qconn, puuconf, qsys, zphone, qdialer, /
+ftcp_open	../common_sources/tcp.c	/^ftcp_open (qconn, ibaud, fwait)$/
+ftcp_reset	../common_sources/tcp.c	/^ftcp_reset (qconn)$/
+ftli_close	../common_sources/tli.c	/^ftli_close (qconn, puuconf, qdialer, fsuccess)$/
+ftli_dial	../common_sources/tli.c	/^ftli_dial (qconn, puuconf, qsys, zphone, qdialer, /
+ftli_open	../common_sources/tli.c	/^ftli_open (qconn, ibaud, fwait)$/
+ftli_push	../common_sources/tli.c	/^ftli_push (qconn)$/
+ftli_reset	../common_sources/tli.c	/^ftli_reset (qconn)$/
+icexpect	../common_sources/chat.c	/^icexpect (qconn, cstrings, azstrings, aclens, ctim/
+iconn_baud	../common_sources/conn.c	/^iconn_baud (qconn)$/
+icubreak	cu.c	/^icubreak (puuconf, argc, argv, pvar, pinfo)$/
+icuchdir	cu.c	/^icuchdir (puuconf, argc, argv, pvar, pinfo)$/
+icudebug	cu.c	/^icudebug (puuconf, argc, argv, pvar, pinfo)$/
+icunostop	cu.c	/^icunostop (puuconf, argc, argv, pvar, pinfo)$/
+icuport_lock	cu.c	/^icuport_lock (qport, pinfo)$/
+icuput	cu.c	/^icuput (puuconf, argc, argv, pvar, pinfo)$/
+icutake	cu.c	/^icutake (puuconf, argc, argv, pvar, pinfo)$/
+icuunrecogfn	cu.c	/^icuunrecogfn (puuconf, argc, argv, pvar, pinfo)$/
+icuunrecogvar	cu.c	/^icuunrecogvar (puuconf, argc, argv, pvar, pinfo)$/
+itcp_port_number	../common_sources/tcp.c	/^itcp_port_number (zname)$/
+uconn_free	../common_sources/conn.c	/^uconn_free (qconn)$/
+ucsend_debug_end	../common_sources/chat.c	/^ucsend_debug_end (fquote, ferr)$/
+ucuabort	cu.c	/^ucuabort ()$/
+uculist_fns	cu.c	/^uculist_fns (zescape)$/
+uculist_vars	cu.c	/^uculist_vars ()$/
+uculog_end	cu.c	/^uculog_end ()$/
+uculog_start	cu.c	/^uculog_start ()$/
+ucuputs	cu.c	/^#define ucuputs(zline) \\$/
+ucuusage	cu.c	/^ucuusage ()$/
+ulog	../common_sources/log.c	/^ulog (ttype, zmsg, a, b, c, d, f, g, h, i, j)$/
+ulog_close	../common_sources/log.c	/^ulog_close ()$/
+ulog_device	../common_sources/log.c	/^ulog_device (zdevice)$/
+ulog_id	../common_sources/log.c	/^ulog_id (i)$/
+ulog_system	../common_sources/log.c	/^ulog_system (zsystem)$/
+ulog_to_file	../common_sources/log.c	/^ulog_to_file (puuconf, ffile)$/
+ulog_user	../common_sources/log.c	/^ulog_user (zuser)$/
+ulog_uuconf	../common_sources/log.c	/^ulog_uuconf (ttype, puuconf, iuuconf)$/
+ustats	../common_sources/log.c	/^ustats (fsucceeded, zuser, zsystem, fsent, cbytes,/
+ustats_close	../common_sources/log.c	/^ustats_close ()$/
+utcp_free	../common_sources/tcp.c	/^utcp_free (qconn)$/
+utli_free	../common_sources/tli.c	/^utli_free (qconn)$/
+void	../common_sources/log.c	/^static void (*pfLfatal) P((void));$/
+zldate_and_time	../common_sources/log.c	/^zldate_and_time ()$/
+ztlierror	../common_sources/tli.c	/^ztlierror ()$/

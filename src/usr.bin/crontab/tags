@@ -1,0 +1,37 @@
+Mcrontab	crontab.c	/^main(argc, argv)$/
+acquire_daemonlock	../../libexec/crond/misc.c	/^acquire_daemonlock()$/
+allowed	../../libexec/crond/misc.c	/^allowed(username)$/
+be_different	../../libexec/crond/misc.c	/^be_different()$/
+check_error	crontab.c	/^check_error(msg)$/
+delete_cmd	crontab.c	/^delete_cmd()$/
+env_get	../../libexec/crond/env.c	/^env_get(name, envp)$/
+env_init	../../libexec/crond/env.c	/^env_init()$/
+env_set	../../libexec/crond/env.c	/^env_set(envp, envstr)$/
+first_word	../../libexec/crond/misc.c	/^first_word(s, t)$/
+free_entry	../../libexec/crond/entry.c	/^free_entry(e)$/
+get_char	../../libexec/crond/misc.c	/^get_char(file)$/
+get_list	../../libexec/crond/entry.c	/^get_list(bits, low, high, names, ch, file)$/
+get_number	../../libexec/crond/entry.c	/^get_number(numptr, low, names, ch, file)$/
+get_range	../../libexec/crond/entry.c	/^get_range(bits, low, high, names, ch, file)$/
+get_string	../../libexec/crond/misc.c	/^get_string(string, size, file, terms)$/
+in_file	../../libexec/crond/misc.c	/^in_file(string, file)$/
+list_cmd	crontab.c	/^list_cmd()$/
+load_entry	../../libexec/crond/entry.c	/^load_entry(file, error_func)$/
+load_env	../../libexec/crond/env.c	/^load_env(envstr, f)$/
+log_it	../../libexec/crond/misc.c	/^log_it(username, pid, event, detail)$/
+mkprint	../../libexec/crond/misc.c	/^mkprint(dst, src, len)$/
+mkprints	../../libexec/crond/misc.c	/^mkprints(src, len)$/
+nocase_strcmp	../../libexec/crond/misc.c	/^nocase_strcmp(left, right)$/
+parse_args	crontab.c	/^parse_args(argc, argv)$/
+poke_daemon	crontab.c	/^poke_daemon()$/
+replace_cmd	crontab.c	/^replace_cmd()$/
+savestr	../../libexec/crond/misc.c	/^savestr(str)$/
+set_cron_cwd	../../libexec/crond/misc.c	/^set_cron_cwd()$/
+set_cron_uid	../../libexec/crond/misc.c	/^set_cron_uid()$/
+set_debug_flags	../../libexec/crond/misc.c	/^set_debug_flags(flags)$/
+set_element	../../libexec/crond/entry.c	/^set_element(bits, low, high, number)$/
+skip_comments	../../libexec/crond/misc.c	/^skip_comments(file)$/
+strcmp_until	../../libexec/crond/misc.c	/^strcmp_until(left, right, until)$/
+strdtb	../../libexec/crond/misc.c	/^strdtb(s)$/
+unget_char	../../libexec/crond/misc.c	/^unget_char(ch, file)$/
+usage	crontab.c	/^usage()$/

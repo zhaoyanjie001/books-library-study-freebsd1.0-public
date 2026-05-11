@@ -1,0 +1,42 @@
+ALIGNED	ralloc.c	/^#define ALIGNED(addr) (((unsigned int) (addr) & (p/
+EXCEEDS_LISP_PTR	vm-limit.c	/^#define EXCEEDS_LISP_PTR(x) 0$/
+ROUNDUP	ralloc.c	/^#define ROUNDUP(size) (((unsigned int) (size) + pa/
+ROUND_TO_PAGE	ralloc.c	/^#define ROUND_TO_PAGE(addr) (addr & (~(page_size -/
+__default_morecore	morecore.c	/^__default_morecore (increment)$/
+__getpagesize	valloc.c	/^#define	 __getpagesize()	getpagesize()$/
+__ptr_t	malloc.c	/^__ptr_t (*__morecore) __P ((ptrdiff_t __size)) = _/
+calloc	calloc.c	/^calloc (nmemb, size)$/
+cfree	cfree.c	/^cfree (ptr)$/
+check_memory_limits	vm-limit.c	/^check_memory_limits ()$/
+checkhdr	mcheck.c	/^checkhdr (hdr)$/
+find_bloc	ralloc.c	/^find_bloc (ptr)$/
+free	malloc.c	/^free (ptr)$/
+free_bloc	ralloc.c	/^free_bloc (bloc)$/
+freehook	mcheck.c	/^freehook (ptr)$/
+get_bloc	ralloc.c	/^get_bloc (size)$/
+get_more_space	ralloc.c	/^get_more_space (size)$/
+initialize	malloc.c	/^initialize ()$/
+malloc	malloc.c	/^malloc (size)$/
+mallochook	mcheck.c	/^mallochook (size)$/
+mcheck	mcheck.c	/^mcheck (func)$/
+memalign	memalign.c	/^memalign (alignment, size)$/
+memory_warnings	vm-limit.c	/^memory_warnings (start, warnfun)$/
+min	malloc.c	/^#define min(A, B) ((A) < (B) ? (A) : (B))$/
+morecore	malloc.c	/^morecore (size)$/
+mstats	mstats.c	/^mstats ()$/
+mtrace	mtrace.c	/^mtrace ()$/
+obtain	ralloc.c	/^obtain (size)$/
+r_alloc	ralloc.c	/^r_alloc (ptr, size)$/
+r_alloc_free	ralloc.c	/^r_alloc_free (ptr)$/
+r_alloc_init	ralloc.c	/^r_alloc_init ()$/
+r_alloc_sbrk	ralloc.c	/^r_alloc_sbrk (size)$/
+r_re_alloc	ralloc.c	/^r_re_alloc (ptr, size)$/
+reallochook	mcheck.c	/^reallochook (ptr, size)$/
+relinquish	ralloc.c	/^relinquish (size)$/
+relocate_some_blocs	ralloc.c	/^relocate_some_blocs (bloc, address)$/
+safe_bcopy	ralloc.c	/^#define safe_bcopy(x, y, z) memmove (y, x, z)$/
+tr_freehook	mtrace.c	/^tr_freehook (ptr)$/
+tr_mallochook	mtrace.c	/^tr_mallochook (size)$/
+tr_reallochook	mtrace.c	/^tr_reallochook (ptr, size)$/
+valloc	valloc.c	/^valloc (size)$/
+void	malloc.c	/^void (*__free_hook) __P ((__ptr_t __ptr));$/

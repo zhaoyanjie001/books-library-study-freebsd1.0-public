@@ -1,0 +1,3 @@
+Mmkdir	mkdir.c	/^main(argc, argv)$/
+build	mkdir.c	/^build(path, mode, dir_mode)$/
+usage	mkdir.c	/^usage()$/

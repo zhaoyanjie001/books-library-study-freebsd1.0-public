@@ -1,0 +1,2 @@
+exiterr	rcsmerge.c	/^exiterr()$/
+mainProg	rcsmerge.c	/^mainProg(rcsmergeId, "rcsmerge", "$Id: rcsmerge.c,/

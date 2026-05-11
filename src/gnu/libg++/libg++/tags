@@ -1,0 +1,8 @@
+Mstrerror	../libiberty/strerror.c	/^main ()$/
+errno_max	../libiberty/strerror.c	/^errno_max ()$/
+init_error_tables	../libiberty/strerror.c	/^init_error_tables ()$/
+insque	../libiberty/insque.c	/^insque (elem, pred)$/
+remque	../libiberty/insque.c	/^remque (elem)$/
+strerrno	../libiberty/strerror.c	/^strerrno (errnoval)$/
+strerror	../libiberty/strerror.c	/^strerror (errnoval)$/
+strtoerrno	../libiberty/strerror.c	/^strtoerrno (name)$/

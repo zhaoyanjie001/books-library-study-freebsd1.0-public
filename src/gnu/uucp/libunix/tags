@@ -1,0 +1,198 @@
+WEXITSTATUS	iswait.c	/^#define WEXITSTATUS(u) ((u).w_retcode)$/
+WIFEXITED	iswait.c	/^#define WIFEXITED(u) ((u).w_termsig == 0)$/
+WTERMSIG	iswait.c	/^#define WTERMSIG(u) ((u).w_termsig)$/
+adjust_blocks	fsusg.c	/^adjust_blocks (blocks, fromsize, tosize)$/
+bsgrade	work.c	/^bsgrade (pseq)$/
+convert_blocks	fsusg.c	/^#define convert_blocks(b) adjust_blocks ((b), 1024/
+cscu_escape	cusub.c	/^cscu_escape (pbcmd, zlocalname)$/
+csysdep_bytes_free	bytfre.c	/^csysdep_bytes_free (zfile)$/
+csysdep_size	size.c	/^csysdep_size (zfile)$/
+espopen	epopen.c	/^espopen (pazargs, frd, pipid)$/
+esysdep_fopen	efopen.c	/^esysdep_fopen (zfile, fpublic, fappend, fmkdirs)$/
+esysdep_open_receive	opensr.c	/^esysdep_open_receive (qsys, zto, ztemp, zreceive, /
+esysdep_open_send	opensr.c	/^esysdep_open_send (qsys, zfile, fcheck, zuser)$/
+esysdep_truncate	trunc.c	/^esysdep_truncate (e, zname)$/
+esysdep_user_fopen	ufopen.c	/^esysdep_user_fopen (zfile, frd, fbinary)$/
+fsblock	serial.c	/^fsblock (qs, fblock)$/
+fscmd_seq	filnam.c	/^fscmd_seq (zsystem, zseq)$/
+fscoherent_disable_tty	cohtty.c	/^fscoherent_disable_tty (zdevice, pzenable)$/
+fsdirect_close	serial.c	/^fsdirect_close (qconn, puuconf, qdialer, fsuccess)/
+fsdirect_open	serial.c	/^fsdirect_open (qconn, ibaud, fwait)$/
+fsdo_lock	lock.c	/^fsdo_lock (zlock, fspooldir, pferr)$/
+fsdo_unlock	lock.c	/^fsdo_unlock (zlock, fspooldir)$/
+fskill_or_rejuv	statsb.c	/^fskill_or_rejuv (puuconf, zid, fkill)$/
+fsmodem_carrier	serial.c	/^fsmodem_carrier (qconn, fcarrier)$/
+fsmodem_close	serial.c	/^fsmodem_close (qconn, puuconf, qdialer, fsuccess)$/
+fsmodem_open	serial.c	/^fsmodem_open (qconn, ibaud, fwait)$/
+fsrun_chat	serial.c	/^fsrun_chat (oread, owrite, pzprog)$/
+fsserial_break	serial.c	/^fsserial_break (qconn)$/
+fsserial_close	serial.c	/^fsserial_close (q)$/
+fsserial_init	serial.c	/^fsserial_init (qconn, qcmds, zdevice)$/
+fsserial_lock	serial.c	/^fsserial_lock (qconn, fin)$/
+fsserial_lockfile	serial.c	/^fsserial_lockfile (flok, qconn)$/
+fsserial_open	serial.c	/^fsserial_open (qconn, ibaud, fwait)$/
+fsserial_reset	serial.c	/^fsserial_reset (qconn)$/
+fsserial_set	serial.c	/^fsserial_set (qconn, tparity, tstrip, txonxoff)$/
+fsserial_unlock	serial.c	/^fsserial_unlock (qconn)$/
+fsstdin_break	serial.c	/^fsstdin_break (qconn)$/
+fsstdin_chat	serial.c	/^fsstdin_chat (qconn, pzprog)$/
+fsstdin_close	serial.c	/^fsstdin_close (qconn, puuconf, qdialer, fsuccess)$/
+fsstdin_open	serial.c	/^fsstdin_open (qconn, ibaud, fwait)$/
+fsstdin_read	serial.c	/^fsstdin_read (qconn, zbuf, pclen, cmin, ctimeout, /
+fsstdin_reset	serial.c	/^fsstdin_reset (qconn)$/
+fsstdin_set	serial.c	/^fsstdin_set (qconn, tparity, tstrip, txonxoff)$/
+fsstdin_write	serial.c	/^fsstdin_write (qconn, zwrite, cwrite)$/
+fsultrix_has_spool	ultspl.c	/^fsultrix_has_spool (zsystem)$/
+fsuser_access	uacces.c	/^fsuser_access (q, imode, zuser)$/
+fsuser_perms	ufopen.c	/^fsuser_perms (pieuid)$/
+fsuucp_perms	ufopen.c	/^fsuucp_perms (ieuid)$/
+fswork_file	work.c	/^fswork_file (zsystem, zfile, pbgrade)$/
+fsysdep_access	access.c	/^fsysdep_access (zfile)$/
+fsysdep_all_status_init	statsb.c	/^fsysdep_all_status_init (phold)$/
+fsysdep_already_received	recep.c	/^fsysdep_already_received (qsys, zto, ztemp)$/
+fsysdep_change_mode	chmod.c	/^fsysdep_change_mode (zfile, imode)$/
+fsysdep_chdir	cusub.c	/^fsysdep_chdir (zdir)$/
+fsysdep_conn_chat	serial.c	/^fsysdep_conn_chat (qconn, pzprog)$/
+fsysdep_conn_io	serial.c	/^fsysdep_conn_io (qconn, zwrite, pcwrite, zread, pc/
+fsysdep_conn_read	serial.c	/^fsysdep_conn_read (qconn, zbuf, pclen, cmin, ctime/
+fsysdep_conn_write	serial.c	/^fsysdep_conn_write (qconn, zwrite, cwrite)$/
+fsysdep_cu	cusub.c	/^fsysdep_cu (qconn, pbcmd, zlocalname)$/
+fsysdep_cu_copy	cusub.c	/^fsysdep_cu_copy (fcopy)$/
+fsysdep_cu_finish	cusub.c	/^fsysdep_cu_finish ()$/
+fsysdep_cu_init	cusub.c	/^fsysdep_cu_init (qconn)$/
+fsysdep_daemon_access	access.c	/^fsysdep_daemon_access (zfile)$/
+fsysdep_did_work	work.c	/^fsysdep_did_work (pseq)$/
+fsysdep_direct_init	serial.c	/^fsysdep_direct_init (qconn)$/
+fsysdep_directory	isdir.c	/^fsysdep_directory (z)$/
+fsysdep_execute	xqtsub.c	/^fsysdep_execute (qsys, zuser, pazargs, zfullcmd, z/
+fsysdep_file_exists	exists.c	/^fsysdep_file_exists (zfile)$/
+fsysdep_forget_reception	recep.c	/^fsysdep_forget_reception (qsys, zto, ztemp)$/
+fsysdep_get_status	status.c	/^fsysdep_get_status (qsys, qret, pfnone)$/
+fsysdep_get_work	work.c	/^fsysdep_get_work (qsys, bgrade, qcmd)$/
+fsysdep_get_work_init	work.c	/^fsysdep_get_work_init (qsys, bgrade)$/
+fsysdep_get_xqt_init	xqtfil.c	/^fsysdep_get_xqt_init ()$/
+fsysdep_has_work	work.c	/^fsysdep_has_work (qsys)$/
+fsysdep_in_directory	indir.c	/^fsysdep_in_directory (zfile, zdir, fcheck, freadab/
+fsysdep_kill_job	statsb.c	/^fsysdep_kill_job (puuconf, zid)$/
+fsysdep_link	link.c	/^fsysdep_link (zfrom, zto, pfworked)$/
+fsysdep_lock_status	statsb.c	/^fsysdep_lock_status ()$/
+fsysdep_lock_system	lcksys.c	/^fsysdep_lock_system (qsys)$/
+fsysdep_lock_uuxqt_dir	xqtsub.c	/^fsysdep_lock_uuxqt_dir (iseq)$/
+fsysdep_lock_uuxqt_file	xqtsub.c	/^fsysdep_lock_uuxqt_file (zfile)$/
+fsysdep_mail	mail.c	/^fsysdep_mail (zto, zsubject, cstrs, paz)$/
+fsysdep_make_dirs	mkdirs.c	/^fsysdep_make_dirs (zfile, fpublic)$/
+fsysdep_modem_begin_dial	serial.c	/^fsysdep_modem_begin_dial (qconn, qdial)$/
+fsysdep_modem_end_dial	serial.c	/^fsysdep_modem_end_dial (qconn, qdial)$/
+fsysdep_modem_init	serial.c	/^fsysdep_modem_init (qconn)$/
+fsysdep_move_file	move.c	/^fsysdep_move_file (zorig, zto, fmkdirs, fpublic, f/
+fsysdep_move_uuxqt_files	xqtsub.c	/^fsysdep_move_uuxqt_files (cfiles, pzfrom, pzto, ft/
+fsysdep_needs_cwd	cwd.c	/^fsysdep_needs_cwd (zfile)$/
+fsysdep_other_config	init.c	/^boolean fsysdep_other_config (z)$/
+fsysdep_port_access	cusub.c	/^fsysdep_port_access (qport)$/
+fsysdep_port_is_line	cusub.c	/^fsysdep_port_is_line (qport, zline)$/
+fsysdep_privileged	statsb.c	/^fsysdep_privileged ()$/
+fsysdep_rejuvenate_job	statsb.c	/^fsysdep_rejuvenate_job (puuconf, zid)$/
+fsysdep_remember_reception	recep.c	/^fsysdep_remember_reception (qsys, zto, ztemp)$/
+fsysdep_rmdir	srmdir.c	/^fsysdep_rmdir (zdir)$/
+fsysdep_run	run.c	/^fsysdep_run (zprogram, zarg1, zarg2)$/
+fsysdep_set_status	status.c	/^fsysdep_set_status (qsys, qset)$/
+fsysdep_shell	cusub.c	/^fsysdep_shell (qconn, zcmd, tcmd)$/
+fsysdep_stdin_init	serial.c	/^fsysdep_stdin_init (qconn)$/
+fsysdep_suspend	cusub.c	/^fsysdep_suspend ()$/
+fsysdep_terminal_puts	cusub.c	/^fsysdep_terminal_puts (zline)$/
+fsysdep_terminal_raw	cusub.c	/^fsysdep_terminal_raw (flocalecho)$/
+fsysdep_terminal_restore	cusub.c	/^fsysdep_terminal_restore ()$/
+fsysdep_terminal_signals	cusub.c	/^fsysdep_terminal_signals (faccept)$/
+fsysdep_unknown_caller	unknwn.c	/^fsysdep_unknown_caller (zscript, zsystem)$/
+fsysdep_unlock_system	lcksys.c	/^fsysdep_unlock_system (qsys)$/
+fsysdep_unlock_uuxqt	xqtsub.c	/^fsysdep_unlock_uuxqt (iseq, zcmd, cmaxuuxqts)$/
+fsysdep_unlock_uuxqt_dir	xqtsub.c	/^fsysdep_unlock_uuxqt_dir (iseq)$/
+fsysdep_unlock_uuxqt_file	xqtsub.c	/^fsysdep_unlock_uuxqt_file (zfile)$/
+fsysdep_uupick_free	picksb.c	/^fsysdep_uupick_free (zsystem, zpubdir)$/
+fsysdep_uupick_init	picksb.c	/^fsysdep_uupick_init (zsystem, zpubdir)$/
+fsysdep_uuxqt_locked	xqtsub.c	/^fsysdep_uuxqt_locked (zcmd)$/
+fsysdep_wildcard_end	wldcrd.c	/^fsysdep_wildcard_end ()$/
+fsysdep_wildcard_start	wldcrd.c	/^fsysdep_wildcard_start (zfile)$/
+fsysdep_xqt_check_file	xqtsub.c	/^fsysdep_xqt_check_file (qsys, zfile)$/
+ftw	ftw.c	/^ftw (dir, func, descriptors)$/
+ftw_dir	ftw.c	/^ftw_dir (dirs, level, descriptors, dir, len, func)/
+gen_res_name	cohtty.c	/^gen_res_name(path, buff)$/
+get_fs_usage	fsusg.c	/^get_fs_usage (path, disk, fsp)$/
+isblocksigs	serial.c	/^isblocksigs ()$/
+isremove_dir	srmdir.c	/^isremove_dir (zfile, qstat, iflag)$/
+isserial_baud	serial.c	/^isserial_baud (qconn)$/
+iswalk_dir	walk.c	/^iswalk_dir (zname, qstat, iflag)$/
+iswork_cmp	work.c	/^iswork_cmp (pkey, pdatum)$/
+ixsfork	isfork.c	/^ixsfork ()$/
+ixsspawn	spawn.c	/^ixsspawn (pazargs, aidescs, fkeepuid, fkeepenv, zc/
+ixswait	iswait.c	/^ixswait (ipid, zreport)$/
+ixsysdep_file_mode	mode.c	/^ixsysdep_file_mode (zfile)$/
+ixsysdep_file_time	statsb.c	/^ixsysdep_file_time (zfile)$/
+ixsysdep_get_sequence	seq.c	/^ixsysdep_get_sequence (qsys)$/
+ixsysdep_lock_uuxqt	xqtsub.c	/^ixsysdep_lock_uuxqt (zcmd, cmaxuuxqts)$/
+ixsysdep_process_time	proctm.c	/^ixsysdep_process_time (pimicros)$/
+ixsysdep_time	time.c	/^ixsysdep_time (pimicros)$/
+ixsysdep_work_time	statsb.c	/^ixsysdep_work_time (qsys, pseq)$/
+lockexist	cohtty.c	/^lockexist(resource)$/
+lockttyexist	cohtty.c	/^lockttyexist(ttyn)$/
+major	serial.c	/^#define major(i) (((i) >> 8) & 0xff)$/
+minor	serial.c	/^#define minor(i) ((i) & 0xff)$/
+sigmask	serial.c	/^#define sigmask(i) (1 << ((i) - 1))$/
+statfs	fsusg.c	/^statfs (path, fsb)$/
+usalarm	serial.c	/^usalarm (isig)$/
+uscu_alarm	cusub.c	/^uscu_alarm (isig)$/
+uscu_alarm_kill	cusub.c	/^uscu_alarm_kill (isig)$/
+uscu_child	cusub.c	/^uscu_child (qconn, opipe)$/
+uscu_child_handler	cusub.c	/^uscu_child_handler (isig)$/
+usserial_free	serial.c	/^usserial_free (qconn)$/
+usset_signal	signal.c	/^usset_signal (isig, pfn, fforce, pfignored)$/
+ussettime	statsb.c	/^ussettime(z, inow)$/
+ussignal	signal.c	/^ussignal (isig)$/
+usunblocksigs	serial.c	/^#define usunblocksigs(s) \\$/
+usysdep_all_status_free	statsb.c	/^usysdep_all_status_free (phold)$/
+usysdep_detach	detach.c	/^usysdep_detach ()$/
+usysdep_exit	init.c	/^usysdep_exit (fsuccess)$/
+usysdep_get_work_free	work.c	/^usysdep_get_work_free (qsys)$/
+usysdep_get_xqt_free	xqtfil.c	/^usysdep_get_xqt_free ()$/
+usysdep_initialize	init.c	/^usysdep_initialize (puuconf,iflags)$/
+usysdep_localtime	loctim.c	/^usysdep_localtime (itime, q)$/
+usysdep_pause	pause.c	/^usysdep_pause ()$/
+usysdep_signal	signal.c	/^usysdep_signal (isig)$/
+usysdep_sleep	sleep.c	/^usysdep_sleep (c)$/
+void	walk.c	/^static void (*puSfn) P((const char *zfull, const c/
+zsappend3	app3.c	/^zsappend3 (zdir1, zdir2, zfile)$/
+zsappend4	app4.c	/^zsappend4 (zdir1, zdir2, zdir3, zfile)$/
+zscmd_file	filnam.c	/^zscmd_file (qsys, bgrade)$/
+zsfile_name	filnam.c	/^zsfile_name (btype, zsystem, zlocalname, bgrade, f/
+zsfile_to_jobid	jobid.c	/^zsfile_to_jobid (qsys, zfile, bgrade)$/
+zsfind_file	spool.c	/^zsfind_file (zsimple, zsystem, bgrade)$/
+zsjobid_to_file	jobid.c	/^zsjobid_to_file (zid, pzsystem, pbgrade)$/
+zsport_line	cusub.c	/^zsport_line (qport)$/
+zsreceived_name	recep.c	/^zsreceived_name (qsys, ztemp)$/
+zstemp_file	tmpfil.c	/^zstemp_file (qsys)$/
+zswork_directory	work.c	/^zswork_directory (zsystem)$/
+zsysdep_add_base	addbas.c	/^zsysdep_add_base (zfile, zname)$/
+zsysdep_add_cwd	cwd.c	/^zsysdep_add_cwd (zfile)$/
+zsysdep_all_status	statsb.c	/^zsysdep_all_status (phold, pferr, qstat)$/
+zsysdep_base_name	basnam.c	/^zsysdep_base_name (zfile)$/
+zsysdep_data_file_name	filnam.c	/^zsysdep_data_file_name (qsys, zlocalname, bgrade, /
+zsysdep_find_command	xqtsub.c	/^zsysdep_find_command (zcmd, pzcmds, pzpath, pferr)/
+zsysdep_get_xqt	xqtfil.c	/^zsysdep_get_xqt (pzsystem, pferr)$/
+zsysdep_in_dir	sindir.c	/^zsysdep_in_dir (zdir, zfile)$/
+zsysdep_jobid	work.c	/^zsysdep_jobid (qsys, pseq)$/
+zsysdep_local_file	locfil.c	/^zsysdep_local_file (zfile, zpubdir)$/
+zsysdep_local_file_cwd	cwd.c	/^zsysdep_local_file_cwd (zfile, zpubdir)$/
+zsysdep_localname	init.c	/^zsysdep_localname ()$/
+zsysdep_login_name	init.c	/^zsysdep_login_name ()$/
+zsysdep_port_name	portnm.c	/^zsysdep_port_name (ftcp_port)$/
+zsysdep_receive_temp	opensr.c	/^zsysdep_receive_temp (qsys, zto, ztemp)$/
+zsysdep_save_temp_file	work.c	/^zsysdep_save_temp_file (pseq)$/
+zsysdep_spool_commands	splcmd.c	/^zsysdep_spool_commands (qsys, bgrade, ccmds, pascm/
+zsysdep_spool_file_name	splnam.c	/^zsysdep_spool_file_name (qsys, zfile, pseq)$/
+zsysdep_terminal_line	cusub.c	/^zsysdep_terminal_line (zprompt)$/
+zsysdep_uupick	picksb.c	/^zsysdep_uupick (zsysarg, zpubdir, pzfrom, pzfull)$/
+zsysdep_uupick_local_file	picksb.c	/^zsysdep_uupick_local_file (zfile)$/
+zsysdep_uuto	uuto.c	/^zsysdep_uuto (zdest, zlocalname)$/
+zsysdep_wildcard	wldcrd.c	/^zsysdep_wildcard (zfile)$/
+zsysdep_xqt_file_name	filnam.c	/^zsysdep_xqt_file_name ()$/
+zsysdep_xqt_local_file	xqtsub.c	/^zsysdep_xqt_local_file (qsys, zfile)$/

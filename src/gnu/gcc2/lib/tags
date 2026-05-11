@@ -1,0 +1,2073 @@
+ALLOCNO_LIVE_P	global.c	/^#define ALLOCNO_LIVE_P(I) \\$/
+ALLOC_NESTING	stmt.c	/^#define ALLOC_NESTING() \\$/
+ASM_OUTPUT_CONSTRUCTOR	varasm.c	/^#define ASM_OUTPUT_CONSTRUCTOR(file, name)$/
+ASM_OUTPUT_DEF	dwarfout.c	/^#define ASM_OUTPUT_DEF(FILE,LABEL1,LABEL2)				\\$/
+ASM_OUTPUT_DESTRUCTOR	varasm.c	/^#define ASM_OUTPUT_DESTRUCTOR(file, name)$/
+ASM_OUTPUT_DWARF_ADDR	dwarfout.c	/^#define ASM_OUTPUT_DWARF_ADDR(FILE,LABEL)				\\$/
+ASM_OUTPUT_DWARF_ADDR_CONST	dwarfout.c	/^#define ASM_OUTPUT_DWARF_ADDR_CONST(FILE,RTX)				/
+ASM_OUTPUT_DWARF_ATTRIBUTE	dwarfout.c	/^#define ASM_OUTPUT_DWARF_ATTRIBUTE(FILE,ATTR)				/
+ASM_OUTPUT_DWARF_DATA1	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DATA1(FILE,VALUE) \\$/
+ASM_OUTPUT_DWARF_DATA2	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DATA2(FILE,VALUE) \\$/
+ASM_OUTPUT_DWARF_DATA4	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DATA4(FILE,VALUE) \\$/
+ASM_OUTPUT_DWARF_DATA8	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DATA8(FILE,HIGH_VALUE,LOW/
+ASM_OUTPUT_DWARF_DELTA2	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DELTA2(FILE,LABEL1,LABEL2/
+ASM_OUTPUT_DWARF_DELTA4	dwarfout.c	/^#define ASM_OUTPUT_DWARF_DELTA4(FILE,LABEL1,LABEL2/
+ASM_OUTPUT_DWARF_FMT_BYTE	dwarfout.c	/^#define ASM_OUTPUT_DWARF_FMT_BYTE(FILE,FMT)				\\$/
+ASM_OUTPUT_DWARF_FUND_TYPE	dwarfout.c	/^#define ASM_OUTPUT_DWARF_FUND_TYPE(FILE,FT)				\\$/
+ASM_OUTPUT_DWARF_REF	dwarfout.c	/^#define ASM_OUTPUT_DWARF_REF(FILE,LABEL)				\\$/
+ASM_OUTPUT_DWARF_STACK_OP	dwarfout.c	/^#define ASM_OUTPUT_DWARF_STACK_OP(FILE,OP)				\\$/
+ASM_OUTPUT_DWARF_STRING	dwarfout.c	/^#define ASM_OUTPUT_DWARF_STRING(FILE,P) \\$/
+ASM_OUTPUT_DWARF_TAG	dwarfout.c	/^#define ASM_OUTPUT_DWARF_TAG(FILE,TAG)					\\$/
+ASM_OUTPUT_DWARF_TYPE_MODIFIER	dwarfout.c	/^#define ASM_OUTPUT_DWARF_TYPE_MODIFIER(FILE,MOD)		/
+ASM_OUTPUT_LBB	xcoffout.c	/^#define ASM_OUTPUT_LBB(FILE,LINENUM,BLOCKNUM) \\$/
+ASM_OUTPUT_LBE	xcoffout.c	/^#define ASM_OUTPUT_LBE(FILE,LINENUM,BLOCKNUM) \\$/
+ASM_OUTPUT_LFB	xcoffout.c	/^#define ASM_OUTPUT_LFB(FILE,LINENUM) \\$/
+ASM_OUTPUT_LFE	xcoffout.c	/^#define ASM_OUTPUT_LFE(FILE,LINENUM) \\$/
+ASM_OUTPUT_POP_SECTION	dwarfout.c	/^#define ASM_OUTPUT_POP_SECTION(FILE) \\$/
+ASM_OUTPUT_PUSH_SECTION	dwarfout.c	/^#define ASM_OUTPUT_PUSH_SECTION(FILE, SECTION) \\$/
+ASM_OUTPUT_SOURCE_FILENAME	dwarfout.c	/^#define ASM_OUTPUT_SOURCE_FILENAME(FILE,NAME) \\$/
+AT_BP	aux-output.c	/^#define AT_BP(mode) (gen_rtx (MEM, (mode), frame_p/
+BLOCKAGE_RANGE	sched.c	/^#define BLOCKAGE_RANGE(B) \\$/
+BLOCK_NUM	flow.c	/^#define BLOCK_NUM(INSN)  uid_block_number[INSN_UID/
+CALL_CHUNKFUN	obstack.c	/^#define CALL_CHUNKFUN(h, size) \\$/
+CALL_FREEFUN	obstack.c	/^#define CALL_FREEFUN(h, old_chunk) \\$/
+CEIL	expmed.c	/^#define CEIL(x,y) (((x) + (y) - 1) \/ (y))$/
+CEIL_ROUND	function.c	/^#define CEIL_ROUND(VALUE,ALIGN)	(((VALUE) + (ALIGN/
+CHARS	dbxout.c	/^#define CHARS(N) (current_sym_nchars += (N))$/
+CHEAPER	cse.c	/^#define CHEAPER(X,Y)   ((X)->cost < (Y)->cost)$/
+CHEAP_REG	cse.c	/^#define CHEAP_REG(N) \\$/
+CLASS_LIKELY_SPILLED_P	local-alloc.c	/^#define CLASS_LIKELY_SPILLED_P(CLASS) (reg_class_s/
+CLEAR	local-alloc.c	/^#define CLEAR(vector)  \\$/
+CLEAR_ALLOCNO_LIVE	global.c	/^#define CLEAR_ALLOCNO_LIVE(I) \\$/
+CLEAR_RESOURCE	reorg.c	/^#define CLEAR_RESOURCE(RES)	\\$/
+COMBINE_RTX_EQUAL_P	combine.c	/^#define COMBINE_RTX_EQUAL_P(X,Y)			\\$/
+CONFLICTP	global.c	/^#define CONFLICTP(I, J) \\$/
+COST	cse.c	/^#define COST(X)						\\$/
+COSTS_N_INSNS	cse.c	/^#define COSTS_N_INSNS(N) ((N) * 4 - 2)$/
+DEBUGGER_ARG_OFFSET	dbxout.c	/^#define DEBUGGER_ARG_OFFSET(OFFSET, X) (OFFSET)$/
+DEBUGGER_AUTO_OFFSET	dbxout.c	/^#define DEBUGGER_AUTO_OFFSET(X) \\$/
+DEBUG_PRINT_REG	print-rtl.c	/^#define DEBUG_PRINT_REG(RTX, CODE, FILE) \\$/
+DEFTREECODE	tree.c	/^#define DEFTREECODE(SYM, NAME, TYPE, LENGTH) TYPE,/
+DEF_MACHMODE	rtl.c	/^#define DEF_MACHMODE(SYM, NAME, CLASS, SIZE, UNIT,/
+DEF_RTL_EXPR	rtl.c	/^#define DEF_RTL_EXPR(ENUM, NAME, FORMAT, CLASS)   /
+DONE_PRIORITY_P	sched.c	/^#define DONE_PRIORITY_P(INSN) (INSN_PRIORITY (INSN/
+ENCODE_BLOCKAGE	sched.c	/^#define ENCODE_BLOCKAGE(U,R)				\\$/
+EXCHANGE	local-alloc.c	/^#define EXCHANGE(I1, I2)  \\$/
+FAKE_EXTEND_SAFE_P	combine.c	/^#define FAKE_EXTEND_SAFE_P(MODE, FROM) \\$/
+FIXED_BASE_PLUS_P	cse.c	/^#define FIXED_BASE_PLUS_P(X)					\\$/
+FIXED_REGNO_P	cse.c	/^#define FIXED_REGNO_P(N)  \\$/
+FLOOR_ROUND	function.c	/^#define FLOOR_ROUND(VALUE,ALIGN) ((VALUE) & ~((ALI/
+GET_MODE_ALIGNMENT	stor-layout.c	/^#define GET_MODE_ALIGNMENT(MODE)   \\$/
+GET_REAL	real.c	/^#define GET_REAL(r,e) bcopy (r, e, 2*NE)$/
+HASH	cse.c	/^#define HASH(X, M)	\\$/
+INCOMING_REGNO	expr.c	/^#define INCOMING_REGNO(OUT) (OUT)$/
+INSN_BLOCKAGE	sched.c	/^#define INSN_BLOCKAGE(INSN) insn_blockage[INSN_UID/
+INSN_COST	sched.c	/^#define INSN_COST(INSN)	insn_costs[INSN_UID (INSN)/
+INSN_CUID	combine.c	/^#define INSN_CUID(INSN) (uid_cuid[INSN_UID (INSN)]/
+INSN_LUID	sched.c	/^#define INSN_LUID(INSN) (insn_luid[INSN_UID (INSN)/
+INSN_PRIORITY	sched.c	/^#define INSN_PRIORITY(INSN) (insn_priority[INSN_UI/
+INSN_REF_COUNT	sched.c	/^#define INSN_REF_COUNT(INSN) (insn_ref_count[INSN_/
+INSN_SUID	stupid.c	/^#define INSN_SUID(INSN) (uid_suid[INSN_UID (INSN)]/
+INSN_TICK	sched.c	/^#define INSN_TICK(INSN) (insn_tick[INSN_UID (INSN)/
+INSN_UNIT	sched.c	/^#define INSN_UNIT(INSN)	insn_units[INSN_UID (INSN)/
+INSN_VOLATILE	flow.c	/^#define INSN_VOLATILE(INSN) uid_volatile[INSN_UID /
+INTEGRATE_THRESHOLD	integrate.c	/^#define INTEGRATE_THRESHOLD(DECL) \\$/
+KNOWN_TYPE_TAG	sdbout.c	/^#define KNOWN_TYPE_TAG(type) (char *)(TYPE_SYMTAB_/
+LINE_NOTE	sched.c	/^#define LINE_NOTE(INSN) (line_note[INSN_UID (INSN)/
+LOW_PRIORITY_P	sched.c	/^#define LOW_PRIORITY_P(INSN) ((INSN_PRIORITY (INSN/
+MAKE_LINE_SAFE	sdbout.c	/^#define MAKE_LINE_SAFE(line)  \\$/
+MARK_LIVE_AFTER	stupid.c	/^#define MARK_LIVE_AFTER(INSN,REGNO)  \\$/
+MATCHES	reload.c	/^#define MATCHES(x, y) \\$/
+MAX_BLOCKAGE_COST	sched.c	/^#define MAX_BLOCKAGE_COST(R) ((R) & ((1 << (HOST_B/
+MEMORY_MOVE_COST	regclass.c	/^#define MEMORY_MOVE_COST(x) 4$/
+MERGABLE_RELOADS	reload.c	/^#define MERGABLE_RELOADS(when1, when2, op1, op2) /
+MERGE_TO_OTHER	reload.c	/^#define MERGE_TO_OTHER(when1, when2, op1, op2) \\$/
+MIN_BLOCKAGE_COST	sched.c	/^#define MIN_BLOCKAGE_COST(R) ((R) >> (HOST_BITS_PE/
+Mtoplev	toplev.c	/^main (argc, argv, envp)$/
+NEXT_Q	sched.c	/^#define NEXT_Q(X) (((X)+1) & (INSN_QUEUE_SIZE-1))$/
+NEXT_Q_AFTER	sched.c	/^#define NEXT_Q_AFTER(X,C) (((X)+C) & (INSN_QUEUE_S/
+NONZERO_BASE_PLUS_P	cse.c	/^#define NONZERO_BASE_PLUS_P(X)					\\$/
+OUTGOING_REGNO	expr.c	/^#define OUTGOING_REGNO(IN) (IN)$/
+PARM_PASSED_IN_MEMORY	dbxout.c	/^#define PARM_PASSED_IN_MEMORY(PARM) \\$/
+POPSTACK	stmt.c	/^#define POPSTACK(STACK)					\\$/
+PRINT_REG	dwarfout.c	/^#define PRINT_REG(RTX, CODE, FILE) \\$/
+PUSH_DERIVED_LEVEL	sdbout.c	/^#define PUSH_DERIVED_LEVEL(DT_type,PREV)		\\$/
+PUT_REAL	real.c	/^#define PUT_REAL(e,r) bcopy (e, r, 2*NE)$/
+PUT_SDB_BLOCK_END	sdbout.c	/^#define PUT_SDB_BLOCK_END(LINE)			\\$/
+PUT_SDB_BLOCK_START	sdbout.c	/^#define PUT_SDB_BLOCK_START(LINE)		\\$/
+PUT_SDB_DEF	sdbout.c	/^#define PUT_SDB_DEF(a)				\\$/
+PUT_SDB_EPILOGUE_END	sdbout.c	/^#define PUT_SDB_EPILOGUE_END(NAME)			\\$/
+PUT_SDB_FUNCTION_END	sdbout.c	/^#define PUT_SDB_FUNCTION_END(LINE)		\\$/
+PUT_SDB_FUNCTION_START	sdbout.c	/^#define PUT_SDB_FUNCTION_START(LINE)		\\$/
+PUT_SDB_INT_VAL	sdbout.c	/^#define PUT_SDB_INT_VAL(a) fprintf (asm_out_file, /
+PUT_SDB_LAST_DIM	sdbout.c	/^#define PUT_SDB_LAST_DIM(a) fprintf(asm_out_file, /
+PUT_SDB_NEXT_DIM	sdbout.c	/^#define PUT_SDB_NEXT_DIM(a) fprintf(asm_out_file, /
+PUT_SDB_PLAIN_DEF	sdbout.c	/^#define PUT_SDB_PLAIN_DEF(a) fprintf(asm_out_file,/
+PUT_SDB_SCL	sdbout.c	/^#define PUT_SDB_SCL(a) fprintf(asm_out_file, "\\t./
+PUT_SDB_SIZE	sdbout.c	/^#define PUT_SDB_SIZE(a) fprintf(asm_out_file, "\\t/
+PUT_SDB_TAG	sdbout.c	/^#define PUT_SDB_TAG(a)				\\$/
+PUT_SDB_TYPE	sdbout.c	/^#define PUT_SDB_TYPE(a) fprintf(asm_out_file, "\\t/
+PUT_SDB_VAL	sdbout.c	/^#define PUT_SDB_VAL(a)				\\$/
+REGBITP	global.c	/^#define REGBITP(TABLE, I, J)     TEST_HARD_REG_BIT/
+REGISTER_MOVE_COST	regclass.c	/^#define REGISTER_MOVE_COST(x, y) 2$/
+REGNO_QTY_VALID_P	cse.c	/^#define REGNO_QTY_VALID_P(N) (reg_qty[N] != (N))$/
+SCHED_SORT	sched.c	/^#define SCHED_SORT(READY, NEW_READY, OLD_READY) \\/
+SDB_GENERATE_FAKE	sdbout.c	/^#define SDB_GENERATE_FAKE(BUFFER, NUMBER) \\$/
+SET_ALLOCNO_LIVE	global.c	/^#define SET_ALLOCNO_LIVE(I) \\$/
+SET_CONFLICT	global.c	/^#define SET_CONFLICT(I, J) \\$/
+SET_KNOWN_TYPE_TAG	sdbout.c	/^#define SET_KNOWN_TYPE_TAG(TYPE, NAME) \\$/
+SET_REGBIT	global.c	/^#define SET_REGBIT(TABLE, I, J)  SET_HARD_REG_BIT /
+SIZE_FOR_MODE	sched.c	/^#define SIZE_FOR_MODE(X) (GET_MODE_SIZE (GET_MODE /
+STACK_DYNAMIC_OFFSET	function.c	/^#define STACK_DYNAMIC_OFFSET(FNDECL)	\\$/
+STRIP_NAME_ENCODING	varasm.c	/^#define STRIP_NAME_ENCODING(VAR,SYMBOL_NAME) \\$/
+SUBST	combine.c	/^#define SUBST(INTO, NEWVAL)  \\$/
+SUBST_INT	combine.c	/^#define SUBST_INT(INTO, NEWVAL)  \\$/
+SYMHASH	varasm.c	/^#define SYMHASH(LABEL)	\\$/
+TAG_NAME	sdbout.c	/^#define TAG_NAME(link) \\$/
+TIMEVAR	toplev.c	/^#define TIMEVAR(VAR, BODY)    \\$/
+TYPE_HASH	tree.c	/^#define TYPE_HASH(TYPE) ((HOST_WIDE_INT) (TYPE) & /
+TYPE_USED_FOR_FUNCTION	dwarfout.c	/^#define TYPE_USED_FOR_FUNCTION(tagged_type) (TYPE_/
+UNIT_BLOCKED	sched.c	/^#define UNIT_BLOCKED(B) ((B) >> (2 * BLOCKAGE_BITS/
+UNKNOWN_STAB	xcoffout.c	/^#define UNKNOWN_STAB(STR)	\\$/
+VMS_fopen	toplev.c	/^VMS_fopen (fname, type)$/
+VOIDmode_compare_op	aux-output.c	/^VOIDmode_compare_op (op, mode)$/
+_obstack_allocated_p	obstack.c	/^_obstack_allocated_p (h, obj)$/
+_obstack_begin	obstack.c	/^_obstack_begin (h, size, alignment, chunkfun, free/
+_obstack_begin_1	obstack.c	/^_obstack_begin_1 (h, size, alignment, chunkfun, fr/
+_obstack_free	obstack.c	/^_obstack_free (h, obj)$/
+_obstack_newchunk	obstack.c	/^_obstack_newchunk (h, length)$/
+abspath	dbxout.c	/^abspath (rel_filename)$/
+abstract_origin_attribute	dwarfout.c	/^abstract_origin_attribute (origin)$/
+actual_hazard	sched.c	/^actual_hazard (unit, insn, clock, cost)$/
+actual_hazard_this_instance	sched.c	/^actual_hazard_this_instance (unit, instance, insn,/
+add_clobbers	insn-emit.c	/^add_clobbers (pattern, insn_code_number)$/
+add_dependence	sched.c	/^add_dependence (insn, elem, dep_type)$/
+add_double	fold-const.c	/^add_double (l1, h1, l2, h2, lv, hv)$/
+add_equal_note	optabs.c	/^add_equal_note (seq, target, code, op0, op1)$/
+add_insn	emit-rtl.c	/^add_insn (insn)$/
+add_insn_after	emit-rtl.c	/^add_insn_after (insn, after)$/
+add_insn_mem_dependence	sched.c	/^add_insn_mem_dependence (insn_list, mem_list, insn/
+add_label_notes	loop.c	/^add_label_notes (x, insns)$/
+add_to_delay_list	reorg.c	/^add_to_delay_list (insn, delay_list)$/
+address_operand	recog.c	/^address_operand (op, mode)$/
+adj_offsettable_operand	recog.c	/^adj_offsettable_operand (op, offset)$/
+adjust_copied_decl_tree	integrate.c	/^adjust_copied_decl_tree (block)$/
+adjust_priority	sched.c	/^adjust_priority (prev)$/
+adjust_stack	explow.c	/^adjust_stack (adjust)$/
+aggregate_value_p	function.c	/^aggregate_value_p (exp)$/
+all_blocks	function.c	/^all_blocks (block, vector)$/
+all_ones_mask_p	fold-const.c	/^all_ones_mask_p (mask, size)$/
+all_sets_invariant_p	loop.c	/^all_sets_invariant_p (reg, insn, table)$/
+alloc_qty	local-alloc.c	/^alloc_qty (regno, mode, size, birth)$/
+alloc_qty_for_scratch	local-alloc.c	/^alloc_qty_for_scratch (scratch, n, insn, insn_code/
+allocate_dynamic_stack_space	explow.c	/^allocate_dynamic_stack_space (size, target, known_/
+allocate_for_life_analysis	flow.c	/^allocate_for_life_analysis ()$/
+allocate_reload_reg	reload1.c	/^allocate_reload_reg (r, insn, last_reload, noerror/
+allocation_temporary_p	tree.c	/^allocation_temporary_p ()$/
+allocno_compare	global.c	/^allocno_compare (v1, v2)$/
+alter_cond	final.c	/^alter_cond (cond)$/
+alter_reg	reload1.c	/^alter_reg (i, from_reg)$/
+alter_subreg	final.c	/^alter_subreg (x)$/
+alternative_allows_memconst	reload.c	/^alternative_allows_memconst (constraint, altnum)$/
+announce_function	toplev.c	/^announce_function (decl)$/
+anti_adjust_stack	explow.c	/^anti_adjust_stack (adjust)$/
+anti_dependence	sched.c	/^anti_dependence (mem, x)$/
+any_pending_cleanups	stmt.c	/^any_pending_cleanups (this_contour)$/
+app_disable	final.c	/^app_disable ()$/
+app_enable	final.c	/^app_enable ()$/
+apply_args_size	expr.c	/^apply_args_size ()$/
+apply_change_group	recog.c	/^apply_change_group ()$/
+apply_distributive_law	combine.c	/^apply_distributive_law (x)$/
+apply_result_size	expr.c	/^apply_result_size ()$/
+approx_final_value	unroll.c	/^approx_final_value (comparison_code, comparison_va/
+array_type_nelts	tree.c	/^array_type_nelts (type)$/
+asctoe	real.c	/^asctoe (s, y)$/
+asctoe24	real.c	/^asctoe24 (s, y)$/
+asctoe53	real.c	/^asctoe53 (s, y)$/
+asctoe64	real.c	/^asctoe64 (s, y)$/
+asctoeg	real.c	/^asctoeg (ss, y, oprec)$/
+asm_add	aux-output.c	/^asm_add (n, x)$/
+asm_fprintf	final.c	/^asm_fprintf (va_alist)$/
+asm_insn_count	final.c	/^asm_insn_count (body)$/
+asm_noperands	recog.c	/^asm_noperands (body)$/
+assemble_asm	varasm.c	/^assemble_asm (string)$/
+assemble_constant_align	varasm.c	/^assemble_constant_align (exp)$/
+assemble_constructor	varasm.c	/^assemble_constructor (name)$/
+assemble_destructor	varasm.c	/^assemble_destructor (name)$/
+assemble_end_function	varasm.c	/^assemble_end_function (decl, fnname)$/
+assemble_external	varasm.c	/^assemble_external (decl)$/
+assemble_external_libcall	varasm.c	/^assemble_external_libcall (fun)$/
+assemble_gc_entry	varasm.c	/^assemble_gc_entry (name)$/
+assemble_global	varasm.c	/^assemble_global (name)$/
+assemble_integer	varasm.c	/^assemble_integer (x, size, force)$/
+assemble_label	varasm.c	/^assemble_label (name)$/
+assemble_name	varasm.c	/^assemble_name (file, name)$/
+assemble_real	varasm.c	/^assemble_real (d, mode)$/
+assemble_start_function	varasm.c	/^assemble_start_function (decl, fnname)$/
+assemble_static_space	varasm.c	/^assemble_static_space (size)$/
+assemble_string	varasm.c	/^assemble_string (p, size)$/
+assemble_trampoline_template	varasm.c	/^assemble_trampoline_template ()$/
+assemble_variable	varasm.c	/^assemble_variable (decl, top_level, at_end)$/
+assemble_zeros	varasm.c	/^assemble_zeros (size)$/
+assign_386_stack_local	aux-output.c	/^assign_386_stack_local (mode, n)$/
+assign_outer_stack_local	function.c	/^assign_outer_stack_local (mode, size, align, funct/
+assign_parms	function.c	/^assign_parms (fndecl, second_time)$/
+assign_stack_local	function.c	/^assign_stack_local (mode, size, align)$/
+assign_stack_temp	function.c	/^assign_stack_temp (mode, size, keep)$/
+assign_type_number	xcoffout.c	/^assign_type_number (syms, name, number)$/
+attach_deaths	sched.c	/^attach_deaths (x, insn, set_p)$/
+attach_deaths_insn	sched.c	/^attach_deaths_insn (insn)$/
+back_branch_in_range_p	unroll.c	/^back_branch_in_range_p (insn, loop_start, loop_end/
+balance_case_nodes	stmt.c	/^balance_case_nodes (head, parent)$/
+basic_induction_var	loop.c	/^basic_induction_var (x, dest_reg, p, inc_val, mult/
+binary_387_op	aux-output.c	/^binary_387_op (op, mode)$/
+binary_op_error	c-common.c	/^binary_op_error (code)$/
+binfo_member	tree.c	/^binfo_member (elem, list)$/
+birthing_insn_p	sched.c	/^birthing_insn_p (pat)$/
+bit_offset_attribute	dwarfout.c	/^bit_offset_attribute (decl)$/
+bit_size_attribute	dwarfout.c	/^bit_size_attribute (decl)$/
+biv_total_increment	unroll.c	/^biv_total_increment (bl, loop_start, loop_end)$/
+block_alloc	local-alloc.c	/^block_alloc (b)$/
+block_ultimate_origin	dwarfout.c	/^block_ultimate_origin (block)$/
+blockage_range	sched.c	/^blockage_range (unit, insn)$/
+blocks_nreverse	function.c	/^blocks_nreverse (t)$/
+body_begin_attribute	dwarfout.c	/^body_begin_attribute (asm_begin_label)$/
+body_end_attribute	dwarfout.c	/^body_end_attribute (asm_end_label)$/
+botch	toplev.c	/^botch (s)$/
+break_out_memory_refs	explow.c	/^break_out_memory_refs (x)$/
+build	tree.c	/^build (va_alist)$/
+build1	tree.c	/^build1 (code, type, node)$/
+build_array_type	tree.c	/^build_array_type (elt_type, index_type)$/
+build_block	tree.c	/^build_block (vars, tags, subblocks, supercontext, /
+build_complex	tree.c	/^build_complex (real, imag)$/
+build_complex_type	tree.c	/^build_complex_type (component_type)$/
+build_decl	tree.c	/^build_decl (code, name, type)$/
+build_decl_list	tree.c	/^build_decl_list (parm, value)$/
+build_function_type	tree.c	/^build_function_type (value_type, arg_types)$/
+build_index_2_type	tree.c	/^build_index_2_type (lowval,highval)$/
+build_index_type	tree.c	/^build_index_type (maxval)$/
+build_int_2_wide	tree.c	/^build_int_2_wide (low, hi)$/
+build_method_type	tree.c	/^build_method_type (basetype, type)$/
+build_nt	tree.c	/^build_nt (va_alist)$/
+build_offset_type	tree.c	/^build_offset_type (basetype, type)$/
+build_op_identifier	tree.c	/^build_op_identifier (op1, op2)$/
+build_parse_node	tree.c	/^build_parse_node (va_alist)$/
+build_pointer_type	tree.c	/^build_pointer_type (to_type)$/
+build_range_type	tree.c	/^build_range_type (type, lowval, highval)$/
+build_real	tree.c	/^build_real (type, d)$/
+build_real_from_int_cst	tree.c	/^build_real_from_int_cst (type, i)$/
+build_reference_type	tree.c	/^build_reference_type (to_type)$/
+build_string	tree.c	/^build_string (len, str)$/
+build_tree_list	tree.c	/^build_tree_list (parm, value)$/
+build_type_copy	tree.c	/^build_type_copy (type)$/
+build_type_variant	tree.c	/^build_type_variant (type, constp, volatilep)$/
+byte_size_attribute	dwarfout.c	/^byte_size_attribute (tree_node)$/
+c_build_type_variant	c-common.c	/^c_build_type_variant (type, constp, volatilep)$/
+c_expand_expr_stmt	c-common.c	/^c_expand_expr_stmt (expr)$/
+c_strlen	expr.c	/^c_strlen (src)$/
+calculate_giv_inc	unroll.c	/^calculate_giv_inc (pattern, src_insn, regno)$/
+call_insn_operand	aux-output.c	/^call_insn_operand (op, mode)$/
+calls_function	calls.c	/^calls_function (exp, which)$/
+can_combine_p	combine.c	/^can_combine_p (insn, i3, pred, succ, pdest, psrc)$/
+can_compare_p	optabs.c	/^can_compare_p (mode)$/
+can_extend_p	optabs.c	/^can_extend_p (to_mode, from_mode, unsignedp)$/
+can_fix_p	optabs.c	/^can_fix_p (fixmode, fltmode, unsignedp, truncp_ptr/
+can_float_p	optabs.c	/^can_float_p (fltmode, fixmode, unsignedp)$/
+can_reverse_comparison_p	jump.c	/^can_reverse_comparison_p (comparison, insn)$/
+cancel_changes	recog.c	/^cancel_changes (num)$/
+canon_hash	cse.c	/^canon_hash (x, mode)$/
+canon_reg	cse.c	/^canon_reg (x, insn)$/
+canon_rtx	sched.c	/^canon_rtx (x)$/
+case_index_expr_type	stmt.c	/^case_index_expr_type ()$/
+ceiling	dwarfout.c	/^ceiling (value, boundary)$/
+chain_member	tree.c	/^chain_member (elem, chain)$/
+chainon	tree.c	/^chainon (op1, op2)$/
+change_address	emit-rtl.c	/^change_address (memref, mode, addr)$/
+change_main_variant	tree.c	/^change_main_variant (type, new_main)$/
+change_stack	reg-stack.c	/^change_stack (insn, old, new, when)$/
+check_asm_operands	recog.c	/^check_asm_operands (x)$/
+check_case_value	c-common.c	/^check_case_value (value)$/
+check_dbra_loop	loop.c	/^check_dbra_loop (loop_end, insn_count, loop_start)/
+check_final_value	loop.c	/^check_final_value (v, loop_start, loop_end)$/
+check_for_full_enumeration_handling	stmt.c	/^check_for_full_enumeration_handling (type)$/
+choose_hard_reg_mode	caller-save.c	/^choose_hard_reg_mode (regno, nregs)$/
+choose_reload_regs	reload1.c	/^choose_reload_regs (insn, avoid_return_reg)$/
+class_narrowest_mode	rtl.c	/^enum machine_mode class_narrowest_mode[(int) MAX_M/
+classify_insn	emit-rtl.c	/^classify_insn (x)$/
+clear_const_double_mem	varasm.c	/^clear_const_double_mem ()$/
+clear_last_expr	stmt.c	/^clear_last_expr ()$/
+clear_momentary	tree.c	/^clear_momentary ()$/
+clear_pending_stack_adjust	expr.c	/^clear_pending_stack_adjust ()$/
+clear_reg_live	caller-save.c	/^clear_reg_live (reg)$/
+clear_reload_reg_in_use	reload1.c	/^clear_reload_reg_in_use (regno, opnum, type, mode)/
+clear_secondary_mem	reload.c	/^clear_secondary_mem ()$/
+clear_storage	expr.c	/^clear_storage (object, size)$/
+clear_units	sched.c	/^clear_units ()$/
+combinable_i3pat	combine.c	/^combinable_i3pat (i3, loc, i2dest, i1dest, i1_not_/
+combine_givs	loop.c	/^combine_givs (bl)$/
+combine_givs_p	loop.c	/^combine_givs_p (g1, g2)$/
+combine_instructions	combine.c	/^combine_instructions (f, nregs)$/
+combine_movables	loop.c	/^combine_movables (movables, nregs)$/
+combine_regs	local-alloc.c	/^combine_regs (usedreg, setreg, may_save_copy, insn/
+combine_reloads	reload.c	/^combine_reloads ()$/
+combine_strings	c-common.c	/^combine_strings (strings)$/
+comp_dir_attribute	dwarfout.c	/^comp_dir_attribute (dirname)$/
+compare	expr.c	/^compare (exp, signed_code, unsigned_code)$/
+compare_constant	varasm.c	/^compare_constant (exp, desc)$/
+compare_constant_1	varasm.c	/^compare_constant_1 (exp, p)$/
+compare_constant_rtx	varasm.c	/^compare_constant_rtx (mode, x, desc)$/
+compare_for_stack_reg	reg-stack.c	/^compare_for_stack_reg (insn, regstack, pat)$/
+compare_from_rtx	expr.c	/^compare_from_rtx (op0, op1, code, unsignedp, mode,/
+comparison_dominates_p	jump.c	/^comparison_dominates_p (code1, code2)$/
+comparison_operator	recog.c	/^comparison_operator (op, mode)$/
+compile_file	toplev.c	/^compile_file (name)$/
+condition_dominates_p	reorg.c	/^condition_dominates_p (condition, insn)$/
+condjump_p	jump.c	/^condjump_p (insn)$/
+consec_sets_giv	loop.c	/^consec_sets_giv (first_benefit, p, src_reg, dest_r/
+consec_sets_invariant_p	loop.c	/^consec_sets_invariant_p (reg, n_sets, insn)$/
+const_binop	fold-const.c	/^const_binop (code, arg1, arg2, notrunc)$/
+const_double_operand	recog.c	/^const_double_operand (op, mode)$/
+const_hash	varasm.c	/^const_hash (exp)$/
+const_hash_rtx	varasm.c	/^const_hash_rtx (mode, x)$/
+const_int_operand	recog.c	/^const_int_operand (op, mode)$/
+const_value_attribute	dwarfout.c	/^const_value_attribute (rtl)$/
+constant_expression_warning	c-common.c	/^constant_expression_warning (value)$/
+constant_high_bytes	loop.c	/^constant_high_bytes (p, loop_start)$/
+constrain_asm_operands	reg-stack.c	/^constrain_asm_operands (n_operands, operands, oper/
+constrain_operands	recog.c	/^constrain_operands (insn_code_num, strict)$/
+constraint_accepts_reg_p	reload1.c	/^constraint_accepts_reg_p (string, reg)$/
+containing_type_attribute	dwarfout.c	/^containing_type_attribute (containing_type)$/
+contains	function.c	/^contains (insn, vec)$/
+convert_387_op	aux-output.c	/^convert_387_op (op, mode)$/
+convert_and_check	c-common.c	/^convert_and_check (type, expr)$/
+convert_move	expr.c	/^convert_move (to, from, unsignedp)$/
+convert_regs	reg-stack.c	/^convert_regs ()$/
+convert_to_complex	convert.c	/^convert_to_complex (type, expr)$/
+convert_to_integer	convert.c	/^convert_to_integer (type, expr)$/
+convert_to_mode	expr.c	/^convert_to_mode (mode, x, unsignedp)$/
+convert_to_pointer	convert.c	/^convert_to_pointer (type, expr)$/
+convert_to_real	convert.c	/^convert_to_real (type, expr)$/
+copy_addr_to_reg	explow.c	/^copy_addr_to_reg (x)$/
+copy_all_regs	explow.c	/^copy_all_regs (x)$/
+copy_cost	regclass.c	/^copy_cost (x, mode, class, to_p)$/
+copy_decl_list	integrate.c	/^copy_decl_list (list)$/
+copy_decl_rtls	integrate.c	/^copy_decl_rtls (block)$/
+copy_decl_tree	integrate.c	/^copy_decl_tree (block)$/
+copy_for_inline	integrate.c	/^copy_for_inline (orig)$/
+copy_list	tree.c	/^copy_list (list)$/
+copy_loop_body	unroll.c	/^copy_loop_body (copy_start, copy_end, map, exit_la/
+copy_most_rtx	rtl.c	/^copy_most_rtx (orig, may_share)$/
+copy_node	tree.c	/^copy_node (node)$/
+copy_replacements	reload.c	/^copy_replacements (x, y)$/
+copy_rtx	rtl.c	/^copy_rtx (orig)$/
+copy_rtx_and_substitute	integrate.c	/^copy_rtx_and_substitute (orig, map)$/
+copy_rtx_if_shared	emit-rtl.c	/^copy_rtx_if_shared (orig)$/
+copy_to_mode_reg	explow.c	/^copy_to_mode_reg (mode, x)$/
+copy_to_reg	explow.c	/^copy_to_reg (x)$/
+copy_to_suggested_reg	explow.c	/^copy_to_suggested_reg (x, target, mode)$/
+count_error	toplev.c	/^count_error (warningp)$/
+count_loop_regs_set	loop.c	/^count_loop_regs_set (from, to, may_not_move, singl/
+count_nonfixed_reads	loop.c	/^count_nonfixed_reads (x)$/
+count_occurrences	reload1.c	/^count_occurrences (x, find)$/
+count_possible_groups	reload1.c	/^count_possible_groups (group_size, group_mode, max/
+count_reg_usage	cse.c	/^count_reg_usage (x, counts, incr)$/
+create_reg_dead_note	sched.c	/^create_reg_dead_note (reg, insn)$/
+cse_around_loop	cse.c	/^cse_around_loop (loop_start)$/
+cse_basic_block	cse.c	/^cse_basic_block (from, to, next_branch, around_loo/
+cse_check_loop_start	cse.c	/^cse_check_loop_start (x, set)$/
+cse_end_of_basic_block	cse.c	/^cse_end_of_basic_block (insn, data, follow_jumps, /
+cse_gen_binary	cse.c	/^cse_gen_binary (code, mode, op0, op1)$/
+cse_insn	cse.c	/^cse_insn (insn, in_libcall_block)$/
+cse_main	cse.c	/^cse_main (f, nregs, after_loop, file)$/
+cse_process_notes	cse.c	/^cse_process_notes (x, object)$/
+cse_rtx_addr_varies_p	cse.c	/^cse_rtx_addr_varies_p (x)$/
+cse_set_around_loop	cse.c	/^cse_set_around_loop (x, insn, loop_start)$/
+data_member_location_attribute	dwarfout.c	/^data_member_location_attribute (decl)$/
+data_section	varasm.c	/^data_section ()$/
+dbr_schedule	reorg.c	/^dbr_schedule (first, file)$/
+dbr_sequence_length	final.c	/^dbr_sequence_length ()$/
+dead_or_set_p	rtlanal.c	/^dead_or_set_p (insn, x)$/
+dead_or_set_regno_p	rtlanal.c	/^dead_or_set_regno_p (insn, test_regno)$/
+debug_obstack	tree.c	/^debug_obstack (object)$/
+debug_rtx	print-rtl.c	/^debug_rtx (x)$/
+debug_rtx_find	print-rtl.c	/^debug_rtx_find(x, uid)$/
+debug_rtx_list	print-rtl.c	/^debug_rtx_list (x, n)$/
+debug_tree	print-tree.c	/^debug_tree (node)$/
+decl_attributes	c-common.c	/^decl_attributes (decl, attributes)$/
+decl_function_context	tree.c	/^decl_function_context (decl)$/
+decl_name	toplev.c	/^decl_name (decl, kind)$/
+decl_tree_cons	tree.c	/^decl_tree_cons (purpose, value, chain)$/
+decl_type_context	tree.c	/^decl_type_context (decl)$/
+decl_ultimate_origin	dwarfout.c	/^decl_ultimate_origin (decl)$/
+declare_function_name	c-common.c	/^declare_function_name ()$/
+declare_nonlocal_label	stmt.c	/^declare_nonlocal_label (label)$/
+decode	fold-const.c	/^decode (shorts, low, hi)$/
+decode_addr_const	varasm.c	/^decode_addr_const (exp, value)$/
+decode_asm_operands	recog.c	/^decode_asm_operands (body, operands, operand_locs,/
+decode_field_reference	fold-const.c	/^decode_field_reference (exp, pbitsize, pbitpos, pm/
+decode_reg_name	varasm.c	/^decode_reg_name (asmspec)$/
+decode_rtx_const	varasm.c	/^decode_rtx_const (mode, x, value)$/
+decompose	reload.c	/^decompose (x)$/
+dectoe	real.c	/^dectoe (d, e)$/
+delete_computation	jump.c	/^delete_computation (insn)$/
+delete_dead_from_cse	cse.c	/^delete_dead_from_cse (insns, nreg)$/
+delete_dead_insn	reload1.c	/^delete_dead_insn (insn)$/
+delete_for_peephole	jump.c	/^delete_for_peephole (from, to)$/
+delete_from_delay_slot	reorg.c	/^delete_from_delay_slot (insn)$/
+delete_from_jump_chain	jump.c	/^delete_from_jump_chain (jump)$/
+delete_handlers	function.c	/^delete_handlers ()$/
+delete_insn	jump.c	/^delete_insn (insn)$/
+delete_insn_for_stacker	reg-stack.c	/^delete_insn_for_stacker (insn)$/
+delete_insns_since	emit-rtl.c	/^delete_insns_since (from)$/
+delete_jump	jump.c	/^delete_jump (insn)$/
+delete_labelref_insn	jump.c	/^delete_labelref_insn (insn, label, delete_this)$/
+delete_output_reload	reload1.c	/^delete_output_reload (insn, j, output_reload_insn)/
+delete_reg_equiv	cse.c	/^delete_reg_equiv (reg)$/
+delete_scheduled_jump	reorg.c	/^delete_scheduled_jump (insn)$/
+dienum_pop	dwarfout.c	/^dienum_pop ()$/
+dienum_push	dwarfout.c	/^dienum_push ()$/
+distribute_bit_expr	fold-const.c	/^distribute_bit_expr (code, type, arg0, arg1)$/
+distribute_links	combine.c	/^distribute_links (links)$/
+distribute_notes	combine.c	/^distribute_notes (notes, from_insn, i3, i2, elim_i/
+div_and_round_double	fold-const.c	/^div_and_round_double (code, uns,$/
+do_abort	toplev.c	/^do_abort ()$/
+do_cross_jump	jump.c	/^do_cross_jump (insn, newjpos, newlpos)$/
+do_jump	expr.c	/^do_jump (exp, if_false_label, if_true_label)$/
+do_jump_by_parts_equality	expr.c	/^do_jump_by_parts_equality (exp, if_false_label, if/
+do_jump_by_parts_equality_rtx	expr.c	/^do_jump_by_parts_equality_rtx (op0, if_false_label/
+do_jump_by_parts_greater	expr.c	/^do_jump_by_parts_greater (exp, swap, if_false_labe/
+do_jump_by_parts_greater_rtx	expr.c	/^do_jump_by_parts_greater_rtx (mode, unsignedp, op0/
+do_jump_for_compare	expr.c	/^do_jump_for_compare (comparison, if_false_label, i/
+do_jump_if_equal	stmt.c	/^do_jump_if_equal (op1, op2, label, unsignedp)$/
+do_pending_stack_adjust	expr.c	/^do_pending_stack_adjust ()$/
+do_store_flag	expr.c	/^do_store_flag (exp, target, mode, only_cheap)$/
+do_tablejump	expr.c	/^do_tablejump (index, mode, range, table_label, def/
+drop_through_at_end_p	stmt.c	/^drop_through_at_end_p ()$/
+dump_and_abort	rtl.c	/^dump_and_abort (expected_c, actual_c, infile)$/
+dump_combine_stats	combine.c	/^dump_combine_stats (file)$/
+dump_combine_total_stats	combine.c	/^dump_combine_total_stats (file)$/
+dump_conflicts	global.c	/^dump_conflicts (file)$/
+dump_flow_info	flow.c	/^dump_flow_info (file)$/
+dump_global_regs	global.c	/^dump_global_regs (file)$/
+dump_local_alloc	local-alloc.c	/^dump_local_alloc (file)$/
+dump_stack_info	reg-stack.c	/^dump_stack_info (file)$/
+dump_tree_statistics	tree.c	/^dump_tree_statistics ()$/
+duplicate_loop_exit_test	jump.c	/^duplicate_loop_exit_test (loop_start)$/
+dwarf_attr_name	dwarfout.c	/^dwarf_attr_name (attr)$/
+dwarf_fmt_byte_name	dwarfout.c	/^dwarf_fmt_byte_name (fmt)$/
+dwarf_fund_type_name	dwarfout.c	/^dwarf_fund_type_name (ft)$/
+dwarf_stack_op_name	dwarfout.c	/^dwarf_stack_op_name (op)$/
+dwarf_tag_name	dwarfout.c	/^dwarf_tag_name (tag)$/
+dwarf_typemod_name	dwarfout.c	/^dwarf_typemod_name (mod)$/
+dwarfout_begin_block	dwarfout.c	/^dwarfout_begin_block (blocknum)$/
+dwarfout_begin_function	dwarfout.c	/^dwarfout_begin_function ()$/
+dwarfout_define	dwarfout.c	/^dwarfout_define (lineno, buffer)$/
+dwarfout_end_block	dwarfout.c	/^dwarfout_end_block (blocknum)$/
+dwarfout_end_epilogue	dwarfout.c	/^dwarfout_end_epilogue ()$/
+dwarfout_end_function	dwarfout.c	/^dwarfout_end_function ()$/
+dwarfout_file_scope_decl	dwarfout.c	/^dwarfout_file_scope_decl (decl, set_finalizing)$/
+dwarfout_finish	dwarfout.c	/^dwarfout_finish ()$/
+dwarfout_init	dwarfout.c	/^dwarfout_init (asm_out_file, main_input_filename)$/
+dwarfout_label	dwarfout.c	/^dwarfout_label (insn)$/
+dwarfout_line	dwarfout.c	/^dwarfout_line (filename, line)$/
+dwarfout_resume_previous_source_file	dwarfout.c	/^dwarfout_resume_previous_source_file (lineno)$/
+dwarfout_start_new_source_file	dwarfout.c	/^dwarfout_start_new_source_file (filename)$/
+dwarfout_undef	dwarfout.c	/^dwarfout_undef (lineno, buffer)$/
+e24toasc	real.c	/^e24toasc (x, string, ndigs)$/
+e24toe	real.c	/^e24toe (pe, y)$/
+e53toasc	real.c	/^e53toasc (x, string, ndigs)$/
+e53toe	real.c	/^e53toe (pe, y)$/
+e64toasc	real.c	/^e64toasc (x, string, ndigs)$/
+e64toe	real.c	/^e64toe (pe, y)$/
+eabs	real.c	/^eabs (x)$/
+eadd	real.c	/^eadd (a, b, c)$/
+eadd1	real.c	/^eadd1 (a, b, c)$/
+eaddm	real.c	/^eaddm (x, y)$/
+earith	real.c	/^earith (value, icode, r1, r2)$/
+eclear	real.c	/^eclear (x)$/
+ecleaz	real.c	/^ecleaz (xi)$/
+ecleazs	real.c	/^ecleazs (xi)$/
+ecmp	real.c	/^ecmp (a, b)$/
+ecmpm	real.c	/^ecmpm (a, b)$/
+ediv	real.c	/^ediv (a, b, c)$/
+edivm	real.c	/^edivm (den, num)$/
+efloor	real.c	/^efloor (x, y)$/
+efrexp	real.c	/^efrexp (x, exp, s)$/
+eifrac	real.c	/^eifrac (x, i, frac)$/
+eiinfin	real.c	/^eiinfin (x)$/
+eiisinf	real.c	/^eiisinf (x)$/
+eiisnan	real.c	/^eiisnan (x)$/
+einan	real.c	/^einan (x)$/
+einfin	real.c	/^einfin (x)$/
+einit	real.c	/^einit ()$/
+eiremain	real.c	/^eiremain (den, num)$/
+eisinf	real.c	/^eisinf (x)$/
+eisnan	real.c	/^eisnan (x)$/
+eisneg	real.c	/^eisneg (x)$/
+eldexp	real.c	/^eldexp (x, pwr2, y)$/
+element_list_attribute	dwarfout.c	/^element_list_attribute (element)$/
+eligible_for_annul_false	reorg.c	/^#define eligible_for_annul_false(INSN, SLOTS, TRIA/
+eligible_for_annul_true	reorg.c	/^#define eligible_for_annul_true(INSN, SLOTS, TRIAL/
+eliminate_constant_term	explow.c	/^eliminate_constant_term (x, constptr)$/
+eliminate_regs	reload1.c	/^eliminate_regs (x, mem_mode, insn)$/
+eliminate_regs_in_insn	reload1.c	/^eliminate_regs_in_insn (insn, replace)$/
+emdnorm	real.c	/^emdnorm (s, lost, subflg, exp, rcntrl)$/
+emit	emit-rtl.c	/^emit (x)$/
+emit_0_to_1_insn	optabs.c	/^emit_0_to_1_insn (x)$/
+emit_barrier	emit-rtl.c	/^emit_barrier ()$/
+emit_barrier_after	emit-rtl.c	/^emit_barrier_after (after)$/
+emit_barrier_before	emit-rtl.c	/^emit_barrier_before (before)$/
+emit_block_move	expr.c	/^emit_block_move (x, y, size, align)$/
+emit_call_1	calls.c	/^emit_call_1 (funexp, funtype, stack_size, struct_v/
+emit_call_insn	emit-rtl.c	/^emit_call_insn (pattern)$/
+emit_call_insn_before	emit-rtl.c	/^emit_call_insn_before (pattern, before)$/
+emit_case_nodes	stmt.c	/^emit_case_nodes (index, node, default_label, index/
+emit_clr_insn	optabs.c	/^emit_clr_insn (x)$/
+emit_cmp_insn	optabs.c	/^emit_cmp_insn (x, y, comparison, size, mode, unsig/
+emit_delay_sequence	reorg.c	/^emit_delay_sequence (insn, list, length, avail)$/
+emit_float_lib_cmp	optabs.c	/^emit_float_lib_cmp (x, y, comparison)$/
+emit_indirect_jump	optabs.c	/^emit_indirect_jump (loc)$/
+emit_insn	emit-rtl.c	/^emit_insn (pattern)$/
+emit_insn_after	emit-rtl.c	/^emit_insn_after (pattern, after)$/
+emit_insn_after_with_line_notes	emit-rtl.c	/^emit_insn_after_with_line_notes (pattern, after, f/
+emit_insn_before	emit-rtl.c	/^emit_insn_before (pattern, before)$/
+emit_insns	emit-rtl.c	/^emit_insns (insn)$/
+emit_insns_after	emit-rtl.c	/^emit_insns_after (first, after)$/
+emit_insns_before	emit-rtl.c	/^emit_insns_before (insn, before)$/
+emit_iv_add_mult	loop.c	/^emit_iv_add_mult (b, m, a, reg, insert_before)$/
+emit_jump	stmt.c	/^emit_jump (label)$/
+emit_jump_if_reachable	stmt.c	/^emit_jump_if_reachable (label)$/
+emit_jump_insn	emit-rtl.c	/^emit_jump_insn (pattern)$/
+emit_jump_insn_after	emit-rtl.c	/^emit_jump_insn_after (pattern, after)$/
+emit_jump_insn_before	emit-rtl.c	/^emit_jump_insn_before (pattern, before)$/
+emit_label	emit-rtl.c	/^emit_label (label)$/
+emit_label_after	emit-rtl.c	/^emit_label_after (label, after)$/
+emit_libcall_block	optabs.c	/^emit_libcall_block (insns, target, result, equiv)$/
+emit_library_call	calls.c	/^emit_library_call (va_alist)$/
+emit_library_call_value	calls.c	/^emit_library_call_value (va_alist)$/
+emit_line_note	emit-rtl.c	/^emit_line_note (file, line)$/
+emit_line_note_after	emit-rtl.c	/^emit_line_note_after (file, line, after)$/
+emit_line_note_force	emit-rtl.c	/^emit_line_note_force (file, line)$/
+emit_move_insn	expr.c	/^emit_move_insn (x, y)$/
+emit_move_insn_1	expr.c	/^emit_move_insn_1 (x, y)$/
+emit_no_conflict_block	optabs.c	/^emit_no_conflict_block (insns, target, op0, op1, e/
+emit_nop	stmt.c	/^emit_nop ()$/
+emit_note	emit-rtl.c	/^emit_note (file, line)$/
+emit_note_after	emit-rtl.c	/^emit_note_after (subtype, after)$/
+emit_note_before	emit-rtl.c	/^emit_note_before (subtype, before)$/
+emit_pic_move	aux-output.c	/^emit_pic_move (operands, mode)$/
+emit_pop_insn	reg-stack.c	/^emit_pop_insn (insn, regstack, reg, when)$/
+emit_push_insn	expr.c	/^emit_push_insn (x, mode, type, size, align, partia/
+emit_queue	expr.c	/^emit_queue ()$/
+emit_reload_insns	reload1.c	/^emit_reload_insns (insn)$/
+emit_stack_restore	explow.c	/^emit_stack_restore (save_level, sa, after)$/
+emit_stack_save	explow.c	/^emit_stack_save (save_level, psave, after)$/
+emit_store_flag	expmed.c	/^emit_store_flag (target, code, op0, op1, mode, uns/
+emit_swap_insn	reg-stack.c	/^emit_swap_insn (insn, regstack, reg)$/
+emit_unop_insn	optabs.c	/^emit_unop_insn (icode, target, op0, code)$/
+emit_unrolled_add	unroll.c	/^emit_unrolled_add (dest_reg, src_reg, increment)$/
+emov	real.c	/^emov (a, b)$/
+emovi	real.c	/^emovi (a, b)$/
+emovo	real.c	/^emovo (a, b)$/
+emovz	real.c	/^emovz (a, b)$/
+emul	real.c	/^emul (a, b, c)$/
+emulm	real.c	/^emulm (a, b)$/
+enan	real.c	/^enan (x)$/
+encode	fold-const.c	/^encode (shorts, low, hi)$/
+end_final	final.c	/^end_final (filename)$/
+end_sequence	emit-rtl.c	/^end_sequence ()$/
+end_sibling_chain	dwarfout.c	/^end_sibling_chain ()$/
+end_temporary_allocation	tree.c	/^end_temporary_allocation ()$/
+endian	real.c	/^endian (e, x, mode)$/
+eneg	real.c	/^eneg (x)$/
+enormlz	real.c	/^enormlz (x)$/
+enqueue_insn	expr.c	/^enqueue_insn (var, body)$/
+equate_decl_number_to_die_number	dwarfout.c	/^equate_decl_number_to_die_number (decl)$/
+equate_type_number_to_die_number	dwarfout.c	/^equate_type_number_to_die_number (type)$/
+equiv_constant	cse.c	/^equiv_constant (x)$/
+ereal_atof	real.c	/^ereal_atof (s, t)$/
+ereal_cmp	real.c	/^ereal_cmp (x, y)$/
+ereal_from_double	real.c	/^ereal_from_double (d)$/
+ereal_from_float	real.c	/^ereal_from_float (f)$/
+ereal_from_int	real.c	/^ereal_from_int (d, i, j)$/
+ereal_from_uint	real.c	/^ereal_from_uint (d, i, j)$/
+ereal_isneg	real.c	/^ereal_isneg (x)$/
+ereal_ldexp	real.c	/^ereal_ldexp (x, n)$/
+ereal_negate	real.c	/^ereal_negate (x)$/
+ereal_to_decimal	real.c	/^ereal_to_decimal (x, s)$/
+ereal_to_int	real.c	/^ereal_to_int (low, high, rr)$/
+eremain	real.c	/^eremain (a, b, c)$/
+eround	real.c	/^eround (x, y)$/
+eroundi	real.c	/^eroundi (x)$/
+eroundui	real.c	/^eroundui (x)$/
+error	toplev.c	/^error (s, v, v2)$/
+error_for_asm	toplev.c	/^error_for_asm (insn, s, v, v2)$/
+error_with_decl	toplev.c	/^error_with_decl (decl, s, v)$/
+error_with_file_and_line	toplev.c	/^error_with_file_and_line (file, line, s, v, v2)$/
+eshdn1	real.c	/^eshdn1 (x)$/
+eshdn6	real.c	/^eshdn6 (x)$/
+eshdn8	real.c	/^eshdn8 (x)$/
+eshift	real.c	/^eshift (x, sc)$/
+eshup1	real.c	/^eshup1 (x)$/
+eshup6	real.c	/^eshup6 (x)$/
+eshup8	real.c	/^eshup8 (x)$/
+estimate_case_costs	stmt.c	/^estimate_case_costs (node)$/
+esub	real.c	/^esub (a, b, c)$/
+esubm	real.c	/^esubm (x, y)$/
+etardouble	real.c	/^etardouble (r, l)$/
+etarldouble	real.c	/^etarldouble (r, l)$/
+etarsingle	real.c	/^etarsingle (r)$/
+etoasc	real.c	/^etoasc (x, string, ndigs)$/
+etodec	real.c	/^etodec (x, d)$/
+etoe24	real.c	/^etoe24 (x, e)$/
+etoe53	real.c	/^etoe53 (x, e)$/
+etoe64	real.c	/^etoe64 (x, e)$/
+etrunci	real.c	/^etrunci (x)$/
+etruncui	real.c	/^etruncui (x)$/
+euifrac	real.c	/^euifrac (x, i, frac)$/
+eval_subst	fold-const.c	/^eval_subst (arg, old0, new0, old1, new1)$/
+exact_log2_wide	toplev.c	/^exact_log2_wide (x)$/
+exp_equiv_p	cse.c	/^exp_equiv_p (x, y, validate, equal_values)$/
+expand_and	expmed.c	/^expand_and (op0, op1, target)$/
+expand_anon_union_decl	stmt.c	/^expand_anon_union_decl (decl, cleanup, decl_elts)$/
+expand_asm	stmt.c	/^expand_asm (body)$/
+expand_asm_operands	stmt.c	/^expand_asm_operands (string, outputs, inputs, clob/
+expand_assignment	expr.c	/^expand_assignment (to, from, want_value, suggest_r/
+expand_binop	optabs.c	/^expand_binop (mode, binoptab, op0, op1, target, un/
+expand_builtin	expr.c	/^expand_builtin (exp, target, subtarget, mode, igno/
+expand_builtin_apply	expr.c	/^expand_builtin_apply (function, arguments, argsize/
+expand_builtin_apply_args	expr.c	/^expand_builtin_apply_args ()$/
+expand_builtin_return	expr.c	/^expand_builtin_return (result)$/
+expand_call	calls.c	/^expand_call (exp, target, ignore)$/
+expand_catch	stmt.c	/^expand_catch (ex)$/
+expand_catch_default	stmt.c	/^expand_catch_default ()$/
+expand_cleanups	stmt.c	/^expand_cleanups (list, dont_do)$/
+expand_cleanups_to	expr.c	/^expand_cleanups_to (old_cleanups)$/
+expand_complex_abs	optabs.c	/^expand_complex_abs (mode, op0, target, unsignedp)$/
+expand_compound_operation	combine.c	/^expand_compound_operation (x)$/
+expand_computed_goto	stmt.c	/^expand_computed_goto (exp)$/
+expand_continue_loop	stmt.c	/^expand_continue_loop (whichloop)$/
+expand_dec	expmed.c	/^expand_dec (target, dec)$/
+expand_decl	stmt.c	/^expand_decl (decl)$/
+expand_decl_cleanup	stmt.c	/^expand_decl_cleanup (decl, cleanup)$/
+expand_divmod	expmed.c	/^expand_divmod (rem_flag, code, mode, op0, op1, tar/
+expand_end_bindings	stmt.c	/^expand_end_bindings (vars, mark_ends, dont_jump_in/
+expand_end_case	stmt.c	/^expand_end_case (orig_index)$/
+expand_end_case_dummy	stmt.c	/^expand_end_case_dummy ()$/
+expand_end_catch	stmt.c	/^expand_end_catch ()$/
+expand_end_cond	stmt.c	/^expand_end_cond ()$/
+expand_end_except	stmt.c	/^expand_end_except ()$/
+expand_end_loop	stmt.c	/^expand_end_loop ()$/
+expand_end_stmt_expr	stmt.c	/^expand_end_stmt_expr (t)$/
+expand_end_try	stmt.c	/^expand_end_try ()$/
+expand_escape_except	stmt.c	/^expand_escape_except ()$/
+expand_exit_loop	stmt.c	/^expand_exit_loop (whichloop)$/
+expand_exit_loop_if_false	stmt.c	/^expand_exit_loop_if_false (whichloop, cond)$/
+expand_exit_something	stmt.c	/^expand_exit_something ()$/
+expand_expr	expr.c	/^expand_expr (exp, target, tmode, modifier)$/
+expand_expr_stmt	stmt.c	/^expand_expr_stmt (exp)$/
+expand_field_assignment	combine.c	/^expand_field_assignment (x)$/
+expand_fix	optabs.c	/^expand_fix (to, from, unsignedp)$/
+expand_fixup	stmt.c	/^expand_fixup (tree_label, rtl_label, last_insn)$/
+expand_float	optabs.c	/^expand_float (to, from, unsignedp)$/
+expand_function_end	function.c	/^expand_function_end (filename, line)$/
+expand_function_start	function.c	/^expand_function_start (subr, parms_have_cleanups)$/
+expand_goto	stmt.c	/^expand_goto (label)$/
+expand_goto_internal	stmt.c	/^expand_goto_internal (body, label, last_insn)$/
+expand_inc	expmed.c	/^expand_inc (target, inc)$/
+expand_increment	expr.c	/^expand_increment (exp, post)$/
+expand_inline_function	integrate.c	/^expand_inline_function (fndecl, parms, target, ign/
+expand_label	stmt.c	/^expand_label (label)$/
+expand_loop_continue_here	stmt.c	/^expand_loop_continue_here ()$/
+expand_main_function	function.c	/^expand_main_function ()$/
+expand_mult	expmed.c	/^expand_mult (mode, op0, op1, target, unsignedp)$/
+expand_mult_add	expmed.c	/^expand_mult_add (x, target, mult, add, mode, unsig/
+expand_null_return	stmt.c	/^expand_null_return ()$/
+expand_null_return_1	stmt.c	/^expand_null_return_1 (last_insn, use_goto)$/
+expand_preferences	global.c	/^expand_preferences ()$/
+expand_raise	stmt.c	/^expand_raise (ex)$/
+expand_return	stmt.c	/^expand_return (retval)$/
+expand_shift	expmed.c	/^expand_shift (code, mode, shifted, amount, target,/
+expand_start_bindings	stmt.c	/^expand_start_bindings (exit_flag)$/
+expand_start_case	stmt.c	/^expand_start_case (exit_flag, expr, type, printnam/
+expand_start_case_dummy	stmt.c	/^expand_start_case_dummy ()$/
+expand_start_cond	stmt.c	/^expand_start_cond (cond, exitflag)$/
+expand_start_else	stmt.c	/^expand_start_else ()$/
+expand_start_elseif	stmt.c	/^expand_start_elseif (cond)$/
+expand_start_except	stmt.c	/^expand_start_except (exitflag, escapeflag)$/
+expand_start_loop	stmt.c	/^expand_start_loop (exit_flag)$/
+expand_start_loop_continue_elsewhere	stmt.c	/^expand_start_loop_continue_elsewhere (exit_flag)$/
+expand_start_stmt_expr	stmt.c	/^expand_start_stmt_expr ()$/
+expand_start_try	stmt.c	/^expand_start_try (try_clause, exitflag, escapeflag/
+expand_twoval_binop	optabs.c	/^expand_twoval_binop (binoptab, op0, op1, targ0, ta/
+expand_unop	optabs.c	/^expand_unop (mode, unoptab, op0, target, unsignedp/
+expand_value_return	stmt.c	/^expand_value_return (val)$/
+expander_call_insn_operand	aux-output.c	/^expander_call_insn_operand (op, mode)$/
+expr_size	explow.c	/^expr_size (exp)$/
+express_from	loop.c	/^express_from (g1, g2)$/
+extended_count	combine.c	/^extended_count (x, mode, unsignedp)$/
+extract_bit_field	expmed.c	/^extract_bit_field (str_rtx, bitsize, bitnum, unsig/
+extract_fixed_bit_field	expmed.c	/^extract_fixed_bit_field (tmode, op0, offset, bitsi/
+extract_split_bit_field	expmed.c	/^extract_split_bit_field (op0, bitsize, bitpos, uns/
+fancy_abort	toplev.c	/^fancy_abort ()$/
+fatal	toplev.c	/^fatal (s, v)$/
+fatal_insn_not_found	toplev.c	/^fatal_insn_not_found (insn)$/
+fatal_io_error	toplev.c	/^fatal_io_error (name)$/
+field_byte_offset	dwarfout.c	/^field_byte_offset (decl)$/
+field_type	dwarfout.c	/^field_type (decl)$/
+fill_eager_delay_slots	reorg.c	/^fill_eager_delay_slots (first)$/
+fill_simple_delay_slots	reorg.c	/^fill_simple_delay_slots (first, non_jumps_p)$/
+fill_slots_from_thread	reorg.c	/^fill_slots_from_thread (insn, condition, thread, o/
+final	final.c	/^final (first, file, optimize, prescan)$/
+final_biv_value	unroll.c	/^final_biv_value (bl, loop_start, loop_end)$/
+final_end_function	final.c	/^final_end_function (first, file, optimize)$/
+final_giv_value	unroll.c	/^final_giv_value (v, loop_start, loop_end)$/
+final_reg_note_copy	unroll.c	/^final_reg_note_copy (notes, map)$/
+final_scan_insn	final.c	/^final_scan_insn (insn, file, optimize, prescan, no/
+final_start_function	final.c	/^final_start_function (first, file, optimize)$/
+find_addr_reg	aux-output.c	/^find_addr_reg (addr)$/
+find_and_verify_loops	loop.c	/^find_and_verify_loops (f)$/
+find_auto_inc	flow.c	/^find_auto_inc (needed, x, insn)$/
+find_basic_block	reorg.c	/^find_basic_block (insn)$/
+find_basic_blocks	flow.c	/^find_basic_blocks (f, nonlocal_label_list)$/
+find_best_addr	cse.c	/^find_best_addr (insn, loc)$/
+find_blocks	reg-stack.c	/^find_blocks (first)$/
+find_comparison_args	cse.c	/^find_comparison_args (code, parg1, parg2, pmode1, /
+find_constant_term_loc	recog.c	/^find_constant_term_loc (p)$/
+find_cross_jump	jump.c	/^find_cross_jump (e1, e2, minimum, f1, f2)$/
+find_dummy_reload	reload.c	/^find_dummy_reload (real_in, real_out, inloc, outlo/
+find_end_label	reorg.c	/^find_end_label ()$/
+find_equiv_reg	reload.c	/^find_equiv_reg (goal, insn, class, other, reload_r/
+find_fixup_replacement	function.c	/^find_fixup_replacement (replacements, x)$/
+find_free_reg	local-alloc.c	/^find_free_reg (class, mode, qty, accept_call_clobb/
+find_function_data	function.c	/^find_function_data (decl)$/
+find_inc_amount	reload.c	/^find_inc_amount (x, inced)$/
+find_insn_list	sched.c	/^find_insn_list (insn, list)$/
+find_last_value	rtlanal.c	/^find_last_value (x, pinsn, valid_to)$/
+find_line_note	emit-rtl.c	/^find_line_note (insn)$/
+find_loop_tree_blocks	stmt.c	/^find_loop_tree_blocks ()$/
+find_mem_givs	loop.c	/^find_mem_givs (x, insn, not_every_iteration, loop_/
+find_next_ref	explow.c	/^find_next_ref (reg, insn)$/
+find_pool_constant	varasm.c	/^find_pool_constant (addr)$/
+find_reg	global.c	/^find_reg (allocno, losers, alt_regs_p, accept_call/
+find_reg_note	rtlanal.c	/^find_reg_note (insn, kind, datum)$/
+find_regno_note	rtlanal.c	/^find_regno_note (insn, kind, regno)$/
+find_reloads	reload.c	/^find_reloads (insn, replace, ind_levels, live_know/
+find_reloads_address	reload.c	/^find_reloads_address (mode, memrefloc, ad, loc, op/
+find_reloads_address_1	reload.c	/^find_reloads_address_1 (x, context, loc, opnum, ty/
+find_reloads_address_part	reload.c	/^find_reloads_address_part (x, loc, class, mode, op/
+find_reloads_toplev	reload.c	/^find_reloads_toplev (x, opnum, type, ind_levels, i/
+find_replacement	reload.c	/^find_replacement (loc)$/
+find_secondary_reload	reload.c	/^find_secondary_reload (x, reload_class, reload_mod/
+find_single_use	recog.c	/^find_single_use (dest, insn, ploc)$/
+find_single_use_1	recog.c	/^find_single_use_1 (dest, loc)$/
+find_single_use_in_loop	loop.c	/^find_single_use_in_loop (insn, x, usage)$/
+find_split_point	combine.c	/^find_split_point (loc, insn)$/
+find_splittable_givs	unroll.c	/^find_splittable_givs (bl, unroll_type, loop_start,/
+find_splittable_regs	unroll.c	/^find_splittable_regs (unroll_type, loop_start, loo/
+find_symbolic_term	sched.c	/^find_symbolic_term (x)$/
+find_use_as_address	flow.c	/^find_use_as_address (x, reg, plusconst)$/
+finish_inline	integrate.c	/^finish_inline (fndecl, head)$/
+finish_sometimes_live	sched.c	/^finish_sometimes_live (regs_sometimes_live, someti/
+fix_lexical_addr	function.c	/^fix_lexical_addr (addr, var)$/
+fix_register	regclass.c	/^fix_register (name, fixed, call_used)$/
+fixed_type_p	expr.c	/^fixed_type_p (exp)$/
+fixup_gotos	stmt.c	/^fixup_gotos (thisblock, stack_level, cleanup_list,/
+fixup_memory_subreg	function.c	/^fixup_memory_subreg (x, insn, uncritical)$/
+fixup_signed_type	stor-layout.c	/^fixup_signed_type (type)$/
+fixup_stack_1	function.c	/^fixup_stack_1 (x, insn)$/
+fixup_stack_slots	function.c	/^fixup_stack_slots ()$/
+fixup_unsigned_type	stor-layout.c	/^fixup_unsigned_type (type)$/
+fixup_var_refs	function.c	/^fixup_var_refs (var, promoted_mode, unsignedp)$/
+fixup_var_refs_1	function.c	/^fixup_var_refs_1 (var, promoted_mode, loc, insn, r/
+fixup_var_refs_insns	function.c	/^fixup_var_refs_insns (var, promoted_mode, unsigned/
+float_signal	toplev.c	/^float_signal (signo)$/
+floor_log2_wide	toplev.c	/^floor_log2_wide (x)$/
+flow_analysis	flow.c	/^flow_analysis (f, nregs, file)$/
+flush_pending_lists	sched.c	/^flush_pending_lists (insn)$/
+fold	fold-const.c	/^fold (expr) $/
+fold_convert	fold-const.c	/^fold_convert (t, arg1)$/
+fold_rtx	cse.c	/^fold_rtx (x, insn)$/
+fold_rtx_mult_add	unroll.c	/^fold_rtx_mult_add (mult1, mult2, add1, mode)$/
+fold_truthop	fold-const.c	/^fold_truthop (code, truth_type, lhs, rhs)$/
+follow_jumps	jump.c	/^follow_jumps (label)$/
+force_const_mem	varasm.c	/^force_const_mem (mode, x)$/
+force_fit_type	fold-const.c	/^force_fit_type (t, overflow)$/
+force_movables	loop.c	/^force_movables (movables)$/
+force_next_line_note	emit-rtl.c	/^force_next_line_note ()$/
+force_not_mem	explow.c	/^force_not_mem (x)$/
+force_operand	expr.c	/^force_operand (value, target)$/
+force_reg	explow.c	/^force_reg (mode, x)$/
+force_to_mode	combine.c	/^force_to_mode (x, mode, bits, reg)$/
+forget_old_reloads_1	reload1.c	/^forget_old_reloads_1 (x, ignored)$/
+form_sum	reload.c	/^form_sum (x, y)$/
+free_element	cse.c	/^free_element (elt)$/
+free_pending_lists	sched.c	/^free_pending_lists ()$/
+free_temp_slots	function.c	/^free_temp_slots ()$/
+ftruncify	optabs.c	/^ftruncify (x)$/
+function_cannot_inline_p	integrate.c	/^function_cannot_inline_p (fndecl)$/
+function_epilogue	aux-output.c	/^function_epilogue (file, size)$/
+function_prologue	aux-output.c	/^function_prologue (file, size)$/
+fund_type_attribute	dwarfout.c	/^fund_type_attribute (ft_code)$/
+fundamental_type_code	dwarfout.c	/^fundamental_type_code (type)$/
+gcc_memset	rtl.c	/^gcc_memset (dest, value, len)$/
+gcc_obstack_init	tree.c	/^gcc_obstack_init (obstack)$/
+gen_absdf2	insn-emit.c	/^gen_absdf2 (operand0, operand1)$/
+gen_abssf2	insn-emit.c	/^gen_abssf2 (operand0, operand1)$/
+gen_add2_insn	optabs.c	/^gen_add2_insn (x, y)$/
+gen_adddf3	insn-emit.c	/^gen_adddf3 (operand0, operand1, operand2)$/
+gen_adddi3	insn-emit.c	/^gen_adddi3 (operand0, operand1, operand2)$/
+gen_addhi3	insn-emit.c	/^gen_addhi3 (operand0, operand1, operand2)$/
+gen_addqi3	insn-emit.c	/^gen_addqi3 (operand0, operand1, operand2)$/
+gen_addsf3	insn-emit.c	/^gen_addsf3 (operand0, operand1, operand2)$/
+gen_addsi3	insn-emit.c	/^gen_addsi3 (operand0, operand1, operand2)$/
+gen_andhi3	insn-emit.c	/^gen_andhi3 (operand0, operand1, operand2)$/
+gen_andqi3	insn-emit.c	/^gen_andqi3 (operand0, operand1, operand2)$/
+gen_andsi3	insn-emit.c	/^gen_andsi3 (operand0, operand1, operand2)$/
+gen_ashldi3	insn-emit.c	/^gen_ashldi3 (operand0, operand1, operand2)$/
+gen_ashldi3_const_int	insn-emit.c	/^gen_ashldi3_const_int (operand0, operand1, operand/
+gen_ashldi3_non_const_int	insn-emit.c	/^gen_ashldi3_non_const_int (operand0, operand1, ope/
+gen_ashlhi3	insn-emit.c	/^gen_ashlhi3 (operand0, operand1, operand2)$/
+gen_ashlqi3	insn-emit.c	/^gen_ashlqi3 (operand0, operand1, operand2)$/
+gen_ashlsi3	insn-emit.c	/^gen_ashlsi3 (operand0, operand1, operand2)$/
+gen_ashrdi3	insn-emit.c	/^gen_ashrdi3 (operand0, operand1, operand2)$/
+gen_ashrdi3_const_int	insn-emit.c	/^gen_ashrdi3_const_int (operand0, operand1, operand/
+gen_ashrdi3_non_const_int	insn-emit.c	/^gen_ashrdi3_non_const_int (operand0, operand1, ope/
+gen_ashrhi3	insn-emit.c	/^gen_ashrhi3 (operand0, operand1, operand2)$/
+gen_ashrqi3	insn-emit.c	/^gen_ashrqi3 (operand0, operand1, operand2)$/
+gen_ashrsi3	insn-emit.c	/^gen_ashrsi3 (operand0, operand1, operand2)$/
+gen_beq	insn-emit.c	/^gen_beq (operand0)$/
+gen_bge	insn-emit.c	/^gen_bge (operand0)$/
+gen_bgeu	insn-emit.c	/^gen_bgeu (operand0)$/
+gen_bgt	insn-emit.c	/^gen_bgt (operand0)$/
+gen_bgtu	insn-emit.c	/^gen_bgtu (operand0)$/
+gen_binary	combine.c	/^gen_binary (code, mode, op0, op1)$/
+gen_ble	insn-emit.c	/^gen_ble (operand0)$/
+gen_bleu	insn-emit.c	/^gen_bleu (operand0)$/
+gen_blt	insn-emit.c	/^gen_blt (operand0)$/
+gen_bltu	insn-emit.c	/^gen_bltu (operand0)$/
+gen_bne	insn-emit.c	/^gen_bne (operand0)$/
+gen_call	insn-emit.c	/^gen_call (operand0, operand1)$/
+gen_call_pop	insn-emit.c	/^gen_call_pop (operand0, operand1, operand2, operan/
+gen_call_value	insn-emit.c	/^gen_call_value (operand0, operand1, operand2)$/
+gen_call_value_pop	insn-emit.c	/^gen_call_value_pop (operand0, operand1, operand2, /
+gen_casesi	insn-emit.c	/^gen_casesi (operand0, operand1, operand2, operand3/
+gen_cmpdf	insn-emit.c	/^gen_cmpdf (operand0, operand1)$/
+gen_cmpdf_cc	insn-emit.c	/^gen_cmpdf_cc (operand0, operand1)$/
+gen_cmpdf_ccfpeq	insn-emit.c	/^gen_cmpdf_ccfpeq (operand0, operand1)$/
+gen_cmphi	insn-emit.c	/^gen_cmphi (operand0, operand1)$/
+gen_cmphi_1	insn-emit.c	/^gen_cmphi_1 (operand0, operand1)$/
+gen_cmpqi	insn-emit.c	/^gen_cmpqi (operand0, operand1)$/
+gen_cmpqi_1	insn-emit.c	/^gen_cmpqi_1 (operand0, operand1)$/
+gen_cmpsf	insn-emit.c	/^gen_cmpsf (operand0, operand1)$/
+gen_cmpsf_cc	insn-emit.c	/^gen_cmpsf_cc (operand0, operand1)$/
+gen_cmpsf_cc_1	insn-emit.c	/^gen_cmpsf_cc_1 (operand0, operand1, operand2)$/
+gen_cmpsf_ccfpeq	insn-emit.c	/^gen_cmpsf_ccfpeq (operand0, operand1)$/
+gen_cmpsi	insn-emit.c	/^gen_cmpsi (operand0, operand1)$/
+gen_cmpsi_1	insn-emit.c	/^gen_cmpsi_1 (operand0, operand1)$/
+gen_cmpstrsi	insn-emit.c	/^gen_cmpstrsi (operand0, operand1, operand2, operan/
+gen_cosdf2	insn-emit.c	/^gen_cosdf2 (operand0, operand1)$/
+gen_cossf2	insn-emit.c	/^gen_cossf2 (operand0, operand1)$/
+gen_divdf3	insn-emit.c	/^gen_divdf3 (operand0, operand1, operand2)$/
+gen_divmodhi4	insn-emit.c	/^gen_divmodhi4 (operand0, operand1, operand2, opera/
+gen_divmodsi4	insn-emit.c	/^gen_divmodsi4 (operand0, operand1, operand2, opera/
+gen_divqi3	insn-emit.c	/^gen_divqi3 (operand0, operand1, operand2)$/
+gen_divsf3	insn-emit.c	/^gen_divsf3 (operand0, operand1, operand2)$/
+gen_extend_insn	optabs.c	/^gen_extend_insn (x, y, mto, mfrom, unsignedp)$/
+gen_extendhisi2	insn-emit.c	/^gen_extendhisi2 (operand0, operand1)$/
+gen_extendqihi2	insn-emit.c	/^gen_extendqihi2 (operand0, operand1)$/
+gen_extendqisi2	insn-emit.c	/^gen_extendqisi2 (operand0, operand1)$/
+gen_extendsfdf2	insn-emit.c	/^gen_extendsfdf2 (operand0, operand1)$/
+gen_extendsidi2	insn-emit.c	/^gen_extendsidi2 (operand0, operand1)$/
+gen_fake_label	sdbout.c	/^gen_fake_label ()$/
+gen_ffshi2	insn-emit.c	/^gen_ffshi2 (operand0, operand1)$/
+gen_ffssi2	insn-emit.c	/^gen_ffssi2 (operand0, operand1)$/
+gen_fix_truncdfdi2	insn-emit.c	/^gen_fix_truncdfdi2 (operand0, operand1)$/
+gen_fix_truncdfsi2	insn-emit.c	/^gen_fix_truncdfsi2 (operand0, operand1)$/
+gen_fix_truncsfdi2	insn-emit.c	/^gen_fix_truncsfdi2 (operand0, operand1)$/
+gen_fix_truncsfsi2	insn-emit.c	/^gen_fix_truncsfsi2 (operand0, operand1)$/
+gen_fixuns_truncdfsi2	insn-emit.c	/^gen_fixuns_truncdfsi2 (operand0, operand1)$/
+gen_fixuns_truncsfsi2	insn-emit.c	/^gen_fixuns_truncsfsi2 (operand0, operand1)$/
+gen_floatdidf2	insn-emit.c	/^gen_floatdidf2 (operand0, operand1)$/
+gen_floatdisf2	insn-emit.c	/^gen_floatdisf2 (operand0, operand1)$/
+gen_floatsidf2	insn-emit.c	/^gen_floatsidf2 (operand0, operand1)$/
+gen_floatsisf2	insn-emit.c	/^gen_floatsisf2 (operand0, operand1)$/
+gen_highpart	emit-rtl.c	/^gen_highpart (mode, x)$/
+gen_imagpart	emit-rtl.c	/^gen_imagpart (mode, x)$/
+gen_indirect_jump	insn-emit.c	/^gen_indirect_jump (operand0)$/
+gen_inline_header_rtx	emit-rtl.c	/^gen_inline_header_rtx (first_insn, first_parm_insn/
+gen_input_reload	reload1.c	/^gen_input_reload (reloadreg, in, opnum, type)$/
+gen_iorhi3	insn-emit.c	/^gen_iorhi3 (operand0, operand1, operand2)$/
+gen_iorqi3	insn-emit.c	/^gen_iorqi3 (operand0, operand1, operand2)$/
+gen_iorsi3	insn-emit.c	/^gen_iorsi3 (operand0, operand1, operand2)$/
+gen_jump	insn-emit.c	/^gen_jump (operand0)$/
+gen_label_rtx	emit-rtl.c	/^gen_label_rtx ()$/
+gen_lowpart	emit-rtl.c	/^gen_lowpart (mode, x)$/
+gen_lowpart_common	emit-rtl.c	/^gen_lowpart_common (mode, x)$/
+gen_lowpart_for_combine	combine.c	/^gen_lowpart_for_combine (mode, x)$/
+gen_lowpart_if_possible	cse.c	/^gen_lowpart_if_possible (mode, x)$/
+gen_lshrdi3	insn-emit.c	/^gen_lshrdi3 (operand0, operand1, operand2)$/
+gen_lshrdi3_const_int	insn-emit.c	/^gen_lshrdi3_const_int (operand0, operand1, operand/
+gen_lshrdi3_non_const_int	insn-emit.c	/^gen_lshrdi3_non_const_int (operand0, operand1, ope/
+gen_lshrhi3	insn-emit.c	/^gen_lshrhi3 (operand0, operand1, operand2)$/
+gen_lshrqi3	insn-emit.c	/^gen_lshrqi3 (operand0, operand1, operand2)$/
+gen_lshrsi3	insn-emit.c	/^gen_lshrsi3 (operand0, operand1, operand2)$/
+gen_movdf	insn-emit.c	/^gen_movdf (operand0, operand1)$/
+gen_movdi	insn-emit.c	/^gen_movdi (operand0, operand1)$/
+gen_move_insn	optabs.c	/^gen_move_insn (x, y)$/
+gen_movhi	insn-emit.c	/^gen_movhi (operand0, operand1)$/
+gen_movqi	insn-emit.c	/^gen_movqi (operand0, operand1)$/
+gen_movsf	insn-emit.c	/^gen_movsf (operand0, operand1)$/
+gen_movsi	insn-emit.c	/^gen_movsi (operand0, operand1)$/
+gen_movstricthi	insn-emit.c	/^gen_movstricthi (operand0, operand1)$/
+gen_movstrictqi	insn-emit.c	/^gen_movstrictqi (operand0, operand1)$/
+gen_movstrsi	insn-emit.c	/^gen_movstrsi (operand0, operand1, operand2, operan/
+gen_muldf3	insn-emit.c	/^gen_muldf3 (operand0, operand1, operand2)$/
+gen_mulhi3	insn-emit.c	/^gen_mulhi3 (operand0, operand1, operand2)$/
+gen_mulsf3	insn-emit.c	/^gen_mulsf3 (operand0, operand1, operand2)$/
+gen_mulsi3	insn-emit.c	/^gen_mulsi3 (operand0, operand1, operand2)$/
+gen_negdf2	insn-emit.c	/^gen_negdf2 (operand0, operand1)$/
+gen_negdi2	insn-emit.c	/^gen_negdi2 (operand0, operand1)$/
+gen_neghi2	insn-emit.c	/^gen_neghi2 (operand0, operand1)$/
+gen_negqi2	insn-emit.c	/^gen_negqi2 (operand0, operand1)$/
+gen_negsf2	insn-emit.c	/^gen_negsf2 (operand0, operand1)$/
+gen_negsi2	insn-emit.c	/^gen_negsi2 (operand0, operand1)$/
+gen_nop	insn-emit.c	/^gen_nop ()$/
+gen_one_cmplhi2	insn-emit.c	/^gen_one_cmplhi2 (operand0, operand1)$/
+gen_one_cmplqi2	insn-emit.c	/^gen_one_cmplqi2 (operand0, operand1)$/
+gen_one_cmplsi2	insn-emit.c	/^gen_one_cmplsi2 (operand0, operand1)$/
+gen_push_operand	expr.c	/^gen_push_operand ()$/
+gen_realpart	emit-rtl.c	/^gen_realpart (mode, x)$/
+gen_reg_rtx	emit-rtl.c	/^gen_reg_rtx (mode)$/
+gen_return	insn-emit.c	/^gen_return ()$/
+gen_rotlhi3	insn-emit.c	/^gen_rotlhi3 (operand0, operand1, operand2)$/
+gen_rotlqi3	insn-emit.c	/^gen_rotlqi3 (operand0, operand1, operand2)$/
+gen_rotlsi3	insn-emit.c	/^gen_rotlsi3 (operand0, operand1, operand2)$/
+gen_rotrhi3	insn-emit.c	/^gen_rotrhi3 (operand0, operand1, operand2)$/
+gen_rotrqi3	insn-emit.c	/^gen_rotrqi3 (operand0, operand1, operand2)$/
+gen_rotrsi3	insn-emit.c	/^gen_rotrsi3 (operand0, operand1, operand2)$/
+gen_rtvec	emit-rtl.c	/^gen_rtvec (va_alist)$/
+gen_rtvec_v	emit-rtl.c	/^gen_rtvec_v (n, argp)$/
+gen_rtx	emit-rtl.c	/^gen_rtx (va_alist)$/
+gen_rtx_combine	combine.c	/^gen_rtx_combine (va_alist)$/
+gen_seq	insn-emit.c	/^gen_seq (operand0)$/
+gen_sequence	emit-rtl.c	/^gen_sequence ()$/
+gen_sge	insn-emit.c	/^gen_sge (operand0)$/
+gen_sgeu	insn-emit.c	/^gen_sgeu (operand0)$/
+gen_sgt	insn-emit.c	/^gen_sgt (operand0)$/
+gen_sgtu	insn-emit.c	/^gen_sgtu (operand0)$/
+gen_sindf2	insn-emit.c	/^gen_sindf2 (operand0, operand1)$/
+gen_sinsf2	insn-emit.c	/^gen_sinsf2 (operand0, operand1)$/
+gen_sle	insn-emit.c	/^gen_sle (operand0)$/
+gen_sleu	insn-emit.c	/^gen_sleu (operand0)$/
+gen_slt	insn-emit.c	/^gen_slt (operand0)$/
+gen_sltu	insn-emit.c	/^gen_sltu (operand0)$/
+gen_sne	insn-emit.c	/^gen_sne (operand0)$/
+gen_sqrtdf2	insn-emit.c	/^gen_sqrtdf2 (operand0, operand1)$/
+gen_sqrtsf2	insn-emit.c	/^gen_sqrtsf2 (operand0, operand1)$/
+gen_strlensi	insn-emit.c	/^gen_strlensi (operand0, operand1, operand2, operan/
+gen_sub2_insn	optabs.c	/^gen_sub2_insn (x, y)$/
+gen_subdf3	insn-emit.c	/^gen_subdf3 (operand0, operand1, operand2)$/
+gen_subdi3	insn-emit.c	/^gen_subdi3 (operand0, operand1, operand2)$/
+gen_subhi3	insn-emit.c	/^gen_subhi3 (operand0, operand1, operand2)$/
+gen_subqi3	insn-emit.c	/^gen_subqi3 (operand0, operand1, operand2)$/
+gen_subsf3	insn-emit.c	/^gen_subsf3 (operand0, operand1, operand2)$/
+gen_subsi3	insn-emit.c	/^gen_subsi3 (operand0, operand1, operand2)$/
+gen_swapdf	insn-emit.c	/^gen_swapdf (operand0, operand1)$/
+gen_tablejump	insn-emit.c	/^gen_tablejump (operand0, operand1)$/
+gen_truncdfsf2	insn-emit.c	/^gen_truncdfsf2 (operand0, operand1)$/
+gen_tstdf	insn-emit.c	/^gen_tstdf (operand0)$/
+gen_tstdf_cc	insn-emit.c	/^gen_tstdf_cc (operand0)$/
+gen_tsthi	insn-emit.c	/^gen_tsthi (operand0)$/
+gen_tsthi_1	insn-emit.c	/^gen_tsthi_1 (operand0)$/
+gen_tstqi	insn-emit.c	/^gen_tstqi (operand0)$/
+gen_tstqi_1	insn-emit.c	/^gen_tstqi_1 (operand0)$/
+gen_tstsf	insn-emit.c	/^gen_tstsf (operand0)$/
+gen_tstsf_cc	insn-emit.c	/^gen_tstsf_cc (operand0)$/
+gen_tstsi	insn-emit.c	/^gen_tstsi (operand0)$/
+gen_tstsi_1	insn-emit.c	/^gen_tstsi_1 (operand0)$/
+gen_udivmodhi4	insn-emit.c	/^gen_udivmodhi4 (operand0, operand1, operand2, oper/
+gen_udivmodsi4	insn-emit.c	/^gen_udivmodsi4 (operand0, operand1, operand2, oper/
+gen_udivqi3	insn-emit.c	/^gen_udivqi3 (operand0, operand1, operand2)$/
+gen_unary	combine.c	/^gen_unary (code, mode, op0)$/
+gen_untyped_call	insn-emit.c	/^gen_untyped_call (operand0, operand1, operand2)$/
+gen_untyped_return	insn-emit.c	/^gen_untyped_return (operand0, operand1)$/
+gen_update_return	insn-emit.c	/^gen_update_return (operand0)$/
+gen_xorhi3	insn-emit.c	/^gen_xorhi3 (operand0, operand1, operand2)$/
+gen_xorqi3	insn-emit.c	/^gen_xorqi3 (operand0, operand1, operand2)$/
+gen_xorsi3	insn-emit.c	/^gen_xorsi3 (operand0, operand1, operand2)$/
+gen_zero_extendhisi2	insn-emit.c	/^gen_zero_extendhisi2 (operand0, operand1)$/
+gen_zero_extendqihi2	insn-emit.c	/^gen_zero_extendqihi2 (operand0, operand1)$/
+gen_zero_extendqisi2	insn-emit.c	/^gen_zero_extendqisi2 (operand0, operand1)$/
+gen_zero_extendsidi2	insn-emit.c	/^gen_zero_extendsidi2 (operand0, operand1)$/
+general_induction_var	loop.c	/^general_induction_var (x, src_reg, add_val, mult_v/
+general_operand	recog.c	/^general_operand (op, mode)$/
+generate_macinfo_entry	dwarfout.c	/^generate_macinfo_entry (type_and_offset, string)$/
+generate_new_sfname_entry	dwarfout.c	/^generate_new_sfname_entry ()$/
+generate_srcinfo_entry	dwarfout.c	/^generate_srcinfo_entry (line_entry_num, files_entr/
+get_asm_operand_lengths	reg-stack.c	/^get_asm_operand_lengths (body, n_operands, n_input/
+get_attr_length	final.c	/^get_attr_length (insn)$/
+get_best_mode	stor-layout.c	/^get_best_mode (bitsize, bitpos, align, largest_mod/
+get_branch_condition	reorg.c	/^get_branch_condition (insn, target)$/
+get_condition	loop.c	/^get_condition (jump, earliest)$/
+get_condition_for_loop	loop.c	/^get_condition_for_loop (x)$/
+get_directive_line	c-common.c	/^get_directive_line (finput)$/
+get_element	cse.c	/^get_element ()$/
+get_first_block_beg	function.c	/^get_first_block_beg ()$/
+get_first_label_num	emit-rtl.c	/^get_first_label_num ()$/
+get_first_nonparm_insn	function.c	/^get_first_nonparm_insn ()$/
+get_frame_size	function.c	/^get_frame_size ()$/
+get_hard_regnum	reg-stack.c	/^get_hard_regnum (regstack, reg)$/
+get_identifier	tree.c	/^get_identifier (text)$/
+get_inner_reference	expr.c	/^get_inner_reference (exp, pbitsize, pbitpos, poffs/
+get_insns	emit-rtl.c	/^get_insns ()$/
+get_integer_term	rtlanal.c	/^get_integer_term (x)$/
+get_jump_flags	reorg.c	/^get_jump_flags (insn, label)$/
+get_label_after	jump.c	/^get_label_after (insn)$/
+get_label_before	jump.c	/^get_label_before (insn)$/
+get_last_insn	emit-rtl.c	/^get_last_insn ()$/
+get_last_insn_anywhere	emit-rtl.c	/^get_last_insn_anywhere ()$/
+get_last_value	combine.c	/^get_last_value (x)$/
+get_last_value_validate	combine.c	/^get_last_value_validate (loc, tick, replace)$/
+get_max_uid	emit-rtl.c	/^get_max_uid ()$/
+get_narrower	tree.c	/^get_narrower (op, unsignedp_ptr)$/
+get_pending_sizes	stor-layout.c	/^get_pending_sizes ()$/
+get_pointer_alignment	expr.c	/^get_pointer_alignment (exp, max_align)$/
+get_pool_constant	varasm.c	/^get_pool_constant (addr)$/
+get_pool_mode	varasm.c	/^get_pool_mode (addr)$/
+get_pool_offset	varasm.c	/^get_pool_offset (addr)$/
+get_pool_size	varasm.c	/^get_pool_size ()$/
+get_pos_from_mask	combine.c	/^get_pos_from_mask (m, plen)$/
+get_related_value	rtlanal.c	/^get_related_value (x)$/
+get_run_time	toplev.c	/^get_run_time ()$/
+get_secondary_mem	reload.c	/^get_secondary_mem (x, mode, opnum, type)$/
+get_true_reg	reg-stack.c	/^get_true_reg (pat)$/
+get_unwidened	tree.c	/^get_unwidened (op, for_type)$/
+getcwd	getpwd.c	/^#define getcwd(buf,len) getwd(buf)$/
+getpwd	getpwd.c	/^getpwd ()$/
+global_alloc	global.c	/^global_alloc (file)$/
+global_conflicts	global.c	/^global_conflicts ()$/
+goto_block_pat	reg-stack.c	/^goto_block_pat (insn, regstack, pat)$/
+group_case_nodes	stmt.c	/^group_case_nodes (head)$/
+group_insns	expr.c	/^group_insns (prev)$/
+hard_reg_set_here_p	reload.c	/^hard_reg_set_here_p (beg_regno, end_regno, x)$/
+hard_reg_use_compare	reload1.c	/^hard_reg_use_compare (p1, p2)$/
+have_add2_insn	optabs.c	/^have_add2_insn (mode)$/
+have_sub2_insn	optabs.c	/^have_sub2_insn (mode)$/
+high_pc_attribute	dwarfout.c	/^high_pc_attribute (asm_high_label)$/
+i386_stack_locals	aux-output.c	/^static rtx i386_stack_locals[(int) MAX_MACHINE_MOD/
+identify_blocks	function.c	/^identify_blocks (top_block, insns)$/
+ignore_some_movables	loop.c	/^ignore_some_movables (movables)$/
+immed_double_const	varasm.c	/^immed_double_const (i0, i1, mode)$/
+immed_real_const	varasm.c	/^immed_real_const (exp)$/
+immed_real_const_1	varasm.c	/^immed_real_const_1 (d, mode)$/
+immediate_operand	recog.c	/^immediate_operand (op, mode)$/
+immune_p	reload.c	/^immune_p (x, y, ydata)$/
+in_except_block	stmt.c	/^in_except_block (level)$/
+in_exception_handler	stmt.c	/^in_exception_handler (level)$/
+in_sequence_p	emit-rtl.c	/^in_sequence_p ()$/
+in_text_section	varasm.c	/^in_text_section ()$/
+in_try_block	stmt.c	/^in_try_block (level)$/
+inc_for_reload	reload1.c	/^inc_for_reload (reloadreg, value, inc_amount)$/
+indent_to	print-tree.c	/^indent_to (file, column)$/
+index_type_equal	tree.c	/^index_type_equal (itype1, itype2)$/
+indirect_operand	recog.c	/^indirect_operand (op, mode)$/
+inequality_comparisons_p	rtlanal.c	/^inequality_comparisons_p (x)$/
+init_alias_analysis	sched.c	/^init_alias_analysis ()$/
+init_all_optabs	insn-opinit.c	/^init_all_optabs ()$/
+init_caller_save	caller-save.c	/^init_caller_save ()$/
+init_complex_libfuncs	optabs.c	/^init_complex_libfuncs (optable, opname, suffix)$/
+init_const_rtx_hash_table	varasm.c	/^init_const_rtx_hash_table ()$/
+init_emit	emit-rtl.c	/^init_emit ()$/
+init_emit_once	emit-rtl.c	/^init_emit_once (line_numbers)$/
+init_expmed	expmed.c	/^init_expmed ()$/
+init_expr	expr.c	/^init_expr ()$/
+init_expr_once	expr.c	/^init_expr_once ()$/
+init_final	final.c	/^init_final (filename)$/
+init_floating_libfuncs	optabs.c	/^init_floating_libfuncs (optable, opname, suffix)$/
+init_function_start	function.c	/^init_function_start (subr, filename, line)$/
+init_insn_lengths	final.c	/^init_insn_lengths ()$/
+init_integral_libfuncs	optabs.c	/^init_integral_libfuncs (optable, opname, suffix)$/
+init_libfuncs	optabs.c	/^init_libfuncs (optable, first_mode, last_mode, opn/
+init_loop	loop.c	/^init_loop ()$/
+init_mov_optab	insn-emit.c	/^init_mov_optab ()$/
+init_noncopied_parts	expr.c	/^init_noncopied_parts (lhs, list)$/
+init_obstacks	tree.c	/^init_obstacks ()$/
+init_optab	optabs.c	/^init_optab (code)$/
+init_optabs	optabs.c	/^init_optabs ()$/
+init_pending_stack_adjust	expr.c	/^init_pending_stack_adjust ()$/
+init_queue	expr.c	/^init_queue ()$/
+init_recog	recog.c	/^init_recog ()$/
+init_recog_no_volatile	recog.c	/^init_recog_no_volatile ()$/
+init_reg_map	unroll.c	/^init_reg_map (map, maxregnum)$/
+init_reg_sets	regclass.c	/^init_reg_sets ()$/
+init_reg_sets_1	regclass.c	/^init_reg_sets_1 ()$/
+init_regset_vector	flow.c	/^init_regset_vector (vector, space, nelts, bytes_pe/
+init_reload	reload1.c	/^init_reload ()$/
+init_rtl	rtl.c	/^init_rtl ()$/
+init_save_areas	caller-save.c	/^init_save_areas ()$/
+init_stmt	stmt.c	/^init_stmt ()$/
+init_stmt_for_function	stmt.c	/^init_stmt_for_function ()$/
+init_tree_codes	tree.c	/^init_tree_codes ()$/
+initial_reg_note_copy	unroll.c	/^initial_reg_note_copy (notes, map)$/
+initialize_for_inline	integrate.c	/^initialize_for_inline (fndecl, min_labelno, max_la/
+inline_attribute	dwarfout.c	/^inline_attribute (decl)$/
+insert	cse.c	/^insert (x, classp, hash, mode)$/
+insert_regs	cse.c	/^insert_regs (x, classp, modified)$/
+insert_save_restore	caller-save.c	/^insert_save_restore (insn, save_p, regno, insn_mod/
+insn_cost	sched.c	/^insn_cost (insn, link, used)$/
+insn_dead_p	flow.c	/^insn_dead_p (x, needed, call_ok)$/
+insn_extract	insn-extract.c	/^insn_extract (insn)$/
+insn_references_resource_p	reorg.c	/^insn_references_resource_p (insn, res, include_del/
+insn_sets_resource_p	reorg.c	/^insn_sets_resource_p (insn, res, include_delayed_e/
+insn_unit	sched.c	/^insn_unit (insn)$/
+instantiate_decl	function.c	/^instantiate_decl (x, size, valid_only)$/
+instantiate_decls	function.c	/^instantiate_decls (fndecl, valid_only)$/
+instantiate_decls_1	function.c	/^instantiate_decls_1 (let, valid_only)$/
+instantiate_virtual_regs	function.c	/^instantiate_virtual_regs (fndecl, insns)$/
+instantiate_virtual_regs_1	function.c	/^instantiate_virtual_regs_1 (loc, object, extra_ins/
+int_fits_type_p	tree.c	/^int_fits_type_p (c, type)$/
+int_size_in_bytes	tree.c	/^int_size_in_bytes (type)$/
+integer_all_onesp	tree.c	/^integer_all_onesp (expr)$/
+integer_onep	tree.c	/^integer_onep (expr)$/
+integer_pow2p	tree.c	/^integer_pow2p (expr)$/
+integer_zerop	tree.c	/^integer_zerop (expr)$/
+integrate_decl_tree	integrate.c	/^integrate_decl_tree (let, level, map)$/
+integrate_parm_decls	integrate.c	/^integrate_parm_decls (args, map, arg_vector)$/
+invalidate	cse.c	/^invalidate (x)$/
+invalidate_for_call	cse.c	/^invalidate_for_call ()$/
+invalidate_from_clobbers	cse.c	/^invalidate_from_clobbers (w, x)$/
+invalidate_memory	cse.c	/^invalidate_memory (writes)$/
+invalidate_skipped_block	cse.c	/^invalidate_skipped_block (start)$/
+invalidate_skipped_set	cse.c	/^invalidate_skipped_set (dest, set)$/
+invariant_p	loop.c	/^invariant_p (x)$/
+invert_exp	jump.c	/^invert_exp (x, insn)$/
+invert_jump	jump.c	/^invert_jump (jump, nlabel)$/
+invert_tree_comparison	fold-const.c	/^invert_tree_comparison (code)$/
+invert_truthvalue	fold-const.c	/^invert_truthvalue (arg)$/
+is_body_block	dwarfout.c	/^is_body_block (stmt)$/
+is_pseudo_reg	dwarfout.c	/^is_pseudo_reg (rtl)$/
+is_tagged_type	dwarfout.c	/^is_tagged_type (type)$/
+iteration_info	unroll.c	/^iteration_info (iteration_var, initial_value, incr/
+jump_back_p	jump.c	/^jump_back_p (insn, target)$/
+jump_optimize	jump.c	/^jump_optimize (f, cross_jump, noop_moves, after_re/
+jumpif	expr.c	/^jumpif (exp, label)$/
+jumpifnot	expr.c	/^jumpifnot (exp, label)$/
+known_cond	combine.c	/^known_cond (x, cond, reg, val)$/
+label_rtx	stmt.c	/^label_rtx (label)$/
+labels_in_range_p	loop.c	/^labels_in_range_p (insn, end)$/
+language_attribute	dwarfout.c	/^language_attribute (language_code)$/
+last_cleanup_this_contour	stmt.c	/^last_cleanup_this_contour ()$/
+last_use_this_basic_block	loop.c	/^last_use_this_basic_block (reg, insn)$/
+layout_decl	stor-layout.c	/^layout_decl (decl, known_align)$/
+layout_record	stor-layout.c	/^layout_record (rec)$/
+layout_type	stor-layout.c	/^layout_type (type)$/
+layout_union	stor-layout.c	/^layout_union (rec)$/
+ldexp	optabs.c	/^ldexp(x,n)$/
+leaf_function_p	final.c	/^leaf_function_p ()$/
+leaf_renumber_regs	final.c	/^leaf_renumber_regs (first)$/
+leaf_renumber_regs_insn	final.c	/^leaf_renumber_regs_insn (in_rtx)$/
+left_shift_overflows	fold-const.c	/^#define left_shift_overflows(a, b)  ((a)  !=  ((a)/
+legitimize_pic_address	aux-output.c	/^legitimize_pic_address (orig, reg)$/
+libcall_benefit	loop.c	/^libcall_benefit (last)$/
+libcall_dead_p	flow.c	/^libcall_dead_p (x, needed, note, insn)$/
+libcall_other_reg	loop.c	/^libcall_other_reg (insn, equiv)$/
+life_analysis	flow.c	/^life_analysis (f, nregs)$/
+link_cc0_insns	emit-rtl.c	/^link_cc0_insns (insn)$/
+list_length	tree.c	/^list_length (t)$/
+listify	tree.c	/^listify (chain)$/
+local_alloc	local-alloc.c	/^local_alloc ()$/
+locate_and_pad_parm	function.c	/^locate_and_pad_parm (passed_mode, type, in_regs, f/
+location_attribute	dwarfout.c	/^location_attribute (rtl)$/
+location_or_const_value_attribute	dwarfout.c	/^location_or_const_value_attribute (decl)$/
+lookup	cse.c	/^lookup (x, hash, mode)$/
+lookup_as_function	cse.c	/^lookup_as_function (x, code)$/
+lookup_filename	dwarfout.c	/^lookup_filename (file_name)$/
+lookup_for_remove	cse.c	/^lookup_for_remove (x, hash, mode)$/
+lookup_static_chain	function.c	/^lookup_static_chain (decl)$/
+loop_iterations	unroll.c	/^loop_iterations (loop_start, loop_end)$/
+loop_optimize	loop.c	/^loop_optimize (f, dumpfile)$/
+loop_reg_used_before_p	loop.c	/^loop_reg_used_before_p (set, insn, loop_start, sca/
+low_pc_attribute	dwarfout.c	/^low_pc_attribute (asm_low_label)$/
+lrotate_double	fold-const.c	/^lrotate_double (l1, h1, count, prec, lv, hv)$/
+lshift_double	fold-const.c	/^lshift_double (l1, h1, count, prec, lv, hv, arith)/
+lshift_value	expmed.c	/^lshift_value (mode, value, bitpos, bitsize)$/
+ltoe	real.c	/^ltoe (lp, y)$/
+mac_info_attribute	dwarfout.c	/^mac_info_attribute (mac_info_start_label)$/
+make_bit_field_ref	fold-const.c	/^make_bit_field_ref (inner, type, bitsize, bitpos, /
+make_compound_operation	combine.c	/^make_compound_operation (x, in_code)$/
+make_decl_rtl	varasm.c	/^make_decl_rtl (decl, asmspec, top_level)$/
+make_extraction	combine.c	/^make_extraction (mode, inner, pos, pos_rtx, len,$/
+make_field_assignment	combine.c	/^make_field_assignment (x)$/
+make_function_rtl	varasm.c	/^make_function_rtl (decl)$/
+make_insn_raw	emit-rtl.c	/^make_insn_raw (pattern)$/
+make_jump_insn_raw	emit-rtl.c	/^make_jump_insn_raw (pattern)$/
+make_memloc	reload.c	/^make_memloc (ad, regno)$/
+make_nan	real.c	/^make_nan (nan, mode)$/
+make_new_qty	cse.c	/^make_new_qty (reg)$/
+make_node	tree.c	/^make_node (code)$/
+make_regs_eqv	cse.c	/^make_regs_eqv (new, old)$/
+make_return_insns	reorg.c	/^make_return_insns (first)$/
+make_safe_from	emit-rtl.c	/^make_safe_from (x, other)$/
+make_signed_type	stor-layout.c	/^make_signed_type (precision)$/
+make_tree	expmed.c	/^make_tree (type, x)$/
+make_tree_vec	tree.c	/^make_tree_vec (len)$/
+make_unsigned_type	stor-layout.c	/^make_unsigned_type (precision)$/
+make_var_volatile	varasm.c	/^make_var_volatile (var)$/
+mark_elimination	global.c	/^mark_elimination (from, to)$/
+mark_home_live	reload1.c	/^mark_home_live (regno)$/
+mark_jump_label	jump.c	/^mark_jump_label (x, insn, cross_jump)$/
+mark_label_ref	flow.c	/^mark_label_ref (x, insn, checkdup)$/
+mark_life	local-alloc.c	/^mark_life (regno, mode, life)$/
+mark_loop_jump	loop.c	/^mark_loop_jump (x, loop_num)$/
+mark_modified_reg	jump.c	/^mark_modified_reg (dest, x)$/
+mark_not_eliminable	reload1.c	/^mark_not_eliminable (dest, x)$/
+mark_referenced_resources	reorg.c	/^mark_referenced_resources (x, res, include_delayed/
+mark_reg_clobber	global.c	/^mark_reg_clobber (reg, setter)$/
+mark_reg_conflicts	global.c	/^mark_reg_conflicts (reg)$/
+mark_reg_death	global.c	/^mark_reg_death (reg)$/
+mark_reg_live_nc	global.c	/^mark_reg_live_nc (regno, mode)$/
+mark_reg_pointer	emit-rtl.c	/^mark_reg_pointer (reg)$/
+mark_reg_store	global.c	/^mark_reg_store (orig_reg, setter)$/
+mark_reload_reg_in_use	reload1.c	/^mark_reload_reg_in_use (regno, opnum, type, mode)$/
+mark_set_1	flow.c	/^mark_set_1 (needed, dead, x, insn, significant)$/
+mark_set_regs	flow.c	/^mark_set_regs (needed, dead, x, insn, significant)/
+mark_set_resources	reorg.c	/^mark_set_resources (x, res, in_dest, include_delay/
+mark_stores	integrate.c	/^mark_stores (dest, x)$/
+mark_target_live_regs	reorg.c	/^mark_target_live_regs (target, res)$/
+mark_used_regs	flow.c	/^mark_used_regs (needed, live, x, final, insn)$/
+mark_varargs	function.c	/^mark_varargs ()$/
+mask_rtx	expmed.c	/^mask_rtx (mode, bitpos, bitsize, complement)$/
+max_label_num	emit-rtl.c	/^max_label_num ()$/
+max_parm_reg_num	function.c	/^max_parm_reg_num ()$/
+max_reg_num	emit-rtl.c	/^max_reg_num ()$/
+may_trap_p	rtlanal.c	/^may_trap_p (x)$/
+maybe_eliminate_biv	loop.c	/^maybe_eliminate_biv (bl, loop_start, end, eliminat/
+maybe_eliminate_biv_1	loop.c	/^maybe_eliminate_biv_1 (x, insn, bl, eliminate_p, w/
+member_attribute	dwarfout.c	/^member_attribute (context)$/
+member_declared_type	dwarfout.c	/^member_declared_type (member)$/
+memory_address	explow.c	/^memory_address (mode, x)$/
+memory_address_noforce	explow.c	/^memory_address_noforce (mode, x)$/
+memory_address_p	recog.c	/^memory_address_p (mode, addr)$/
+memory_operand	recog.c	/^memory_operand (op, mode)$/
+memref_referenced_p	local-alloc.c	/^memref_referenced_p (memref, x)$/
+memref_used_between_p	local-alloc.c	/^memref_used_between_p (memref, start, end)$/
+memrefs_conflict_p	sched.c	/^memrefs_conflict_p (xsize, x, ysize, y, c)$/
+mention_regs	cse.c	/^mention_regs (x)$/
+merge_assigned_reloads	reload1.c	/^merge_assigned_reloads (insn)$/
+merge_equiv_classes	cse.c	/^merge_equiv_classes (class1, class2)$/
+merge_outer_ops	combine.c	/^merge_outer_ops (pop0, pconst0, op1, const1, mode,/
+mod_fund_type_attribute	dwarfout.c	/^mod_fund_type_attribute (type, decl_const, decl_vo/
+mod_u_d_type_attribute	dwarfout.c	/^mod_u_d_type_attribute (type, decl_const, decl_vol/
+mode_class	rtl.c	/^enum mode_class mode_class[(int) MAX_MACHINE_MODE]/
+mode_dependent_address_p	recog.c	/^mode_dependent_address_p (addr)$/
+mode_for_size	stor-layout.c	/^mode_for_size (size, class, limit)$/
+mode_independent_operand	recog.c	/^mode_independent_operand (op, mode)$/
+mode_name	rtl.c	/^char *mode_name[(int) MAX_MACHINE_MODE] = {$/
+mode_size	rtl.c	/^int mode_size[(int) MAX_MACHINE_MODE] = {$/
+mode_unit_size	rtl.c	/^int mode_unit_size[(int) MAX_MACHINE_MODE] = {$/
+mode_wider_mode	rtl.c	/^enum machine_mode mode_wider_mode[(int) MAX_MACHIN/
+modes_equiv_for_class_p	reload1.c	/^modes_equiv_for_class_p (allocate_mode, other_mode/
+modified_between_p	rtlanal.c	/^modified_between_p (x, start, end)$/
+mostly_true_jump	reorg.c	/^mostly_true_jump (jump_insn, condition)$/
+move_block_from_reg	expr.c	/^move_block_from_reg (regno, x, nregs)$/
+move_block_to_reg	expr.c	/^move_block_to_reg (regno, x, nregs, mode)$/
+move_by_pieces	expr.c	/^move_by_pieces (to, from, len, align)$/
+move_by_pieces_1	expr.c	/^move_by_pieces_1 (genfun, mode, data)$/
+move_by_pieces_ninsns	expr.c	/^move_by_pieces_ninsns (l, align)$/
+move_cleanups_up	stmt.c	/^move_cleanups_up ()$/
+move_deaths	combine.c	/^move_deaths (x, from_cuid, to_insn, pnotes)$/
+move_for_stack_reg	reg-stack.c	/^move_for_stack_reg (insn, regstack, pat)$/
+move_movables	loop.c	/^move_movables (movables, threshold, insn_count, lo/
+mtherr	real.c	/^mtherr (name, code)$/
+mul_double	fold-const.c	/^mul_double (l1, h1, l2, h2, lv, hv)$/
+n_occurrences	reload.c	/^n_occurrences (c, s)$/
+name_and_src_coords_attributes	dwarfout.c	/^name_and_src_coords_attributes (decl)$/
+name_attribute	dwarfout.c	/^name_attribute (name_string)$/
+neg_double	fold-const.c	/^neg_double (l1, h1, lv, hv)$/
+negate_rtx	expmed.c	/^negate_rtx (mode, x)$/
+new_basic_block	cse.c	/^new_basic_block ()$/
+new_insn_dead_notes	sched.c	/^new_insn_dead_notes (pat, insn, last, orig_insn)$/
+new_sometimes_live	sched.c	/^new_sometimes_live (regs_sometimes_live, offset, b/
+new_spill_reg	reload1.c	/^new_spill_reg (i, class, max_needs, max_nongroups,/
+next_active_insn	emit-rtl.c	/^next_active_insn (insn)$/
+next_cc0_user	emit-rtl.c	/^next_cc0_user (insn)$/
+next_insn	emit-rtl.c	/^next_insn (insn)$/
+next_insn_no_annul	reorg.c	/^next_insn_no_annul (insn)$/
+next_insn_tests_no_inequality	recog.c	/^next_insn_tests_no_inequality (insn)$/
+next_insns_test_no_inequality	recog.c	/^next_insns_test_no_inequality (insn)$/
+next_label	emit-rtl.c	/^next_label (insn)$/
+next_nondeleted_insn	jump.c	/^next_nondeleted_insn (insn)$/
+next_nonnote_insn	emit-rtl.c	/^next_nonnote_insn (insn)$/
+next_real_insn	emit-rtl.c	/^next_real_insn (insn)$/
+no_conflict_p	local-alloc.c	/^no_conflict_p (insn, r0, r1)$/
+no_labels_between_p	rtlanal.c	/^no_labels_between_p (beg, end)$/
+node_has_high_bound	stmt.c	/^node_has_high_bound (node, index_type)$/
+node_has_low_bound	stmt.c	/^node_has_low_bound (node, index_type)$/
+node_is_bounded	stmt.c	/^node_is_bounded (node, index_type)$/
+non_lvalue	fold-const.c	/^non_lvalue (x)$/
+nonimmediate_operand	recog.c	/^nonimmediate_operand (op, mode)$/
+nonlocal_label_rtx_list	function.c	/^nonlocal_label_rtx_list ()$/
+nonmemory_operand	recog.c	/^nonmemory_operand (op, mode)$/
+nonzero_bits	combine.c	/^nonzero_bits (x, mode)$/
+note_addr_stored	loop.c	/^note_addr_stored (x)$/
+note_delay_statistics	reorg.c	/^note_delay_statistics (slots_filled, index)$/
+note_mem_written	cse.c	/^note_mem_written (written, writes_ptr)$/
+note_modified_parmregs	integrate.c	/^note_modified_parmregs (reg, x)$/
+note_stores	rtlanal.c	/^note_stores (x, fun)$/
+notice_update_cc	aux-output.c	/^notice_update_cc (exp)$/
+nreverse	tree.c	/^nreverse (t)$/
+num_sign_bit_copies	combine.c	/^num_sign_bit_copies (x, mode)$/
+num_validated_changes	recog.c	/^num_validated_changes ()$/
+oballoc	tree.c	/^oballoc (size)$/
+obfree	tree.c	/^obfree (ptr)$/
+object_permanent_p	tree.c	/^object_permanent_p (obj)$/
+obstack_free	obstack.c	/^obstack_free (h, obj)$/
+offsettable_address_p	recog.c	/^offsettable_address_p (strictp, mode, y)$/
+offsettable_memref_p	recog.c	/^offsettable_memref_p (op)$/
+offsettable_nonstrict_memref_p	recog.c	/^offsettable_nonstrict_memref_p (op)$/
+omit_one_operand	fold-const.c	/^omit_one_operand (type, result, omitted)$/
+only_leaf_regs_used	final.c	/^only_leaf_regs_used ()$/
+operand_equal_for_comparison_p	fold-const.c	/^operand_equal_for_comparison_p (arg0, arg1, other)/
+operand_equal_p	fold-const.c	/^operand_equal_p (arg0, arg1, only_const)$/
+operand_subword	emit-rtl.c	/^operand_subword (op, i, validate_address, mode)$/
+operand_subword_force	emit-rtl.c	/^operand_subword_force (op, i, mode)$/
+operands_match_p	reload.c	/^operands_match_p (x, y)$/
+optimize_bit_field	function.c	/^optimize_bit_field (body, insn, equiv_mem)$/
+optimize_bit_field_compare	fold-const.c	/^optimize_bit_field_compare (code, compare_type, lh/
+optimize_reg_copy_1	local-alloc.c	/^optimize_reg_copy_1 (insn, dest, src)$/
+optimize_reg_copy_2	local-alloc.c	/^optimize_reg_copy_2 (insn, dest, src)$/
+optimize_skip	reorg.c	/^optimize_skip (insn)$/
+order_regs_for_reload	reload1.c	/^order_regs_for_reload ()$/
+ordering_attribute	dwarfout.c	/^ordering_attribute (ordering)$/
+output_0	insn-output.c	/^output_0 (operands, insn)$/
+output_10	insn-output.c	/^output_10 (operands, insn)$/
+output_105	insn-output.c	/^output_105 (operands, insn)$/
+output_107	insn-output.c	/^output_107 (operands, insn)$/
+output_108	insn-output.c	/^output_108 (operands, insn)$/
+output_109	insn-output.c	/^output_109 (operands, insn)$/
+output_110	insn-output.c	/^output_110 (operands, insn)$/
+output_111	insn-output.c	/^output_111 (operands, insn)$/
+output_112	insn-output.c	/^output_112 (operands, insn)$/
+output_113	insn-output.c	/^output_113 (operands, insn)$/
+output_114	insn-output.c	/^output_114 (operands, insn)$/
+output_115	insn-output.c	/^output_115 (operands, insn)$/
+output_116	insn-output.c	/^output_116 (operands, insn)$/
+output_117	insn-output.c	/^output_117 (operands, insn)$/
+output_118	insn-output.c	/^output_118 (operands, insn)$/
+output_12	insn-output.c	/^output_12 (operands, insn)$/
+output_14	insn-output.c	/^output_14 (operands, insn)$/
+output_141	insn-output.c	/^output_141 (operands, insn)$/
+output_142	insn-output.c	/^output_142 (operands, insn)$/
+output_143	insn-output.c	/^output_143 (operands, insn)$/
+output_144	insn-output.c	/^output_144 (operands, insn)$/
+output_145	insn-output.c	/^output_145 (operands, insn)$/
+output_147	insn-output.c	/^output_147 (operands, insn)$/
+output_148	insn-output.c	/^output_148 (operands, insn)$/
+output_149	insn-output.c	/^output_149 (operands, insn)$/
+output_150	insn-output.c	/^output_150 (operands, insn)$/
+output_151	insn-output.c	/^output_151 (operands, insn)$/
+output_153	insn-output.c	/^output_153 (operands, insn)$/
+output_154	insn-output.c	/^output_154 (operands, insn)$/
+output_155	insn-output.c	/^output_155 (operands, insn)$/
+output_156	insn-output.c	/^output_156 (operands, insn)$/
+output_157	insn-output.c	/^output_157 (operands, insn)$/
+output_158	insn-output.c	/^output_158 (operands, insn)$/
+output_159	insn-output.c	/^output_159 (operands, insn)$/
+output_16	insn-output.c	/^output_16 (operands, insn)$/
+output_160	insn-output.c	/^output_160 (operands, insn)$/
+output_161	insn-output.c	/^output_161 (operands, insn)$/
+output_162	insn-output.c	/^output_162 (operands, insn)$/
+output_163	insn-output.c	/^output_163 (operands, insn)$/
+output_164	insn-output.c	/^output_164 (operands, insn)$/
+output_165	insn-output.c	/^output_165 (operands, insn)$/
+output_166	insn-output.c	/^output_166 (operands, insn)$/
+output_167	insn-output.c	/^output_167 (operands, insn)$/
+output_168	insn-output.c	/^output_168 (operands, insn)$/
+output_169	insn-output.c	/^output_169 (operands, insn)$/
+output_17	insn-output.c	/^output_17 (operands, insn)$/
+output_171	insn-output.c	/^output_171 (operands, insn)$/
+output_173	insn-output.c	/^output_173 (operands, insn)$/
+output_175	insn-output.c	/^output_175 (operands, insn)$/
+output_177	insn-output.c	/^output_177 (operands, insn)$/
+output_179	insn-output.c	/^output_179 (operands, insn)$/
+output_18	insn-output.c	/^output_18 (operands, insn)$/
+output_181	insn-output.c	/^output_181 (operands, insn)$/
+output_183	insn-output.c	/^output_183 (operands, insn)$/
+output_185	insn-output.c	/^output_185 (operands, insn)$/
+output_187	insn-output.c	/^output_187 (operands, insn)$/
+output_189	insn-output.c	/^output_189 (operands, insn)$/
+output_19	insn-output.c	/^output_19 (operands, insn)$/
+output_191	insn-output.c	/^output_191 (operands, insn)$/
+output_193	insn-output.c	/^output_193 (operands, insn)$/
+output_195	insn-output.c	/^output_195 (operands, insn)$/
+output_199	insn-output.c	/^output_199 (operands, insn)$/
+output_2	insn-output.c	/^output_2 (operands, insn)$/
+output_20	insn-output.c	/^output_20 (operands, insn)$/
+output_203	insn-output.c	/^output_203 (operands, insn)$/
+output_207	insn-output.c	/^output_207 (operands, insn)$/
+output_21	insn-output.c	/^output_21 (operands, insn)$/
+output_210	insn-output.c	/^output_210 (operands, insn)$/
+output_211	insn-output.c	/^output_211 (operands, insn)$/
+output_212	insn-output.c	/^output_212 (operands, insn)$/
+output_214	insn-output.c	/^output_214 (operands, insn)$/
+output_216	insn-output.c	/^output_216 (operands, insn)$/
+output_218	insn-output.c	/^output_218 (operands, insn)$/
+output_22	insn-output.c	/^output_22 (operands, insn)$/
+output_221	insn-output.c	/^output_221 (operands, insn)$/
+output_223	insn-output.c	/^output_223 (operands, insn)$/
+output_224	insn-output.c	/^output_224 (operands, insn)$/
+output_226	insn-output.c	/^output_226 (operands, insn)$/
+output_229	insn-output.c	/^output_229 (operands, insn)$/
+output_23	insn-output.c	/^output_23 (operands, insn)$/
+output_232	insn-output.c	/^output_232 (operands, insn)$/
+output_235	insn-output.c	/^output_235 (operands, insn)$/
+output_238	insn-output.c	/^output_238 (operands, insn)$/
+output_239	insn-output.c	/^output_239 (operands, insn)$/
+output_24	insn-output.c	/^output_24 (operands, insn)$/
+output_242	insn-output.c	/^output_242 (operands, insn)$/
+output_245	insn-output.c	/^output_245 (operands, insn)$/
+output_247	insn-output.c	/^output_247 (operands, insn)$/
+output_248	insn-output.c	/^output_248 (operands, insn)$/
+output_25	insn-output.c	/^output_25 (operands, insn)$/
+output_250	insn-output.c	/^output_250 (operands, insn)$/
+output_252	insn-output.c	/^output_252 (operands, insn)$/
+output_253	insn-output.c	/^output_253 (operands, insn)$/
+output_254	insn-output.c	/^output_254 (operands, insn)$/
+output_255	insn-output.c	/^output_255 (operands, insn)$/
+output_256	insn-output.c	/^output_256 (operands, insn)$/
+output_257	insn-output.c	/^output_257 (operands, insn)$/
+output_258	insn-output.c	/^output_258 (operands, insn)$/
+output_259	insn-output.c	/^output_259 (operands, insn)$/
+output_260	insn-output.c	/^output_260 (operands, insn)$/
+output_262	insn-output.c	/^output_262 (operands, insn)$/
+output_32	insn-output.c	/^output_32 (operands, insn)$/
+output_33	insn-output.c	/^output_33 (operands, insn)$/
+output_34	insn-output.c	/^output_34 (operands, insn)$/
+output_38	insn-output.c	/^output_38 (operands, insn)$/
+output_387_binary_op	aux-output.c	/^output_387_binary_op (insn, operands)$/
+output_4	insn-output.c	/^output_4 (operands, insn)$/
+output_40	insn-output.c	/^output_40 (operands, insn)$/
+output_41	insn-output.c	/^output_41 (operands, insn)$/
+output_42	insn-output.c	/^output_42 (operands, insn)$/
+output_43	insn-output.c	/^output_43 (operands, insn)$/
+output_44	insn-output.c	/^output_44 (operands, insn)$/
+output_45	insn-output.c	/^output_45 (operands, insn)$/
+output_46	insn-output.c	/^output_46 (operands, insn)$/
+output_47	insn-output.c	/^output_47 (operands, insn)$/
+output_48	insn-output.c	/^output_48 (operands, insn)$/
+output_49	insn-output.c	/^output_49 (operands, insn)$/
+output_50	insn-output.c	/^output_50 (operands, insn)$/
+output_51	insn-output.c	/^output_51 (operands, insn)$/
+output_52	insn-output.c	/^output_52 (operands, insn)$/
+output_53	insn-output.c	/^output_53 (operands, insn)$/
+output_54	insn-output.c	/^output_54 (operands, insn)$/
+output_55	insn-output.c	/^output_55 (operands, insn)$/
+output_56	insn-output.c	/^output_56 (operands, insn)$/
+output_57	insn-output.c	/^output_57 (operands, insn)$/
+output_58	insn-output.c	/^output_58 (operands, insn)$/
+output_59	insn-output.c	/^output_59 (operands, insn)$/
+output_6	insn-output.c	/^output_6 (operands, insn)$/
+output_60	insn-output.c	/^output_60 (operands, insn)$/
+output_62	insn-output.c	/^output_62 (operands, insn)$/
+output_67	insn-output.c	/^output_67 (operands, insn)$/
+output_68	insn-output.c	/^output_68 (operands, insn)$/
+output_71	insn-output.c	/^output_71 (operands, insn)$/
+output_72	insn-output.c	/^output_72 (operands, insn)$/
+output_77	insn-output.c	/^output_77 (operands, insn)$/
+output_78	insn-output.c	/^output_78 (operands, insn)$/
+output_79	insn-output.c	/^output_79 (operands, insn)$/
+output_8	insn-output.c	/^output_8 (operands, insn)$/
+output_80	insn-output.c	/^output_80 (operands, insn)$/
+output_81	insn-output.c	/^output_81 (operands, insn)$/
+output_82	insn-output.c	/^output_82 (operands, insn)$/
+output_83	insn-output.c	/^output_83 (operands, insn)$/
+output_84	insn-output.c	/^output_84 (operands, insn)$/
+output_85	insn-output.c	/^output_85 (operands, insn)$/
+output_88	insn-output.c	/^output_88 (operands, insn)$/
+output_89	insn-output.c	/^output_89 (operands, insn)$/
+output_90	insn-output.c	/^output_90 (operands, insn)$/
+output_91	insn-output.c	/^output_91 (operands, insn)$/
+output_94	insn-output.c	/^output_94 (operands, insn)$/
+output_95	insn-output.c	/^output_95 (operands, insn)$/
+output_96	insn-output.c	/^output_96 (operands, insn)$/
+output_97	insn-output.c	/^output_97 (operands, insn)$/
+output_addr_const	final.c	/^output_addr_const (file, x)$/
+output_address	final.c	/^output_address (x)$/
+output_addressed_constants	varasm.c	/^output_addressed_constants (exp)$/
+output_array_type_die	dwarfout.c	/^output_array_type_die (arg)$/
+output_asm_insn	final.c	/^output_asm_insn (template, operands)$/
+output_asm_label	final.c	/^output_asm_label (x)$/
+output_block	dwarfout.c	/^output_block (stmt)$/
+output_bound_representation	dwarfout.c	/^output_bound_representation (bound, dim_num, u_or_/
+output_compile_unit_die	dwarfout.c	/^output_compile_unit_die (arg)$/
+output_constant	varasm.c	/^output_constant (exp, size)$/
+output_constant_def	varasm.c	/^output_constant_def (exp)$/
+output_constant_pool	varasm.c	/^output_constant_pool (fnname, fndecl)$/
+output_constructor	varasm.c	/^output_constructor (exp, size)$/
+output_decl	dwarfout.c	/^output_decl (decl, containing_scope)$/
+output_decls_for_scope	dwarfout.c	/^output_decls_for_scope (stmt)$/
+output_dependence	sched.c	/^output_dependence (mem, x)$/
+output_die	dwarfout.c	/^output_die (die_specific_output_function, param)$/
+output_entry_point_die	dwarfout.c	/^output_entry_point_die (arg)$/
+output_enumeral_list	dwarfout.c	/^output_enumeral_list (link)$/
+output_enumeration_type_die	dwarfout.c	/^output_enumeration_type_die (arg)$/
+output_file_directive	toplev.c	/^output_file_directive (asm_file, input_name)$/
+output_fix_trunc	aux-output.c	/^output_fix_trunc (insn, operands)$/
+output_float_compare	aux-output.c	/^output_float_compare (insn, operands)$/
+output_formal_parameter_die	dwarfout.c	/^output_formal_parameter_die (arg)$/
+output_formal_types	dwarfout.c	/^output_formal_types (function_or_method_type)$/
+output_fp_cc0_set	aux-output.c	/^output_fp_cc0_set (insn)$/
+output_global_subroutine_die	dwarfout.c	/^output_global_subroutine_die (arg)$/
+output_global_variable_die	dwarfout.c	/^output_global_variable_die (arg)$/
+output_inline_function	integrate.c	/^output_inline_function (fndecl)$/
+output_inlined_enumeration_type_die	dwarfout.c	/^output_inlined_enumeration_type_die (arg)$/
+output_inlined_structure_type_die	dwarfout.c	/^output_inlined_structure_type_die (arg)$/
+output_inlined_subroutine_die	dwarfout.c	/^output_inlined_subroutine_die (arg)$/
+output_inlined_union_type_die	dwarfout.c	/^output_inlined_union_type_die (arg)$/
+output_label_die	dwarfout.c	/^output_label_die (arg)$/
+output_lang_identify	toplev.c	/^output_lang_identify (asm_out_file)$/
+output_lexical_block_die	dwarfout.c	/^output_lexical_block_die (arg)$/
+output_loc_descriptor	dwarfout.c	/^output_loc_descriptor (rtl)$/
+output_local_subroutine_die	dwarfout.c	/^output_local_subroutine_die (arg)$/
+output_local_variable_die	dwarfout.c	/^output_local_variable_die (arg)$/
+output_mem_loc_descriptor	dwarfout.c	/^output_mem_loc_descriptor (rtl)$/
+output_member_die	dwarfout.c	/^output_member_die (arg)$/
+output_move_const_single	aux-output.c	/^output_move_const_single (operands)$/
+output_move_double	aux-output.c	/^output_move_double (operands)$/
+output_op_from_reg	aux-output.c	/^output_op_from_reg (src, template)$/
+output_operand	final.c	/^output_operand (x, code)$/
+output_operand_lossage	final.c	/^output_operand_lossage (str)$/
+output_padded_null_die	dwarfout.c	/^output_padded_null_die (arg)$/
+output_pending_types_for_scope	dwarfout.c	/^output_pending_types_for_scope (containing_scope)$/
+output_pic_addr_const	aux-output.c	/^output_pic_addr_const (file, x, code)$/
+output_pointer_type_die	dwarfout.c	/^output_pointer_type_die (arg)$/
+output_ptr_to_mbr_type_die	dwarfout.c	/^output_ptr_to_mbr_type_die (arg)$/
+output_reference_type_die	dwarfout.c	/^output_reference_type_die (arg)$/
+output_reg_number	dwarfout.c	/^output_reg_number (rtl)$/
+output_set_type_die	dwarfout.c	/^output_set_type_die (arg)$/
+output_signed_leb128	dwarfout.c	/^output_signed_leb128 (value)$/
+output_source_line	final.c	/^output_source_line (file, insn)$/
+output_string_type_die	dwarfout.c	/^output_string_type_die (arg)$/
+output_structure_type_die	dwarfout.c	/^output_structure_type_die (arg)$/
+output_subroutine_type_die	dwarfout.c	/^output_subroutine_type_die (arg)$/
+output_tagged_type_instantiation	dwarfout.c	/^output_tagged_type_instantiation (type)$/
+output_to_reg	aux-output.c	/^output_to_reg (dest, dies)$/
+output_type	dwarfout.c	/^output_type (type, containing_scope)$/
+output_typedef_die	dwarfout.c	/^output_typedef_die (arg)$/
+output_union_type_die	dwarfout.c	/^output_union_type_die (arg)$/
+output_unsigned_leb128	dwarfout.c	/^output_unsigned_leb128 (value)$/
+output_unspecified_parameters_die	dwarfout.c	/^output_unspecified_parameters_die (arg)$/
+overflow_sum_sign	fold-const.c	/^#define overflow_sum_sign(a, b, sum) ((~((a) ^ (b)/
+overflow_warning	c-common.c	/^overflow_warning (value)$/
+own_thread_p	reorg.c	/^own_thread_p (thread, label, allow_fallthrough)$/
+pad_below	function.c	/^pad_below (offset_ptr, passed_mode, sizetree)$/
+pad_to_arg_alignment	function.c	/^pad_to_arg_alignment (offset_ptr, boundary)$/
+pedwarn	toplev.c	/^pedwarn (s, v, v2)$/
+pedwarn_with_decl	toplev.c	/^pedwarn_with_decl (decl, s, v)$/
+pedwarn_with_file_and_line	toplev.c	/^pedwarn_with_file_and_line (file, line, s, v, v2)$/
+peephole	insn-peep.c	/^peephole (ins1)$/
+pend_type	dwarfout.c	/^pend_type (type)$/
+perm_calloc	tree.c	/^perm_calloc (nelem, size)$/
+perm_tree_cons	tree.c	/^perm_tree_cons (purpose, value, chain)$/
+permalloc	tree.c	/^permalloc (size)$/
+permanent_allocation	tree.c	/^permanent_allocation ()$/
+pfatal_with_name	toplev.c	/^pfatal_with_name (name)$/
+pipe_closed	toplev.c	/^pipe_closed (signo)$/
+plain_type	sdbout.c	/^plain_type (type)$/
+plain_type_1	sdbout.c	/^plain_type_1 (type)$/
+plus_constant_for_output_wide	explow.c	/^plus_constant_for_output_wide (x, c)$/
+plus_constant_wide	explow.c	/^plus_constant_wide (x, c)$/
+pop_float_handler	toplev.c	/^pop_float_handler (handled, handler)$/
+pop_function_context	function.c	/^pop_function_context ()$/
+pop_momentary	tree.c	/^pop_momentary ()$/
+pop_obstacks	tree.c	/^pop_obstacks ()$/
+pop_temp_slots	function.c	/^pop_temp_slots ()$/
+pop_topmost_sequence	emit-rtl.c	/^pop_topmost_sequence ()$/
+possible_group_p	reload1.c	/^possible_group_p (regno, max_groups)$/
+post_mark_life	local-alloc.c	/^post_mark_life (regno, mode, life, birth, death)$/
+potential_hazard	sched.c	/^potential_hazard (unit, insn, cost)$/
+precondition_loop_p	unroll.c	/^precondition_loop_p (initial_value, final_value, i/
+preexpand_calls	expr.c	/^preexpand_calls (exp)$/
+prepare_call_address	calls.c	/^prepare_call_address (funexp, fndecl, use_insns)$/
+prepare_unit	sched.c	/^prepare_unit (unit)$/
+prescan_loop	loop.c	/^prescan_loop (start, end)$/
+preserve_data	tree.c	/^preserve_data ()$/
+preserve_initializer	tree.c	/^preserve_initializer ()$/
+preserve_subexpressions_p	stmt.c	/^preserve_subexpressions_p ()$/
+preserve_temp_slots	function.c	/^preserve_temp_slots (x)$/
+prev_active_insn	emit-rtl.c	/^prev_active_insn (insn)$/
+prev_cc0_setter	emit-rtl.c	/^prev_cc0_setter (insn)$/
+prev_label	emit-rtl.c	/^prev_label (insn)$/
+prev_nonnote_insn	emit-rtl.c	/^prev_nonnote_insn (insn)$/
+prev_real_insn	emit-rtl.c	/^prev_real_insn (insn)$/
+previous_insn	emit-rtl.c	/^previous_insn (insn)$/
+print_blocks	reg-stack.c	/^print_blocks (file, insn, pat)$/
+print_node	print-tree.c	/^print_node (file, prefix, node, indent)$/
+print_node_brief	print-tree.c	/^print_node_brief (file, prefix, node, indent)$/
+print_obstack_statistics	tree.c	/^print_obstack_statistics (str, o)$/
+print_operand	aux-output.c	/^print_operand (file, x, code)$/
+print_operand_address	aux-output.c	/^print_operand_address (file, addr)$/
+print_rtl	print-rtl.c	/^print_rtl (outf, rtx_first)$/
+print_rtx	print-rtl.c	/^print_rtx (in_rtx)$/
+print_single_switch	toplev.c	/^print_single_switch (type, name)$/
+print_switch_values	toplev.c	/^print_switch_values ()$/
+print_time	toplev.c	/^print_time (str, total)$/
+priority	sched.c	/^priority (insn)$/
+producer_attribute	dwarfout.c	/^producer_attribute (producer)$/
+product_cheap_p	loop.c	/^product_cheap_p (a, b)$/
+profile_after_prologue	final.c	/^profile_after_prologue (file)$/
+profile_function	final.c	/^profile_function (file)$/
+promoted_input_arg	function.c	/^promoted_input_arg (regno, pmode, punsignedp)$/
+propagate_block	flow.c	/^propagate_block (old, first, last, final, signific/
+protect_from_queue	expr.c	/^protect_from_queue (x, modify)$/
+prototyped_attribute	dwarfout.c	/^prototyped_attribute (func_type)$/
+prune_preferences	global.c	/^prune_preferences ()$/
+pure_or_virtual_attribute	dwarfout.c	/^pure_or_virtual_attribute (func_decl)$/
+purpose_member	tree.c	/^purpose_member (elem, list)$/
+push_block	expr.c	/^push_block (size, extra, below)$/
+push_float_handler	toplev.c	/^push_float_handler (handler, old_handler)$/
+push_function_context	function.c	/^push_function_context ()$/
+push_momentary	tree.c	/^push_momentary ()$/
+push_obstacks	tree.c	/^push_obstacks (current, saveable)$/
+push_obstacks_nochange	tree.c	/^push_obstacks_nochange ()$/
+push_operand	recog.c	/^push_operand (op, mode)$/
+push_reload	reload.c	/^push_reload (in, out, inloc, outloc, class,$/
+push_replacement	reload.c	/^push_replacement (loc, reloadnum, mode)$/
+push_temp_slots	function.c	/^push_temp_slots ()$/
+push_to_sequence	emit-rtl.c	/^push_to_sequence (first)$/
+push_topmost_sequence	emit-rtl.c	/^push_topmost_sequence ()$/
+pushcase	stmt.c	/^pushcase (value, label, duplicate)$/
+pushcase_range	stmt.c	/^pushcase_range (value1, value2, label, duplicate)$/
+put_var_into_stack	function.c	/^put_var_into_stack (decl)$/
+qty_compare	local-alloc.c	/^qty_compare (q1, q2)$/
+qty_compare_1	local-alloc.c	/^qty_compare_1 (q1, q2)$/
+queue_insn	sched.c	/^queue_insn (insn, n_cycles)$/
+queued_subexp_p	expr.c	/^queued_subexp_p (x)$/
+range_test	fold-const.c	/^range_test (jcode, type, lo_code, hi_code, var, lo/
+rank_for_schedule	sched.c	/^rank_for_schedule (x, y)$/
+rare_destination	reorg.c	/^rare_destination (insn)$/
+read_dependence	sched.c	/^read_dependence (mem, x)$/
+read_name	rtl.c	/^read_name (str, infile)$/
+read_rtx	rtl.c	/^read_rtx (infile)$/
+read_skip_spaces	rtl.c	/^read_skip_spaces (infile)$/
+readonly_data_section	varasm.c	/^readonly_data_section ()$/
+real_onep	tree.c	/^real_onep (expr)$/
+real_twop	tree.c	/^real_twop (expr)$/
+real_value_from_int_cst	tree.c	/^real_value_from_int_cst (i)$/
+real_value_truncate	fold-const.c	/^real_value_truncate (mode, arg)$/
+real_zerop	tree.c	/^real_zerop (expr)$/
+really_constant_p	tree.c	/^really_constant_p (exp)$/
+really_sorry	toplev.c	/^really_sorry (s, v, v2)$/
+recog	insn-recog.c	/^recog (x0, insn, pnum_clobbers)$/
+recog_1	insn-recog.c	/^recog_1 (x0, insn, pnum_clobbers)$/
+recog_2	insn-recog.c	/^recog_2 (x0, insn, pnum_clobbers)$/
+recog_3	insn-recog.c	/^recog_3 (x0, insn, pnum_clobbers)$/
+recog_4	insn-recog.c	/^recog_4 (x0, insn, pnum_clobbers)$/
+recog_5	insn-recog.c	/^recog_5 (x0, insn, pnum_clobbers)$/
+recog_for_combine	combine.c	/^recog_for_combine (pnewpat, insn, pnotes)$/
+recog_memoized	recog.c	/^recog_memoized (insn)$/
+record_address_regs	regclass.c	/^record_address_regs (x, class, scale)$/
+record_asm_reg_life	reg-stack.c	/^record_asm_reg_life (insn, regstack, operands, con/
+record_biv	loop.c	/^record_biv (v, insn, dest_reg, inc_val, mult_val,$/
+record_conflicts	global.c	/^record_conflicts (allocno_vec, len)$/
+record_constant	varasm.c	/^record_constant (exp)$/
+record_constant_1	varasm.c	/^record_constant_1 (exp)$/
+record_constant_rtx	varasm.c	/^record_constant_rtx (mode, x)$/
+record_dead_and_set_regs	combine.c	/^record_dead_and_set_regs (insn)$/
+record_dead_and_set_regs_1	combine.c	/^record_dead_and_set_regs_1 (dest, setter)$/
+record_excess_regs	loop.c	/^record_excess_regs (in_this, not_in_this, output)$/
+record_giv	loop.c	/^record_giv (v, insn, src_reg, dest_reg, mult_val, /
+record_initial	loop.c	/^record_initial (dest, set)$/
+record_insns	function.c	/^record_insns (insns)$/
+record_jump_cond	cse.c	/^record_jump_cond (code, mode, op0, op1, reversed_n/
+record_jump_equiv	cse.c	/^record_jump_equiv (insn, taken)$/
+record_label_references	reg-stack.c	/^record_label_references (insn, pat)$/
+record_one_conflict	global.c	/^record_one_conflict (regno)$/
+record_reg_classes	regclass.c	/^record_reg_classes (n_alts, n_ops, ops, modes, con/
+record_reg_life	reg-stack.c	/^record_reg_life (insn, block, regstack)$/
+record_reg_life_pat	reg-stack.c	/^record_reg_life_pat (pat, src, dest)$/
+record_value_for_reg	combine.c	/^record_value_for_reg (reg, insn, value)$/
+redirect_exp	jump.c	/^redirect_exp (loc, olabel, nlabel, insn)$/
+redirect_jump	jump.c	/^redirect_jump (jump, nlabel)$/
+redirect_tablejump	jump.c	/^redirect_tablejump (jump, nlabel)$/
+redundant_insn_p	reorg.c	/^redundant_insn_p (insn, target, delay_list)$/
+refers_to_mem_for_reload_p	reload.c	/^refers_to_mem_for_reload_p (x)$/
+refers_to_mem_p	cse.c	/^refers_to_mem_p (x, base, start, end)$/
+refers_to_p	cse.c	/^refers_to_p (x, y)$/
+refers_to_regno_for_reload_p	reload.c	/^refers_to_regno_for_reload_p (regno, endregno, x, /
+refers_to_regno_p	rtlanal.c	/^refers_to_regno_p (regno, endregno, x, loc)$/
+reg_alternate_class	regclass.c	/^reg_alternate_class (regno)$/
+reg_bitfield_target_p	combine.c	/^reg_bitfield_target_p (x, body)$/
+reg_class_subset_p	regclass.c	/^reg_class_subset_p (c1, c2)$/
+reg_classes_intersect_p	regclass.c	/^reg_classes_intersect_p (c1, c2)$/
+reg_classes_overlap_p	local-alloc.c	/^reg_classes_overlap_p (c1, c2, call_saved)$/
+reg_dead_after_loop	unroll.c	/^reg_dead_after_loop (reg, loop_start, loop_end)$/
+reg_dead_at_p	combine.c	/^reg_dead_at_p (reg, insn)$/
+reg_dead_at_p_1	combine.c	/^reg_dead_at_p_1 (dest, x)$/
+reg_fits_class_p	recog.c	/^reg_fits_class_p (operand, class, offset, mode)$/
+reg_in_basic_block_p	loop.c	/^reg_in_basic_block_p (insn, reg)$/
+reg_is_born	local-alloc.c	/^reg_is_born (reg, birth)$/
+reg_is_set	local-alloc.c	/^reg_is_set (reg, setter)$/
+reg_meets_class_p	local-alloc.c	/^reg_meets_class_p (reg, class)$/
+reg_mentioned_p	rtlanal.c	/^reg_mentioned_p (reg, in)$/
+reg_overlap_mentioned_for_reload_p	reload.c	/^reg_overlap_mentioned_for_reload_p (x, in)$/
+reg_overlap_mentioned_p	rtlanal.c	/^reg_overlap_mentioned_p (x, in)$/
+reg_preferred_class	regclass.c	/^reg_preferred_class (regno)$/
+reg_referenced_between_p	rtlanal.c	/^reg_referenced_between_p (reg, from_insn, to_insn)/
+reg_referenced_p	rtlanal.c	/^reg_referenced_p (x, body)$/
+reg_scan	regclass.c	/^reg_scan (f, nregs, repeat)$/
+reg_scan_mark_refs	regclass.c	/^reg_scan_mark_refs (x, insn)$/
+reg_set_between_p	rtlanal.c	/^reg_set_between_p (reg, from_insn, to_insn)$/
+reg_set_last	rtlanal.c	/^reg_set_last (x, insn)$/
+reg_set_last_1	rtlanal.c	/^reg_set_last_1 (x, pat)$/
+reg_set_p	rtlanal.c	/^reg_set_p (reg, insn)$/
+reg_set_p_1	rtlanal.c	/^reg_set_p_1 (x)$/
+reg_to_stack	reg-stack.c	/^reg_to_stack (first, file)$/
+reg_used_between_p	rtlanal.c	/^reg_used_between_p (reg, from_insn, to_insn)$/
+regclass	regclass.c	/^regclass (f, nregs)$/
+regclass_init	regclass.c	/^regclass_init ()$/
+register_operand	recog.c	/^register_operand (op, mode)$/
+regno_clobbered_at_setjmp	flow.c	/^regno_clobbered_at_setjmp (regno)$/
+regno_clobbered_p	reload.c	/^regno_clobbered_p (regno, insn)$/
+regno_uninitialized	flow.c	/^regno_uninitialized (regno)$/
+regno_use_in	sched.c	/^regno_use_in (regno, x)$/
+regs_match_p	loop.c	/^regs_match_p (x, y, movables)$/
+rehash_using_reg	cse.c	/^rehash_using_reg (x)$/
+relax_delay_slots	reorg.c	/^relax_delay_slots (first)$/
+reload	reload1.c	/^reload (first, global, dumpfile)$/
+reload_as_needed	reload1.c	/^reload_as_needed (first, live_known)$/
+reload_reg_class_lower	reload1.c	/^reload_reg_class_lower (p1, p2)$/
+reload_reg_free_before_p	reload1.c	/^reload_reg_free_before_p (regno, opnum, type)$/
+reload_reg_free_p	reload1.c	/^reload_reg_free_p (regno, opnum, type)$/
+reload_reg_reaches_end_p	reload1.c	/^reload_reg_reaches_end_p (regno, opnum, type)$/
+remember_end_note	stmt.c	/^remember_end_note (block)$/
+remove_death	combine.c	/^remove_death (regno, insn)$/
+remove_dependence	sched.c	/^remove_dependence (insn, elem)$/
+remove_from_table	cse.c	/^remove_from_table (elt, hash)$/
+remove_invalid_refs	cse.c	/^remove_invalid_refs (regno)$/
+remove_note	rtlanal.c	/^remove_note (insn, note)$/
+remove_regno_note	reg-stack.c	/^remove_regno_note (insn, note, regno)$/
+reorder_blocks	function.c	/^reorder_blocks (block_vector, top_block, insns)$/
+reorder_insns	emit-rtl.c	/^reorder_insns (from, to, after)$/
+reorder_insns_with_line_notes	emit-rtl.c	/^reorder_insns_with_line_notes (from, to, after)$/
+reorg_redirect_jump	reorg.c	/^reorg_redirect_jump (jump, nlabel)$/
+replace_call_address	loop.c	/^replace_call_address (x, reg, addr)$/
+replace_reg	reg-stack.c	/^replace_reg (reg, regno)$/
+replace_regs	rtlanal.c	/^replace_regs (x, reg_map, nregs, replace_dest)$/
+replace_rtx	rtlanal.c	/^replace_rtx (x, from, to)$/
+report_error_function	toplev.c	/^report_error_function (file)$/
+reposition_prologue_and_epilogue_notes	function.c	/^reposition_prologue_and_epilogue_notes (f)$/
+requires_inout_p	local-alloc.c	/^requires_inout_p (p)$/
+reset_used_flags	emit-rtl.c	/^reset_used_flags (x)$/
+resource_conflicts_p	reorg.c	/^resource_conflicts_p (res1, res2)$/
+rest_of_compilation	toplev.c	/^rest_of_compilation (decl)$/
+rest_of_decl_compilation	toplev.c	/^rest_of_decl_compilation (decl, asmspec, top_level/
+rest_of_type_compilation	toplev.c	/^rest_of_type_compilation (type, toplev)$/
+restore_constants	integrate.c	/^restore_constants (px)$/
+restore_emit_status	emit-rtl.c	/^restore_emit_status (p)$/
+restore_expr_status	expr.c	/^restore_expr_status (p)$/
+restore_referenced_regs	caller-save.c	/^restore_referenced_regs (x, insn, insn_mode)$/
+restore_reg_data	emit-rtl.c	/^restore_reg_data (first)$/
+restore_reg_data_1	emit-rtl.c	/^restore_reg_data_1 (orig)$/
+restore_stmt_status	stmt.c	/^restore_stmt_status (p)$/
+restore_storage_status	stor-layout.c	/^restore_storage_status (p)$/
+restore_tree_status	tree.c	/^restore_tree_status (p)$/
+restore_varasm_status	varasm.c	/^restore_varasm_status (p)$/
+result_vector	expr.c	/^result_vector (savep, result)$/
+resume_momentary	tree.c	/^resume_momentary (yes)$/
+resume_temporary_allocation	tree.c	/^resume_temporary_allocation ()$/
+retry_global_alloc	global.c	/^retry_global_alloc (regno, forbidden_regs)$/
+reverse_comparison	emit-rtl.c	/^reverse_comparison (insn)$/
+reverse_condition	jump.c	/^reverse_condition (code)$/
+reversible_comparison_p	combine.c	/^reversible_comparison_p (x)$/
+root_type	dwarfout.c	/^root_type (type)$/
+round_down	function.c	/^round_down (value, divisor)$/
+round_push	explow.c	/^round_push (size)$/
+round_trampoline_addr	function.c	/^round_trampoline_addr (tramp)$/
+round_up	stor-layout.c	/^round_up (value, divisor)$/
+rrotate_double	fold-const.c	/^rrotate_double (l1, h1, count, prec, lv, hv)$/
+rshift_double	fold-const.c	/^rshift_double (l1, h1, count, prec, lv, hv, arith)/
+rtl_in_current_obstack	tree.c	/^rtl_in_current_obstack ()$/
+rtl_in_saveable_obstack	tree.c	/^rtl_in_saveable_obstack ()$/
+rtvec_alloc	rtl.c	/^rtvec_alloc (n)$/
+rtx_addr_can_trap_p	rtlanal.c	/^rtx_addr_can_trap_p (x)$/
+rtx_addr_varies_p	rtlanal.c	/^rtx_addr_varies_p (x)$/
+rtx_alloc	rtl.c	/^rtx_alloc (code)$/
+rtx_cost	cse.c	/^rtx_cost (x, outer_code)$/
+rtx_equal_for_loop_p	loop.c	/^rtx_equal_for_loop_p (x, y, movables)$/
+rtx_equal_for_memref_p	sched.c	/^rtx_equal_for_memref_p (x, y)$/
+rtx_equal_for_thread_p	jump.c	/^rtx_equal_for_thread_p (x, y, yinsn)$/
+rtx_equal_p	rtlanal.c	/^rtx_equal_p (x, y)$/
+rtx_renumbered_equal_p	jump.c	/^rtx_renumbered_equal_p (x, y)$/
+rtx_unstable_p	rtlanal.c	/^rtx_unstable_p (x)$/
+rtx_varies_p	rtlanal.c	/^rtx_varies_p (x)$/
+safe_from_earlyclobber	reload.c	/^safe_from_earlyclobber (op, clobber)$/
+safe_from_p	expr.c	/^safe_from_p (x, exp)$/
+safe_hash	cse.c	/^safe_hash (x, mode)$/
+save_call_clobbered_regs	caller-save.c	/^save_call_clobbered_regs (insn_mode)$/
+save_constants	integrate.c	/^save_constants (px)$/
+save_emit_status	emit-rtl.c	/^save_emit_status (p)$/
+save_expr	tree.c	/^save_expr (expr)$/
+save_expr_status	expr.c	/^save_expr_status (p)$/
+save_for_inline_copying	integrate.c	/^save_for_inline_copying (fndecl)$/
+save_for_inline_nocopy	integrate.c	/^save_for_inline_nocopy (fndecl)$/
+save_noncopied_parts	expr.c	/^save_noncopied_parts (lhs, list)$/
+save_stmt_status	stmt.c	/^save_stmt_status (p)$/
+save_storage_status	stor-layout.c	/^save_storage_status (p)$/
+save_tree_status	tree.c	/^save_tree_status (p)$/
+save_varasm_status	varasm.c	/^save_varasm_status (p)$/
+saveable_allocation	tree.c	/^saveable_allocation ()$/
+saveable_tree_cons	tree.c	/^saveable_tree_cons (purpose, value, chain)$/
+savealloc	tree.c	/^savealloc (size)$/
+scan_loop	loop.c	/^scan_loop (loop_start, end, nregs)$/
+scan_paradoxical_subregs	reload1.c	/^scan_paradoxical_subregs (x)$/
+sched_analyze	sched.c	/^sched_analyze (head, tail)$/
+sched_analyze_1	sched.c	/^sched_analyze_1 (x, insn)$/
+sched_analyze_2	sched.c	/^sched_analyze_2 (x, insn)$/
+sched_analyze_insn	sched.c	/^sched_analyze_insn (x, insn)$/
+sched_note_set	sched.c	/^sched_note_set (b, x, death)$/
+schedule_block	sched.c	/^schedule_block (b, file)$/
+schedule_insn	sched.c	/^schedule_insn (insn, ready, n_ready, clock)$/
+schedule_insns	sched.c	/^void schedule_insns () {}$/
+schedule_select	sched.c	/^schedule_select (ready, n_ready, clock, file)$/
+schedule_unit	sched.c	/^schedule_unit (unit, insn, clock)$/
+scratch_operand	recog.c	/^scratch_operand (op, mode)$/
+sdbout_begin_block	sdbout.c	/^sdbout_begin_block (file, line, n)$/
+sdbout_begin_function	sdbout.c	/^sdbout_begin_function (line)$/
+sdbout_block	sdbout.c	/^sdbout_block (block)$/
+sdbout_dequeue_anonymous_types	sdbout.c	/^sdbout_dequeue_anonymous_types ()$/
+sdbout_end_block	sdbout.c	/^sdbout_end_block (file, line)$/
+sdbout_end_epilogue	sdbout.c	/^sdbout_end_epilogue ()$/
+sdbout_end_function	sdbout.c	/^sdbout_end_function (line)$/
+sdbout_field_types	sdbout.c	/^sdbout_field_types (type)$/
+sdbout_init	sdbout.c	/^sdbout_init (asm_file, input_file_name, syms)$/
+sdbout_label	sdbout.c	/^sdbout_label (insn)$/
+sdbout_mark_begin_function	sdbout.c	/^sdbout_mark_begin_function ()$/
+sdbout_one_type	sdbout.c	/^sdbout_one_type (type)$/
+sdbout_parms	sdbout.c	/^sdbout_parms (parms)$/
+sdbout_queue_anonymous_type	sdbout.c	/^sdbout_queue_anonymous_type (type)$/
+sdbout_record_type_name	sdbout.c	/^sdbout_record_type_name (type)$/
+sdbout_reg_parms	sdbout.c	/^sdbout_reg_parms (parms)$/
+sdbout_symbol	sdbout.c	/^sdbout_symbol (decl, local)$/
+sdbout_syms	sdbout.c	/^sdbout_syms (syms)$/
+sdbout_toplevel_data	sdbout.c	/^sdbout_toplevel_data (decl)$/
+sdbout_type	sdbout.c	/^sdbout_type (type)$/
+sdbout_types	sdbout.c	/^sdbout_types (types)$/
+set_block_abstract_flags	integrate.c	/^set_block_abstract_flags (stmt, setting)$/
+set_block_origin_self	integrate.c	/^set_block_origin_self (stmt)$/
+set_decl_abstract_flags	integrate.c	/^set_decl_abstract_flags (decl, setting)$/
+set_decl_origin_self	integrate.c	/^set_decl_origin_self (decl)$/
+set_float_handler	toplev.c	/^set_float_handler (handler)$/
+set_identifier_size	tree.c	/^set_identifier_size (size)$/
+set_label_offsets	reload1.c	/^set_label_offsets (x, insn, initial_p)$/
+set_last_insn	emit-rtl.c	/^set_last_insn (insn)$/
+set_new_first_and_last_insn	emit-rtl.c	/^set_new_first_and_last_insn (first, last)$/
+set_new_first_and_last_label_num	emit-rtl.c	/^set_new_first_and_last_label_num (first, last)$/
+set_nonvarying_address_components	cse.c	/^set_nonvarying_address_components (addr, size, pba/
+set_nonzero_bits_and_sign_copies	combine.c	/^set_nonzero_bits_and_sign_copies (x, set)$/
+set_preference	global.c	/^set_preference (dest, src)$/
+set_reg_live	caller-save.c	/^set_reg_live (reg, setter)$/
+set_target_switch	toplev.c	/^set_target_switch (name)$/
+setjmp_args_warning	function.c	/^setjmp_args_warning (block)$/
+setjmp_protect	function.c	/^setjmp_protect (block)$/
+setjmp_protect_args	function.c	/^setjmp_protect_args ()$/
+sets_cc0_p	jump.c	/^sets_cc0_p (x)$/
+setup_incoming_promotions	combine.c	/^setup_incoming_promotions ()$/
+setup_save_areas	caller-save.c	/^setup_save_areas (pchanged)$/
+sf_names_attribute	dwarfout.c	/^sf_names_attribute (sf_names_start_label)$/
+shift_op	aux-output.c	/^shift_op (op, mode)$/
+shorten_branches	final.c	/^shorten_branches (first)$/
+shorten_compare	c-common.c	/^shorten_compare (op0_ptr, op1_ptr, restype_ptr, re/
+shuffle_filename_entry	dwarfout.c	/^shuffle_filename_entry (new_zeroth)$/
+sibling_attribute	dwarfout.c	/^sibling_attribute ()$/
+side_effects_p	rtlanal.c	/^side_effects_p (x)$/
+sign_expand_binop	optabs.c	/^sign_expand_binop (mode, uoptab, soptab, op0, op1,/
+signed_condition	jump.c	/^signed_condition (code)$/
+simple_386_epilogue	aux-output.c	/^simple_386_epilogue ()$/
+simple_cst_equal	tree.c	/^simple_cst_equal (t1, t2)$/
+simple_cst_list_equal	tree.c	/^simple_cst_list_equal (l1, l2)$/
+simple_operand_p	fold-const.c	/^simple_operand_p (exp)$/
+simple_type_align_in_bits	dwarfout.c	/^simple_type_align_in_bits (type)$/
+simple_type_size_in_bits	dwarfout.c	/^simple_type_size_in_bits (type)$/
+simplejump_p	jump.c	/^simplejump_p (insn)$/
+simplify_and_const_int	combine.c	/^simplify_and_const_int (x, mode, varop, constop)$/
+simplify_binary_operation	cse.c	/^simplify_binary_operation (code, mode, op0, op1)$/
+simplify_comparison	combine.c	/^simplify_comparison (code, pop0, pop1)$/
+simplify_giv_expr	loop.c	/^simplify_giv_expr (x, benefit)$/
+simplify_plus_minus	cse.c	/^simplify_plus_minus (code, mode, op0, op1)$/
+simplify_relational_operation	cse.c	/^simplify_relational_operation (code, mode, op0, op/
+simplify_shift_const	combine.c	/^simplify_shift_const (x, code, result_mode, varop,/
+simplify_subtraction	varasm.c	/^simplify_subtraction (x)$/
+simplify_ternary_operation	cse.c	/^simplify_ternary_operation (code, mode, op0_mode, /
+simplify_unary_operation	cse.c	/^simplify_unary_operation (code, mode, op, op_mode)/
+single_set	rtlanal.c	/^single_set (insn)$/
+singlemove_string	aux-output.c	/^singlemove_string (operands)$/
+size_binop	fold-const.c	/^size_binop (code, arg0, arg1)$/
+size_in_bytes	tree.c	/^size_in_bytes (type)$/
+size_int	fold-const.c	/^size_int (number)$/
+skip_consec_insns	loop.c	/^skip_consec_insns (insn, count)$/
+sorry	toplev.c	/^sorry (s, v, v2)$/
+spill_failure	reload1.c	/^spill_failure (insn)$/
+spill_hard_reg	reload1.c	/^spill_hard_reg (regno, global, dumpfile, cant_elim/
+split_di	aux-output.c	/^split_di (operands, num, lo_half, hi_half)$/
+split_double	final.c	/^split_double (value, first, second)$/
+split_hard_reg_notes	sched.c	/^split_hard_reg_notes (note, first, last, orig_insn/
+split_insns	insn-recog.c	/^split_insns (x0, insn)$/
+split_tree	fold-const.c	/^split_tree (in, code, varp, conp, varsignp)$/
+squeeze_notes	jump.c	/^squeeze_notes (start, end)$/
+src_coords_attribute	dwarfout.c	/^src_coords_attribute (src_fileno, src_lineno)$/
+src_info_attribute	dwarfout.c	/^src_info_attribute (src_info_start_label)$/
+stab_to_sclass	xcoffout.c	/^stab_to_sclass (stab)$/
+stabilize	explow.c	/^stabilize (x)$/
+stabilize_reference	tree.c	/^stabilize_reference (ref)$/
+stabilize_reference_1	tree.c	/^stabilize_reference_1 (e)$/
+stack_reg_life_analysis	reg-stack.c	/^stack_reg_life_analysis (first)$/
+stack_regs_mentioned_p	reg-stack.c	/^stack_regs_mentioned_p (pat)$/
+stack_result_p	reg-stack.c	/^stack_result_p (decl)$/
+standard_80387_constant_p	aux-output.c	/^standard_80387_constant_p (x)$/
+start_identifier_warnings	tree.c	/^start_identifier_warnings ()$/
+start_sequence	emit-rtl.c	/^start_sequence ()$/
+staticp	tree.c	/^staticp (arg)$/
+steal_delay_list_from_fallthrough	reorg.c	/^steal_delay_list_from_fallthrough (insn, condition/
+steal_delay_list_from_target	reorg.c	/^steal_delay_list_from_target (insn, condition, seq/
+stmt_list_attribute	dwarfout.c	/^stmt_list_attribute (label)$/
+stop_search_p	reorg.c	/^stop_search_p (insn, labels_p)$/
+store_bit_field	expmed.c	/^store_bit_field (str_rtx, bitsize, bitnum, fieldmo/
+store_constructor	expr.c	/^store_constructor (exp, target)$/
+store_expr	expr.c	/^store_expr (exp, target, suggest_reg)$/
+store_field	expr.c	/^store_field (target, bitsize, bitpos, mode, exp, v/
+store_fixed_bit_field	expmed.c	/^store_fixed_bit_field (op0, offset, bitsize, bitpo/
+store_one_arg	calls.c	/^store_one_arg (arg, argblock, may_be_alloca, varia/
+store_split_bit_field	expmed.c	/^store_split_bit_field (op0, bitsize, bitpos, value/
+strength_reduce	loop.c	/^strength_reduce (scan_start, end, loop_top, insn_c/
+strict_memory_address_p	reload.c	/^strict_memory_address_p (mode, addr)$/
+string_constant	expr.c	/^string_constant (arg, ptr_offset)$/
+string_length_attribute	dwarfout.c	/^string_length_attribute (upper_bound)$/
+strip_off_ending	toplev.c	/^strip_off_ending (name, len)$/
+strip_reg_name	varasm.c	/^strip_reg_name (name)$/
+stupid_find_reg	stupid.c	/^stupid_find_reg (call_preserved, class, mode,$/
+stupid_life_analysis	stupid.c	/^stupid_life_analysis (f, nregs, file)$/
+stupid_mark_refs	stupid.c	/^stupid_mark_refs (x, insn)$/
+stupid_reg_compare	stupid.c	/^stupid_reg_compare (r1p, r2p)$/
+subreg_lowpart_p	emit-rtl.c	/^subreg_lowpart_p (x)$/
+subscript_data_attribute	dwarfout.c	/^subscript_data_attribute (type)$/
+subst	combine.c	/^subst (x, from, to, in_dest, unique_copy)$/
+subst_asm_stack_regs	reg-stack.c	/^subst_asm_stack_regs (insn, regstack, operands, op/
+subst_constants	integrate.c	/^subst_constants (loc, insn, map)$/
+subst_indexed_address	reload.c	/^subst_indexed_address (addr)$/
+subst_reg_equivs	reload.c	/^subst_reg_equivs (ad)$/
+subst_reloads	reload.c	/^subst_reloads ()$/
+subst_stack_regs	reg-stack.c	/^subst_stack_regs (insn, regstack)$/
+subst_stack_regs_pat	reg-stack.c	/^subst_stack_regs_pat (insn, regstack, pat)$/
+suspend_momentary	tree.c	/^suspend_momentary ()$/
+swap_condition	jump.c	/^swap_condition (code)$/
+swap_rtx_condition	reg-stack.c	/^swap_rtx_condition (pat)$/
+swap_sort	sched.c	/^swap_sort (a, n)$/
+swap_tree_comparison	fold-const.c	/^swap_tree_comparison (code)$/
+symbolic_operand	aux-output.c	/^symbolic_operand (op, mode)$/
+symbolic_reference_mentioned_p	aux-output.c	/^symbolic_reference_mentioned_p (op)$/
+synth_mult	expmed.c	/^synth_mult (t, cost_limit)$/
+tag_of_ru_type	sdbout.c	/^tag_of_ru_type (type,link)$/
+tail_recursion_args	stmt.c	/^tail_recursion_args (actuals, formals)$/
+target_for_arg	calls.c	/^target_for_arg (type, size, args_addr, offset)$/
+target_isinf	fold-const.c	/^target_isinf (x)$/
+target_isnan	fold-const.c	/^target_isnan (x)$/
+target_negative	fold-const.c	/^target_negative (x)$/
+temp_tree_cons	tree.c	/^temp_tree_cons (purpose, value, chain)$/
+template_name_p	sdbout.c	/^template_name_p (name)$/
+temporary_allocation	tree.c	/^temporary_allocation ()$/
+tension_vector_labels	jump.c	/^tension_vector_labels (x, idx)$/
+text_section	varasm.c	/^text_section ()$/
+thread_jumps	jump.c	/^thread_jumps (f, max_reg, verbose)$/
+thread_prologue_and_epilogue_insns	function.c	/^thread_prologue_and_epilogue_insns (f)$/
+todec	real.c	/^todec (x, y)$/
+toe24	real.c	/^toe24 (x, y)$/
+toe53	real.c	/^toe53 (x, y)$/
+toe64	real.c	/^toe64 (a, b)$/
+trampoline_address	function.c	/^trampoline_address (function)$/
+transfer_replacements	reload.c	/^transfer_replacements (to, from)$/
+tree_cons	tree.c	/^tree_cons (purpose, value, chain)$/
+tree_int_cst_equal	tree.c	/^tree_int_cst_equal (t1, t2)$/
+tree_int_cst_lt	tree.c	/^tree_int_cst_lt (t1, t2)$/
+tree_last	tree.c	/^tree_last (chain)$/
+tree_node_counts	tree.c	/^int tree_node_counts[(int)all_kinds];$/
+true_dependence	sched.c	/^true_dependence (mem, x)$/
+true_regnum	jump.c	/^true_regnum (x)$/
+truthvalue_conversion	c-common.c	/^truthvalue_conversion (expr)$/
+try_combine	combine.c	/^try_combine (i3, i2, i1)$/
+try_constants	integrate.c	/^try_constants (insn, map)$/
+try_merge_delay_insns	reorg.c	/^try_merge_delay_insns (insn, thread)$/
+try_pre_increment	flow.c	/^try_pre_increment (insn, reg, amount)$/
+try_pre_increment_1	flow.c	/^try_pre_increment_1 (insn)$/
+try_split	emit-rtl.c	/^try_split (pat, trial, backwards)$/
+twoval_comparison_p	fold-const.c	/^twoval_comparison_p (arg, cval1, cval2)$/
+type_attribute	dwarfout.c	/^type_attribute (type, decl_const, decl_volatile)$/
+type_for_mode	c-common.c	/^type_for_mode (mode, unsignedp)$/
+type_for_size	c-common.c	/^type_for_size (bits, unsignedp)$/
+type_hash_add	tree.c	/^type_hash_add (hashcode, type)$/
+type_hash_canon	tree.c	/^type_hash_canon (hashcode, type)$/
+type_hash_list	tree.c	/^type_hash_list (list)$/
+type_hash_lookup	tree.c	/^type_hash_lookup (hashcode, type)$/
+type_is_fundamental	dwarfout.c	/^type_is_fundamental (type)$/
+type_list_equal	tree.c	/^type_list_equal (l1, l2)$/
+type_main_variant	dwarfout.c	/^type_main_variant (type)$/
+type_ok_for_scope	dwarfout.c	/^type_ok_for_scope (type, scope)$/
+type_precision	tree.c	/^type_precision (type)$/
+type_tag	dwarfout.c	/^type_tag (type)$/
+ultoe	real.c	/^ultoe (lp, y)$/
+undo_all	combine.c	/^undo_all ()$/
+uninitialized_vars_warning	function.c	/^uninitialized_vars_warning (block)$/
+unlink_notes	sched.c	/^unlink_notes (insn, tail)$/
+unroll_block_trees	stmt.c	/^unroll_block_trees ()$/
+unroll_loop	unroll.c	/^unroll_loop (loop_end, insn_count, loop_start, end/
+unshare_all_rtl	emit-rtl.c	/^unshare_all_rtl (insn)$/
+unsigned_condition	jump.c	/^unsigned_condition (code)$/
+unsigned_conversion_warning	c-common.c	/^unsigned_conversion_warning (result, operand)$/
+update_block	reorg.c	/^update_block (insn, where)$/
+update_equiv_regs	local-alloc.c	/^update_equiv_regs ()$/
+update_flow_info	sched.c	/^update_flow_info (notes, first, last, orig_insn)$/
+update_giv_derive	loop.c	/^update_giv_derive (p)$/
+update_live_status	reorg.c	/^update_live_status (dest, x)$/
+update_n_sets	sched.c	/^update_n_sets (x, inc)$/
+update_qty_class	local-alloc.c	/^update_qty_class (qty, reg)$/
+update_reg_dead_notes	reorg.c	/^update_reg_dead_notes (insn, delayed_insn)$/
+update_reg_last_use	loop.c	/^update_reg_last_use (x, insn)$/
+update_table_tick	combine.c	/^update_table_tick (x)$/
+use_crosses_set_p	combine.c	/^use_crosses_set_p (x, from_cuid)$/
+use_regs	expr.c	/^use_regs (regno, nregs)$/
+use_related_value	cse.c	/^use_related_value (x, elt)$/
+use_variable	function.c	/^use_variable (rtl)$/
+use_variable_after	function.c	/^use_variable_after (rtl, insn)$/
+user_def_type_attribute	dwarfout.c	/^user_def_type_attribute (type)$/
+valid_initial_value_p	loop.c	/^valid_initial_value_p (x, insn, call_seen, loop_st/
+validate_change	recog.c	/^validate_change (object, loc, new, in_group)$/
+validate_equiv_mem	local-alloc.c	/^validate_equiv_mem (start, reg, memref)$/
+validate_equiv_mem_from_store	local-alloc.c	/^validate_equiv_mem_from_store (dest, set)$/
+validate_replace_rtx	recog.c	/^validate_replace_rtx (from, to, insn)$/
+validate_replace_rtx_1	recog.c	/^validate_replace_rtx_1 (loc, from, to, object)$/
+validize_mem	explow.c	/^validize_mem (ref)$/
+value_member	tree.c	/^value_member (elem, list)$/
+variable_size	stor-layout.c	/^variable_size (size)$/
+volatile_refs_p	rtlanal.c	/^volatile_refs_p (x)$/
+walk_alter_subreg	final.c	/^walk_alter_subreg (x)$/
+walk_fixup_memory_subreg	function.c	/^walk_fixup_memory_subreg (x, insn, uncritical)$/
+warn_if_unused_value	stmt.c	/^warn_if_unused_value (exp)$/
+warning	toplev.c	/^warning (s, v, v2, v3)$/
+warning_for_asm	toplev.c	/^warning_for_asm (insn, s, v, v2)$/
+warning_with_decl	toplev.c	/^warning_with_decl (decl, s, v)$/
+warning_with_file_and_line	toplev.c	/^warning_with_file_and_line (file, line, s, v, v2, /
+wipe_dead_reg	local-alloc.c	/^wipe_dead_reg (reg, output_p)$/
+write_modifier_bytes	dwarfout.c	/^write_modifier_bytes (type, decl_const, decl_volat/
+xcoff_output_standard_types	xcoffout.c	/^xcoff_output_standard_types (syms)$/
+xcoffout_begin_block	xcoffout.c	/^xcoffout_begin_block (file, line, n)$/
+xcoffout_begin_function	xcoffout.c	/^xcoffout_begin_function (file, last_linenum)$/
+xcoffout_block	xcoffout.c	/^xcoffout_block (block, depth, args)$/
+xcoffout_declare_function	xcoffout.c	/^xcoffout_declare_function (file, decl, name)$/
+xcoffout_end_block	xcoffout.c	/^xcoffout_end_block (file, line, n)$/
+xcoffout_end_epilogue	xcoffout.c	/^xcoffout_end_epilogue (file)$/
+xcoffout_end_function	xcoffout.c	/^xcoffout_end_function (file, last_linenum)$/
+xcoffout_output_first_source_line	xcoffout.c	/^xcoffout_output_first_source_line (file, last_line/
+xmalloc	toplev.c	/^xmalloc (size)$/
+xrealloc	toplev.c	/^xrealloc (ptr, size)$/
+xstrdup	dwarfout.c	/^xstrdup (s)$/

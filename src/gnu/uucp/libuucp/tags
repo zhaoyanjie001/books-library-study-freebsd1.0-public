@@ -1,0 +1,23 @@
+IUPDC32	crc.c	/^#define IUPDC32(b, ick) \\$/
+Mgetop1	getop1.c	/^main (argc, argv)$/
+Mgetopt	getopt.c	/^main (argc, argv)$/
+_getopt_internal	getopt.c	/^_getopt_internal (argc, argv, optstring, longopts,/
+cdebug_char	debug.c	/^cdebug_char (z, ichar)$/
+cescape	escape.c	/^cescape (z)$/
+exchange	getopt.c	/^exchange (argv)$/
+fparse_cmd	parse.c	/^fparse_cmd (zcmd, qcmd)$/
+fspool_file	spool.c	/^fspool_file (zfile)$/
+getline	getlin.c	/^getline (pzline, pcline, e)$/
+getopt	getopt.c	/^getopt (argc, argv, optstring)$/
+getopt_long	getop1.c	/^getopt_long (argc, argv, options, long_options, op/
+getopt_long_only	getop1.c	/^getopt_long_only (argc, argv, options, long_option/
+icrc	crc.c	/^icrc (z, c, ick)$/
+idebug_parse	debug.c	/^idebug_parse (z)$/
+my_bcopy	getopt.c	/^#define	my_bcopy(src, dst, n)	memcpy ((dst), (src)/
+ubuffree	buffer.c	/^ubuffree (z)$/
+udebug_buffer	debug.c	/^udebug_buffer (zhdr, zbuf, clen)$/
+xfree	xfree.c	/^xfree (p)$/
+xmalloc	xmall.c	/^xmalloc (c)$/
+xrealloc	xreall.c	/^xrealloc (p, c)$/
+zbufalc	buffer.c	/^zbufalc (c)$/
+zbufcpy	buffer.c	/^zbufcpy (z)$/

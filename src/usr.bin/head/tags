@@ -1,0 +1,2 @@
+Mhead	head.c	/^main(argc, argv)$/
+usage	head.c	/^usage ()$/

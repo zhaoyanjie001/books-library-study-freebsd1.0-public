@@ -1,0 +1,30 @@
+Minetd	inetd.c	/^main(int argc, char **argv, char **envp)$/
+SWAP	inetd.c	/^#define SWAP(a, b) { char *c = a; a = b; b = c; }$/
+chargen_dg	inetd.c	/^chargen_dg(int s,struct servtab *sep)	\/* Characte/
+chargen_stream	inetd.c	/^chargen_stream(int s,struct servtab *sep)	\/* Char/
+config	inetd.c	/^config()$/
+daytime_dg	inetd.c	/^daytime_dg(int s,struct servtab *sep)	\/* Return h/
+daytime_stream	inetd.c	/^daytime_stream(int s,struct servtab *sep) \/* Retu/
+discard_dg	inetd.c	/^discard_dg(int s,struct servtab *sep)	\/* Discard /
+discard_stream	inetd.c	/^discard_stream(int s,struct servtab *sep) \/* Disc/
+echo_dg	inetd.c	/^echo_dg(int s,struct servtab *sep)	\/* Echo servic/
+echo_stream	inetd.c	/^echo_stream(int s,struct servtab *sep)	\/* Echo se/
+endconfig	inetd.c	/^endconfig()$/
+enter	inetd.c	/^enter(struct servtab *cp)$/
+freeconfig	inetd.c	/^freeconfig(struct servtab *cp)$/
+getconfigent	inetd.c	/^getconfigent()$/
+initring	inetd.c	/^initring()$/
+machtime	inetd.c	/^machtime()$/
+machtime_dg	inetd.c	/^machtime_dg(int s,struct servtab *sep)$/
+machtime_stream	inetd.c	/^machtime_stream(int s,struct servtab *sep)$/
+newstr	inetd.c	/^newstr(char *cp)$/
+nextline	inetd.c	/^nextline(FILE *fd)$/
+print_service	inetd.c	/^print_service(char *action, struct servtab *sep)$/
+reapchild	inetd.c	/^reapchild()$/
+retry	inetd.c	/^retry()$/
+setconfig	inetd.c	/^setconfig()$/
+setproctitle	inetd.c	/^setproctitle(char *a, int s)$/
+setup	inetd.c	/^setup(struct servtab *sep)$/
+skip	inetd.c	/^skip(char **cpp)$/
+turnon	inetd.c	/^#define	turnon(fd, opt) \\$/
+unregisterrpc	inetd.c	/^unregisterrpc(struct servtab *sep)$/

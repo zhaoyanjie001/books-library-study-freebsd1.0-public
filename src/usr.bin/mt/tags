@@ -1,0 +1,5 @@
+Mmt	mt.c	/^main(argc, argv)$/
+command	mt.c	/^command(op, opname)$/
+equal	mt.c	/^#define	equal(s1,s2)	(strcmp(s1, s2) == 0)$/
+printreg	mt.c	/^printreg(s, v, bits)$/
+status	mt.c	/^status(bp)$/

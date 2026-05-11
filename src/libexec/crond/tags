@@ -1,0 +1,48 @@
+Mcrond	crond.c	/^main(argc, argv)$/
+acquire_daemonlock	misc.c	/^acquire_daemonlock()$/
+allowed	misc.c	/^allowed(username)$/
+be_different	misc.c	/^be_different()$/
+child_process	do_command.c	/^child_process(cmd, u)$/
+cron_sleep	crond.c	/^cron_sleep()$/
+cron_sync	crond.c	/^cron_sync()$/
+cron_tick	crond.c	/^cron_tick(db)$/
+do_command	do_command.c	/^do_command(cmd, u)$/
+do_univ	do_command.c	/^do_univ(u)$/
+env_get	env.c	/^env_get(name, envp)$/
+env_init	env.c	/^env_init()$/
+env_set	env.c	/^env_set(envp, envstr)$/
+find_user	database.c	/^find_user(db, name)$/
+first_word	misc.c	/^first_word(s, t)$/
+free_entry	entry.c	/^free_entry(e)$/
+free_user	user.c	/^free_user(u)$/
+get_char	misc.c	/^get_char(file)$/
+get_list	entry.c	/^get_list(bits, low, high, names, ch, file)$/
+get_number	entry.c	/^get_number(numptr, low, names, ch, file)$/
+get_range	entry.c	/^get_range(bits, low, high, names, ch, file)$/
+get_string	misc.c	/^get_string(string, size, file, terms)$/
+in_file	misc.c	/^in_file(string, file)$/
+job_add	job.c	/^job_add(cmd, u)$/
+job_runqueue	job.c	/^job_runqueue()$/
+link_user	database.c	/^link_user(db, u)$/
+load_database	database.c	/^load_database(old_db)$/
+load_entry	entry.c	/^load_entry(file, error_func)$/
+load_env	env.c	/^load_env(envstr, f)$/
+load_user	user.c	/^load_user(crontab_fd, name, uid, gid, dir, shell)$/
+log_it	misc.c	/^log_it(username, pid, event, detail)$/
+mkprint	misc.c	/^mkprint(dst, src, len)$/
+mkprints	misc.c	/^mkprints(src, len)$/
+nocase_strcmp	misc.c	/^nocase_strcmp(left, right)$/
+parse_args	crond.c	/^parse_args(argc, argv)$/
+run_reboot_jobs	crond.c	/^run_reboot_jobs(db)$/
+savestr	misc.c	/^savestr(str)$/
+set_cron_cwd	misc.c	/^set_cron_cwd()$/
+set_cron_uid	misc.c	/^set_cron_uid()$/
+set_debug_flags	misc.c	/^set_debug_flags(flags)$/
+set_element	entry.c	/^set_element(bits, low, high, number)$/
+sigchld_handler	crond.c	/^sigchld_handler()$/
+skip_comments	misc.c	/^skip_comments(file)$/
+strcmp_until	misc.c	/^strcmp_until(left, right, until)$/
+strdtb	misc.c	/^strdtb(s)$/
+unget_char	misc.c	/^unget_char(ch, file)$/
+unlink_user	database.c	/^unlink_user(db, u)$/
+usage	crond.c	/^usage()$/
