@@ -1,0 +1,10 @@
+
+mfr_model|FreeBSD installation generated:\
+	:dt=ST506:ty=winchester:\
+	:nc#2048:ns#63:nt#16:\
+	:se#512:\
+	:pa#201600:oa#0:ta=4.2BSD:ba#8192:fa#1024:\
+	:pb#100800:ob#201600:tb=swap:\
+	:pc#2064384:oc#0:\
+	:pe#1761984:oe#302400:te=4.2BSD:be#8192:fe#1024:\
+	:pd#2064384:od#0:
